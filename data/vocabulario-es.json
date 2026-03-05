@@ -21309,7 +21309,7 @@
   },
   {
     "id": "1211",
-    "spanish": "el te amo",
+    "spanish": "te amo",
     "german": "Ich liebe dich",
     "type": "noun",
     "sentence_es": "Siempre le digo a mi novia: te amo.",
@@ -21835,7 +21835,7 @@
   {
     "id": "1349",
     "spanish": "arrancar",
-    "german": "starten",
+    "german": "starten / anlassen (Motor, Auto)",
     "type": "verb",
     "sentence_es": "No puedo arrancar el coche esta mañana.",
     "sentence_de": "Ich kann das Auto heute Morgen nicht starten.",
@@ -22688,8 +22688,8 @@
   },
   {
     "id": "1397",
-    "spanish": "diestro",
-    "german": "rechtshändig",
+    "spanish": "diestro, diestra",
+    "german": "geschickt / gewandt",
     "type": "other",
     "sentence_es": "Mi hermano es muy diestro con las manos.",
     "sentence_de": "Mein Bruder ist sehr geschickt mit den Händen.",
@@ -23770,7 +23770,7 @@
   {
     "id": "1459",
     "spanish": "encajar",
-    "german": "passen",
+    "german": "passen / hineinpassen",
     "type": "verb",
     "sentence_es": "Esta pieza no encaja bien en el rompecabezas.",
     "sentence_de": "Dieses Teil passt nicht gut in das Puzzle.",
@@ -40679,7 +40679,7 @@
   {
     "id": "2408",
     "spanish": "cero",
-    "german": "0 - null",
+    "german": "null",
     "type": "number",
     "sentence_es": "La temperatura bajó a cero grados anoche.",
     "sentence_de": "Die Temperatur fiel letzte Nacht auf null Grad.",
@@ -40697,7 +40697,7 @@
   {
     "id": "2409",
     "spanish": "uno",
-    "german": "1 - eins",
+    "german": "eins",
     "type": "number",
     "sentence_es": "Quiero comprar uno de estos libros.",
     "sentence_de": "Ich möchte eins von diesen Büchern kaufen.",
@@ -40714,7 +40714,7 @@
   {
     "id": "2410",
     "spanish": "dos",
-    "german": "2 - zwei",
+    "german": "zwei",
     "type": "number",
     "sentence_es": "Tengo dos hermanos y una hermana.",
     "sentence_de": "Ich habe zwei Brüder und eine Schwester.",
@@ -40731,7 +40731,7 @@
   {
     "id": "2411",
     "spanish": "tres",
-    "german": "3 - drei",
+    "german": "drei",
     "type": "number",
     "sentence_es": "Tengo tres hermanos y una hermana.",
     "sentence_de": "Ich habe drei Brüder und eine Schwester.",
@@ -40748,7 +40748,7 @@
   {
     "id": "2412",
     "spanish": "cuatro",
-    "german": "4 - vier",
+    "german": "vier",
     "type": "number",
     "sentence_es": "Mi hermana tiene cuatro gatos en casa.",
     "sentence_de": "Meine Schwester hat vier Katzen zu Hause.",
@@ -40766,7 +40766,7 @@
   {
     "id": "2413",
     "spanish": "cinco",
-    "german": "5 - fünf",
+    "german": "fünf",
     "type": "number",
     "sentence_es": "Tengo cinco libros nuevos en mi mochila.",
     "sentence_de": "Ich habe fünf neue Bücher in meinem Rucksack.",
@@ -40784,7 +40784,7 @@
   {
     "id": "2414",
     "spanish": "seis",
-    "german": "6 - sechs",
+    "german": "sechs",
     "type": "number",
     "sentence_es": "Mi hermana tiene seis años de edad.",
     "sentence_de": "Meine Schwester ist sechs Jahre alt.",
@@ -40802,7 +40802,7 @@
   {
     "id": "2415",
     "spanish": "siete",
-    "german": "7 - sieben",
+    "german": "sieben",
     "type": "number",
     "sentence_es": "Mi hermana tiene siete años de edad.",
     "sentence_de": "Meine Schwester ist sieben Jahre alt.",
@@ -40820,7 +40820,7 @@
   {
     "id": "2416",
     "spanish": "ocho",
-    "german": "8 - acht",
+    "german": "acht",
     "type": "number",
     "sentence_es": "Mi hermana tiene ocho años de edad.",
     "sentence_de": "Meine Schwester ist acht Jahre alt.",
@@ -40838,7 +40838,7 @@
   {
     "id": "2417",
     "spanish": "nueve",
-    "german": "9 - neun",
+    "german": "neun",
     "type": "number",
     "sentence_es": "Mi hermana tiene nueve años de edad.",
     "sentence_de": "Meine Schwester ist neun Jahre alt.",
@@ -40856,7 +40856,7 @@
   {
     "id": "2418",
     "spanish": "diez",
-    "german": "10 - zehn",
+    "german": "zehn",
     "type": "number",
     "sentence_es": "Mi hermana tiene diez años de edad.",
     "sentence_de": "Meine Schwester ist zehn Jahre alt.",
@@ -40874,7 +40874,7 @@
   {
     "id": "2419",
     "spanish": "once",
-    "german": "11 - elf",
+    "german": "elf",
     "type": "number",
     "sentence_es": "La reunión empieza a las once de la mañana.",
     "sentence_de": "Das Meeting beginnt um elf Uhr morgens.",
@@ -40889,7 +40889,7 @@
   {
     "id": "2420",
     "spanish": "doce",
-    "german": "12 - zwölf",
+    "german": "zwölf",
     "type": "number",
     "sentence_es": "Mi hermana tiene doce años y estudia mucho.",
     "sentence_de": "Meine Schwester ist zwölf Jahre alt und lernt viel.",
@@ -40908,7 +40908,7 @@
   {
     "id": "2421",
     "spanish": "trece",
-    "german": "13 - dreizehn",
+    "german": "dreizehn",
     "type": "number",
     "sentence_es": "Mi hermana cumple trece años el viernes.",
     "sentence_de": "Meine Schwester wird am Freitag dreizehn Jahre alt.",
@@ -40926,7 +40926,7 @@
   {
     "id": "2422",
     "spanish": "catorce",
-    "german": "14 - vierzehn",
+    "german": "vierzehn",
     "type": "number",
     "sentence_es": "Mi hermana cumple catorce años el viernes.",
     "sentence_de": "Meine Schwester wird am Freitag vierzehn Jahre alt.",
@@ -40944,7 +40944,7 @@
   {
     "id": "2423",
     "spanish": "quince",
-    "german": "15 - fünfzehn",
+    "german": "fünfzehn",
     "type": "number",
     "sentence_es": "Mi hermana cumple quince años el próximo mes.",
     "sentence_de": "Meine Schwester wird nächsten Monat fünfzehn Jahre alt.",
@@ -40961,7 +40961,7 @@
   {
     "id": "2424",
     "spanish": "dieciséis",
-    "german": "16 - sechzehn",
+    "german": "sechzehn",
     "type": "number",
     "sentence_es": "Mi hermana tiene dieciséis años y estudia bachillerato.",
     "sentence_de": "Meine Schwester ist sechzehn Jahre alt und macht Abitur.",
@@ -40980,7 +40980,7 @@
   {
     "id": "2425",
     "spanish": "diecisiete",
-    "german": "17 - siebzehn",
+    "german": "siebzehn",
     "type": "number",
     "sentence_es": "Mi hermana cumple diecisiete años mañana.",
     "sentence_de": "Meine Schwester wird morgen siebzehn Jahre alt.",
@@ -40997,7 +40997,7 @@
   {
     "id": "2426",
     "spanish": "dieciocho",
-    "german": "18 - achtzehn",
+    "german": "achtzehn",
     "type": "number",
     "sentence_es": "Mi hermana cumple dieciocho años en mayo.",
     "sentence_de": "Meine Schwester wird im Mai achtzehn Jahre alt.",
@@ -41015,7 +41015,7 @@
   {
     "id": "2427",
     "spanish": "diecinueve",
-    "german": "19 - neunzehn",
+    "german": "neunzehn",
     "type": "number",
     "sentence_es": "Mi hermana tiene diecinueve años y estudia medicina.",
     "sentence_de": "Meine Schwester ist neunzehn Jahre alt und studiert Medizin.",
@@ -41034,7 +41034,7 @@
   {
     "id": "2428",
     "spanish": "veinte",
-    "german": "20 - zwanzig",
+    "german": "zwanzig",
     "type": "number",
     "sentence_es": "Mi hermana tiene veinte años y estudia medicina.",
     "sentence_de": "Meine Schwester ist zwanzig Jahre alt und studiert Medizin.",
@@ -41053,7 +41053,7 @@
   {
     "id": "2429",
     "spanish": "treinta",
-    "german": "30 - dreißig",
+    "german": "dreißig",
     "type": "number",
     "sentence_es": "Mi hermano tiene treinta años y trabaja aquí.",
     "sentence_de": "Mein Bruder ist dreißig Jahre alt und arbeitet hier.",
@@ -41072,7 +41072,7 @@
   {
     "id": "2430",
     "spanish": "cuarenta",
-    "german": "40 - vierzig",
+    "german": "vierzig",
     "type": "number",
     "sentence_es": "Mi madre tiene cuarenta años este mes.",
     "sentence_de": "Meine Mutter wird diesen Monat vierzig Jahre alt.",
@@ -41090,7 +41090,7 @@
   {
     "id": "2431",
     "spanish": "cincuenta",
-    "german": "50 - fünfzig",
+    "german": "fünfzig",
     "type": "number",
     "sentence_es": "Mi abuela tiene cincuenta años y está muy bien.",
     "sentence_de": "Meine Großmutter ist fünfzig Jahre alt und ist sehr gesund.",
@@ -41110,7 +41110,7 @@
   {
     "id": "2432",
     "spanish": "sesenta",
-    "german": "60 - sechzig",
+    "german": "sechzig",
     "type": "number",
     "sentence_es": "Mi abuelo tiene sesenta y cinco años.",
     "sentence_de": "Mein Großvater ist fünfundsechzig Jahre alt.",
@@ -41128,7 +41128,7 @@
   {
     "id": "2433",
     "spanish": "setenta",
-    "german": "70 - siebzig",
+    "german": "siebzig",
     "type": "number",
     "sentence_es": "Mi abuelo tiene setenta años y está muy bien.",
     "sentence_de": "Mein Großvater ist siebzig Jahre alt und es geht ihm sehr gut.",
@@ -41148,7 +41148,7 @@
   {
     "id": "2434",
     "spanish": "ochenta",
-    "german": "80 - achtzig",
+    "german": "achtzig",
     "type": "number",
     "sentence_es": "Mi abuelo tiene ochenta años y está sano.",
     "sentence_de": "Mein Großvater ist achtzig Jahre alt und gesund.",
@@ -41167,7 +41167,7 @@
   {
     "id": "2435",
     "spanish": "noventa",
-    "german": "90 - neunzig",
+    "german": "neunzig",
     "type": "number",
     "sentence_es": "Mi abuelo tiene noventa años y está muy bien.",
     "sentence_de": "Mein Großvater ist neunzig Jahre alt und geht es sehr gut.",
@@ -41187,7 +41187,7 @@
   {
     "id": "2436",
     "spanish": "cien",
-    "german": "100 - hundert",
+    "german": "hundert",
     "type": "number",
     "sentence_es": "Mi abuela tiene más de cien años.",
     "sentence_de": "Meine Großmutter ist über hundert Jahre alt.",
@@ -41205,7 +41205,7 @@
   {
     "id": "2437",
     "spanish": "doscientos",
-    "german": "200 - zweihundert",
+    "german": "zweihundert",
     "type": "number",
     "sentence_es": "Este teléfono móvil cuesta doscientos euros exactamente.",
     "sentence_de": "Dieses Handy kostet genau zweihundert Euro.",
@@ -41223,7 +41223,7 @@
   {
     "id": "2438",
     "spanish": "trescientos",
-    "german": "300 - dreihundert",
+    "german": "dreihundert",
     "type": "number",
     "sentence_es": "Este apartamento cuesta trescientos euros al mes.",
     "sentence_de": "Diese Wohnung kostet dreihundert Euro pro Monat.",
@@ -41241,7 +41241,7 @@
   {
     "id": "2439",
     "spanish": "cuatrocientos",
-    "german": "400 - vierhundert",
+    "german": "vierhundert",
     "type": "number",
     "sentence_es": "El apartamento cuesta cuatrocientos euros al mes.",
     "sentence_de": "Die Wohnung kostet vierhundert Euro im Monat.",
@@ -41258,7 +41258,7 @@
   {
     "id": "2440",
     "spanish": "quinientos",
-    "german": "500 - fünfhundert",
+    "german": "fünfhundert",
     "type": "number",
     "sentence_es": "Esta casa cuesta quinientos mil euros.",
     "sentence_de": "Dieses Haus kostet fünfhunderttausend Euro.",
@@ -41275,7 +41275,7 @@
   {
     "id": "2441",
     "spanish": "seiscientos",
-    "german": "600 - sechshundert",
+    "german": "sechshundert",
     "type": "number",
     "sentence_es": "Mi apartamento cuesta seiscientos euros al mes.",
     "sentence_de": "Meine Wohnung kostet sechshundert Euro im Monat.",
@@ -41293,7 +41293,7 @@
   {
     "id": "2442",
     "spanish": "setecientos",
-    "german": "700 - siebenhundert",
+    "german": "siebenhundert",
     "type": "number",
     "sentence_es": "El apartamento cuesta setecientos euros al mes.",
     "sentence_de": "Die Wohnung kostet siebenhundert Euro im Monat.",
@@ -41311,7 +41311,7 @@
   {
     "id": "2443",
     "spanish": "ochocientos",
-    "german": "800 - achthundert",
+    "german": "achthundert",
     "type": "number",
     "sentence_es": "Este coche usado cuesta ochocientos euros.",
     "sentence_de": "Dieses gebrauchte Auto kostet achthundert Euro.",
@@ -41328,7 +41328,7 @@
   {
     "id": "2444",
     "spanish": "novecientos",
-    "german": "900 - neunhundert",
+    "german": "neunhundert",
     "type": "number",
     "sentence_es": "El apartamento cuesta novecientos euros al mes.",
     "sentence_de": "Die Wohnung kostet neunhundert Euro pro Monat.",
@@ -41345,7 +41345,7 @@
   {
     "id": "2445",
     "spanish": "mil",
-    "german": "1000 - tausend",
+    "german": "tausend",
     "type": "number",
     "sentence_es": "Esta casa cuesta más de mil euros.",
     "sentence_de": "Dieses Haus kostet mehr als tausend Euro.",

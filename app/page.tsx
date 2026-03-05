@@ -25,8 +25,10 @@ import {
   incrementStats,
   getTodayGoal,
   incrementTodayGoal,
+  setTodayGoalCount,
   type DailyGoal,
 } from "@/lib/local-storage";
+import { loadProgressFromDb, syncProgressToDb } from "@/lib/daily-progress-db";
 
 export default function Home() {
   const { selectedModule, clearModule, getModuleVocab } = useModule();
@@ -60,8 +62,17 @@ export default function Home() {
   // Lade Daily Goal + erste Vokabel wenn ein Modul ausgewählt wird
   useEffect(() => {
     if (selectedModule && selectedModule.type !== "tips" && isInitialized && !showOnboarding) {
-      setDailyGoal(getTodayGoal(selectedModule.id));
+      const localGoal = getTodayGoal(selectedModule.id);
+      setDailyGoal(localGoal);
       loadNextVocab();
+
+      // DB-Sync: Falls User eingeloggt ist, DB-Wert laden (höherer Wert gewinnt)
+      loadProgressFromDb(selectedModule.id).then((dbCount) => {
+        if (dbCount !== null && dbCount > localGoal.completed) {
+          const synced = setTodayGoalCount(selectedModule.id, dbCount);
+          setDailyGoal(synced);
+        }
+      });
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedModule]);
@@ -120,6 +131,9 @@ export default function Home() {
     if (selectedModule) {
       const updated = incrementTodayGoal(selectedModule.id);
       setDailyGoal(updated);
+
+      // DB-Sync (fire & forget)
+      syncProgressToDb(selectedModule.id, updated.completed);
 
       const newCount = updated.completed;
 
@@ -292,12 +306,12 @@ export default function Home() {
           />
 
           {/* Favorite Button */}
-          <div className={`flex justify-center transition-opacity duration-300 min-h-[3rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0'}`}>
+          <div className={`flex justify-center transition-opacity duration-300 min-h-[3rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <FavoriteButton vocabId={currentVocab.id} />
           </div>
 
           {/* Beispielsatz mit Speaker */}
-          <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0'}`}>
+          <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <div className="flex items-start gap-4 justify-center">
               <div className="flex-1 max-w-2xl">
                 <Sentence

@@ -231,6 +231,13 @@ export function incrementTodayGoal(moduleId: string): DailyGoal {
   return goal;
 }
 
+export function setTodayGoalCount(moduleId: string, count: number): DailyGoal {
+  const today = new Date().toISOString().split("T")[0];
+  const goal: DailyGoal = { date: today, moduleId, completed: count, goal: 25 };
+  setToStorage(`daily-goal-${today}`, goal);
+  return goal;
+}
+
 // ===== SETTINGS =====
 export function getSettings(): Settings {
   return getFromStorage<Settings>(KEYS.SETTINGS, {

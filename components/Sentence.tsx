@@ -31,8 +31,10 @@ export default function Sentence({
     }
   }, [isVisible]);
 
-  const handleClick = () => {
-    if (showSentence && !showGermanTranslation) {
+  const handleClick = (e: React.MouseEvent) => {
+    if (!showSentence) return;
+    e.stopPropagation(); // Prevent clicks on sentence area from bubbling to parent (would trigger handleNext)
+    if (!showGermanTranslation) {
       setShowGermanTranslation(true);
       if (onTranslationRevealed) {
         onTranslationRevealed();

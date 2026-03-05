@@ -36,7 +36,8 @@
       "Bash(npx tsc:*)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(sed:*)"
     ]
   }
 }
