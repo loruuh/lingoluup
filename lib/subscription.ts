@@ -7,7 +7,7 @@ export async function hasAdvanceAccess(userId: string): Promise<boolean> {
       .from('admins')
       .select('*')
       .eq('user_id', userId)
-      .single();
+      .maybeSingle();
 
     if (adminData) return true; // Admin = always advance!
 
@@ -17,7 +17,7 @@ export async function hasAdvanceAccess(userId: string): Promise<boolean> {
       .select('*')
       .eq('user_id', userId)
       .eq('status', 'active')
-      .single();
+      .maybeSingle();
 
     if (!subData) return false;
 
