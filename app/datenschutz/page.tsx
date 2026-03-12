@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: 'Datenschutzerklärung - LingoLuup',
+  title: 'Datenschutzerklärung - LINGOLUUP',
   robots: {
     index: false,
     follow: false,

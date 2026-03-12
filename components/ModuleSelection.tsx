@@ -111,7 +111,7 @@ export default function ModuleSelection() {
         {/* Header mit Titel */}
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-bold">
-            <span className="text-white">Lingo</span><span className="text-primary">Luup</span>{' 🎯'}
+            <span className="text-white">LINGO</span><span className="text-primary">LUUP</span>{' 🎯'}
           </h1>
 
           <p className="text-lg text-gray-400">

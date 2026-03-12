@@ -8,7 +8,7 @@ import { FeedbackWidget } from "@/components/FeedbackWidget";
 import ThemeToggle from "@/components/ThemeToggle";
 
 export const metadata: Metadata = {
-  title: "LingoLuup 🎯 - Spanisch lernen",
+  title: "LINGOLUUP 🎯 - Spanisch lernen",
   description: "Spanisch lernen mit KI-generierten Beispielsätzen 🎯",
   manifest: "/manifest.json",
   themeColor: "#DC143C",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "LingoLuup 🎯",
+    title: "LINGOLUUP 🎯",
   },
   icons: {
     icon: [

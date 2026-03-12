@@ -14,15 +14,15 @@
   --sentence-german: #3b82f6;
 }
 
-/* Sunset Theme */
+/* España Theme */
 :root[data-theme="sunset"] {
-  --background: #1a0a0f;
+  --background: #1a0505;
   --foreground: #ffffff;
-  --primary: #f97316;
-  --primary-dark: #ea580c;
-  --primary-light: #fb923c;
-  --sentence-spanish: #ea580c;
-  --sentence-german: #db2777;
+  --primary: #C60B1E;
+  --primary-dark: #a00918;
+  --primary-light: #e63347;
+  --sentence-spanish: #C60B1E;
+  --sentence-german: #FFC400;
 }
 
 /* Neon Theme */

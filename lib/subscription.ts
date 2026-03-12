@@ -29,7 +29,7 @@ export async function hasAdvanceAccess(userId: string): Promise<boolean> {
 }
 
 // Nur Modul 1 ist kostenlos
-const FREE_MODULES = ['vokabeln-1'];
+const FREE_MODULES = ['vokabeln-1', 'vokabeln-2'];
 
 export function isAdvanceModule(moduleId: string): boolean {
   return !FREE_MODULES.includes(moduleId);

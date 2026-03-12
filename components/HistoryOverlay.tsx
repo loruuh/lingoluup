@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { getHistory, type HistoryEntry } from "@/lib/local-storage";
 import { getVocabById } from "@/lib/spaced-repetition";
 
@@ -21,7 +22,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
 
   if (!isOpen) return null;
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 bg-[var(--background)]">
       <div className="h-full overflow-y-auto">
         <div className="max-w-3xl mx-auto px-4 py-8">
@@ -107,6 +108,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
           )}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

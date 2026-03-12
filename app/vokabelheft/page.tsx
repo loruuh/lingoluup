@@ -6,13 +6,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import VokabelheftList from "@/components/VokabelheftList";
 import VokabelheftToggle from "@/components/VokabelheftToggle";
-import { getFavorites } from "@/lib/local-storage";
+import { getFavorites, getHistory, type HistoryEntry } from "@/lib/local-storage";
+import { getVocabById } from "@/lib/spaced-repetition";
 import { VocabTimer } from "@/components/VocabTimer";
 
 export default function VokabelheftPage() {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [hideGerman, setHideGerman] = useState(false);
   const [hideSpanish, setHideSpanish] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
 
   const loadFavorites = () => {
     const favs = getFavorites();
@@ -23,44 +26,115 @@ export default function VokabelheftPage() {
     loadFavorites();
   }, []);
 
+  const handleShowHistory = () => {
+    setHistory(getHistory());
+    setShowHistory(true);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-[#1a1a2e]">
       <Header />
 
       <main className="flex-1 px-4 py-8">
         <div className="max-w-5xl mx-auto">
-          {/* Titel + Toggle Buttons (sticky beim Scrollen) */}
+          {/* Titel + Controls (sticky beim Scrollen) */}
           <div className="sticky top-0 z-10 bg-[#1a1a2e] pb-4">
             <div className="mb-8 pt-4">
               <div className="flex items-center justify-between">
                 <div>
                   <h1 className="text-4xl font-bold text-white mb-2">
-                    Mein Vokabelheft
+                    {showHistory ? "Historie" : "Mein Vokabelheft"}
                   </h1>
                   <p className="text-gray-300">
-                    Deine gespeicherten Vokabeln im klassischen Schulheft-Design
+                    {showHistory
+                      ? "Deine zuletzt gelernten Sätze"
+                      : "Deine gespeicherten Vokabeln im klassischen Schulheft-Design"}
                   </p>
                 </div>
-                <VocabTimer />
+                <div className="flex items-center gap-3">
+                  {/* Historie / Vokabeln Toggle */}
+                  <button
+                    onClick={showHistory ? () => setShowHistory(false) : handleShowHistory}
+                    className={`px-4 py-2 rounded-xl font-medium text-sm transition-all duration-300 border-2 ${
+                      showHistory
+                        ? "bg-primary text-white border-primary"
+                        : "bg-white/5 text-gray-300 border-white/20 hover:border-primary/50 hover:text-white"
+                    }`}
+                  >
+                    {showHistory ? "← Vokabeln" : "🕐 Historie"}
+                  </button>
+                  <VocabTimer />
+                </div>
               </div>
             </div>
 
-            {/* Toggle Buttons */}
-            <VokabelheftToggle
-            hideGerman={hideGerman}
-            hideSpanish={hideSpanish}
-            onToggleGerman={() => setHideGerman(!hideGerman)}
-            onToggleSpanish={() => setHideSpanish(!hideSpanish)}
-          />
+            {/* Toggle Buttons — nur im Vokabeln-View */}
+            {!showHistory && (
+              <VokabelheftToggle
+                hideGerman={hideGerman}
+                hideSpanish={hideSpanish}
+                onToggleGerman={() => setHideGerman(!hideGerman)}
+                onToggleSpanish={() => setHideSpanish(!hideSpanish)}
+              />
+            )}
           </div>
 
-          {/* Vokabelliste */}
-          <VokabelheftList
-            favorites={favorites}
-            onUpdate={loadFavorites}
-            hideGerman={hideGerman}
-            hideSpanish={hideSpanish}
-          />
+          {/* VOKABELN VIEW */}
+          {!showHistory && (
+            <VokabelheftList
+              favorites={favorites}
+              onUpdate={loadFavorites}
+              hideGerman={hideGerman}
+              hideSpanish={hideSpanish}
+            />
+          )}
+
+          {/* HISTORIE VIEW */}
+          {showHistory && (
+            <div>
+              {history.length === 0 ? (
+                <div className="text-center py-12">
+                  <p className="text-gray-400 text-lg">Noch keine Sätze gelernt.</p>
+                  <p className="text-gray-500 text-sm mt-2">
+                    Deine letzten 10 Sätze werden hier angezeigt.
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  {history.map((entry, index) => {
+                    const vocab = getVocabById(entry.vocabId);
+                    return (
+                      <div
+                        key={`${entry.vocabId}-${entry.timestamp}-${index}`}
+                        className="bg-gray-800 rounded-xl p-5 border border-primary/20 hover:border-primary/40 transition-colors"
+                      >
+                        {vocab && (
+                          <div className="mb-3">
+                            <span className="text-gray-400 text-sm">{vocab.german}</span>
+                            <span className="mx-2 text-gray-600">→</span>
+                            <span className="text-primary font-semibold">{vocab.spanish}</span>
+                          </div>
+                        )}
+                        <p className="text-white text-lg mb-2">{entry.sentence}</p>
+                        <p className="text-gray-500 text-xs">
+                          {new Date(entry.timestamp).toLocaleString("de-DE", {
+                            day: "2-digit",
+                            month: "2-digit",
+                            year: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </p>
+                      </div>
+                    );
+                  })}
+                  <p className="text-center text-gray-500 text-sm mt-8">
+                    Die letzten {history.length} von maximal 10 Sätzen
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Zurück-Button */}
           <div className="mt-8 text-center">

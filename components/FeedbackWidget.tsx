@@ -12,7 +12,7 @@ export function FeedbackWidget() {
     e.preventDefault();
     setStatus('sending');
 
-    const subject = encodeURIComponent('LingoLuup Feedback');
+    const subject = encodeURIComponent('LINGOLUUP Feedback');
     const body = encodeURIComponent(
       `Feedback: ${feedback}\n\n${email ? `Antwort an: ${email}` : 'Keine Email angegeben'}`
     );
@@ -91,7 +91,7 @@ export function FeedbackWidget() {
             </form>
 
             <p className="text-xs text-gray-400 mt-4 text-center">
-              Dein Feedback hilft LingoLuup besser zu werden!
+              Dein Feedback hilft LINGOLUUP besser zu werden!
             </p>
           </div>
         </div>
