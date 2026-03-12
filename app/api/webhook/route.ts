@@ -91,6 +91,7 @@ export async function POST(request: Request) {
           .update({
             status: newStatus,
             expires_at: expiresAt,
+            cancel_at_period_end: subscription.cancel_at_period_end ?? false,
             updated_at: new Date().toISOString(),
           })
           .eq('stripe_customer_id', customerId);
@@ -98,7 +99,7 @@ export async function POST(request: Request) {
         if (error) {
           console.error('DB error on subscription.updated:', error);
         } else {
-          console.log('Subscription updated:', customerId, newStatus);
+          console.log('Subscription updated:', customerId, newStatus, 'cancel_at_period_end:', subscription.cancel_at_period_end);
         }
         break;
       }
