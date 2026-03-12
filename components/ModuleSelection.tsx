@@ -28,7 +28,9 @@ export default function ModuleSelection() {
   }, [user]);
 
   const vocabModules = moduleIndex.filter((m) => m.type === "vocabulary");
-  const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary");
+  // TEMPORÄR AUSGEBLENDET: "redewendungen" - Redewendungen sind selbst vollständige Sätze
+  // und brauchen keine Beispielsätze. Modul macht in der aktuellen Form keinen Sinn.
+  const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary" && m.id !== "redewendungen");
 
   const handleModuleClick = (moduleId: string) => {
     const needsAdvance = isAdvanceModule(moduleId);

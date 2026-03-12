@@ -292,8 +292,8 @@ export default function Home() {
       )}
 
       <main
-        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''} ${showNextButton ? 'cursor-pointer' : ''}`}
-        onClick={!isRevealed ? handleMainClick : (showNextButton ? handleNext : undefined)}
+        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''}`}
+        onClick={!isRevealed ? handleMainClick : undefined}
       >
         <div className="w-full max-w-3xl space-y-12">
           {/* Flashcard */}

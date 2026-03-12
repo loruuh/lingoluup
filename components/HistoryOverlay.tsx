@@ -22,7 +22,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-background">
+    <div className="fixed inset-0 z-50 bg-[var(--background)]">
       <div className="h-full overflow-y-auto">
         <div className="max-w-3xl mx-auto px-4 py-8">
           {/* Header */}
