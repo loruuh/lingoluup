@@ -37,7 +37,11 @@
       "Bash(git pull:*)",
       "Bash(git stash:*)",
       "Bash(find:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(cd \"/c/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry\" && python3 << 'EOF'\nimport json\n\nwith open\\('data/vocabulario-es.json', 'r', encoding='utf-8'\\) as f:\n    data = json.load\\(f\\)\n\n# Count issues\nno_article_nouns = []\nempty_sentence_es = []\nempty_sentence_de = []\nempty_german = []\nempty_spanish = []\n\nfor entry in data:\n    entry_id = entry.get\\('id'\\)\n    spanish = entry.get\\('spanish', ''\\)\n    german = entry.get\\('german', ''\\)\n    entry_type = entry.get\\('type', ''\\)\n    sent_es = entry.get\\('sentence_es', ''\\)\n    sent_de = entry.get\\('sentence_de', ''\\)\n    \n    if not spanish:\n        empty_spanish.append\\(entry_id\\)\n    if not german:\n        empty_german.append\\(entry_id\\)\n    if not sent_es:\n        empty_sentence_es.append\\(entry_id\\)\n    if not sent_de:\n        empty_sentence_de.append\\(entry_id\\)\n    \n    # Check for nouns without articles\n    if entry_type == 'noun':\n        if not german.startswith\\(\\('der ', 'die ', 'das ', 'den ', 'dem ', 'des ', 'ein ', 'eine ', 'einem ', 'einen ', 'einer ', 'eines '\\)\\):\n            no_article_nouns.append\\(\\(entry_id, spanish, german\\)\\)\n\nprint\\(f\"Total entries: {len\\(data\\)}\"\\)\nprint\\(f\"Nouns without articles: {len\\(no_article_nouns\\)}\"\\)\nprint\\(f\"Empty Spanish: {len\\(empty_spanish\\)}\"\\)\nprint\\(f\"Empty German: {len\\(empty_german\\)}\"\\)\nprint\\(f\"Empty sentence_es: {len\\(empty_sentence_es\\)}\"\\)\nprint\\(f\"Empty sentence_de: {len\\(empty_sentence_de\\)}\"\\)\n\nprint\\(\"\\\\nFirst 30 noun entries without articles:\"\\)\nfor eid, spa, ger in no_article_nouns[:30]:\n    print\\(f\"  ID {eid}: {spa} -> {ger}\"\\)\nEOF)",
+      "Bash(cd \"/c/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry\" && grep -n '\"spanish\": \"cero\"' data/vocabulario-es.json)",
+      "Bash(/tmp/detailed_issues.txt:*)",
+      "Read(//tmp/**)"
     ]
   }
 }

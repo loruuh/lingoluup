@@ -11,7 +11,7 @@ export async function loadProgressFromDb(moduleId: string): Promise<number | nul
     .eq("user_id", user.id)
     .eq("date", today)
     .eq("module_id", moduleId)
-    .single();
+    .maybeSingle();
 
   return data?.count ?? null;
 }

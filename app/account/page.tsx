@@ -9,6 +9,7 @@ interface Subscription {
   status: string;
   stripe_customer_id: string;
   expires_at: string;
+  cancel_at_period_end?: boolean;
 }
 
 export default function AccountPage() {
@@ -25,10 +26,10 @@ export default function AccountPage() {
 
     supabase
       .from('subscriptions')
-      .select('status, stripe_customer_id, expires_at')
+      .select('status, stripe_customer_id, expires_at, cancel_at_period_end')
       .eq('user_id', user.id)
       .eq('status', 'active')
-      .single()
+      .maybeSingle()
       .then(({ data }) => {
         setSubscription(data);
         setLoading(false);
@@ -87,6 +88,23 @@ export default function AccountPage() {
   const isActive = subscription?.status === 'active' &&
     new Date(subscription.expires_at) > new Date();
 
+  const formatDate = (dateString: string) =>
+    new Date(dateString).toLocaleDateString('de-DE', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    });
+
+  const subscriptionStatusText = (() => {
+    if (!subscription) return null;
+    if (subscription.status === 'active' && isActive) {
+      return subscription.cancel_at_period_end
+        ? `Gekündigt – läuft bis ${formatDate(subscription.expires_at)}`
+        : `Aktiv – erneuert sich am ${formatDate(subscription.expires_at)}`;
+    }
+    return `Beendet am ${formatDate(subscription.expires_at)}`;
+  })();
+
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-lg space-y-6">
@@ -115,11 +133,11 @@ export default function AccountPage() {
               Abo-Status
             </h2>
             {isActive ? (
-              <div className="bg-green-900/20 border border-green-500/30 rounded-xl p-4">
-                <p className="text-green-400 font-semibold">Advance aktiv</p>
-                <p className="text-gray-400 text-sm mt-1">
-                  Läuft bis: {new Date(subscription!.expires_at).toLocaleDateString('de-DE')}
+              <div className={`border rounded-xl p-4 ${subscription?.cancel_at_period_end ? 'bg-yellow-900/20 border-yellow-500/30' : 'bg-green-900/20 border-green-500/30'}`}>
+                <p className={`font-semibold ${subscription?.cancel_at_period_end ? 'text-yellow-400' : 'text-green-400'}`}>
+                  Advance aktiv
                 </p>
+                <p className="text-gray-400 text-sm mt-1">{subscriptionStatusText}</p>
               </div>
             ) : (
               <div className="bg-white/5 border border-gray-600 rounded-xl p-4">
