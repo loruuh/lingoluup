@@ -9,11 +9,33 @@ export function UpgradeModal({ isOpen, onClose }: Props) {
   if (!isOpen) return null;
 
   const handleUpgrade = async () => {
-    const response = await fetch('/api/create-checkout', {
-      method: 'POST'
-    });
-    const { url } = await response.json();
-    window.location.href = url;
+    try {
+      const response = await fetch('/api/create-checkout', {
+        method: 'POST',
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        console.error('Checkout API error:', data);
+        alert(data.error === 'Unauthorized'
+          ? 'Bitte erst einloggen.'
+          : `Fehler: ${data.error || 'Unbekannter Fehler'}`
+        );
+        return;
+      }
+
+      if (!data.url) {
+        console.error('No checkout URL in response:', data);
+        alert('Fehler: Keine Checkout-URL erhalten');
+        return;
+      }
+
+      window.location.href = data.url;
+    } catch (error) {
+      console.error('Checkout error:', error);
+      alert('Fehler beim Erstellen des Checkouts');
+    }
   };
 
   return (

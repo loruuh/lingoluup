@@ -19002,11 +19002,11 @@
   },
   {
     "id": "1079",
-    "spanish": "la de nada",
-    "german": "Kein Problem",
-    "type": "noun",
-    "sentence_es": "Muchas gracias por tu ayuda. - De nada.",
-    "sentence_de": "Vielen Dank für deine Hilfe. - Gern geschehen.",
+    "spanish": "de nada",
+    "german": "Gern geschehen / Kein Problem",
+    "type": "phrase",
+    "sentence_es": "— Gracias por tu ayuda. — De nada.",
+    "sentence_de": "— Danke für deine Hilfe. — Gern geschehen.",
     "audio": "/audio/1079.mp3",
     "word_translations": {
       "muchas": "viele",
@@ -20871,16 +20871,13 @@
   },
   {
     "id": "1186",
-    "spanish": "la disfruto de la tranquilidad",
-    "german": "Ich genieße die Ruhe",
-    "type": "noun",
-    "sentence_es": "Por las tardes disfruto de la tranquilidad.",
-    "sentence_de": "Am Nachmittag genieße ich die Ruhe.",
+    "spanish": "disfrutar",
+    "german": "genießen",
+    "type": "verb",
+    "sentence_es": "Disfruto de la tranquilidad.",
+    "sentence_de": "Ich genieße die Ruhe.",
     "audio": "/audio/1186.mp3",
     "word_translations": {
-      "por": "am/während",
-      "las": "die",
-      "tardes": "Nachmittage",
       "disfruto": "ich genieße",
       "de": "von/der",
       "la": "die",
@@ -21835,7 +21832,7 @@
   {
     "id": "1349",
     "spanish": "arrancar",
-    "german": "starten / anlassen (Motor, Auto)",
+    "german": "starten (z.B. Auto)",
     "type": "verb",
     "sentence_es": "No puedo arrancar el coche esta mañana.",
     "sentence_de": "Ich kann das Auto heute Morgen nicht starten.",
@@ -22918,19 +22915,20 @@
   },
   {
     "id": "1410",
-    "spanish": "boreal",
+    "spanish": "del norte / norteño",
     "german": "nördlich",
     "type": "adjective",
-    "sentence_es": "El bosque boreal tiene muchos pinos verdes.",
-    "sentence_de": "Der boreale Wald hat viele grüne Kiefern.",
+    "sentence_es": "Vivo en la parte norte de la ciudad.",
+    "sentence_de": "Ich wohne im nördlichen Teil der Stadt.",
     "audio": "/audio/1410.mp3",
     "word_translations": {
-      "bosque": "Wald",
-      "boreal": "boreal/nördlich",
-      "tiene": "hat",
-      "muchos": "viele",
-      "pinos": "Kiefern",
-      "verdes": "grüne"
+      "vivo": "ich wohne",
+      "en": "in",
+      "la": "der/die",
+      "parte": "Teil",
+      "norte": "Norden/nördlich",
+      "de": "von/der",
+      "ciudad": "Stadt"
     }
   },
   {
