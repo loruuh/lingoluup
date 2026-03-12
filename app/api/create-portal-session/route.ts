@@ -11,7 +11,13 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { customerId } = await req.json();
+    let customerId: string | undefined;
+    try {
+      const body = await req.json();
+      customerId = body?.customerId;
+    } catch {
+      return NextResponse.json({ error: 'Invalid or empty request body' }, { status: 400 });
+    }
 
     if (!customerId) {
       return NextResponse.json(
