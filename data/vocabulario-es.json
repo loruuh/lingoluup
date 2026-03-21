@@ -41357,5 +41357,314 @@
       "euros": "Euro"
     },
     "audio": "/audio/2445.mp3"
+  },
+  {
+    "id": "2446",
+    "spanish": "apropiarse",
+    "german": "sich aneignen",
+    "type": "verb",
+    "sentence_es": "El ladrón se apropió de los bienes ajenos.",
+    "sentence_de": "Der Dieb eignete sich fremdes Eigentum an.",
+    "word_translations": {
+      "el": "der",
+      "ladrón": "Dieb",
+      "se": "sich",
+      "apropió": "eignete an",
+      "de": "von",
+      "los": "die",
+      "bienes": "Güter/Eigentum",
+      "ajenos": "fremde"
+    },
+    "audio": "/audio/2446.mp3"
+  },
+  {
+    "id": "2447",
+    "spanish": "el delincuente",
+    "german": "der Kriminelle",
+    "type": "noun",
+    "sentence_es": "Los delincuentes fueron arrestados por la policía.",
+    "sentence_de": "Die Kriminellen wurden von der Polizei verhaftet.",
+    "word_translations": {
+      "los": "die",
+      "delincuentes": "Kriminellen",
+      "fueron": "wurden",
+      "arrestados": "verhaftet",
+      "por": "von",
+      "la": "die",
+      "policía": "Polizei"
+    },
+    "audio": "/audio/2447.mp3"
+  },
+  {
+    "id": "2448",
+    "spanish": "siquiera",
+    "german": "wenigstens / überhaupt",
+    "type": "adverb",
+    "sentence_es": "No tengo siquiera un euro en el bolsillo.",
+    "sentence_de": "Ich habe nicht einmal einen Euro in der Tasche.",
+    "word_translations": {
+      "no": "nicht",
+      "tengo": "ich habe",
+      "siquiera": "einmal/wenigstens",
+      "un": "einen",
+      "euro": "Euro",
+      "en": "in",
+      "el": "der/die/das",
+      "bolsillo": "Tasche"
+    },
+    "audio": "/audio/2448.mp3"
+  },
+  {
+    "id": "2449",
+    "spanish": "la soberanía",
+    "german": "die Souveränität",
+    "type": "noun",
+    "sentence_es": "El país defiende su soberanía nacional.",
+    "sentence_de": "Das Land verteidigt seine nationale Souveränität.",
+    "word_translations": {
+      "el": "das",
+      "país": "Land",
+      "defiende": "verteidigt",
+      "su": "seine",
+      "soberanía": "Souveränität",
+      "nacional": "nationale"
+    },
+    "audio": "/audio/2449.mp3"
+  },
+  {
+    "id": "2450",
+    "spanish": "someter",
+    "german": "unterwerfen",
+    "type": "verb",
+    "sentence_es": "El imperio sometió a muchos pueblos.",
+    "sentence_de": "Das Reich unterwarf viele Völker.",
+    "word_translations": {
+      "el": "das",
+      "imperio": "Reich",
+      "sometió": "unterwarf",
+      "a": "(Akkusativpartikel)",
+      "muchos": "viele",
+      "pueblos": "Völker"
+    },
+    "audio": "/audio/2450.mp3"
+  },
+  {
+    "id": "2451",
+    "spanish": "el reo",
+    "german": "der Gefangene / der Häftling",
+    "type": "noun",
+    "sentence_es": "El reo fue condenado a cinco años de prisión.",
+    "sentence_de": "Der Gefangene wurde zu fünf Jahren Haft verurteilt.",
+    "word_translations": {
+      "el": "der",
+      "reo": "Gefangene/Häftling",
+      "fue": "wurde",
+      "condenado": "verurteilt",
+      "a": "zu",
+      "cinco": "fünf",
+      "años": "Jahre",
+      "de": "von",
+      "prisión": "Haft/Gefängnis"
+    },
+    "audio": "/audio/2451.mp3"
+  },
+  {
+    "id": "2452",
+    "spanish": "los grilletes",
+    "german": "die Fußfesseln",
+    "type": "noun",
+    "sentence_es": "El prisionero llevaba grilletes en los tobillos.",
+    "sentence_de": "Der Gefangene trug Fußfesseln an den Knöcheln.",
+    "word_translations": {
+      "el": "der",
+      "prisionero": "Gefangene",
+      "llevaba": "trug",
+      "grilletes": "Fußfesseln",
+      "en": "an",
+      "los": "den",
+      "tobillos": "Knöcheln"
+    },
+    "audio": "/audio/2452.mp3"
+  },
+  {
+    "id": "2453",
+    "spanish": "las esposas",
+    "german": "die Handschellen",
+    "type": "noun",
+    "sentence_es": "La policía le puso las esposas al sospechoso.",
+    "sentence_de": "Die Polizei legte dem Verdächtigen Handschellen an.",
+    "word_translations": {
+      "la": "die",
+      "policía": "Polizei",
+      "le": "ihm",
+      "puso": "legte an",
+      "las": "die",
+      "esposas": "Handschellen",
+      "al": "dem",
+      "sospechoso": "Verdächtigen"
+    },
+    "audio": "/audio/2453.mp3"
+  },
+  {
+    "id": "2454",
+    "spanish": "reincidir",
+    "german": "rückfällig werden",
+    "type": "verb",
+    "sentence_es": "El criminal reincidió y cometió otro delito.",
+    "sentence_de": "Der Kriminelle wurde rückfällig und beging eine weitere Straftat.",
+    "word_translations": {
+      "el": "der",
+      "criminal": "Kriminelle",
+      "reincidió": "wurde rückfällig",
+      "y": "und",
+      "cometió": "beging",
+      "otro": "eine weitere",
+      "delito": "Straftat"
+    },
+    "audio": "/audio/2454.mp3"
+  },
+  {
+    "id": "2455",
+    "spanish": "el escalofrío",
+    "german": "der Schauer / die Gänsehaut",
+    "type": "noun",
+    "sentence_es": "Sentí un escalofrío al escuchar la historia.",
+    "sentence_de": "Ich bekam eine Gänsehaut, als ich die Geschichte hörte.",
+    "word_translations": {
+      "sentí": "ich spürte",
+      "un": "einen",
+      "escalofrío": "Schauer/Gänsehaut",
+      "al": "beim",
+      "escuchar": "hören",
+      "la": "die",
+      "historia": "Geschichte"
+    },
+    "audio": "/audio/2455.mp3"
+  },
+  {
+    "id": "2456",
+    "spanish": "el pabellón",
+    "german": "der Pavillon / der Trakt",
+    "type": "noun",
+    "sentence_es": "Los presos viven en diferentes pabellones.",
+    "sentence_de": "Die Häftlinge leben in verschiedenen Trakten.",
+    "word_translations": {
+      "los": "die",
+      "presos": "Häftlinge",
+      "viven": "leben",
+      "en": "in",
+      "diferentes": "verschiedenen",
+      "pabellones": "Trakten/Pavillons"
+    },
+    "audio": "/audio/2456.mp3"
+  },
+  {
+    "id": "2457",
+    "spanish": "el confinamiento",
+    "german": "die Haft / die Einschließung",
+    "type": "noun",
+    "sentence_es": "El confinamiento duró tres meses.",
+    "sentence_de": "Die Haft dauerte drei Monate.",
+    "word_translations": {
+      "el": "die",
+      "confinamiento": "Haft/Einschließung",
+      "duró": "dauerte",
+      "tres": "drei",
+      "meses": "Monate"
+    },
+    "audio": "/audio/2457.mp3"
+  },
+  {
+    "id": "2458",
+    "spanish": "amedrentar",
+    "german": "einschüchtern",
+    "type": "verb",
+    "sentence_es": "El acusado intentó amedrentar a los testigos.",
+    "sentence_de": "Der Angeklagte versuchte, die Zeugen einzuschüchtern.",
+    "word_translations": {
+      "el": "der",
+      "acusado": "Angeklagte",
+      "intentó": "versuchte",
+      "amedrentar": "einzuschüchtern",
+      "a": "die",
+      "los": "die",
+      "testigos": "Zeugen"
+    },
+    "audio": "/audio/2458.mp3"
+  },
+  {
+    "id": "2459",
+    "spanish": "desmoronarse",
+    "german": "zusammenbrechen / zerfallen",
+    "type": "verb",
+    "sentence_es": "El edificio antiguo se desmoronó con el terremoto.",
+    "sentence_de": "Das alte Gebäude brach beim Erdbeben zusammen.",
+    "word_translations": {
+      "el": "das",
+      "edificio": "Gebäude",
+      "antiguo": "alte",
+      "se": "sich",
+      "desmoronó": "brach zusammen",
+      "con": "beim/mit",
+      "terremoto": "Erdbeben"
+    },
+    "audio": "/audio/2459.mp3"
+  },
+  {
+    "id": "2460",
+    "spanish": "custodiar",
+    "german": "bewachen",
+    "type": "verb",
+    "sentence_es": "Los guardias custodian la prisión día y noche.",
+    "sentence_de": "Die Wärter bewachen das Gefängnis Tag und Nacht.",
+    "word_translations": {
+      "los": "die",
+      "guardias": "Wärter/Wachen",
+      "custodian": "bewachen",
+      "la": "das",
+      "prisión": "Gefängnis",
+      "día": "Tag",
+      "y": "und",
+      "noche": "Nacht"
+    },
+    "audio": "/audio/2460.mp3"
+  },
+  {
+    "id": "2461",
+    "spanish": "colocar",
+    "german": "platzieren / stellen",
+    "type": "verb",
+    "sentence_es": "Voy a colocar los libros en la estantería.",
+    "sentence_de": "Ich werde die Bücher ins Regal stellen.",
+    "word_translations": {
+      "voy": "ich werde",
+      "a": "zu/an",
+      "colocar": "stellen/platzieren",
+      "los": "die",
+      "libros": "Bücher",
+      "en": "ins",
+      "la": "das",
+      "estantería": "Regal"
+    },
+    "audio": "/audio/2461.mp3"
+  },
+  {
+    "id": "2462",
+    "spanish": "deshacer",
+    "german": "auflösen / zerstören / rückgängig machen",
+    "type": "verb",
+    "sentence_es": "Tengo que deshacer la maleta después del viaje.",
+    "sentence_de": "Ich muss den Koffer nach der Reise auspacken.",
+    "word_translations": {
+      "tengo": "ich muss",
+      "que": "dass",
+      "deshacer": "auspacken/auflösen",
+      "la": "den",
+      "maleta": "Koffer",
+      "después": "nach",
+      "del": "der/des",
+      "viaje": "Reise"
+    },
+    "audio": "/audio/2462.mp3"
   }
 ]
