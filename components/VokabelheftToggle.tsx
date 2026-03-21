@@ -14,7 +14,7 @@ export default function VokabelheftToggle({
   onToggleSpanish,
 }: VokabelheftToggleProps) {
   return (
-    <div className="flex flex-wrap gap-3 justify-center mb-6">
+    <div className="flex flex-wrap gap-2 justify-center">
       <button
         onClick={onToggleGerman}
         className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-95 ${
