@@ -11,7 +11,6 @@ import { LoginButton } from "./LoginButton";
 import HistoryButton from "./HistoryButton";
 import { NavIcon } from "./NavIcon";
 import { LearningMethodology } from "./LearningMethodology";
-import { UpgradeBanner } from "./UpgradeBanner";
 
 export default function ModuleSelection() {
   const { selectModule, getModuleItemCount } = useModule();
@@ -87,10 +86,7 @@ export default function ModuleSelection() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Upgrade Banner - nur für Free User */}
-      {!hasAdvance && <UpgradeBanner />}
-
-      {/* Navigation Row - fließt immer unter dem Banner */}
+      {/* Navigation Row */}
       <div className="flex justify-end items-center gap-2 px-4 py-2">
         <HistoryButton />
 

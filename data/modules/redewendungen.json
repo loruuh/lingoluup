@@ -44,6 +44,555 @@
       "sentence_de": "",
       "audio": "",
       "word_translations": {}
+    },
+    {
+      "id": "r5",
+      "spanish": "Buenos días",
+      "german": "Guten Morgen",
+      "literal": "",
+      "sentence_es": "Buenos días, ¿cómo está usted?",
+      "sentence_de": "Guten Morgen, wie geht es Ihnen?",
+      "audio": "",
+      "word_translations": {
+        "buenos": "gute",
+        "días": "Tage/Morgen",
+        "cómo": "wie",
+        "está": "geht",
+        "usted": "Ihnen"
+      }
+    },
+    {
+      "id": "r6",
+      "spanish": "Por favor",
+      "german": "Bitte",
+      "literal": "",
+      "sentence_es": "¿Me puede ayudar, por favor?",
+      "sentence_de": "Können Sie mir bitte helfen?",
+      "audio": "",
+      "word_translations": {
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r7",
+      "spanish": "Gracias",
+      "german": "Danke",
+      "literal": "",
+      "sentence_es": "Muchas gracias por tu ayuda.",
+      "sentence_de": "Vielen Dank für deine Hilfe.",
+      "audio": "",
+      "word_translations": {
+        "muchas": "vielen",
+        "gracias": "Dank/Danke",
+        "por": "für",
+        "tu": "deine",
+        "ayuda": "Hilfe"
+      }
+    },
+    {
+      "id": "r8",
+      "spanish": "¿Cuánto cuesta?",
+      "german": "Wie viel kostet das?",
+      "literal": "",
+      "sentence_es": "¿Cuánto cuesta este café?",
+      "sentence_de": "Wie viel kostet dieser Kaffee?",
+      "audio": "",
+      "word_translations": {
+        "cuánto": "wie viel",
+        "cuesta": "kostet",
+        "este": "dieser",
+        "café": "Kaffee"
+      }
+    },
+    {
+      "id": "r9",
+      "spanish": "No entiendo",
+      "german": "Ich verstehe nicht",
+      "literal": "",
+      "sentence_es": "No entiendo, ¿puede repetir?",
+      "sentence_de": "Ich verstehe nicht, können Sie wiederholen?",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "entiendo": "ich verstehe",
+        "puede": "können Sie",
+        "repetir": "wiederholen"
+      }
+    },
+    {
+      "id": "r10",
+      "spanish": "Buenas tardes",
+      "german": "Guten Tag / Guten Nachmittag",
+      "literal": "",
+      "sentence_es": "Buenas tardes, señor García.",
+      "sentence_de": "Guten Tag, Herr García.",
+      "audio": "",
+      "word_translations": {
+        "buenas": "gute",
+        "tardes": "Nachmittag/Tag",
+        "señor": "Herr"
+      }
+    },
+    {
+      "id": "r11",
+      "spanish": "Buenas noches",
+      "german": "Guten Abend / Gute Nacht",
+      "literal": "",
+      "sentence_es": "Buenas noches, que descanses.",
+      "sentence_de": "Gute Nacht, schlaf gut.",
+      "audio": "",
+      "word_translations": {
+        "buenas": "gute",
+        "noches": "Nächte/Nacht",
+        "que": "dass",
+        "descanses": "du dich ausruhst"
+      }
+    },
+    {
+      "id": "r12",
+      "spanish": "Hasta luego",
+      "german": "Bis später",
+      "literal": "",
+      "sentence_es": "Hasta luego, nos vemos mañana.",
+      "sentence_de": "Bis später, wir sehen uns morgen.",
+      "audio": "",
+      "word_translations": {
+        "hasta": "bis",
+        "luego": "später",
+        "nos": "uns",
+        "vemos": "sehen",
+        "mañana": "morgen"
+      }
+    },
+    {
+      "id": "r13",
+      "spanish": "¿Qué tal?",
+      "german": "Wie geht's?",
+      "literal": "",
+      "sentence_es": "Hola, ¿qué tal estás?",
+      "sentence_de": "Hallo, wie geht's dir?",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "tal": "so",
+        "estás": "geht es dir"
+      }
+    },
+    {
+      "id": "r14",
+      "spanish": "De nada",
+      "german": "Gern geschehen / Keine Ursache",
+      "literal": "",
+      "sentence_es": "¡Gracias! - De nada.",
+      "sentence_de": "Danke! - Gern geschehen.",
+      "audio": "",
+      "word_translations": {
+        "de": "von",
+        "nada": "nichts"
+      }
+    },
+    {
+      "id": "r15",
+      "spanish": "Perdón",
+      "german": "Entschuldigung / Verzeihung",
+      "literal": "",
+      "sentence_es": "Perdón, ¿puede repetir?",
+      "sentence_de": "Entschuldigung, können Sie wiederholen?",
+      "audio": "",
+      "word_translations": {
+        "perdón": "Entschuldigung",
+        "puede": "können Sie",
+        "repetir": "wiederholen"
+      }
+    },
+    {
+      "id": "r16",
+      "spanish": "Lo siento",
+      "german": "Es tut mir leid",
+      "literal": "",
+      "sentence_es": "Lo siento mucho por el retraso.",
+      "sentence_de": "Es tut mir sehr leid wegen der Verspätung.",
+      "audio": "",
+      "word_translations": {
+        "lo": "es",
+        "siento": "tut mir leid",
+        "mucho": "sehr",
+        "por": "wegen",
+        "el": "der",
+        "retraso": "Verspätung"
+      }
+    },
+    {
+      "id": "r17",
+      "spanish": "¿Dónde está...?",
+      "german": "Wo ist...?",
+      "literal": "",
+      "sentence_es": "¿Dónde está la estación de tren?",
+      "sentence_de": "Wo ist der Bahnhof?",
+      "audio": "",
+      "word_translations": {
+        "dónde": "wo",
+        "está": "ist",
+        "la": "der",
+        "estación": "Bahnhof",
+        "de": "von",
+        "tren": "Zug"
+      }
+    },
+    {
+      "id": "r18",
+      "spanish": "¿Hablas inglés?",
+      "german": "Sprichst du Englisch?",
+      "literal": "",
+      "sentence_es": "Perdón, ¿hablas inglés o alemán?",
+      "sentence_de": "Entschuldigung, sprichst du Englisch oder Deutsch?",
+      "audio": "",
+      "word_translations": {
+        "hablas": "sprichst du",
+        "inglés": "Englisch",
+        "o": "oder",
+        "alemán": "Deutsch"
+      }
+    },
+    {
+      "id": "r19",
+      "spanish": "Más despacio, por favor",
+      "german": "Langsamer, bitte",
+      "literal": "",
+      "sentence_es": "No entiendo, más despacio, por favor.",
+      "sentence_de": "Ich verstehe nicht, langsamer, bitte.",
+      "audio": "",
+      "word_translations": {
+        "más": "mehr/langsamer",
+        "despacio": "langsam",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r20",
+      "spanish": "Con permiso",
+      "german": "Mit Erlaubnis / Entschuldigung",
+      "literal": "",
+      "sentence_es": "Con permiso, ¿puedo pasar?",
+      "sentence_de": "Entschuldigung, darf ich vorbeigehen?",
+      "audio": "",
+      "word_translations": {
+        "con": "mit",
+        "permiso": "Erlaubnis",
+        "puedo": "darf ich",
+        "pasar": "vorbeigehen"
+      }
+    },
+    {
+      "id": "r21",
+      "spanish": "Salud",
+      "german": "Gesundheit / Prost",
+      "literal": "",
+      "sentence_es": "¡Achís! - ¡Salud!",
+      "sentence_de": "Hatschi! - Gesundheit!",
+      "audio": "",
+      "word_translations": {
+        "salud": "Gesundheit"
+      }
+    },
+    {
+      "id": "r22",
+      "spanish": "Buen provecho",
+      "german": "Guten Appetit",
+      "literal": "",
+      "sentence_es": "¡Buen provecho! Que disfrutes la comida.",
+      "sentence_de": "Guten Appetit! Genieße das Essen.",
+      "audio": "",
+      "word_translations": {
+        "buen": "guten",
+        "provecho": "Appetit/Genuss",
+        "que": "dass",
+        "disfrutes": "du genießst",
+        "la": "das",
+        "comida": "Essen"
+      }
+    },
+    {
+      "id": "r23",
+      "spanish": "¿Me puede ayudar?",
+      "german": "Können Sie mir helfen?",
+      "literal": "",
+      "sentence_es": "Disculpe, ¿me puede ayudar?",
+      "sentence_de": "Entschuldigung, können Sie mir helfen?",
+      "audio": "",
+      "word_translations": {
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen",
+        "disculpe": "Entschuldigung"
+      }
+    },
+    {
+      "id": "r24",
+      "spanish": "No hablo español",
+      "german": "Ich spreche kein Spanisch",
+      "literal": "",
+      "sentence_es": "Lo siento, no hablo español muy bien.",
+      "sentence_de": "Es tut mir leid, ich spreche nicht sehr gut Spanisch.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "hablo": "ich spreche",
+        "español": "Spanisch",
+        "muy": "sehr",
+        "bien": "gut"
+      }
+    },
+    {
+      "id": "r25",
+      "spanish": "¿Cómo se dice...?",
+      "german": "Wie sagt man...?",
+      "literal": "",
+      "sentence_es": "¿Cómo se dice 'water' en español?",
+      "sentence_de": "Wie sagt man 'water' auf Spanisch?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "se": "man",
+        "dice": "sagt",
+        "en": "auf",
+        "español": "Spanisch"
+      }
+    },
+    {
+      "id": "r26",
+      "spanish": "¿Puedo pagar con tarjeta?",
+      "german": "Kann ich mit Karte zahlen?",
+      "literal": "",
+      "sentence_es": "¿Puedo pagar con tarjeta o solo efectivo?",
+      "sentence_de": "Kann ich mit Karte zahlen oder nur bar?",
+      "audio": "",
+      "word_translations": {
+        "puedo": "kann ich",
+        "pagar": "zahlen",
+        "con": "mit",
+        "tarjeta": "Karte",
+        "o": "oder",
+        "solo": "nur",
+        "efectivo": "Bargeld"
+      }
+    },
+    {
+      "id": "r27",
+      "spanish": "La cuenta, por favor",
+      "german": "Die Rechnung, bitte",
+      "literal": "",
+      "sentence_es": "Camarero, la cuenta, por favor.",
+      "sentence_de": "Kellner, die Rechnung, bitte.",
+      "audio": "",
+      "word_translations": {
+        "camarero": "Kellner",
+        "la": "die",
+        "cuenta": "Rechnung",
+        "por": "für",
+        "favor": "Gefallen/bitte"
+      }
+    },
+    {
+      "id": "r28",
+      "spanish": "¿Hay wifi?",
+      "german": "Gibt es WLAN?",
+      "literal": "",
+      "sentence_es": "¿Hay wifi aquí? ¿Cuál es la contraseña?",
+      "sentence_de": "Gibt es hier WLAN? Was ist das Passwort?",
+      "audio": "",
+      "word_translations": {
+        "hay": "gibt es",
+        "wifi": "WLAN",
+        "aquí": "hier",
+        "cuál": "was/welches",
+        "es": "ist",
+        "la": "das",
+        "contraseña": "Passwort"
+      }
+    },
+    {
+      "id": "r29",
+      "spanish": "¿Dónde está el baño?",
+      "german": "Wo ist die Toilette?",
+      "literal": "",
+      "sentence_es": "Disculpe, ¿dónde está el baño?",
+      "sentence_de": "Entschuldigung, wo ist die Toilette?",
+      "audio": "",
+      "word_translations": {
+        "dónde": "wo",
+        "está": "ist",
+        "el": "die",
+        "baño": "Toilette/Bad"
+      }
+    },
+    {
+      "id": "r30",
+      "spanish": "Una mesa para dos",
+      "german": "Einen Tisch für zwei Personen",
+      "literal": "",
+      "sentence_es": "Buenas tardes, una mesa para dos, por favor.",
+      "sentence_de": "Guten Tag, einen Tisch für zwei Personen, bitte.",
+      "audio": "",
+      "word_translations": {
+        "una": "einen",
+        "mesa": "Tisch",
+        "para": "für",
+        "dos": "zwei"
+      }
+    },
+    {
+      "id": "r31",
+      "spanish": "¿Qué recomiendas?",
+      "german": "Was empfiehlst du?",
+      "literal": "",
+      "sentence_es": "¿Qué recomiendas del menú?",
+      "sentence_de": "Was empfiehlst du von der Speisekarte?",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "recomiendas": "empfiehlst du",
+        "del": "von der",
+        "menú": "Speisekarte"
+      }
+    },
+    {
+      "id": "r32",
+      "spanish": "Estoy perdido / Estoy perdida",
+      "german": "Ich habe mich verlaufen",
+      "literal": "",
+      "sentence_es": "Estoy perdido, ¿me puede ayudar?",
+      "sentence_de": "Ich habe mich verlaufen, können Sie mir helfen?",
+      "audio": "",
+      "word_translations": {
+        "estoy": "ich bin",
+        "perdido": "verloren/verirrt",
+        "me": "mir",
+        "puede": "können Sie",
+        "ayudar": "helfen"
+      }
+    },
+    {
+      "id": "r33",
+      "spanish": "¿A qué hora...?",
+      "german": "Um wie viel Uhr...?",
+      "literal": "",
+      "sentence_es": "¿A qué hora abre el museo?",
+      "sentence_de": "Um wie viel Uhr öffnet das Museum?",
+      "audio": "",
+      "word_translations": {
+        "a": "um",
+        "qué": "wie viel",
+        "hora": "Uhr",
+        "abre": "öffnet",
+        "el": "das",
+        "museo": "Museum"
+      }
+    },
+    {
+      "id": "r34",
+      "spanish": "Tengo una reserva",
+      "german": "Ich habe eine Reservierung",
+      "literal": "",
+      "sentence_es": "Hola, tengo una reserva a nombre de García.",
+      "sentence_de": "Hallo, ich habe eine Reservierung auf den Namen García.",
+      "audio": "",
+      "word_translations": {
+        "tengo": "ich habe",
+        "una": "eine",
+        "reserva": "Reservierung",
+        "a": "auf",
+        "nombre": "Namen",
+        "de": "von"
+      }
+    },
+    {
+      "id": "r35",
+      "spanish": "¿Cuánto tiempo?",
+      "german": "Wie lange?",
+      "literal": "",
+      "sentence_es": "¿Cuánto tiempo se tarda en llegar?",
+      "sentence_de": "Wie lange dauert es, um anzukommen?",
+      "audio": "",
+      "word_translations": {
+        "cuánto": "wie viel/lange",
+        "tiempo": "Zeit",
+        "se": "man",
+        "tarda": "braucht",
+        "en": "um",
+        "llegar": "anzukommen"
+      }
+    },
+    {
+      "id": "r36",
+      "spanish": "¡Claro!",
+      "german": "Klar! / Natürlich!",
+      "literal": "",
+      "sentence_es": "¿Vienes a la fiesta? - ¡Claro que sí!",
+      "sentence_de": "Kommst du zur Party? - Klar, natürlich!",
+      "audio": "",
+      "word_translations": {
+        "claro": "klar",
+        "que": "dass",
+        "sí": "ja",
+        "vienes": "kommst du",
+        "la": "die",
+        "fiesta": "Party/Feier"
+      }
+    },
+    {
+      "id": "r37",
+      "spanish": "No sé",
+      "german": "Ich weiß nicht",
+      "literal": "",
+      "sentence_es": "¿Dónde está María? - No sé.",
+      "sentence_de": "Wo ist María? - Ich weiß nicht.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "sé": "ich weiß",
+        "dónde": "wo",
+        "está": "ist"
+      }
+    },
+    {
+      "id": "r38",
+      "spanish": "Un momento, por favor",
+      "german": "Einen Moment, bitte",
+      "literal": "",
+      "sentence_es": "Un momento, por favor, ya vengo.",
+      "sentence_de": "Einen Moment, bitte, ich komme gleich.",
+      "audio": "",
+      "word_translations": {
+        "un": "einen",
+        "momento": "Moment",
+        "por": "für",
+        "favor": "Gefallen/bitte",
+        "ya": "gleich",
+        "vengo": "ich komme"
+      }
+    },
+    {
+      "id": "r39",
+      "spanish": "¡Que tengas un buen día!",
+      "german": "Hab einen schönen Tag!",
+      "literal": "",
+      "sentence_es": "Adiós, ¡que tengas un buen día!",
+      "sentence_de": "Tschüss, hab einen schönen Tag!",
+      "audio": "",
+      "word_translations": {
+        "que": "dass",
+        "tengas": "du haben mögest",
+        "un": "einen",
+        "buen": "schönen",
+        "día": "Tag",
+        "adiós": "Tschüss"
+      }
     }
   ]
 }

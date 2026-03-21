@@ -75,7 +75,7 @@ export default function Home() {
       });
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedModule]);
+  }, [selectedModule, isInitialized]);
 
   const loadNextVocab = () => {
     setIsLoading(true);

@@ -41666,5 +41666,795 @@
       "viaje": "Reise"
     },
     "audio": "/audio/2462.mp3"
+  },
+  {
+    "id": "2463",
+    "spanish": "cómo",
+    "german": "wie",
+    "type": "other",
+    "sentence_es": "¿Cómo estás hoy?",
+    "sentence_de": "Wie geht es dir heute?",
+    "audio": "",
+    "word_translations": {
+      "cómo": "wie",
+      "estás": "geht es dir",
+      "hoy": "heute"
+    }
+  },
+  {
+    "id": "2464",
+    "spanish": "sentir / sentirse",
+    "german": "fühlen / sich fühlen",
+    "type": "verb",
+    "sentence_es": "Me siento muy bien hoy.",
+    "sentence_de": "Ich fühle mich heute sehr gut.",
+    "audio": "",
+    "word_translations": {
+      "me": "mich",
+      "siento": "fühle",
+      "muy": "sehr",
+      "bien": "gut",
+      "hoy": "heute"
+    }
+  },
+  {
+    "id": "2465",
+    "spanish": "la leche",
+    "german": "die Milch",
+    "type": "noun",
+    "sentence_es": "Necesito leche para el café.",
+    "sentence_de": "Ich brauche Milch für den Kaffee.",
+    "audio": "",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "leche": "Milch",
+      "para": "für",
+      "el": "den",
+      "café": "Kaffee"
+    }
+  },
+  {
+    "id": "2466",
+    "spanish": "el café",
+    "german": "der Kaffee",
+    "type": "noun",
+    "sentence_es": "Me encanta tomar café por la mañana.",
+    "sentence_de": "Ich liebe es, morgens Kaffee zu trinken.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "encanta": "gefällt sehr",
+      "tomar": "trinken",
+      "café": "Kaffee",
+      "por": "am",
+      "la": "die",
+      "mañana": "Morgen"
+    }
+  },
+  {
+    "id": "2467",
+    "spanish": "nervioso / nerviosa",
+    "german": "nervös",
+    "type": "adjective",
+    "sentence_es": "Estoy nervioso antes del examen.",
+    "sentence_de": "Ich bin vor der Prüfung nervös.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "nervioso": "nervös",
+      "antes": "vor",
+      "del": "der",
+      "examen": "Prüfung"
+    }
+  },
+  {
+    "id": "2468",
+    "spanish": "enojado / enojada",
+    "german": "wütend / verärgert",
+    "type": "adjective",
+    "sentence_es": "Estoy muy enojada con él.",
+    "sentence_de": "Ich bin sehr wütend auf ihn.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "muy": "sehr",
+      "enojada": "wütend",
+      "con": "auf",
+      "él": "ihn"
+    }
+  },
+  {
+    "id": "2469",
+    "spanish": "emocionado / emocionada",
+    "german": "aufgeregt / begeistert",
+    "type": "adjective",
+    "sentence_es": "Estoy emocionada por el viaje.",
+    "sentence_de": "Ich bin begeistert von der Reise.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "emocionada": "begeistert",
+      "por": "von",
+      "el": "die",
+      "viaje": "Reise"
+    }
+  },
+  {
+    "id": "2470",
+    "spanish": "mantener",
+    "german": "aufrechterhalten / behalten",
+    "type": "verb",
+    "sentence_es": "Es difícil mantener una dieta saludable.",
+    "sentence_de": "Es ist schwer, eine gesunde Ernährung beizubehalten.",
+    "audio": "",
+    "word_translations": {
+      "es": "es ist",
+      "difícil": "schwer",
+      "mantener": "beizubehalten",
+      "una": "eine",
+      "dieta": "Ernährung",
+      "saludable": "gesunde"
+    }
+  },
+  {
+    "id": "2471",
+    "spanish": "comenzar",
+    "german": "beginnen / anfangen",
+    "type": "verb",
+    "sentence_es": "La clase comienza a las nueve.",
+    "sentence_de": "Der Unterricht beginnt um neun Uhr.",
+    "audio": "",
+    "word_translations": {
+      "la": "der",
+      "clase": "Unterricht",
+      "comienza": "beginnt",
+      "a": "um",
+      "las": "die",
+      "nueve": "neun"
+    }
+  },
+  {
+    "id": "2472",
+    "spanish": "morir",
+    "german": "sterben",
+    "type": "verb",
+    "sentence_es": "Las plantas mueren sin agua.",
+    "sentence_de": "Pflanzen sterben ohne Wasser.",
+    "audio": "",
+    "word_translations": {
+      "las": "die",
+      "plantas": "Pflanzen",
+      "mueren": "sterben",
+      "sin": "ohne",
+      "agua": "Wasser"
+    }
+  },
+  {
+    "id": "2473",
+    "spanish": "aparecer",
+    "german": "erscheinen / auftauchen",
+    "type": "verb",
+    "sentence_es": "El sol aparece por la mañana.",
+    "sentence_de": "Die Sonne erscheint am Morgen.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "sol": "Sonne",
+      "aparece": "erscheint",
+      "por": "am",
+      "la": "dem",
+      "mañana": "Morgen"
+    }
+  },
+  {
+    "id": "2474",
+    "spanish": "existir",
+    "german": "existieren",
+    "type": "verb",
+    "sentence_es": "¿Existen otras galaxias en el universo?",
+    "sentence_de": "Gibt es andere Galaxien im Universum?",
+    "audio": "",
+    "word_translations": {
+      "existen": "gibt es",
+      "otras": "andere",
+      "galaxias": "Galaxien",
+      "en": "im",
+      "el": "das",
+      "universo": "Universum"
+    }
+  },
+  {
+    "id": "2475",
+    "spanish": "oír",
+    "german": "hören",
+    "type": "verb",
+    "sentence_es": "¿Oyes esa música? Es preciosa.",
+    "sentence_de": "Hörst du diese Musik? Sie ist wunderschön.",
+    "audio": "",
+    "word_translations": {
+      "oyes": "hörst du",
+      "esa": "diese",
+      "música": "Musik",
+      "es": "sie ist",
+      "preciosa": "wunderschön"
+    }
+  },
+  {
+    "id": "2476",
+    "spanish": "servir",
+    "german": "dienen / nützen",
+    "type": "verb",
+    "sentence_es": "¿Para qué sirve esto?",
+    "sentence_de": "Wofür dient das?",
+    "audio": "",
+    "word_translations": {
+      "para": "für",
+      "qué": "was",
+      "sirve": "dient",
+      "esto": "das"
+    }
+  },
+  {
+    "id": "2477",
+    "spanish": "el restaurante",
+    "german": "das Restaurant",
+    "type": "noun",
+    "sentence_es": "Vamos a cenar en un restaurante.",
+    "sentence_de": "Wir gehen in einem Restaurant essen.",
+    "audio": "",
+    "word_translations": {
+      "vamos": "wir gehen",
+      "a": "zum",
+      "cenar": "Abendessen",
+      "en": "in",
+      "un": "einem",
+      "restaurante": "Restaurant"
+    }
+  },
+  {
+    "id": "2478",
+    "spanish": "internet",
+    "german": "das Internet",
+    "type": "noun",
+    "sentence_es": "Necesito conexión a internet.",
+    "sentence_de": "Ich brauche eine Internetverbindung.",
+    "audio": "",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "conexión": "Verbindung",
+      "a": "zum",
+      "internet": "Internet"
+    }
+  },
+  {
+    "id": "2479",
+    "spanish": "asustado / asustada",
+    "german": "verängstigt / erschrocken",
+    "type": "adjective",
+    "sentence_es": "El niño está asustado de la oscuridad.",
+    "sentence_de": "Das Kind hat Angst vor der Dunkelheit.",
+    "audio": "",
+    "word_translations": {
+      "el": "das",
+      "niño": "Kind",
+      "está": "ist",
+      "asustado": "verängstigt",
+      "de": "vor",
+      "la": "der",
+      "oscuridad": "Dunkelheit"
+    }
+  },
+  {
+    "id": "2480",
+    "spanish": "orgulloso / orgullosa",
+    "german": "stolz",
+    "type": "adjective",
+    "sentence_es": "Estoy muy orgullosa de ti.",
+    "sentence_de": "Ich bin sehr stolz auf dich.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "muy": "sehr",
+      "orgullosa": "stolz",
+      "de": "auf",
+      "ti": "dich"
+    }
+  },
+  {
+    "id": "2481",
+    "spanish": "enamorado / enamorada",
+    "german": "verliebt",
+    "type": "adjective",
+    "sentence_es": "Estoy enamorado de ella.",
+    "sentence_de": "Ich bin in sie verliebt.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "enamorado": "verliebt",
+      "de": "in",
+      "ella": "sie"
+    }
+  },
+  {
+    "id": "2482",
+    "spanish": "deprimido / deprimida",
+    "german": "deprimiert",
+    "type": "adjective",
+    "sentence_es": "Me siento deprimido últimamente.",
+    "sentence_de": "Ich fühle mich in letzter Zeit deprimiert.",
+    "audio": "",
+    "word_translations": {
+      "me": "mich",
+      "siento": "fühle",
+      "deprimido": "deprimiert",
+      "últimamente": "in letzter Zeit"
+    }
+  },
+  {
+    "id": "2483",
+    "spanish": "estresado / estresada",
+    "german": "gestresst",
+    "type": "adjective",
+    "sentence_es": "Estoy muy estresado con el trabajo.",
+    "sentence_de": "Ich bin sehr gestresst mit der Arbeit.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "muy": "sehr",
+      "estresado": "gestresst",
+      "con": "mit",
+      "el": "der",
+      "trabajo": "Arbeit"
+    }
+  },
+  {
+    "id": "2484",
+    "spanish": "relajado / relajada",
+    "german": "entspannt",
+    "type": "adjective",
+    "sentence_es": "Me siento relajado en la playa.",
+    "sentence_de": "Ich fühle mich am Strand entspannt.",
+    "audio": "",
+    "word_translations": {
+      "me": "mich",
+      "siento": "fühle",
+      "relajado": "entspannt",
+      "en": "am",
+      "la": "der",
+      "playa": "Strand"
+    }
+  },
+  {
+    "id": "2485",
+    "spanish": "confundido / confundida",
+    "german": "verwirrt",
+    "type": "adjective",
+    "sentence_es": "Estoy confundido con las instrucciones.",
+    "sentence_de": "Ich bin verwirrt von den Anweisungen.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "confundido": "verwirrt",
+      "con": "von",
+      "las": "den",
+      "instrucciones": "Anweisungen"
+    }
+  },
+  {
+    "id": "2486",
+    "spanish": "sorprendido / sorprendida",
+    "german": "überrascht",
+    "type": "adjective",
+    "sentence_es": "Estoy sorprendido por su visita.",
+    "sentence_de": "Ich bin überrascht von seinem Besuch.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "sorprendido": "überrascht",
+      "por": "von",
+      "su": "seinem",
+      "visita": "Besuch"
+    }
+  },
+  {
+    "id": "2487",
+    "spanish": "preocupado / preocupada",
+    "german": "besorgt",
+    "type": "adjective",
+    "sentence_es": "Estoy preocupado por mi salud.",
+    "sentence_de": "Ich bin besorgt um meine Gesundheit.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "preocupado": "besorgt",
+      "por": "um",
+      "mi": "meine",
+      "salud": "Gesundheit"
+    }
+  },
+  {
+    "id": "2488",
+    "spanish": "avergonzado / avergonzada",
+    "german": "verlegen / beschämt",
+    "type": "adjective",
+    "sentence_es": "Me siento avergonzado por el error.",
+    "sentence_de": "Ich schäme mich für den Fehler.",
+    "audio": "",
+    "word_translations": {
+      "me": "mich",
+      "siento": "schäme",
+      "avergonzado": "verlegen",
+      "por": "für",
+      "el": "den",
+      "error": "Fehler"
+    }
+  },
+  {
+    "id": "2489",
+    "spanish": "celoso / celosa",
+    "german": "eifersüchtig",
+    "type": "adjective",
+    "sentence_es": "No seas celoso de tu hermano.",
+    "sentence_de": "Sei nicht eifersüchtig auf deinen Bruder.",
+    "audio": "",
+    "word_translations": {
+      "no": "nicht",
+      "seas": "sei",
+      "celoso": "eifsüchtig",
+      "de": "auf",
+      "tu": "deinen",
+      "hermano": "Bruder"
+    }
+  },
+  {
+    "id": "2490",
+    "spanish": "incluir",
+    "german": "einschließen / beinhalten",
+    "type": "verb",
+    "sentence_es": "El precio incluye el desayuno.",
+    "sentence_de": "Der Preis beinhaltet das Frühstück.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "precio": "Preis",
+      "incluye": "beinhaltet",
+      "desayuno": "Frühstück"
+    }
+  },
+  {
+    "id": "2491",
+    "spanish": "resultar",
+    "german": "sich herausstellen / ergeben",
+    "type": "verb",
+    "sentence_es": "Resultó ser más fácil de lo esperado.",
+    "sentence_de": "Es stellte sich als leichter heraus als erwartet.",
+    "audio": "",
+    "word_translations": {
+      "resultó": "es stellte sich heraus",
+      "ser": "sein",
+      "más": "mehr/leichter",
+      "fácil": "leicht",
+      "de": "als",
+      "lo": "das",
+      "esperado": "erwartet"
+    }
+  },
+  {
+    "id": "2492",
+    "spanish": "convertirse",
+    "german": "werden / sich verwandeln",
+    "type": "verb",
+    "sentence_es": "Quiero convertirme en médico.",
+    "sentence_de": "Ich möchte Arzt werden.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "convertirme": "werden",
+      "en": "zum",
+      "médico": "Arzt"
+    }
+  },
+  {
+    "id": "2493",
+    "spanish": "cumplir",
+    "german": "erfüllen / vollenden",
+    "type": "verb",
+    "sentence_es": "Hoy cumplo treinta años.",
+    "sentence_de": "Heute werde ich dreißig Jahre alt.",
+    "audio": "",
+    "word_translations": {
+      "hoy": "heute",
+      "cumplo": "werde ich",
+      "treinta": "dreißig",
+      "años": "Jahre"
+    }
+  },
+  {
+    "id": "2494",
+    "spanish": "depender",
+    "german": "abhängen",
+    "type": "verb",
+    "sentence_es": "Todo depende del tiempo.",
+    "sentence_de": "Alles hängt vom Wetter ab.",
+    "audio": "",
+    "word_translations": {
+      "todo": "alles",
+      "depende": "hängt ab",
+      "del": "vom",
+      "tiempo": "Wetter/Zeit"
+    }
+  },
+  {
+    "id": "2495",
+    "spanish": "levantar",
+    "german": "aufheben / hochheben",
+    "type": "verb",
+    "sentence_es": "¿Me ayudas a levantar esta caja?",
+    "sentence_de": "Hilfst du mir, diese Kiste hochzuheben?",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "ayudas": "hilfst du",
+      "a": "beim",
+      "levantar": "hochheben",
+      "esta": "diese",
+      "caja": "Kiste"
+    }
+  },
+  {
+    "id": "2496",
+    "spanish": "el té",
+    "german": "der Tee",
+    "type": "noun",
+    "sentence_es": "Prefiero el té sin azúcar.",
+    "sentence_de": "Ich bevorzuge Tee ohne Zucker.",
+    "audio": "",
+    "word_translations": {
+      "prefiero": "ich bevorzuge",
+      "el": "den",
+      "té": "Tee",
+      "sin": "ohne",
+      "azúcar": "Zucker"
+    }
+  },
+  {
+    "id": "2497",
+    "spanish": "el huevo",
+    "german": "das Ei",
+    "type": "noun",
+    "sentence_es": "Quiero huevos fritos para el desayuno.",
+    "sentence_de": "Ich möchte Spiegeleier zum Frühstück.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "huevos": "Eier",
+      "fritos": "gebraten/Spiegel-",
+      "para": "zum",
+      "el": "das",
+      "desayuno": "Frühstück"
+    }
+  },
+  {
+    "id": "2498",
+    "spanish": "el queso",
+    "german": "der Käse",
+    "type": "noun",
+    "sentence_es": "Me encanta el queso manchego.",
+    "sentence_de": "Ich liebe Manchego-Käse.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "encanta": "gefällt sehr",
+      "el": "der",
+      "queso": "Käse",
+      "manchego": "Manchego"
+    }
+  },
+  {
+    "id": "2499",
+    "spanish": "el hombro",
+    "german": "die Schulter",
+    "type": "noun",
+    "sentence_es": "Me duele el hombro derecho.",
+    "sentence_de": "Meine rechte Schulter tut weh.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "duele": "tut weh",
+      "el": "die",
+      "hombro": "Schulter",
+      "derecho": "rechte"
+    }
+  },
+  {
+    "id": "2500",
+    "spanish": "la rodilla",
+    "german": "das Knie",
+    "type": "noun",
+    "sentence_es": "Me lastimué la rodilla jugando fútbol.",
+    "sentence_de": "Ich habe mir beim Fußballspielen das Knie verletzt.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "lastimé": "habe verletzt",
+      "la": "das",
+      "rodilla": "Knie",
+      "jugando": "spielend",
+      "fútbol": "Fußball"
+    }
+  },
+  {
+    "id": "2501",
+    "spanish": "el tobillo",
+    "german": "der Knöchel",
+    "type": "noun",
+    "sentence_es": "Me torcí el tobillo corriendo.",
+    "sentence_de": "Ich habe mir beim Laufen den Knöchel verstaucht.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "torcí": "habe verstaucht",
+      "el": "den",
+      "tobillo": "Knöchel",
+      "corriendo": "beim Laufen"
+    }
+  },
+  {
+    "id": "2502",
+    "spanish": "el oído",
+    "german": "das Ohr (innen) / das Gehör",
+    "type": "noun",
+    "sentence_es": "Tengo una infección en el oído.",
+    "sentence_de": "Ich habe eine Ohrentzündung.",
+    "audio": "",
+    "word_translations": {
+      "tengo": "ich habe",
+      "una": "eine",
+      "infección": "Entzündung",
+      "en": "im",
+      "el": "das",
+      "oído": "Ohr"
+    }
+  },
+  {
+    "id": "2503",
+    "spanish": "veintiuno",
+    "german": "einundzwanzig",
+    "type": "number",
+    "sentence_es": "Tengo veintiún años.",
+    "sentence_de": "Ich bin einundzwanzig Jahre alt.",
+    "audio": "",
+    "word_translations": {
+      "tengo": "ich bin",
+      "veintiún": "einundzwanzig",
+      "años": "Jahre"
+    }
+  },
+  {
+    "id": "2504",
+    "spanish": "veintidós",
+    "german": "zweiundzwanzig",
+    "type": "number",
+    "sentence_es": "Hoy es veintidós de marzo.",
+    "sentence_de": "Heute ist der zweiundzwanzigste März.",
+    "audio": "",
+    "word_translations": {
+      "hoy": "heute",
+      "es": "ist",
+      "veintidós": "zweiundzwanzig",
+      "de": "des",
+      "marzo": "März"
+    }
+  },
+  {
+    "id": "2505",
+    "spanish": "veintitrés",
+    "german": "dreiundzwanzig",
+    "type": "number",
+    "sentence_es": "Son las veintitrés horas.",
+    "sentence_de": "Es ist dreiundzwanzig Uhr.",
+    "audio": "",
+    "word_translations": {
+      "son": "es ist",
+      "las": "die",
+      "veintitrés": "dreiundzwanzig",
+      "horas": "Uhr/Stunden"
+    }
+  },
+  {
+    "id": "2506",
+    "spanish": "veinticuatro",
+    "german": "vierundzwanzig",
+    "type": "number",
+    "sentence_es": "El día tiene veinticuatro horas.",
+    "sentence_de": "Der Tag hat vierundzwanzig Stunden.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "día": "Tag",
+      "tiene": "hat",
+      "veinticuatro": "vierundzwanzig",
+      "horas": "Stunden"
+    }
+  },
+  {
+    "id": "2507",
+    "spanish": "veinticinco",
+    "german": "fünfundzwanzig",
+    "type": "number",
+    "sentence_es": "Mi cumpleaños es el veinticinco de diciembre.",
+    "sentence_de": "Mein Geburtstag ist am fünfundzwanzigsten Dezember.",
+    "audio": "",
+    "word_translations": {
+      "mi": "mein",
+      "cumpleaños": "Geburtstag",
+      "es": "ist",
+      "el": "am",
+      "veinticinco": "fünfundzwanzig",
+      "de": "des",
+      "diciembre": "Dezember"
+    }
+  },
+  {
+    "id": "2508",
+    "spanish": "veintiséis",
+    "german": "sechsundzwanzig",
+    "type": "number",
+    "sentence_es": "Vivo en el piso veintiséis.",
+    "sentence_de": "Ich wohne im sechsundzwanzigsten Stock.",
+    "audio": "",
+    "word_translations": {
+      "vivo": "ich wohne",
+      "en": "im",
+      "el": "dem",
+      "piso": "Stock/Etage",
+      "veintiséis": "sechsundzwanzig"
+    }
+  },
+  {
+    "id": "2509",
+    "spanish": "veintisiete",
+    "german": "siebenundzwanzig",
+    "type": "number",
+    "sentence_es": "Necesito veintisiete euros.",
+    "sentence_de": "Ich brauche siebenundzwanzig Euro.",
+    "audio": "",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "veintisiete": "siebenundzwanzig",
+      "euros": "Euro"
+    }
+  },
+  {
+    "id": "2510",
+    "spanish": "veintiocho",
+    "german": "achtundzwanzig",
+    "type": "number",
+    "sentence_es": "Febrero tiene veintiocho días.",
+    "sentence_de": "Februar hat achtundzwanzig Tage.",
+    "audio": "",
+    "word_translations": {
+      "febrero": "Februar",
+      "tiene": "hat",
+      "veintiocho": "achtundzwanzig",
+      "días": "Tage"
+    }
+  },
+  {
+    "id": "2511",
+    "spanish": "veintinueve",
+    "german": "neunundzwanzig",
+    "type": "number",
+    "sentence_es": "Llego el veintinueve de este mes.",
+    "sentence_de": "Ich komme am neunundzwanzigsten dieses Monats an.",
+    "audio": "",
+    "word_translations": {
+      "llego": "ich komme an",
+      "el": "am",
+      "veintinueve": "neunundzwanzig",
+      "de": "dieses",
+      "este": "dieses",
+      "mes": "Monats"
+    }
   }
 ]
