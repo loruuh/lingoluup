@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
 import UpdatePrompt from "@/components/UpdatePrompt";
@@ -7,16 +7,17 @@ import InstallHint from "@/components/InstallHint";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import ThemeToggle from "@/components/ThemeToggle";
 
+export const viewport: Viewport = {
+  themeColor: "#DC143C",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "LINGOLUUP 🎯 - Spanisch lernen",
   description: "Spanisch lernen mit KI-generierten Beispielsätzen 🎯",
   manifest: "/manifest.json",
-  themeColor: "#DC143C",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
