@@ -49,26 +49,35 @@ export default function ModuleSelection() {
       <button
         key={module.id}
         onClick={() => handleModuleClick(module.id)}
-        className={`relative bg-white/5 border border-primary/20 p-6 rounded-xl hover:bg-primary/10 hover:border-primary/40 transition-all duration-300 text-left overflow-hidden ${
-          isLocked ? "opacity-75" : ""
+        className={`group relative bg-white/[0.04] border text-left overflow-hidden rounded-2xl p-6 transition-all duration-250 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+          isLocked
+            ? "border-white/8 opacity-70"
+            : "border-primary/20 hover:border-primary/50 hover:bg-white/[0.08] hover:shadow-[0_8px_32px_var(--shadow-glow)] hover:-translate-y-0.5 active:translate-y-0 active:shadow-none"
         }`}
       >
-        <span className="text-3xl">{module.icon}</span>
-        <h3 className="text-lg font-semibold text-white mt-2">
-          {module.name}
-          {needsAdvance && <AdvanceBadge />}
-        </h3>
-        <p className="text-sm text-gray-400 mt-1">
-          {module.description}
-          {module.type === "vocabulary" &&
-            ` (${getModuleItemCount(module.id)} Einheiten)`}
-        </p>
+        {/* Subtle gradient reveal on hover */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/8 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
+
+        <div className="relative">
+          <span className="text-3xl block mb-3 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5 inline-block">
+            {module.icon}
+          </span>
+          <h3 className="text-base font-semibold text-white leading-snug">
+            {module.name}
+            {needsAdvance && <AdvanceBadge />}
+          </h3>
+          <p className="text-sm text-gray-400 mt-1.5 leading-relaxed">
+            {module.description}
+            {module.type === "vocabulary" &&
+              ` · ${getModuleItemCount(module.id)} Einheiten`}
+          </p>
+        </div>
 
         {isLocked && (
-          <div className="absolute inset-0 bg-gray-900/80 rounded-xl flex items-center justify-center">
+          <div className="absolute inset-0 bg-background/75 backdrop-blur-[2px] rounded-2xl flex items-center justify-center">
             <div className="text-center">
-              <div className="text-4xl mb-2">🔒</div>
-              <div className="text-white font-semibold">Advance</div>
+              <div className="text-3xl mb-1.5">🔒</div>
+              <div className="text-white text-sm font-semibold">Advance</div>
             </div>
           </div>
         )}
@@ -106,16 +115,16 @@ export default function ModuleSelection() {
         <LoginButton />
       </div>
 
-      <div className="flex-1 flex items-center justify-center px-4 py-8">
-      <div className="w-full max-w-2xl space-y-8">
-        {/* Header mit Titel */}
-        <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold">
-            <span className="text-white">LINGO</span><span className="text-primary">LUUP</span>{' 🎯'}
+      <div className="flex-1 flex items-center justify-center px-4 py-10">
+      <div className="w-full max-w-2xl space-y-10">
+        {/* Header */}
+        <div className="text-center space-y-3">
+          <h1 className="text-5xl font-bold tracking-tight">
+            <span className="text-white">LINGO</span><span className="text-primary">LUUP</span>
+            <span className="ml-2 inline-block">🎯</span>
           </h1>
-
-          <p className="text-lg text-gray-400">
-            Wähle ein Lern-Modul
+          <p className="text-base text-gray-400 leading-relaxed">
+            Wähle ein Lern-Modul und starte durch
           </p>
         </div>
 
@@ -123,21 +132,21 @@ export default function ModuleSelection() {
         <LearningMethodology />
 
         {/* Vokabel-Module */}
-        <div className="space-y-4">
-          <h2 className="text-xl font-semibold text-white">
+        <div className="space-y-3">
+          <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider px-1">
             Vokabel-Module
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {vocabModules.map(renderModuleButton)}
           </div>
         </div>
 
         {/* Spezial-Module */}
-        <div className="space-y-4">
-          <h2 className="text-xl font-semibold text-white">
+        <div className="space-y-3">
+          <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider px-1">
             Spezial-Module
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {specialModules.map(renderModuleButton)}
           </div>
         </div>

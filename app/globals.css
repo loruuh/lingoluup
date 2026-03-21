@@ -2,50 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Design Tokens ─────────────────────────────────────── */
+
 /* Ocean Theme (Default) */
 :root,
 :root[data-theme="ocean"] {
   --background: #1a1a2e;
+  --background-card: rgba(255,255,255,0.04);
+  --background-card-hover: rgba(255,255,255,0.08);
   --foreground: #ffffff;
+  --foreground-muted: #9ca3af;
   --primary: #3b82f6;
   --primary-dark: #2563eb;
   --primary-light: #60a5fa;
   --sentence-spanish: #f97316;
   --sentence-german: #3b82f6;
+  --border: rgba(255,255,255,0.08);
+  --border-primary: rgba(59,130,246,0.25);
+  --shadow-glow: rgba(59,130,246,0.2);
+  --radius: 12px;
 }
 
 /* España Theme */
 :root[data-theme="sunset"] {
   --background: #1a0505;
+  --background-card: rgba(255,255,255,0.04);
+  --background-card-hover: rgba(198,11,30,0.1);
   --foreground: #ffffff;
+  --foreground-muted: #9ca3af;
   --primary: #C60B1E;
   --primary-dark: #a00918;
   --primary-light: #e63347;
   --sentence-spanish: #C60B1E;
   --sentence-german: #FFC400;
+  --border: rgba(255,255,255,0.08);
+  --border-primary: rgba(198,11,30,0.25);
+  --shadow-glow: rgba(198,11,30,0.2);
+  --radius: 12px;
 }
 
 /* Neon Theme */
 :root[data-theme="neon"] {
   --background: #0a0a14;
+  --background-card: rgba(255,255,255,0.04);
+  --background-card-hover: rgba(34,211,238,0.08);
   --foreground: #ffffff;
+  --foreground-muted: #9ca3af;
   --primary: #22d3ee;
   --primary-dark: #0891b2;
   --primary-light: #06b6d4;
   --sentence-spanish: #0891b2;
   --sentence-german: #c026d3;
+  --border: rgba(255,255,255,0.08);
+  --border-primary: rgba(34,211,238,0.25);
+  --shadow-glow: rgba(34,211,238,0.2);
+  --radius: 12px;
 }
+
+/* ─── Base ───────────────────────────────────────────────── */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Global Focus Styles (WCAG 2.1 AA) ─────────────────── */
+*:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-primary);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Card base style */
+  .card {
+    background: var(--background-card);
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius);
+    transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .card:hover {
+    background: var(--background-card-hover);
+    border-color: var(--primary);
+    box-shadow: 0 8px 32px var(--shadow-glow);
+    transform: translateY(-2px);
+  }
+
+  /* Btn base — apply to all primary buttons */
+  .btn-primary {
+    background: var(--primary);
+    color: #fff;
+    font-weight: 600;
+    border-radius: var(--radius);
+    transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  }
+
+  .btn-primary:hover:not(:disabled) {
+    background: var(--primary-dark);
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px var(--shadow-glow);
+  }
+
+  .btn-primary:active:not(:disabled) {
+    transform: scale(0.97);
+  }
+
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 
   @keyframes confetti-fall {

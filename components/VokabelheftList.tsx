@@ -23,10 +23,11 @@ export default function VokabelheftList({
 
   if (favorites.length === 0) {
     return (
-      <div className="text-center py-20">
-        <p className="text-gray-300 text-lg">Dein Vokabelheft ist leer.</p>
-        <p className="text-gray-400 text-sm mt-2">
-          Klicke auf das Herz-Icon beim Lernen, um Vokabeln hier zu speichern.
+      <div className="text-center py-24 px-4">
+        <div className="text-5xl mb-4">📖</div>
+        <p className="text-white text-lg font-semibold mb-2">Dein Vokabelheft ist leer</p>
+        <p className="text-gray-400 text-sm max-w-xs mx-auto leading-relaxed">
+          Tippe beim Lernen auf das Herz ♥ um Vokabeln hier zu speichern.
         </p>
       </div>
     );
@@ -35,15 +36,15 @@ export default function VokabelheftList({
   return (
     <div className="w-full">
       {/* Schulheft-Container */}
-      <div className="bg-background-light rounded-lg shadow-2xl overflow-hidden border border-gray-300">
-        {favorites.map((vocabId, index) => {
+      <div className="bg-[#f8f7f0] rounded-2xl shadow-2xl overflow-hidden border border-gray-300">
+        {favorites.map((vocabId) => {
           const vocab = getVocabById(vocabId);
           if (!vocab) return null;
 
           return (
             <div
               key={vocabId}
-              className="relative border-b border-blue-200 hover:bg-blue-50/50 transition-colors group"
+              className="relative border-b border-blue-200 last:border-b-0 hover:bg-blue-50/60 transition-colors group"
               style={{
                 minHeight: "60px",
                 backgroundImage:
@@ -51,35 +52,35 @@ export default function VokabelheftList({
               }}
             >
               {/* Rote vertikale Trennlinie in der Mitte */}
-              <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-red-500"></div>
+              <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-red-400"></div>
 
               <div className="grid grid-cols-2 gap-0 h-full">
                 {/* Linke Spalte: Deutsch */}
-                <div className="flex items-center px-6 py-4">
+                <div className="flex items-center px-5 py-4">
                   {!hideGerman && (
-                    <span className="text-gray-800 text-lg font-medium">
+                    <span className="text-gray-800 text-base font-medium leading-snug">
                       {vocab.german}
                     </span>
                   )}
                 </div>
 
-                {/* Rechte Spalte: Spanisch */}
-                <div className="flex items-center justify-between px-6 py-4">
+                {/* Rechte Spalte: Spanisch + Delete */}
+                <div className="flex items-center justify-between px-5 py-4">
                   {!hideSpanish && (
-                    <span className="text-gray-800 text-lg font-medium">
+                    <span className="text-gray-800 text-base font-medium leading-snug flex-1">
                       {vocab.spanish}
                     </span>
                   )}
 
-                  {/* Löschen-Button (erscheint bei Hover) */}
+                  {/* Löschen-Button — sichtbar auf mobile, hover auf desktop */}
                   <button
                     onClick={() => handleDelete(vocabId)}
-                    className="ml-4 p-2 opacity-0 group-hover:opacity-100 hover:bg-red-100 rounded-lg transition-all duration-200"
+                    className="ml-3 p-2 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-red-100 active:bg-red-200 rounded-lg transition-all duration-200 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
                     aria-label="Vokabel löschen"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-5 h-5 text-red-600"
+                      className="w-4 h-4 text-red-500"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -100,7 +101,7 @@ export default function VokabelheftList({
       </div>
 
       {/* Info-Text */}
-      <p className="text-center text-gray-400 text-sm mt-6">
+      <p className="text-center text-gray-500 text-sm mt-5">
         {favorites.length} {favorites.length === 1 ? "Vokabel" : "Vokabeln"} gespeichert
       </p>
     </div>

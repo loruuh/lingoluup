@@ -199,8 +199,8 @@ export default function Home() {
         <Header />
         <main className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
-            <p className="text-gray-400 mt-4">Lädt...</p>
+            <div className="w-10 h-10 border-2 border-primary border-t-transparent rounded-full animate-spin mx-auto"></div>
+            <p className="text-gray-500 mt-4 text-sm">Lädt...</p>
           </div>
         </main>
         <Footer />
@@ -237,19 +237,18 @@ export default function Home() {
       )}
 
       {/* Top Bar: Zurück + Streak */}
-      <div className="px-4 pt-2 flex items-center justify-between">
+      <div className="px-4 pt-3 flex items-center justify-between">
         <button
           onClick={handleBackToModules}
           aria-label="Zurück zu Modulen"
-          className="group relative flex items-center gap-2 px-4 py-2 bg-gray-800/80 backdrop-blur-lg hover:bg-gray-700/80 text-blue-400 hover:text-blue-300 rounded-full border-2 border-gray-700 hover:border-blue-500 shadow-lg transition-all duration-300 hover:scale-105 overflow-hidden"
+          className="group flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-primary hover:text-primary-light rounded-full border border-white/10 hover:border-primary/40 transition-all duration-200 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
-          <span className="text-lg transition-transform duration-300 group-hover:-translate-x-1">←</span>
+          <span className="text-sm transition-transform duration-200 group-hover:-translate-x-0.5">←</span>
           <span className="font-semibold text-sm">Module</span>
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </button>
         {streak > 1 && (
-          <div className="flex items-center gap-1.5 bg-orange-500/20 px-3 py-1 rounded-full">
-            <span className="text-lg">🔥</span>
+          <div className="flex items-center gap-1.5 bg-orange-500/15 border border-orange-500/25 px-3 py-1.5 rounded-full">
+            <span className="text-base">🔥</span>
             <span className="text-sm font-bold text-orange-400">{streak} Tage</span>
           </div>
         )}
@@ -259,32 +258,32 @@ export default function Home() {
       {dailyGoal && (
         <div className="px-4 pt-3 pb-1">
           <div className="max-w-3xl mx-auto">
-            <div className="flex items-center justify-between mb-1">
-              <span className="text-xs font-medium text-gray-400">
-                Heutiges Ziel
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-xs font-medium text-gray-500">
+                Tagesziel
               </span>
-              <span className="text-xs font-bold text-gray-300">
+              <span className={`text-xs font-bold tabular-nums ${goalReached ? 'text-green-400' : 'text-gray-300'}`}>
                 {dailyGoal.completed} / {dailyGoal.goal}
               </span>
             </div>
-            <div className="w-full bg-white/10 rounded-full h-2.5">
+            <div className="w-full bg-white/8 rounded-full h-2 overflow-hidden">
               <div
-                className={`h-2.5 rounded-full transition-all duration-700 ease-out ${
+                className={`h-2 rounded-full transition-all duration-700 ease-out ${
                   goalReached
                     ? "bg-gradient-to-r from-green-400 to-emerald-500"
-                    : "bg-gradient-to-r from-blue-500 to-purple-600"
+                    : "bg-gradient-to-r from-primary to-purple-500"
                 }`}
                 style={{ width: `${goalPercent}%` }}
               />
             </div>
             {goalReached && (
-              <p className="text-xs text-green-400 mt-1 text-center font-medium">
-                Tagesziel erreicht! Gut gemacht!
+              <p className="text-xs text-green-400 mt-1.5 text-center font-medium">
+                Tagesziel erreicht! Gut gemacht! 🎉
               </p>
             )}
             {!goalReached && dailyGoal.completed > 0 && (
-              <p className="text-xs text-gray-400 mt-1 text-center">
-                Noch {remaining} Vokabeln bis zum Ziel
+              <p className="text-xs text-gray-500 mt-1.5 text-center">
+                Noch {remaining} bis zum Ziel
               </p>
             )}
           </div>
@@ -292,10 +291,10 @@ export default function Home() {
       )}
 
       <main
-        className={`flex-1 flex items-center justify-center px-4 py-8 ${!isRevealed ? 'cursor-pointer' : ''}`}
+        className={`flex-1 flex items-center justify-center px-4 py-6 ${!isRevealed ? 'cursor-pointer' : ''}`}
         onClick={!isRevealed ? handleMainClick : undefined}
       >
-        <div className="w-full max-w-3xl space-y-12">
+        <div className="w-full max-w-3xl space-y-8">
           {/* Flashcard */}
           <Flashcard
             key={currentVocab.id}
@@ -306,13 +305,13 @@ export default function Home() {
           />
 
           {/* Favorite Button */}
-          <div className={`flex justify-center transition-opacity duration-300 min-h-[3rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+          <div className={`flex justify-center transition-all duration-300 min-h-[2.5rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <FavoriteButton vocabId={currentVocab.id} />
           </div>
 
           {/* Beispielsatz mit Speaker */}
-          <div className={`space-y-4 transition-opacity duration-300 ${showSentence ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-            <div className="flex items-start gap-4 justify-center">
+          <div className={`transition-all duration-300 ${showSentence ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+            <div className="flex items-start gap-3 justify-center">
               <div className="flex-1 max-w-2xl">
                 <Sentence
                   spanishSentence={spanishSentence || "..."}
@@ -321,7 +320,7 @@ export default function Home() {
                   onTranslationRevealed={handleTranslationRevealed}
                 />
               </div>
-              <div className="pt-1">
+              <div className="pt-1 shrink-0">
                 <SpeakButton
                   text={spanishSentence || ""}
                   audioUrl={currentVocab?.audio}
@@ -331,7 +330,7 @@ export default function Home() {
           </div>
 
           {/* Next Button */}
-          <div className={`pt-8 flex justify-center transition-opacity duration-300 min-h-[4rem] items-center ${showNextButton ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+          <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <NextButton onClick={handleNext} loading={isLoading} />
           </div>
         </div>

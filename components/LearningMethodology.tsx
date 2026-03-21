@@ -9,16 +9,16 @@ export function LearningMethodology() {
     <div>
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-xl border border-blue-500/30 hover:border-blue-500/50 transition-all"
+        className="w-full flex items-center justify-between p-4 bg-primary/8 rounded-xl border border-primary/20 hover:border-primary/40 hover:bg-primary/12 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       >
         <div className="flex items-center gap-3">
-          <span className="text-2xl">🎓</span>
-          <span className="text-white font-semibold text-lg">
+          <span className="text-xl">🎓</span>
+          <span className="text-white font-semibold text-sm">
             Warum LINGOLUUP so effektiv ist
           </span>
         </div>
-        <span className="text-xl text-blue-400 font-bold">
-          {isExpanded ? '−' : '+'}
+        <span className={`text-primary font-bold text-lg leading-none transition-transform duration-200 ${isExpanded ? 'rotate-45' : ''}`}>
+          +
         </span>
       </button>
 

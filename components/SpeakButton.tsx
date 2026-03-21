@@ -133,17 +133,19 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
     <button
       onClick={handleSpeak}
       disabled={isSpeaking || isLoading}
-      className={`p-3 rounded-full transition-all duration-300 ${
-        isSpeaking || isLoading
-          ? "bg-secondary/20 text-secondary"
-          : "hover:bg-secondary/10 text-gray-400 hover:text-secondary"
+      className={`flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background active:scale-90 ${
+        isSpeaking
+          ? "bg-primary/20 border-primary text-primary shadow-[0_0_16px_var(--shadow-glow)]"
+          : isLoading
+          ? "bg-white/5 border-white/20 text-gray-400"
+          : "bg-white/5 border-white/15 text-gray-400 hover:bg-primary/10 hover:border-primary/50 hover:text-primary hover:shadow-[0_4px_16px_var(--shadow-glow)]"
       }`}
       aria-label="Satz vorlesen"
     >
       {isLoading ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-8 h-8 animate-spin"
+          className="w-6 h-6 animate-spin"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -158,7 +160,7 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
       ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`w-8 h-8 ${isSpeaking ? "animate-pulse" : ""}`}
+          className={`w-6 h-6 ${isSpeaking ? "animate-pulse" : ""}`}
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

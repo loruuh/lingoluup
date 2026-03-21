@@ -4,6 +4,8 @@ import { useAuth } from '@/lib/useAuth';
 import { supabase } from '@/lib/supabase';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 interface Subscription {
   status: string;
@@ -59,28 +61,36 @@ export default function AccountPage() {
 
   if (authLoading || loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-          <p className="text-gray-400">Lädt...</p>
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-10 w-10 border-2 border-primary border-t-transparent mx-auto mb-4"></div>
+            <p className="text-gray-400 text-sm">Lädt...</p>
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
 
   if (!user) {
     return (
-      <div className="min-h-screen flex items-center justify-center p-4">
-        <div className="text-center">
-          <div className="text-6xl mb-4">🔒</div>
-          <h1 className="text-2xl font-bold text-white mb-4">Bitte einloggen</h1>
-          <Link
-            href="/"
-            className="text-primary hover:underline"
-          >
-            Zurück zur Startseite
-          </Link>
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <div className="flex-1 flex items-center justify-center p-4">
+          <div className="text-center">
+            <div className="text-5xl mb-4">🔒</div>
+            <h1 className="text-xl font-bold text-white mb-4">Bitte einloggen</h1>
+            <Link
+              href="/"
+              className="text-primary hover:text-primary-light transition-colors text-sm"
+            >
+              ← Zurück zur Startseite
+            </Link>
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
@@ -106,64 +116,78 @@ export default function AccountPage() {
   })();
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-lg space-y-6">
-        {/* Back Link */}
-        <Link
-          href="/"
-          className="inline-flex items-center text-gray-400 hover:text-white transition-colors"
-        >
-          ← Zurück zu Modulen
-        </Link>
+    <div className="min-h-screen flex flex-col">
+      <Header />
 
-        <div className="bg-white/5 border border-primary/20 rounded-2xl p-6 md:p-8">
-          <h1 className="text-3xl font-bold text-white mb-8">Mein Account</h1>
+      <main className="flex-1 flex items-center justify-center p-4 py-10">
+        <div className="w-full max-w-md space-y-6">
+          {/* Back Link */}
+          <Link
+            href="/"
+            className="inline-flex items-center gap-1.5 text-gray-400 hover:text-white transition-colors text-sm group"
+          >
+            <span className="transition-transform duration-200 group-hover:-translate-x-1">←</span>
+            Zurück zu Modulen
+          </Link>
 
-          {/* User Info */}
-          <div className="mb-8">
-            <h2 className="text-sm font-medium text-gray-400 uppercase tracking-wider mb-2">
-              Account
-            </h2>
-            <p className="text-white">{user.email}</p>
-          </div>
+          <div className="bg-white/[0.04] border border-white/10 rounded-2xl p-6 md:p-8">
+            <h1 className="text-2xl font-bold text-white mb-8 tracking-tight">Mein Account</h1>
 
-          {/* Subscription Status */}
-          <div className="mb-8">
-            <h2 className="text-sm font-medium text-gray-400 uppercase tracking-wider mb-3">
-              Abo-Status
-            </h2>
-            {isActive ? (
-              <div className={`border rounded-xl p-4 ${subscription?.cancel_at_period_end ? 'bg-yellow-900/20 border-yellow-500/30' : 'bg-green-900/20 border-green-500/30'}`}>
-                <p className={`font-semibold ${subscription?.cancel_at_period_end ? 'text-yellow-400' : 'text-green-400'}`}>
-                  Advance aktiv
-                </p>
-                <p className="text-gray-400 text-sm mt-1">{subscriptionStatusText}</p>
-              </div>
-            ) : (
-              <div className="bg-white/5 border border-gray-600 rounded-xl p-4">
-                <p className="text-gray-400">Kein aktives Abo</p>
-                <Link
-                  href="/"
-                  className="text-primary text-sm hover:underline mt-1 inline-block"
-                >
-                  Jetzt upgraden →
-                </Link>
-              </div>
+            {/* User Info */}
+            <div className="mb-7">
+              <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-2">
+                E-Mail
+              </h2>
+              <p className="text-white font-medium">{user.email}</p>
+            </div>
+
+            <div className="h-px bg-white/8 mb-7" />
+
+            {/* Subscription Status */}
+            <div className="mb-7">
+              <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-3">
+                Abo-Status
+              </h2>
+              {isActive ? (
+                <div className={`border rounded-xl p-4 ${subscription?.cancel_at_period_end ? 'bg-yellow-950/40 border-yellow-500/30' : 'bg-green-950/40 border-green-500/30'}`}>
+                  <p className={`font-semibold text-sm ${subscription?.cancel_at_period_end ? 'text-yellow-400' : 'text-green-400'}`}>
+                    ✓ Advance aktiv
+                  </p>
+                  <p className="text-gray-400 text-sm mt-1 leading-relaxed">{subscriptionStatusText}</p>
+                </div>
+              ) : (
+                <div className="bg-white/[0.04] border border-white/10 rounded-xl p-4">
+                  <p className="text-gray-400 text-sm">Kein aktives Abo</p>
+                  <Link
+                    href="/"
+                    className="text-primary text-sm hover:text-primary-light transition-colors mt-2 inline-flex items-center gap-1"
+                  >
+                    Jetzt upgraden →
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Manage Subscription */}
+            {isActive && subscription?.stripe_customer_id && (
+              <button
+                onClick={handleManageSubscription}
+                disabled={portalLoading}
+                className="w-full bg-white/8 hover:bg-white/12 border border-white/15 hover:border-white/25 text-white py-3 rounded-xl font-semibold text-sm transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              >
+                {portalLoading ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                    Lädt...
+                  </span>
+                ) : 'Abo verwalten / kündigen'}
+              </button>
             )}
           </div>
-
-          {/* Manage Subscription */}
-          {isActive && subscription?.stripe_customer_id && (
-            <button
-              onClick={handleManageSubscription}
-              disabled={portalLoading}
-              className="w-full bg-primary hover:bg-primary/80 text-white py-3 rounded-xl font-semibold transition-colors disabled:opacity-50"
-            >
-              {portalLoading ? 'Lädt...' : 'Abo verwalten / kündigen'}
-            </button>
-          )}
         </div>
-      </div>
+      </main>
+
+      <Footer />
     </div>
   );
 }

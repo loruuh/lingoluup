@@ -10,7 +10,7 @@ export default function NextButton({ onClick, loading = false }: NextButtonProps
     <button
       onClick={onClick}
       disabled={loading}
-      className="w-full max-w-md mx-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+      className="w-full max-w-md mx-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.03] active:scale-[0.97] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
     >
       {loading ? (
         <span className="flex items-center justify-center gap-2">
