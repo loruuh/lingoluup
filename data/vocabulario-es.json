@@ -19052,7 +19052,7 @@
   },
   {
     "id": "1082",
-    "spanish": "el con permiso",
+    "spanish": "con permiso",
     "german": "Entschuldigung (Drängeln)",
     "type": "noun",
     "sentence_es": "Con permiso, necesito pasar por aquí.",
@@ -20642,8 +20642,8 @@
   },
   {
     "id": "1172",
-    "spanish": "la mierda",
-    "german": "scheiße",
+    "spanish": "mierda",
+    "german": "Scheiße!",
     "type": "noun",
     "sentence_es": "¡Qué mierda! Se me rompió el teléfono.",
     "sentence_de": "Verdammt! Mein Handy ist kaputtgegangen.",
@@ -20690,24 +20690,6 @@
       "todo": "ganz",
       "el": "der/die/das",
       "mundo": "Welt"
-    }
-  },
-  {
-    "id": "1175",
-    "spanish": "la flor huele bien",
-    "german": "die Blume riecht gut",
-    "type": "noun",
-    "sentence_es": "La flor del jardín huele muy bien.",
-    "sentence_de": "Die Blume aus dem Garten riecht sehr gut.",
-    "audio": "/audio/1175.mp3",
-    "word_translations": {
-      "la": "die",
-      "flor": "Blume",
-      "del": "aus dem/vom",
-      "jardín": "Garten",
-      "huele": "riecht",
-      "muy": "sehr",
-      "bien": "gut"
     }
   },
   {
@@ -21223,20 +21205,6 @@
     }
   },
   {
-    "id": "1206",
-    "spanish": "la -eza",
-    "german": "Suffix für Nomen aus Adjektiven",
-    "type": "noun",
-    "sentence_es": "La belleza de este jardín es increíble.",
-    "sentence_de": "Die Schönheit dieses Gartens ist unglaublich.",
-    "audio": "/audio/1206.mp3",
-    "word_translations": {
-      "belleza": "Schönheit",
-      "jardín": "Garten",
-      "increíble": "unglaublich"
-    }
-  },
-  {
     "id": "1207",
     "spanish": "te aviso",
     "german": "Ich gebe dir Bescheid",
@@ -21339,24 +21307,6 @@
       "invento": "Erfindung",
       "muy": "sehr",
       "útil": "nützlich"
-    }
-  },
-  {
-    "id": "1213",
-    "spanish": "la debería",
-    "german": "Ich müsste",
-    "type": "noun",
-    "sentence_es": "Creo que la debería llamar esta tarde.",
-    "sentence_de": "Ich glaube, ich sollte sie heute Nachmittag anrufen.",
-    "audio": "/audio/1213.mp3",
-    "word_translations": {
-      "creo": "ich glaube",
-      "que": "dass",
-      "la": "sie",
-      "debería": "sollte",
-      "llamar": "anrufen",
-      "esta": "diese",
-      "tarde": "Nachmittag"
     }
   },
   {
@@ -23964,18 +23914,18 @@
   },
   {
     "id": "1470",
-    "spanish": "tratar",
-    "german": "versuchen",
+    "spanish": "tratar de",
+    "german": "sich bemühen",
     "type": "verb",
-    "sentence_es": "Voy a tratar de llegar más temprano.",
-    "sentence_de": "Ich werde versuchen, früher anzukommen.",
+    "sentence_es": "Trato de estudiar cada día.",
+    "sentence_de": "Ich bemühe mich, jeden Tag zu lernen.",
     "audio": "/audio/1470.mp3",
     "word_translations": {
-      "voy": "gehe/werde",
-      "tratar": "versuchen",
-      "llegar": "ankommen",
-      "más": "mehr",
-      "temprano": "früh"
+      "trato": "ich versuche/bemühe mich",
+      "tratar de": "sich bemühen",
+      "estudiar": "lernen/studieren",
+      "cada": "jeden",
+      "día": "Tag"
     }
   },
   {
@@ -42455,6 +42405,110 @@
       "de": "dieses",
       "este": "dieses",
       "mes": "Monats"
+    }
+  },
+  {
+    "id": "2512",
+    "spanish": "las aficiones",
+    "german": "die Hobbys",
+    "type": "noun",
+    "sentence_es": "Mis aficiones son la lectura y el deporte.",
+    "sentence_de": "Meine Hobbys sind Lesen und Sport.",
+    "audio": "",
+    "word_translations": {
+      "mis": "meine",
+      "aficiones": "Hobbys",
+      "son": "sind",
+      "la": "die",
+      "lectura": "Lesen",
+      "y": "und",
+      "el": "der",
+      "deporte": "Sport"
+    }
+  },
+  {
+    "id": "2513",
+    "spanish": "la cerradura",
+    "german": "das Türschloss",
+    "type": "noun",
+    "sentence_es": "La cerradura de la puerta está rota.",
+    "sentence_de": "Das Türschloss ist kaputt.",
+    "audio": "",
+    "word_translations": {
+      "la": "die/das",
+      "cerradura": "Türschloss",
+      "de": "der",
+      "puerta": "Tür",
+      "está": "ist",
+      "rota": "kaputt"
+    }
+  },
+  {
+    "id": "2514",
+    "spanish": "los inversores",
+    "german": "die Investoren",
+    "type": "noun",
+    "sentence_es": "Los inversores están interesados en el proyecto.",
+    "sentence_de": "Die Investoren sind am Projekt interessiert.",
+    "audio": "",
+    "word_translations": {
+      "los": "die",
+      "inversores": "Investoren",
+      "están": "sind",
+      "interesados": "interessiert",
+      "en": "am/in",
+      "el": "das",
+      "proyecto": "Projekt"
+    }
+  },
+  {
+    "id": "2515",
+    "spanish": "prometer",
+    "german": "versprechen",
+    "type": "verb",
+    "sentence_es": "Te prometo que llegaré a tiempo.",
+    "sentence_de": "Ich verspreche dir, dass ich pünktlich ankomme.",
+    "audio": "",
+    "word_translations": {
+      "te": "dir",
+      "prometo": "ich verspreche",
+      "que": "dass",
+      "llegaré": "ich werde ankommen",
+      "a": "zu",
+      "tiempo": "Zeit/pünktlich"
+    }
+  },
+  {
+    "id": "2516",
+    "spanish": "el propósito",
+    "german": "die Absicht",
+    "type": "noun",
+    "sentence_es": "Mi propósito es aprender español.",
+    "sentence_de": "Meine Absicht ist es, Spanisch zu lernen.",
+    "audio": "",
+    "word_translations": {
+      "mi": "meine/mein",
+      "propósito": "Absicht",
+      "es": "ist",
+      "aprender": "lernen",
+      "español": "Spanisch"
+    }
+  },
+  {
+    "id": "2517",
+    "spanish": "el palacio",
+    "german": "der Palast",
+    "type": "noun",
+    "sentence_es": "El palacio real es muy hermoso.",
+    "sentence_de": "Der königliche Palast ist sehr schön.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "palacio": "Palast",
+      "real": "königlich",
+      "es": "ist",
+      "muy": "sehr",
+      "hermoso": "schön"
     }
   }
 ]

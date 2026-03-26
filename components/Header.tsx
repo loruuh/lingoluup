@@ -18,7 +18,7 @@ export default function Header() {
             LUUP
           </span>
           <span className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 inline-block">
-            🎯
+            🌟
           </span>
           {/* Animated underline */}
           <div className="absolute -bottom-0.5 left-0 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-primary to-purple-400 transition-all duration-300 rounded-full" />

@@ -71,7 +71,7 @@ export function LearningMethodology() {
                 sondern &quot;Me gusta caminar por el parque&quot; = ein lebendiges Bild im Kopf!
                 Dein Gehirn speichert Wörter{' '}
                 <span className="text-amber-300 font-semibold">3x besser</span>,
-                wenn sie in echten Sätzen vorkommen. 🎯
+                wenn sie in echten Sätzen vorkommen. 🌟
               </p>
             </div>
           </div>

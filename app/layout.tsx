@@ -15,13 +15,13 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "LINGOLUUP 🎯 - Spanisch lernen",
-  description: "Spanisch lernen mit KI-generierten Beispielsätzen 🎯",
+  title: "LINGOLUUP 🌟 - Spanisch lernen",
+  description: "Spanisch lernen mit KI-generierten Beispielsätzen 🌟",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "LINGOLUUP 🎯",
+    title: "LINGOLUUP 🌟",
   },
   icons: {
     icon: [

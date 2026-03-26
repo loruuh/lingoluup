@@ -43,7 +43,20 @@
       "Bash(/tmp/detailed_issues.txt:*)",
       "Read(//tmp/**)",
       "Bash(node -e \":*)",
-      "Bash(node -p \"JSON.stringify\\(require\\(''./data/modules/zahlen.json''\\).phrases.slice\\(0,2\\),null,2\\)\")"
+      "Bash(node -p \"JSON.stringify\\(require\\(''./data/modules/zahlen.json''\\).phrases.slice\\(0,2\\),null,2\\)\")",
+      "Bash(grep -i '\"\"spanish\"\".*cerradura' data/vocabulario-es.json)",
+      "Bash(grep -i '\"\"spanish\"\".*inversores' data/vocabulario-es.json)",
+      "Bash(grep -i '\"\"spanish\"\".*prometer' data/vocabulario-es.json)",
+      "Bash(grep -i '\"\"spanish\"\".*palacio' data/vocabulario-es.json)",
+      "Bash(grep -i '\"\"spanish\"\".*aburrir' data/vocabulario-es.json)",
+      "Bash(grep -i '\"\"prometer\"\"' data/vocabulario-es.json)",
+      "Bash(grep -l '\"\"180\"\"\\\\|\"\"947\"\"\\\\|\"\"804\"\"\\\\|\"\"347\"\"\\\\|\"\"27\"\"\\\\|\"\"946\"\"\\\\|\"\"1407\"\"\\\\|\"\"1865\"\"' data/modules/*.json)",
+      "Bash(done)",
+      "Bash(grep -c '\"\"spanish\"\": \"\"cerradura\"\"' data/vocabulario-es.json)",
+      "Bash(grep -c '\"\"spanish\"\": \"\"inversores\"\"' data/vocabulario-es.json)",
+      "Bash(grep -c '\"\"spanish\"\": \"\"prometer\"\"' data/vocabulario-es.json)",
+      "Bash(grep -c '\"\"spanish\"\": \"\"propósito\"\"' data/vocabulario-es.json)",
+      "Bash(grep -c '\"\"spanish\"\": \"\"palacio\"\"' data/vocabulario-es.json)"
     ]
   }
 }

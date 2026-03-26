@@ -117,7 +117,7 @@ export default function ModuleSelection() {
         <div className="text-center space-y-3">
           <h1 className="text-5xl font-bold tracking-tight">
             <span className="text-white">LINGO</span><span className="text-primary">LUUP</span>
-            <span className="ml-2 inline-block">🎯</span>
+            <span className="ml-2 inline-block">🌟</span>
           </h1>
           <p className="text-base text-gray-400 leading-relaxed">
             Wähle ein Lern-Modul und starte durch

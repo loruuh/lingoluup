@@ -64,7 +64,7 @@ export function UpgradeModal({ isOpen, onClose }: Props) {
 
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-primary/15 flex items-center justify-center shrink-0">
-                <span className="text-lg">🎯</span>
+                <span className="text-lg">🌟</span>
               </div>
               <div>
                 <div className="font-semibold text-white text-sm">2000+ Vokabeln</div>
