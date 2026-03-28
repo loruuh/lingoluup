@@ -42510,5 +42510,318 @@
       "muy": "sehr",
       "hermoso": "schön"
     }
+  },
+  {
+    "id": "2518",
+    "spanish": "añorar",
+    "german": "schmerzlich vermissen",
+    "type": "verb",
+    "sentence_es": "Añoro mi país cuando vivo en el extranjero.",
+    "sentence_de": "Ich vermisse mein Land schmerzlich, wenn ich im Ausland lebe.",
+    "audio": "/audio/2518.mp3",
+    "word_translations": {
+      "añoro": "ich vermisse schmerzlich",
+      "mi": "mein",
+      "país": "Land",
+      "cuando": "wenn",
+      "vivo": "lebe",
+      "en": "in",
+      "extranjero": "Ausland"
+    }
+  },
+  {
+    "id": "2519",
+    "spanish": "enchularse",
+    "german": "sich Hals über Kopf verlieben",
+    "type": "verb",
+    "sentence_es": "Me enchulé con ella desde el primer día.",
+    "sentence_de": "Ich habe mich vom ersten Tag an Hals über Kopf in sie verliebt.",
+    "audio": "/audio/2519.mp3",
+    "word_translations": {
+      "me_enchule": "ich verliebte mich Hals über Kopf",
+      "con": "mit",
+      "ella": "sie",
+      "desde": "seit",
+      "primer": "erste",
+      "día": "Tag"
+    }
+  },
+  {
+    "id": "2520",
+    "spanish": "hacerse el sueco",
+    "german": "sich dumm stellen",
+    "type": "phrase",
+    "sentence_es": "No te hagas el sueco, sabes exactamente qué pasó.",
+    "sentence_de": "Stell dich nicht dumm, du weißt genau, was passiert ist.",
+    "audio": "/audio/2520.mp3",
+    "word_translations": {
+      "no": "nicht",
+      "te": "dich",
+      "hagas": "stell dich",
+      "sabes": "du weißt",
+      "exactamente": "genau",
+      "qué": "was",
+      "pasó": "passiert ist"
+    }
+  },
+  {
+    "id": "2521",
+    "spanish": "desahogarse",
+    "german": "sich ausweinen / Dampf ablassen",
+    "type": "verb",
+    "sentence_es": "Necesito desahogarme con alguien de confianza.",
+    "sentence_de": "Ich muss mir bei jemandem den Kummer von der Seele reden.",
+    "audio": "/audio/2521.mp3",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "desahogarme": "mir Luft machen",
+      "con": "mit",
+      "alguien": "jemandem",
+      "confianza": "Vertrauen"
+    }
+  },
+  {
+    "id": "2522",
+    "spanish": "empalagarse",
+    "german": "überdrüssig sein / genug haben",
+    "type": "verb",
+    "sentence_es": "Me empalagué del chocolate después de comer tanto.",
+    "sentence_de": "Mir wurde die Schokolade zu viel, nachdem ich so viel gegessen hatte.",
+    "audio": "/audio/2522.mp3",
+    "word_translations": {
+      "del": "von dem",
+      "chocolate": "Schokolade",
+      "después": "danach",
+      "comer": "essen",
+      "tanto": "so viel"
+    }
+  },
+  {
+    "id": "2523",
+    "spanish": "trasnochar",
+    "german": "die Nacht durchmachen",
+    "type": "verb",
+    "sentence_es": "Trasnoché estudiando para el examen.",
+    "sentence_de": "Ich habe die Nacht durchgemacht, um für die Prüfung zu lernen.",
+    "audio": "/audio/2523.mp3",
+    "word_translations": {
+      "trasnoché": "ich machte die Nacht durch",
+      "estudiando": "lernend",
+      "para": "für",
+      "examen": "Prüfung"
+    }
+  },
+  {
+    "id": "2524",
+    "spanish": "madrugar",
+    "german": "früh aufstehen",
+    "type": "verb",
+    "sentence_es": "Tengo que madrugar mañana para ir al aeropuerto.",
+    "sentence_de": "Ich muss morgen früh aufstehen, um zum Flughafen zu fahren.",
+    "audio": "/audio/2524.mp3",
+    "word_translations": {
+      "tengo": "ich muss",
+      "madrugar": "früh aufstehen",
+      "mañana": "morgen",
+      "ir": "fahren",
+      "aeropuerto": "Flughafen"
+    }
+  },
+  {
+    "id": "2525",
+    "spanish": "cotillear",
+    "german": "tratschen / klatschen",
+    "type": "verb",
+    "sentence_es": "A mis vecinas les encanta cotillear sobre todos.",
+    "sentence_de": "Meine Nachbarinnen lieben es, über alle zu tratschen.",
+    "audio": "/audio/2525.mp3",
+    "word_translations": {
+      "mis": "meine",
+      "vecinas": "Nachbarinnen",
+      "les": "ihnen",
+      "encanta": "lieben es",
+      "cotillear": "tratschen",
+      "sobre": "über",
+      "todos": "alle"
+    }
+  },
+  {
+    "id": "2526",
+    "spanish": "posturear",
+    "german": "flexen / sich in Szene setzen",
+    "type": "verb",
+    "sentence_es": "Solo está postureando para Instagram.",
+    "sentence_de": "Er setzt sich nur für Instagram in Szene.",
+    "audio": "/audio/2526.mp3",
+    "word_translations": {
+      "solo": "nur",
+      "está": "er ist",
+      "postureando": "sich in Szene setzend",
+      "para": "für"
+    }
+  },
+  {
+    "id": "2527",
+    "spanish": "aprovechar",
+    "german": "ausnutzen / nutzen",
+    "type": "verb",
+    "sentence_es": "Hay que aprovechar las oportunidades que nos da la vida.",
+    "sentence_de": "Man muss die Gelegenheiten nutzen, die uns das Leben gibt.",
+    "audio": "/audio/2527.mp3",
+    "word_translations": {
+      "aprovechar": "nutzen",
+      "oportunidades": "Gelegenheiten",
+      "nos": "uns",
+      "vida": "Leben"
+    }
+  },
+  {
+    "id": "2528",
+    "spanish": "barajar",
+    "german": "mischen / abwägen",
+    "type": "verb",
+    "sentence_es": "Estamos barajando varias opciones para las vacaciones.",
+    "sentence_de": "Wir wägen verschiedene Optionen für den Urlaub ab.",
+    "audio": "/audio/2528.mp3",
+    "word_translations": {
+      "estamos": "wir sind",
+      "barajando": "abwägend",
+      "varias": "verschiedene",
+      "opciones": "Optionen",
+      "vacaciones": "Urlaub"
+    }
+  },
+  {
+    "id": "2529",
+    "spanish": "vislumbrar",
+    "german": "erahnen / undeutlich wahrnehmen",
+    "type": "verb",
+    "sentence_es": "Vislumbro una solución al problema.",
+    "sentence_de": "Ich erahne eine Lösung für das Problem.",
+    "audio": "/audio/2529.mp3",
+    "word_translations": {
+      "vislumbro": "ich erahne",
+      "una": "eine",
+      "solución": "Lösung",
+      "problema": "Problem"
+    }
+  },
+  {
+    "id": "2530",
+    "spanish": "percatarse",
+    "german": "bemerken / sich bewusst werden",
+    "type": "verb",
+    "sentence_es": "Me percaté de su presencia demasiado tarde.",
+    "sentence_de": "Ich bemerkte ihre Anwesenheit zu spät.",
+    "audio": "/audio/2530.mp3",
+    "word_translations": {
+      "presencia": "Anwesenheit",
+      "demasiado": "zu",
+      "tarde": "spät"
+    }
+  },
+  {
+    "id": "2531",
+    "spanish": "demorar",
+    "german": "sich verspäten / verzögern",
+    "type": "verb",
+    "sentence_es": "El vuelo se demoró dos horas.",
+    "sentence_de": "Der Flug verspätete sich um zwei Stunden.",
+    "audio": "/audio/2531.mp3",
+    "word_translations": {
+      "vuelo": "Flug",
+      "dos": "zwei",
+      "horas": "Stunden"
+    }
+  },
+  {
+    "id": "2532",
+    "spanish": "agasajar",
+    "german": "bewirten / reichlich beschenken",
+    "type": "verb",
+    "sentence_es": "Nos agasajaron con una cena espectacular.",
+    "sentence_de": "Sie bewirteten uns mit einem spektakulären Abendessen.",
+    "audio": "/audio/2532.mp3",
+    "word_translations": {
+      "nos": "uns",
+      "agasajaron": "sie bewirteten",
+      "cena": "Abendessen",
+      "espectacular": "spektakulär"
+    }
+  },
+  {
+    "id": "2533",
+    "spanish": "fomentar",
+    "german": "fördern / ankurbeln",
+    "type": "verb",
+    "sentence_es": "El gobierno quiere fomentar el empleo juvenil.",
+    "sentence_de": "Die Regierung möchte die Jugendbeschäftigung fördern.",
+    "audio": "/audio/2533.mp3",
+    "word_translations": {
+      "gobierno": "Regierung",
+      "quiere": "möchte",
+      "fomentar": "fördern",
+      "empleo": "Beschäftigung",
+      "juvenil": "Jugend-"
+    }
+  },
+  {
+    "id": "2534",
+    "spanish": "surgir",
+    "german": "auftauchen / entstehen",
+    "type": "verb",
+    "sentence_es": "Surgieron problemas inesperados durante el proyecto.",
+    "sentence_de": "Es tauchten unerwartete Probleme während des Projekts auf.",
+    "audio": "/audio/2534.mp3",
+    "word_translations": {
+      "surgieron": "es tauchten auf",
+      "problemas": "Probleme",
+      "inesperados": "unerwartete",
+      "durante": "während",
+      "proyecto": "Projekt"
+    }
+  },
+  {
+    "id": "2535",
+    "spanish": "atenuarse",
+    "german": "sich abschwächen / nachlassen",
+    "type": "verb",
+    "sentence_es": "El dolor se atenuó después de tomar la medicina.",
+    "sentence_de": "Der Schmerz ließ nach, nachdem ich die Medizin genommen hatte.",
+    "audio": "/audio/2535.mp3",
+    "word_translations": {
+      "dolor": "Schmerz",
+      "después": "danach",
+      "tomar": "nehmen",
+      "medicina": "Medizin"
+    }
+  },
+  {
+    "id": "2536",
+    "spanish": "emprender",
+    "german": "unternehmen / in Angriff nehmen",
+    "type": "verb",
+    "sentence_es": "Decidí emprender un nuevo negocio.",
+    "sentence_de": "Ich beschloss, ein neues Geschäft zu gründen.",
+    "audio": "/audio/2536.mp3",
+    "word_translations": {
+      "decidí": "ich beschloss",
+      "emprender": "unternehmen",
+      "nuevo": "neues",
+      "negocio": "Geschäft"
+    }
+  },
+  {
+    "id": "2537",
+    "spanish": "arrepentirse",
+    "german": "bereuen",
+    "type": "verb",
+    "sentence_es": "Me arrepiento de no haber estudiado más.",
+    "sentence_de": "Ich bereue es, nicht mehr gelernt zu haben.",
+    "audio": "/audio/2537.mp3",
+    "word_translations": {
+      "estudiado": "gelernt",
+      "más": "mehr"
+    }
   }
 ]
