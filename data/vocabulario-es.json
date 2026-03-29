@@ -30234,7 +30234,7 @@
   {
     "id": "1822",
     "spanish": "el presupuesto",
-    "german": "die Voraussetzung",
+    "german": "das Budget / der Haushalt",
     "type": "noun",
     "sentence_es": "El presupuesto familiar no alcanza este mes.",
     "sentence_de": "Das Familienbudget reicht diesen Monat nicht aus.",
@@ -42822,6 +42822,1127 @@
     "word_translations": {
       "estudiado": "gelernt",
       "más": "mehr"
+    }
+  },
+  {
+    "id": "2538",
+    "spanish": "sostener",
+    "german": "behaupten / stützen",
+    "type": "verb",
+    "sentence_es": "Sostengo que esta es la mejor solución.",
+    "sentence_de": "Ich behaupte, dass dies die beste Lösung ist.",
+    "audio": "/audio/2538.mp3",
+    "word_translations": {
+      "sostengo": "ich behaupte",
+      "esta": "diese",
+      "mejor": "beste",
+      "solución": "Lösung"
+    }
+  },
+  {
+    "id": "2539",
+    "spanish": "aclarar",
+    "german": "klären / verdeutlichen",
+    "type": "verb",
+    "sentence_es": "Necesito aclarar algunos puntos antes de decidir.",
+    "sentence_de": "Ich muss einige Punkte klären, bevor ich mich entscheide.",
+    "audio": "/audio/2539.mp3",
+    "word_translations": {
+      "necesito": "ich muss",
+      "aclarar": "klären",
+      "algunos": "einige",
+      "puntos": "Punkte",
+      "antes": "bevor",
+      "decidir": "entscheiden"
+    }
+  },
+  {
+    "id": "2540",
+    "spanish": "asegurar",
+    "german": "versichern",
+    "type": "verb",
+    "sentence_es": "Te aseguro que llegaré a tiempo.",
+    "sentence_de": "Ich versichere dir, dass ich pünktlich ankomme.",
+    "audio": "/audio/2540.mp3",
+    "word_translations": {
+      "aseguro": "ich versichere",
+      "llegaré": "ich werde ankommen",
+      "tiempo": "Zeit/pünktlich"
+    }
+  },
+  {
+    "id": "2541",
+    "spanish": "convencer",
+    "german": "überzeugen",
+    "type": "verb",
+    "sentence_es": "Logró convencerme con sus argumentos.",
+    "sentence_de": "Er überzeugte mich mit seinen Argumenten.",
+    "audio": "/audio/2541.mp3",
+    "word_translations": {
+      "logró": "es gelang ihm",
+      "convencerme": "mich zu überzeugen",
+      "argumentos": "Argumenten"
+    }
+  },
+  {
+    "id": "2542",
+    "spanish": "de vez en cuando",
+    "german": "ab und zu",
+    "type": "adverb",
+    "sentence_es": "De vez en cuando voy al cine.",
+    "sentence_de": "Ab und zu gehe ich ins Kino.",
+    "audio": "/audio/2542.mp3",
+    "word_translations": {
+      "de vez en cuando": "ab und zu",
+      "voy": "ich gehe",
+      "cine": "Kino"
+    }
+  },
+  {
+    "id": "2543",
+    "spanish": "rara vez",
+    "german": "selten",
+    "type": "adverb",
+    "sentence_es": "Rara vez como comida rápida.",
+    "sentence_de": "Ich esse selten Fast Food.",
+    "audio": "/audio/2543.mp3",
+    "word_translations": {
+      "rara vez": "selten",
+      "como": "ich esse",
+      "comida": "Essen",
+      "rápida": "schnell"
+    }
+  },
+  {
+    "id": "2544",
+    "spanish": "actualmente",
+    "german": "aktuell / derzeit",
+    "type": "adverb",
+    "sentence_es": "Actualmente trabajo desde casa.",
+    "sentence_de": "Derzeit arbeite ich von zu Hause aus.",
+    "audio": "/audio/2544.mp3",
+    "word_translations": {
+      "actualmente": "derzeit",
+      "trabajo": "ich arbeite",
+      "desde": "von",
+      "casa": "Hause"
+    }
+  },
+  {
+    "id": "2545",
+    "spanish": "previamente",
+    "german": "vorher / zuvor",
+    "type": "adverb",
+    "sentence_es": "Previamente vivía en Madrid.",
+    "sentence_de": "Vorher lebte ich in Madrid.",
+    "audio": "/audio/2545.mp3",
+    "word_translations": {
+      "previamente": "vorher",
+      "vivía": "ich lebte"
+    }
+  },
+  {
+    "id": "2546",
+    "spanish": "enseguida",
+    "german": "sofort",
+    "type": "adverb",
+    "sentence_es": "Vuelvo enseguida.",
+    "sentence_de": "Ich bin sofort zurück.",
+    "audio": "/audio/2546.mp3",
+    "word_translations": {
+      "vuelvo": "ich komme zurück",
+      "enseguida": "sofort"
+    }
+  },
+  {
+    "id": "2547",
+    "spanish": "frecuentemente",
+    "german": "häufig",
+    "type": "adverb",
+    "sentence_es": "Viajo frecuentemente por trabajo.",
+    "sentence_de": "Ich reise häufig geschäftlich.",
+    "audio": "/audio/2547.mp3",
+    "word_translations": {
+      "viajo": "ich reise",
+      "frecuentemente": "häufig",
+      "trabajo": "Arbeit"
+    }
+  },
+  {
+    "id": "2548",
+    "spanish": "simultáneamente",
+    "german": "gleichzeitig",
+    "type": "adverb",
+    "sentence_es": "Ocurrieron simultáneamente dos eventos.",
+    "sentence_de": "Zwei Ereignisse fanden gleichzeitig statt.",
+    "audio": "/audio/2548.mp3",
+    "word_translations": {
+      "ocurrieron": "fanden statt",
+      "simultáneamente": "gleichzeitig",
+      "dos": "zwei",
+      "eventos": "Ereignisse"
+    }
+  },
+  {
+    "id": "2549",
+    "spanish": "últimamente",
+    "german": "in letzter Zeit",
+    "type": "adverb",
+    "sentence_es": "Últimamente he estado muy ocupado.",
+    "sentence_de": "In letzter Zeit war ich sehr beschäftigt.",
+    "audio": "/audio/2549.mp3",
+    "word_translations": {
+      "últimamente": "in letzter Zeit",
+      "he estado": "ich war",
+      "muy": "sehr",
+      "ocupado": "beschäftigt"
+    }
+  },
+  {
+    "id": "2550",
+    "spanish": "eternamente",
+    "german": "ewig",
+    "type": "adverb",
+    "sentence_es": "Te amaré eternamente.",
+    "sentence_de": "Ich werde dich ewig lieben.",
+    "audio": "/audio/2550.mp3",
+    "word_translations": {
+      "amaré": "ich werde lieben",
+      "eternamente": "ewig"
+    }
+  },
+  {
+    "id": "2551",
+    "spanish": "no obstante",
+    "german": "dennoch",
+    "type": "conjunction",
+    "sentence_es": "Es difícil, no obstante, voy a intentarlo.",
+    "sentence_de": "Es ist schwierig, dennoch werde ich es versuchen.",
+    "audio": "/audio/2551.mp3",
+    "word_translations": {
+      "difícil": "schwierig",
+      "no obstante": "dennoch",
+      "intentarlo": "es versuchen"
+    }
+  },
+  {
+    "id": "2552",
+    "spanish": "por lo tanto",
+    "german": "daher / deshalb",
+    "type": "conjunction",
+    "sentence_es": "Está lloviendo, por lo tanto me quedo en casa.",
+    "sentence_de": "Es regnet, deshalb bleibe ich zu Hause.",
+    "audio": "/audio/2552.mp3",
+    "word_translations": {
+      "lloviendo": "regnend",
+      "por lo tanto": "deshalb",
+      "quedo": "bleibe"
+    }
+  },
+  {
+    "id": "2553",
+    "spanish": "en cambio",
+    "german": "hingegen",
+    "type": "conjunction",
+    "sentence_es": "A él le gusta el café, yo en cambio prefiero té.",
+    "sentence_de": "Er mag Kaffee, ich hingegen bevorzuge Tee.",
+    "audio": "/audio/2553.mp3",
+    "word_translations": {
+      "gusta": "mag",
+      "café": "Kaffee",
+      "en cambio": "hingegen",
+      "prefiero": "bevorzuge",
+      "té": "Tee"
+    }
+  },
+  {
+    "id": "2554",
+    "spanish": "incluso",
+    "german": "sogar",
+    "type": "adverb",
+    "sentence_es": "Incluso mi hermano vino a la fiesta.",
+    "sentence_de": "Sogar mein Bruder kam zur Party.",
+    "audio": "/audio/2554.mp3",
+    "word_translations": {
+      "incluso": "sogar",
+      "hermano": "Bruder",
+      "vino": "kam",
+      "fiesta": "Party"
+    }
+  },
+  {
+    "id": "2555",
+    "spanish": "a pesar de",
+    "german": "trotz / obwohl",
+    "type": "preposition",
+    "sentence_es": "A pesar de la lluvia, salimos a caminar.",
+    "sentence_de": "Trotz des Regens gingen wir spazieren.",
+    "audio": "/audio/2555.mp3",
+    "word_translations": {
+      "a pesar de": "trotz",
+      "lluvia": "Regen",
+      "salimos": "wir gingen",
+      "caminar": "spazieren"
+    }
+  },
+  {
+    "id": "2556",
+    "spanish": "debido a",
+    "german": "aufgrund von",
+    "type": "preposition",
+    "sentence_es": "Cancelaron el vuelo debido al mal tiempo.",
+    "sentence_de": "Sie stornierten den Flug aufgrund des schlechten Wetters.",
+    "audio": "/audio/2556.mp3",
+    "word_translations": {
+      "cancelaron": "sie stornierten",
+      "vuelo": "Flug",
+      "debido a": "aufgrund",
+      "tiempo": "Wetter"
+    }
+  },
+  {
+    "id": "2557",
+    "spanish": "ya que",
+    "german": "da / weil",
+    "type": "conjunction",
+    "sentence_es": "No voy, ya que estoy cansado.",
+    "sentence_de": "Ich gehe nicht, da ich müde bin.",
+    "audio": "/audio/2557.mp3",
+    "word_translations": {
+      "voy": "ich gehe",
+      "ya que": "da/weil",
+      "cansado": "müde"
+    }
+  },
+  {
+    "id": "2558",
+    "spanish": "sino",
+    "german": "sondern",
+    "type": "conjunction",
+    "sentence_es": "No quiero café sino té.",
+    "sentence_de": "Ich möchte keinen Kaffee, sondern Tee.",
+    "audio": "/audio/2558.mp3",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "café": "Kaffee",
+      "sino": "sondern",
+      "té": "Tee"
+    }
+  },
+  {
+    "id": "2559",
+    "spanish": "eficaz",
+    "german": "wirksam / effizient",
+    "type": "adjective",
+    "sentence_es": "Este método es muy eficaz.",
+    "sentence_de": "Diese Methode ist sehr wirksam.",
+    "audio": "/audio/2559.mp3",
+    "word_translations": {
+      "método": "Methode",
+      "muy": "sehr",
+      "eficaz": "wirksam"
+    }
+  },
+  {
+    "id": "2560",
+    "spanish": "agobiado",
+    "german": "überwältigt / gestresst",
+    "type": "adjective",
+    "sentence_es": "Me siento agobiado con tanto trabajo.",
+    "sentence_de": "Ich fühle mich überwältigt von so viel Arbeit.",
+    "audio": "/audio/2560.mp3",
+    "word_translations": {
+      "siento": "ich fühle",
+      "agobiado": "überwältigt",
+      "tanto": "so viel",
+      "trabajo": "Arbeit"
+    }
+  },
+  {
+    "id": "2561",
+    "spanish": "imprescindible",
+    "german": "unverzichtbar",
+    "type": "adjective",
+    "sentence_es": "Tu ayuda es imprescindible para el proyecto.",
+    "sentence_de": "Deine Hilfe ist unverzichtbar für das Projekt.",
+    "audio": "/audio/2561.mp3",
+    "word_translations": {
+      "ayuda": "Hilfe",
+      "imprescindible": "unverzichtbar",
+      "proyecto": "Projekt"
+    }
+  },
+  {
+    "id": "2562",
+    "spanish": "inesperado",
+    "german": "unerwartet",
+    "type": "adjective",
+    "sentence_es": "Fue un giro inesperado de los eventos.",
+    "sentence_de": "Es war eine unerwartete Wendung der Ereignisse.",
+    "audio": "/audio/2562.mp3",
+    "word_translations": {
+      "fue": "es war",
+      "giro": "Wendung",
+      "inesperado": "unerwartet",
+      "eventos": "Ereignisse"
+    }
+  },
+  {
+    "id": "2563",
+    "spanish": "asombroso",
+    "german": "erstaunlich",
+    "type": "adjective",
+    "sentence_es": "El paisaje es asombroso.",
+    "sentence_de": "Die Landschaft ist erstaunlich.",
+    "audio": "/audio/2563.mp3",
+    "word_translations": {
+      "paisaje": "Landschaft",
+      "asombroso": "erstaunlich"
+    }
+  },
+  {
+    "id": "2564",
+    "spanish": "lógico",
+    "german": "logisch",
+    "type": "adjective",
+    "sentence_es": "Tu razonamiento es lógico.",
+    "sentence_de": "Deine Argumentation ist logisch.",
+    "audio": "/audio/2564.mp3",
+    "word_translations": {
+      "razonamiento": "Argumentation",
+      "lógico": "logisch"
+    }
+  },
+  {
+    "id": "2565",
+    "spanish": "hartarse",
+    "german": "satt haben / genug haben",
+    "type": "verb",
+    "sentence_es": "Me harté de sus excusas.",
+    "sentence_de": "Ich hatte genug von seinen Ausreden.",
+    "audio": "/audio/2565.mp3",
+    "word_translations": {
+      "harté": "ich hatte genug",
+      "excusas": "Ausreden"
+    }
+  },
+  {
+    "id": "2566",
+    "spanish": "distinto",
+    "german": "unterschiedlich",
+    "type": "adjective",
+    "sentence_es": "Cada persona es distinta.",
+    "sentence_de": "Jeder Mensch ist unterschiedlich.",
+    "audio": "/audio/2566.mp3",
+    "word_translations": {
+      "cada": "jeder",
+      "persona": "Mensch",
+      "distinta": "unterschiedlich"
+    }
+  },
+  {
+    "id": "2567",
+    "spanish": "soportar",
+    "german": "ertragen",
+    "type": "verb",
+    "sentence_es": "No puedo soportar este dolor.",
+    "sentence_de": "Ich kann diesen Schmerz nicht ertragen.",
+    "audio": "/audio/2567.mp3",
+    "word_translations": {
+      "puedo": "ich kann",
+      "soportar": "ertragen",
+      "dolor": "Schmerz"
+    }
+  },
+  {
+    "id": "2568",
+    "spanish": "quejarse",
+    "german": "sich beschweren",
+    "type": "verb",
+    "sentence_es": "Siempre se queja del tiempo.",
+    "sentence_de": "Er beschwert sich immer über das Wetter.",
+    "audio": "/audio/2568.mp3",
+    "word_translations": {
+      "siempre": "immer",
+      "queja": "beschwert sich",
+      "tiempo": "Wetter"
+    }
+  },
+  {
+    "id": "2569",
+    "spanish": "soler",
+    "german": "gewohnt sein / pflegen zu",
+    "type": "verb",
+    "sentence_es": "Suelo levantarme temprano.",
+    "sentence_de": "Ich pflege früh aufzustehen.",
+    "audio": "/audio/2569.mp3",
+    "word_translations": {
+      "suelo": "ich pflege",
+      "levantarme": "aufzustehen",
+      "temprano": "früh"
+    }
+  },
+  {
+    "id": "2570",
+    "spanish": "parecer",
+    "german": "scheinen / aussehen wie",
+    "type": "verb",
+    "sentence_es": "Parece que va a llover.",
+    "sentence_de": "Es scheint, dass es regnen wird.",
+    "audio": "/audio/2570.mp3",
+    "word_translations": {
+      "parece": "es scheint",
+      "llover": "regnen"
+    }
+  },
+  {
+    "id": "2571",
+    "spanish": "desaparecer",
+    "german": "verschwinden",
+    "type": "verb",
+    "sentence_es": "El gato desapareció misteriosamente.",
+    "sentence_de": "Die Katze verschwand auf mysteriöse Weise.",
+    "audio": "/audio/2571.mp3",
+    "word_translations": {
+      "gato": "Katze",
+      "desapareció": "verschwand",
+      "misteriosamente": "auf mysteriöse Weise"
+    }
+  },
+  {
+    "id": "2572",
+    "spanish": "faltar",
+    "german": "fehlen",
+    "type": "verb",
+    "sentence_es": "Falta una silla en la mesa.",
+    "sentence_de": "Es fehlt ein Stuhl am Tisch.",
+    "audio": "/audio/2572.mp3",
+    "word_translations": {
+      "falta": "es fehlt",
+      "silla": "Stuhl",
+      "mesa": "Tisch"
+    }
+  },
+  {
+    "id": "2573",
+    "spanish": "sobrar",
+    "german": "übrig sein",
+    "type": "verb",
+    "sentence_es": "Sobró mucha comida de la fiesta.",
+    "sentence_de": "Es blieb viel Essen von der Party übrig.",
+    "audio": "/audio/2573.mp3",
+    "word_translations": {
+      "sobró": "es blieb übrig",
+      "mucha": "viel",
+      "comida": "Essen",
+      "fiesta": "Party"
+    }
+  },
+  {
+    "id": "2574",
+    "spanish": "engañar",
+    "german": "betrügen / täuschen",
+    "type": "verb",
+    "sentence_es": "No me gusta que me engañen.",
+    "sentence_de": "Ich mag es nicht, betrogen zu werden.",
+    "audio": "/audio/2574.mp3",
+    "word_translations": {
+      "gusta": "mag",
+      "engañen": "betrügen"
+    }
+  },
+  {
+    "id": "2575",
+    "spanish": "ocurrir",
+    "german": "geschehen / passieren",
+    "type": "verb",
+    "sentence_es": "¿Qué ocurrió ayer?",
+    "sentence_de": "Was geschah gestern?",
+    "audio": "/audio/2575.mp3",
+    "word_translations": {
+      "ocurrió": "geschah",
+      "ayer": "gestern"
+    }
+  },
+  {
+    "id": "2576",
+    "spanish": "la ventaja",
+    "german": "der Vorteil",
+    "type": "noun",
+    "sentence_es": "La principal ventaja es el precio bajo.",
+    "sentence_de": "Der Hauptvorteil ist der niedrige Preis.",
+    "audio": "/audio/2576.mp3",
+    "word_translations": {
+      "principal": "Haupt-",
+      "ventaja": "Vorteil",
+      "precio": "Preis",
+      "bajo": "niedrig"
+    }
+  },
+  {
+    "id": "2577",
+    "spanish": "la desventaja",
+    "german": "der Nachteil",
+    "type": "noun",
+    "sentence_es": "La desventaja es la ubicación.",
+    "sentence_de": "Der Nachteil ist die Lage.",
+    "audio": "/audio/2577.mp3",
+    "word_translations": {
+      "desventaja": "Nachteil",
+      "ubicación": "Lage"
+    }
+  },
+  {
+    "id": "2578",
+    "spanish": "el fracaso",
+    "german": "der Misserfolg",
+    "type": "noun",
+    "sentence_es": "El fracaso es parte del aprendizaje.",
+    "sentence_de": "Misserfolg ist Teil des Lernens.",
+    "audio": "/audio/2578.mp3",
+    "word_translations": {
+      "fracaso": "Misserfolg",
+      "parte": "Teil",
+      "aprendizaje": "Lernen"
+    }
+  },
+  {
+    "id": "2579",
+    "spanish": "la meta",
+    "german": "das Ziel",
+    "type": "noun",
+    "sentence_es": "Mi meta es aprender español.",
+    "sentence_de": "Mein Ziel ist es, Spanisch zu lernen.",
+    "audio": "/audio/2579.mp3",
+    "word_translations": {
+      "meta": "Ziel",
+      "aprender": "lernen",
+      "español": "Spanisch"
+    }
+  },
+  {
+    "id": "2580",
+    "spanish": "la costumbre",
+    "german": "die Gewohnheit",
+    "type": "noun",
+    "sentence_es": "Es una costumbre española cenar tarde.",
+    "sentence_de": "Es ist eine spanische Gewohnheit, spät zu Abend zu essen.",
+    "audio": "/audio/2580.mp3",
+    "word_translations": {
+      "costumbre": "Gewohnheit",
+      "española": "spanisch",
+      "cenar": "zu Abend essen",
+      "tarde": "spät"
+    }
+  },
+  {
+    "id": "2581",
+    "spanish": "tal vez",
+    "german": "vielleicht",
+    "type": "adverb",
+    "sentence_es": "Tal vez vaya mañana.",
+    "sentence_de": "Vielleicht gehe ich morgen.",
+    "audio": "/audio/2581.mp3",
+    "word_translations": {
+      "tal vez": "vielleicht",
+      "vaya": "ich gehe",
+      "mañana": "morgen"
+    }
+  },
+  {
+    "id": "2582",
+    "spanish": "a lo mejor",
+    "german": "wahrscheinlich / vielleicht",
+    "type": "phrase",
+    "sentence_es": "A lo mejor viene más tarde.",
+    "sentence_de": "Wahrscheinlich kommt er später.",
+    "audio": "/audio/2582.mp3",
+    "word_translations": {
+      "a lo mejor": "wahrscheinlich",
+      "viene": "kommt",
+      "tarde": "später"
+    }
+  },
+  {
+    "id": "2583",
+    "spanish": "o sea",
+    "german": "das heißt / also",
+    "type": "phrase",
+    "sentence_es": "Llegó tarde, o sea, perdió el tren.",
+    "sentence_de": "Er kam zu spät, das heißt, er verpasste den Zug.",
+    "audio": "/audio/2583.mp3",
+    "word_translations": {
+      "llegó": "er kam",
+      "tarde": "zu spät",
+      "o sea": "das heißt",
+      "perdió": "verpasste",
+      "tren": "Zug"
+    }
+  },
+  {
+    "id": "2584",
+    "spanish": "darse cuenta de",
+    "german": "bemerken / realisieren",
+    "type": "phrase",
+    "sentence_es": "Me di cuenta de mi error demasiado tarde.",
+    "sentence_de": "Ich bemerkte meinen Fehler zu spät.",
+    "audio": "/audio/2584.mp3",
+    "word_translations": {
+      "me di cuenta": "ich bemerkte",
+      "error": "Fehler",
+      "demasiado": "zu",
+      "tarde": "spät"
+    }
+  },
+  {
+    "id": "2585",
+    "spanish": "tener ganas de",
+    "german": "Lust haben auf",
+    "type": "phrase",
+    "sentence_es": "Tengo ganas de comer pizza.",
+    "sentence_de": "Ich habe Lust auf Pizza.",
+    "audio": "/audio/2585.mp3",
+    "word_translations": {
+      "tengo": "ich habe",
+      "ganas": "Lust",
+      "comer": "essen"
+    }
+  },
+  {
+    "id": "2586",
+    "spanish": "echar de menos",
+    "german": "vermissen",
+    "type": "phrase",
+    "sentence_es": "Echo de menos a mi familia.",
+    "sentence_de": "Ich vermisse meine Familie.",
+    "audio": "/audio/2586.mp3",
+    "word_translations": {
+      "echo de menos": "ich vermisse",
+      "familia": "Familie"
+    }
+  },
+  {
+    "id": "2587",
+    "spanish": "vale la pena",
+    "german": "es lohnt sich",
+    "type": "phrase",
+    "sentence_es": "Vale la pena visitar este museo.",
+    "sentence_de": "Es lohnt sich, dieses Museum zu besuchen.",
+    "audio": "/audio/2587.mp3",
+    "word_translations": {
+      "vale la pena": "es lohnt sich",
+      "visitar": "besuchen",
+      "museo": "Museum"
+    }
+  },
+  {
+    "id": "2588",
+    "spanish": "ponerse de acuerdo",
+    "german": "sich einig werden",
+    "type": "phrase",
+    "sentence_es": "Necesitamos ponernos de acuerdo sobre el plan.",
+    "sentence_de": "Wir müssen uns über den Plan einig werden.",
+    "audio": "/audio/2588.mp3",
+    "word_translations": {
+      "necesitamos": "wir müssen",
+      "ponernos de acuerdo": "uns einig werden",
+      "plan": "Plan"
+    }
+  },
+  {
+    "id": "2589",
+    "spanish": "llevarse bien",
+    "german": "sich gut verstehen",
+    "type": "phrase",
+    "sentence_es": "Me llevo bien con mis compañeros.",
+    "sentence_de": "Ich verstehe mich gut mit meinen Kollegen.",
+    "audio": "/audio/2589.mp3",
+    "word_translations": {
+      "llevo bien": "ich verstehe mich gut",
+      "compañeros": "Kollegen"
+    }
+  },
+  {
+    "id": "2590",
+    "spanish": "darse prisa",
+    "german": "sich beeilen",
+    "type": "phrase",
+    "sentence_es": "Date prisa o llegaremos tarde.",
+    "sentence_de": "Beeil dich, oder wir kommen zu spät.",
+    "audio": "/audio/2590.mp3",
+    "word_translations": {
+      "date prisa": "beeil dich",
+      "llegaremos": "wir kommen",
+      "tarde": "zu spät"
+    }
+  },
+  {
+    "id": "2591",
+    "spanish": "en realidad",
+    "german": "eigentlich / in Wirklichkeit",
+    "type": "adverb",
+    "sentence_es": "En realidad, no sé la respuesta.",
+    "sentence_de": "Eigentlich weiß ich die Antwort nicht.",
+    "audio": "/audio/2591.mp3",
+    "word_translations": {
+      "en realidad": "eigentlich",
+      "sé": "ich weiß",
+      "respuesta": "Antwort"
+    }
+  },
+  {
+    "id": "2592",
+    "spanish": "por fin",
+    "german": "endlich",
+    "type": "adverb",
+    "sentence_es": "Por fin llegó el fin de semana.",
+    "sentence_de": "Endlich ist das Wochenende da.",
+    "audio": "/audio/2592.mp3",
+    "word_translations": {
+      "por fin": "endlich",
+      "llegó": "ist da",
+      "fin de semana": "Wochenende"
+    }
+  },
+  {
+    "id": "2593",
+    "spanish": "la huelga",
+    "german": "der Streik",
+    "type": "noun",
+    "sentence_es": "Los trabajadores están en huelga.",
+    "sentence_de": "Die Arbeiter sind im Streik.",
+    "audio": "/audio/2593.mp3",
+    "word_translations": {
+      "trabajadores": "Arbeiter",
+      "huelga": "Streik"
+    }
+  },
+  {
+    "id": "2594",
+    "spanish": "el ciudadano",
+    "german": "der Bürger",
+    "type": "noun",
+    "sentence_es": "Todo ciudadano tiene derechos.",
+    "sentence_de": "Jeder Bürger hat Rechte.",
+    "audio": "/audio/2594.mp3",
+    "word_translations": {
+      "todo": "jeder",
+      "ciudadano": "Bürger",
+      "derechos": "Rechte"
+    }
+  },
+  {
+    "id": "2595",
+    "spanish": "la brecha",
+    "german": "die Lücke / Kluft",
+    "type": "noun",
+    "sentence_es": "Existe una brecha generacional.",
+    "sentence_de": "Es gibt eine generationsbedingte Kluft.",
+    "audio": "/audio/2595.mp3",
+    "word_translations": {
+      "existe": "es gibt",
+      "brecha": "Kluft",
+      "generacional": "generationsbedingt"
+    }
+  },
+  {
+    "id": "2596",
+    "spanish": "el ámbito",
+    "german": "der Bereich / Rahmen",
+    "type": "noun",
+    "sentence_es": "Trabajo en el ámbito de la tecnología.",
+    "sentence_de": "Ich arbeite im Bereich der Technologie.",
+    "audio": "/audio/2596.mp3",
+    "word_translations": {
+      "trabajo": "ich arbeite",
+      "ámbito": "Bereich",
+      "tecnología": "Technologie"
+    }
+  },
+  {
+    "id": "2597",
+    "spanish": "decepcionante",
+    "german": "enttäuschend",
+    "type": "adjective",
+    "sentence_es": "La película fue muy decepcionante.",
+    "sentence_de": "Der Film war sehr enttäuschend.",
+    "audio": "/audio/2597.mp3",
+    "word_translations": {
+      "la película": "der Film",
+      "fue": "war",
+      "muy": "sehr",
+      "decepcionante": "enttäuschend"
+    }
+  },
+  {
+    "id": "2598",
+    "spanish": "el rendimiento",
+    "german": "die Leistung / der Ertrag / die Rendite",
+    "type": "noun",
+    "sentence_es": "El rendimiento de la empresa mejoró este año.",
+    "sentence_de": "Die Leistung des Unternehmens verbesserte sich dieses Jahr.",
+    "audio": "/audio/2598.mp3",
+    "word_translations": {
+      "el rendimiento": "die Leistung",
+      "de la empresa": "des Unternehmens",
+      "mejoró": "verbesserte sich",
+      "este año": "dieses Jahr"
+    }
+  },
+  {
+    "id": "2599",
+    "spanish": "la esponja",
+    "german": "der Schwamm",
+    "type": "noun",
+    "sentence_es": "Necesito una esponja para limpiar la cocina.",
+    "sentence_de": "Ich brauche einen Schwamm, um die Küche zu putzen.",
+    "audio": "/audio/2599.mp3",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "una esponja": "einen Schwamm",
+      "para limpiar": "um zu putzen",
+      "la cocina": "die Küche"
+    }
+  },
+  {
+    "id": "2600",
+    "spanish": "la ardilla",
+    "german": "das Eichhörnchen",
+    "type": "noun",
+    "sentence_es": "Vi una ardilla en el parque.",
+    "sentence_de": "Ich sah ein Eichhörnchen im Park.",
+    "audio": "/audio/2600.mp3",
+    "word_translations": {
+      "vi": "ich sah",
+      "una ardilla": "ein Eichhörnchen",
+      "en el parque": "im Park"
+    }
+  },
+  {
+    "id": "2601",
+    "spanish": "exitoso / exitosa",
+    "german": "erfolgreich",
+    "type": "adjective",
+    "sentence_es": "Es una empresaria muy exitosa.",
+    "sentence_de": "Sie ist eine sehr erfolgreiche Unternehmerin.",
+    "audio": "/audio/2601.mp3",
+    "word_translations": {
+      "es": "sie ist",
+      "una empresaria": "eine Unternehmerin",
+      "muy": "sehr",
+      "exitosa": "erfolgreich"
+    }
+  },
+  {
+    "id": "2602",
+    "spanish": "los tatuajes",
+    "german": "die Tattoos",
+    "type": "noun",
+    "sentence_es": "Me gustan tus tatuajes.",
+    "sentence_de": "Mir gefallen deine Tattoos.",
+    "audio": "/audio/2602.mp3",
+    "word_translations": {
+      "me gustan": "gefallen mir",
+      "tus": "deine",
+      "tatuajes": "Tattoos"
+    }
+  },
+  {
+    "id": "2603",
+    "spanish": "las agujas",
+    "german": "die Nadeln",
+    "type": "noun",
+    "sentence_es": "Necesito agujas para coser.",
+    "sentence_de": "Ich brauche Nadeln zum Nähen.",
+    "audio": "/audio/2603.mp3",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "agujas": "Nadeln",
+      "para coser": "zum Nähen"
+    }
+  },
+  {
+    "id": "2604",
+    "spanish": "el ángel",
+    "german": "der Engel",
+    "type": "noun",
+    "sentence_es": "Eres un ángel por ayudarme.",
+    "sentence_de": "Du bist ein Engel, dass du mir hilfst.",
+    "audio": "/audio/2604.mp3",
+    "word_translations": {
+      "eres": "du bist",
+      "un ángel": "ein Engel",
+      "por ayudarme": "weil du mir hilfst"
+    }
+  },
+  {
+    "id": "2605",
+    "spanish": "el mundial",
+    "german": "die Weltmeisterschaft",
+    "type": "noun",
+    "sentence_es": "Vamos a ver el mundial de fútbol.",
+    "sentence_de": "Wir werden die Fußball-Weltmeisterschaft sehen.",
+    "audio": "/audio/2605.mp3",
+    "word_translations": {
+      "vamos a ver": "wir werden sehen",
+      "el mundial": "die Weltmeisterschaft",
+      "de fútbol": "Fußball-"
+    }
+  },
+  {
+    "id": "2606",
+    "spanish": "la boda",
+    "german": "die Hochzeit",
+    "type": "noun",
+    "sentence_es": "La boda será en junio.",
+    "sentence_de": "Die Hochzeit wird im Juni sein.",
+    "audio": "/audio/2606.mp3",
+    "word_translations": {
+      "la boda": "die Hochzeit",
+      "será": "wird sein",
+      "en junio": "im Juni"
+    }
+  },
+  {
+    "id": "2607",
+    "spanish": "el funeral",
+    "german": "die Beerdigung / die Trauerfeier",
+    "type": "noun",
+    "sentence_es": "El funeral será el viernes.",
+    "sentence_de": "Die Beerdigung wird am Freitag sein.",
+    "audio": "/audio/2607.mp3",
+    "word_translations": {
+      "el funeral": "die Beerdigung",
+      "será": "wird sein",
+      "el viernes": "am Freitag"
+    }
+  },
+  {
+    "id": "2608",
+    "spanish": "la semana santa",
+    "german": "Ostern / die Heilige Woche",
+    "type": "noun",
+    "sentence_es": "Durante la semana santa hay muchas procesiones.",
+    "sentence_de": "Während der Heiligen Woche gibt es viele Prozessionen.",
+    "audio": "/audio/2608.mp3",
+    "word_translations": {
+      "durante": "während",
+      "la semana santa": "der Heiligen Woche",
+      "hay": "gibt es",
+      "muchas procesiones": "viele Prozessionen"
+    }
+  },
+  {
+    "id": "2609",
+    "spanish": "pecar",
+    "german": "sündigen",
+    "type": "verb",
+    "sentence_es": "Nadie es perfecto, todos pecamos.",
+    "sentence_de": "Niemand ist perfekt, wir alle sündigen.",
+    "audio": "/audio/2609.mp3",
+    "word_translations": {
+      "nadie": "niemand",
+      "es perfecto": "ist perfekt",
+      "todos": "alle",
+      "pecamos": "sündigen wir"
+    }
+  },
+  {
+    "id": "2610",
+    "spanish": "enterrar",
+    "german": "begraben / beerdigen",
+    "type": "verb",
+    "sentence_es": "Van a enterrar el tesoro en el jardín.",
+    "sentence_de": "Sie werden den Schatz im Garten begraben.",
+    "audio": "/audio/2610.mp3",
+    "word_translations": {
+      "van a enterrar": "werden begraben",
+      "el tesoro": "den Schatz",
+      "en el jardín": "im Garten"
+    }
+  },
+  {
+    "id": "2611",
+    "spanish": "la falsedad",
+    "german": "die Falschheit / die Verlogenheit",
+    "type": "noun",
+    "sentence_es": "No tolero la falsedad en las personas.",
+    "sentence_de": "Ich toleriere keine Falschheit bei Menschen.",
+    "audio": "/audio/2611.mp3",
+    "word_translations": {
+      "no tolero": "ich toleriere nicht",
+      "la falsedad": "die Falschheit",
+      "en las personas": "bei Menschen"
+    }
+  },
+  {
+    "id": "2612",
+    "spanish": "imponente",
+    "german": "eindrucksvoll / imposant",
+    "type": "adjective",
+    "sentence_es": "El castillo tiene una arquitectura imponente.",
+    "sentence_de": "Das Schloss hat eine eindrucksvolle Architektur.",
+    "audio": "/audio/2612.mp3",
+    "word_translations": {
+      "el castillo": "das Schloss",
+      "tiene": "hat",
+      "una arquitectura": "eine Architektur",
+      "imponente": "eindrucksvolle"
+    }
+  },
+  {
+    "id": "2613",
+    "spanish": "incómodo / incómoda",
+    "german": "unbequem",
+    "type": "adjective",
+    "sentence_es": "Esta silla es muy incómoda.",
+    "sentence_de": "Dieser Stuhl ist sehr unbequem.",
+    "audio": "/audio/2613.mp3",
+    "word_translations": {
+      "esta silla": "dieser Stuhl",
+      "es muy": "ist sehr",
+      "incómoda": "unbequem"
+    }
+  },
+  {
+    "id": "2614",
+    "spanish": "animar",
+    "german": "ermutigen / anfeuern",
+    "type": "verb",
+    "sentence_es": "Mis amigos me animan a seguir adelante.",
+    "sentence_de": "Meine Freunde ermutigen mich weiterzumachen.",
+    "audio": "/audio/2614.mp3",
+    "word_translations": {
+      "mis amigos": "meine Freunde",
+      "me animan": "ermutigen mich",
+      "a seguir adelante": "weiterzumachen"
+    }
+  },
+  {
+    "id": "2615",
+    "spanish": "deprisa",
+    "german": "schnell / eilig",
+    "type": "adverb",
+    "sentence_es": "Tenemos que salir deprisa.",
+    "sentence_de": "Wir müssen schnell los.",
+    "audio": "/audio/2615.mp3",
+    "word_translations": {
+      "tenemos que salir": "wir müssen losgehen",
+      "deprisa": "schnell"
+    }
+  },
+  {
+    "id": "2616",
+    "spanish": "el porte",
+    "german": "die Haltung",
+    "type": "noun",
+    "sentence_es": "Tiene un porte muy elegante.",
+    "sentence_de": "Er hat eine sehr elegante Haltung.",
+    "audio": "/audio/2616.mp3",
+    "word_translations": {
+      "tiene": "er hat",
+      "un porte": "eine Haltung",
+      "muy elegante": "sehr elegant"
     }
   }
 ]

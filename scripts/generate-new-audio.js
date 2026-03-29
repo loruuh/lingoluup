@@ -5,7 +5,6 @@ const path = require('path');
 
 const VOCAB_FILE = path.join(__dirname, '..', 'data', 'vocabulario-es.json');
 const AUDIO_DIR = path.join(__dirname, '..', 'public', 'audio');
-const NEW_ENTRIES_COUNT = 17;
 const RETRY_ATTEMPTS = 3;
 const RETRY_DELAY = 1000;
 const RATE_LIMIT_DELAY = 100;
@@ -54,9 +53,21 @@ async function main() {
   await fs.mkdir(AUDIO_DIR, { recursive: true });
 
   const vocabData = JSON.parse(await fs.readFile(VOCAB_FILE, 'utf-8'));
-  const newEntries = vocabData.slice(-NEW_ENTRIES_COUNT);
 
-  console.log(`Processing ${newEntries.length} entries (IDs: ${newEntries[0].id} - ${newEntries[newEntries.length - 1].id})\n`);
+  // Find all entries whose audio file doesn't exist on disk
+  const newEntries = [];
+  for (const vocab of vocabData) {
+    const audioPath = path.join(AUDIO_DIR, `${vocab.id}.mp3`);
+    try {
+      await fs.access(audioPath);
+    } catch {
+      newEntries.push(vocab);
+    }
+  }
+
+  console.log(`Found ${newEntries.length} entries missing audio files`);
+  if (newEntries.length === 0) { console.log('Nothing to do!'); return; }
+  console.log(`ID range: ${newEntries[0].id} - ${newEntries[newEntries.length - 1].id}\n`);
 
   const failed = [];
 

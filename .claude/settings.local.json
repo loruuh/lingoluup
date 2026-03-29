@@ -56,7 +56,23 @@
       "Bash(grep -c '\"\"spanish\"\": \"\"inversores\"\"' data/vocabulario-es.json)",
       "Bash(grep -c '\"\"spanish\"\": \"\"prometer\"\"' data/vocabulario-es.json)",
       "Bash(grep -c '\"\"spanish\"\": \"\"propósito\"\"' data/vocabulario-es.json)",
-      "Bash(grep -c '\"\"spanish\"\": \"\"palacio\"\"' data/vocabulario-es.json)"
+      "Bash(grep -c '\"\"spanish\"\": \"\"palacio\"\"' data/vocabulario-es.json)",
+      "Bash(python3:*)",
+      "Bash(for verb:*)",
+      "Bash(do echo:*)",
+      "Bash(desventaja)",
+      "Bash(exito)",
+      "Bash(éxito)",
+      "Bash(fracaso)",
+      "Bash(rincon)",
+      "Bash(rincón \")",
+      "Bash(cd:*)",
+      "Bash(grep -n '\"\"spanish\"\".*decepcionante\\\\|\"\"spanish\"\".*rendimiento\\\\|\"\"spanish\"\".*esponja\\\\|\"\"spanish\"\".*ardilla\\\\|\"\"spanish\"\".*exitosa\\\\|\"\"spanish\"\".*exitoso' data/vocabulario-es.json)",
+      "Bash(grep -n '\"\"spanish\"\".*éxito\\\\|\"\"spanish\"\".*exito\\\\|\"\"spanish\"\".*éxitos' data/vocabulario-es.json)",
+      "Bash(for f:*)",
+      "Read(//c/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/**)",
+      "Bash(grep -l \"2246\\\\|2094\\\\|2384\\\\|2287\\\\|820\" \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\"/*.json)",
+      "Bash(sort -t. -k1 -n)"
     ]
   }
 }
