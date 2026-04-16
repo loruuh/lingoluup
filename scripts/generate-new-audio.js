@@ -43,8 +43,14 @@ async function generateAudio(text, outputPath) {
   await fs.writeFile(outputPath, audioContent);
 }
 
+// Target specific ID ranges (as strings to match JSON data)
+const TARGET_IDS = new Set([
+  ...Array.from({length: 55}, (_, i) => String(2463 + i)), // 2463-2517
+  ...Array.from({length: 15}, (_, i) => String(2602 + i))  // 2602-2616
+]);
+
 async function main() {
-  console.log('Starting audio generation for last 17 vocabulary entries\n');
+  console.log('Starting audio generation for IDs 2463-2517 and 2602-2616 (70 entries)\n');
 
   if (!process.env.GOOGLE_CLOUD_TTS_API_KEY) {
     throw new Error('GOOGLE_CLOUD_TTS_API_KEY environment variable is not set');
@@ -54,9 +60,10 @@ async function main() {
 
   const vocabData = JSON.parse(await fs.readFile(VOCAB_FILE, 'utf-8'));
 
-  // Find all entries whose audio file doesn't exist on disk
+  // Find target entries whose audio file doesn't exist on disk
   const newEntries = [];
   for (const vocab of vocabData) {
+    if (!TARGET_IDS.has(String(vocab.id))) continue;
     const audioPath = path.join(AUDIO_DIR, `${vocab.id}.mp3`);
     try {
       await fs.access(audioPath);

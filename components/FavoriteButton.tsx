@@ -23,6 +23,7 @@ export default function FavoriteButton({ vocabId }: FavoriteButtonProps) {
       addFavorite(vocabId);
       setFavorite(true);
     }
+    window.dispatchEvent(new CustomEvent('favoritesChanged'));
   };
 
   return (

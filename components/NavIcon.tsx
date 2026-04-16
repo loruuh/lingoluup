@@ -7,9 +7,10 @@ interface NavIconProps {
   href: string;
   label: string;
   children: React.ReactNode;
+  badge?: React.ReactNode;
 }
 
-export function NavIcon({ href, label, children }: NavIconProps) {
+export function NavIcon({ href, label, children, badge }: NavIconProps) {
   const pathname = usePathname();
   const isActive = pathname === href;
 
@@ -28,6 +29,9 @@ export function NavIcon({ href, label, children }: NavIconProps) {
       <span className="relative z-10 transition-transform duration-300 group-hover:scale-110">
         {children}
       </span>
+
+      {/* Badge (e.g. favorites count) */}
+      {badge}
 
       {/* Glow overlay on hover */}
       <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/0 via-primary/20 to-primary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

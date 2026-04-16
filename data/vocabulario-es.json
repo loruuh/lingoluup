@@ -43944,5 +43944,272 @@
       "un porte": "eine Haltung",
       "muy elegante": "sehr elegant"
     }
+  },
+  {
+    "id": "2617",
+    "spanish": "el gorro",
+    "german": "die Mütze",
+    "type": "noun",
+    "sentence_es": "Necesito un gorro para el invierno.",
+    "sentence_de": "Ich brauche eine Mütze für den Winter.",
+    "audio": "/audio/2617.mp3",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "un gorro": "eine Mütze",
+      "para": "für",
+      "el invierno": "den Winter"
+    }
+  },
+  {
+    "id": "2618",
+    "spanish": "el pijama",
+    "german": "der Schlafanzug",
+    "type": "noun",
+    "sentence_es": "Me pongo el pijama antes de dormir.",
+    "sentence_de": "Ich ziehe den Schlafanzug vor dem Schlafen an.",
+    "audio": "/audio/2618.mp3",
+    "word_translations": {
+      "me pongo": "ich ziehe an",
+      "el pijama": "den Schlafanzug",
+      "antes de": "vor dem",
+      "dormir": "Schlafen"
+    }
+  },
+  {
+    "id": "2619",
+    "spanish": "la ropa interior",
+    "german": "die Unterwäsche",
+    "type": "noun",
+    "sentence_es": "Compré ropa interior nueva.",
+    "sentence_de": "Ich habe neue Unterwäsche gekauft.",
+    "audio": "/audio/2619.mp3",
+    "word_translations": {
+      "compré": "ich habe gekauft",
+      "ropa interior": "Unterwäsche",
+      "nueva": "neue"
+    }
+  },
+  {
+    "id": "2620",
+    "spanish": "el bolso",
+    "german": "die Tasche",
+    "type": "noun",
+    "sentence_es": "Mi bolso es de cuero.",
+    "sentence_de": "Meine Tasche ist aus Leder.",
+    "audio": "/audio/2620.mp3",
+    "word_translations": {
+      "mi bolso": "meine Tasche",
+      "es de": "ist aus",
+      "cuero": "Leder"
+    }
+  },
+  {
+    "id": "2621",
+    "spanish": "los calcetines",
+    "german": "die Socken",
+    "type": "noun",
+    "sentence_es": "Estos calcetines son muy cómodos.",
+    "sentence_de": "Diese Socken sind sehr bequem.",
+    "audio": "/audio/2621.mp3",
+    "word_translations": {
+      "estos": "diese",
+      "calcetines": "Socken",
+      "son": "sind",
+      "muy": "sehr",
+      "cómodos": "bequem"
+    }
+  },
+  {
+    "id": "2622",
+    "spanish": "el casco",
+    "german": "der Helm",
+    "type": "noun",
+    "sentence_es": "Siempre uso casco cuando monto en bicicleta.",
+    "sentence_de": "Ich trage immer einen Helm, wenn ich Fahrrad fahre.",
+    "audio": "/audio/2622.mp3",
+    "word_translations": {
+      "siempre": "immer",
+      "uso": "trage",
+      "casco": "Helm",
+      "cuando": "wenn",
+      "monto en bicicleta": "ich Fahrrad fahre"
+    }
+  },
+  {
+    "id": "2623",
+    "spanish": "cualquier",
+    "german": "irgendeine / irgendeiner / irgendein",
+    "type": "adjective",
+    "sentence_es": "Puedes elegir cualquier opción.",
+    "sentence_de": "Du kannst irgendeine Option wählen.",
+    "audio": "/audio/2623.mp3",
+    "word_translations": {
+      "puedes": "du kannst",
+      "elegir": "wählen",
+      "cualquier": "irgendeine",
+      "opción": "Option"
+    }
+  },
+  {
+    "id": "2624",
+    "spanish": "gratuito / gratuita",
+    "german": "kostenlos",
+    "type": "adjective",
+    "sentence_es": "La entrada es gratuita.",
+    "sentence_de": "Der Eintritt ist kostenlos.",
+    "audio": "/audio/2624.mp3",
+    "word_translations": {
+      "la entrada": "der Eintritt",
+      "es": "ist",
+      "gratuita": "kostenlos"
+    }
+  },
+  {
+    "id": "2625",
+    "spanish": "la celda",
+    "german": "die Zelle",
+    "type": "noun",
+    "sentence_es": "Cada celda de la tabla tiene un valor.",
+    "sentence_de": "Jede Zelle der Tabelle hat einen Wert.",
+    "audio": "/audio/2625.mp3",
+    "word_translations": {
+      "cada": "jede",
+      "celda": "Zelle",
+      "de la tabla": "der Tabelle",
+      "tiene": "hat",
+      "un valor": "einen Wert"
+    }
+  },
+  {
+    "id": "2626",
+    "spanish": "las redes sociales",
+    "german": "die sozialen Netzwerke",
+    "type": "noun",
+    "sentence_es": "Paso mucho tiempo en las redes sociales.",
+    "sentence_de": "Ich verbringe viel Zeit in den sozialen Netzwerken.",
+    "audio": "/audio/2626.mp3",
+    "word_translations": {
+      "paso": "ich verbringe",
+      "mucho tiempo": "viel Zeit",
+      "en": "in",
+      "las redes sociales": "den sozialen Netzwerken"
+    }
+  },
+  {
+    "id": "2627",
+    "spanish": "los lácteos",
+    "german": "die Milchprodukte",
+    "type": "noun",
+    "sentence_es": "Los lácteos son ricos en calcio.",
+    "sentence_de": "Milchprodukte sind reich an Kalzium.",
+    "audio": "/audio/2627.mp3",
+    "word_translations": {
+      "los lácteos": "Milchprodukte",
+      "son": "sind",
+      "ricos en": "reich an",
+      "calcio": "Kalzium"
+    }
+  },
+  {
+    "id": "2628",
+    "spanish": "el pico",
+    "german": "der Schnabel / die Spitze",
+    "type": "noun",
+    "sentence_es": "El pájaro tiene un pico amarillo.",
+    "sentence_de": "Der Vogel hat einen gelben Schnabel.",
+    "audio": "/audio/2628.mp3",
+    "word_translations": {
+      "el pájaro": "der Vogel",
+      "tiene": "hat",
+      "un pico": "einen Schnabel",
+      "amarillo": "gelb"
+    }
+  },
+  {
+    "id": "2629",
+    "spanish": "el gallo",
+    "german": "der Hahn",
+    "type": "noun",
+    "sentence_es": "El gallo canta por la mañana.",
+    "sentence_de": "Der Hahn kräht am Morgen.",
+    "audio": "/audio/2629.mp3",
+    "word_translations": {
+      "el gallo": "der Hahn",
+      "canta": "kräht",
+      "por la mañana": "am Morgen"
+    }
+  },
+  {
+    "id": "2630",
+    "spanish": "los frijoles",
+    "german": "die Bohnen",
+    "type": "noun",
+    "sentence_es": "Los frijoles son muy populares en México.",
+    "sentence_de": "Bohnen sind in Mexiko sehr beliebt.",
+    "audio": "/audio/2630.mp3",
+    "word_translations": {
+      "los frijoles": "Bohnen",
+      "son": "sind",
+      "muy populares": "sehr beliebt",
+      "en México": "in Mexiko"
+    }
+  },
+  {
+    "id": "2631",
+    "spanish": "santo / santa",
+    "german": "heilig / Sankt",
+    "type": "adjective",
+    "sentence_es": "La semana santa es una celebración importante.",
+    "sentence_de": "Die Heilige Woche ist eine wichtige Feier.",
+    "audio": "/audio/2631.mp3",
+    "word_translations": {
+      "la semana santa": "die Heilige Woche",
+      "es": "ist",
+      "una celebración": "eine Feier",
+      "importante": "wichtig"
+    }
+  },
+  {
+    "id": "2632",
+    "spanish": "el basurero",
+    "german": "der Mülleimer",
+    "type": "noun",
+    "sentence_es": "Tira la basura en el basurero.",
+    "sentence_de": "Wirf den Müll in den Mülleimer.",
+    "audio": "/audio/2632.mp3",
+    "word_translations": {
+      "tira": "wirf",
+      "la basura": "den Müll",
+      "en": "in",
+      "el basurero": "den Mülleimer"
+    }
+  },
+  {
+    "id": "2633",
+    "spanish": "la peluquería",
+    "german": "der Friseursalon",
+    "type": "noun",
+    "sentence_es": "Voy a la peluquería cada mes.",
+    "sentence_de": "Ich gehe jeden Monat zum Friseur.",
+    "audio": "/audio/2633.mp3",
+    "word_translations": {
+      "voy a": "ich gehe zu",
+      "la peluquería": "dem Friseursalon",
+      "cada mes": "jeden Monat"
+    }
+  },
+  {
+    "id": "2634",
+    "spanish": "la papelera",
+    "german": "der Papierkorb",
+    "type": "noun",
+    "sentence_es": "La papelera está llena de papel.",
+    "sentence_de": "Der Papierkorb ist voll mit Papier.",
+    "audio": "/audio/2634.mp3",
+    "word_translations": {
+      "la papelera": "der Papierkorb",
+      "está llena": "ist voll",
+      "de papel": "mit Papier"
+    }
   }
 ]
