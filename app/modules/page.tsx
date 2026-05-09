@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useModule } from "@/lib/ModuleContext";
 import ModuleSelection from "@/components/ModuleSelection";
 import TipsView from "@/components/TipsView";
+import LektionenView from "@/components/LektionenView";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Flashcard from "@/components/Flashcard";
@@ -61,7 +62,7 @@ export default function Home() {
 
   // Lade Daily Goal + erste Vokabel wenn ein Modul ausgewählt wird
   useEffect(() => {
-    if (selectedModule && selectedModule.type !== "tips" && isInitialized && !showOnboarding) {
+    if (selectedModule && selectedModule.type !== "tips" && selectedModule.type !== "lessons" && isInitialized && !showOnboarding) {
       const localGoal = getTodayGoal(selectedModule.id);
       setDailyGoal(localGoal);
       loadNextVocab();
@@ -190,6 +191,11 @@ export default function Home() {
   // Tipps-Modul → TipsView
   if (selectedModule.type === "tips") {
     return <TipsView />;
+  }
+
+  // Lektionen-Modul → LektionenView
+  if (selectedModule.type === "lessons") {
+    return <LektionenView />;
   }
 
   // Loading / noch keine Vokabel

@@ -4,8 +4,26 @@
 
 /* ─── Design Tokens ─────────────────────────────────────── */
 
-/* Ocean Theme (Default) */
+/* Lime Theme (Default) — matches Landing Page */
 :root,
+:root[data-theme="lime"] {
+  --background: #0d1117;
+  --background-card: rgba(132,204,22,0.06);
+  --background-card-hover: rgba(132,204,22,0.11);
+  --foreground: #ffffff;
+  --foreground-muted: #9ca3af;
+  --primary: #84cc16;
+  --primary-dark: #65a30d;
+  --primary-light: #a3e635;
+  --sentence-spanish: #84cc16;
+  --sentence-german: #a3e635;
+  --border: rgba(255,255,255,0.06);
+  --border-primary: rgba(132,204,22,0.25);
+  --shadow-glow: rgba(132,204,22,0.20);
+  --radius: 12px;
+}
+
+/* Ocean Theme */
 :root[data-theme="ocean"] {
   --background: #1a1a2e;
   --background-card: rgba(255,255,255,0.04);

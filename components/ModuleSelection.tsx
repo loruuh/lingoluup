@@ -18,6 +18,12 @@ const BookIcon = () => (
   </svg>
 );
 
+const SPECIAL_PALETTE: Record<string, { bg: string; border: string; accent: string; glow: string }> = {
+  redewendungen:      { bg: "rgba(132,204,22,0.07)",  border: "rgba(132,204,22,0.28)",  accent: "#84cc16", glow: "rgba(132,204,22,0.15)"  },
+  "aussprache-tipps": { bg: "rgba(52,211,153,0.07)",  border: "rgba(52,211,153,0.28)",  accent: "#34d399", glow: "rgba(52,211,153,0.15)"  },
+  lektionen:          { bg: "rgba(20,184,166,0.07)",  border: "rgba(20,184,166,0.28)",  accent: "#2dd4bf", glow: "rgba(20,184,166,0.15)"  },
+};
+
 const PALETTE = [
   { bg: "rgba(132,204,22,0.07)", border: "rgba(132,204,22,0.28)", accent: "#84cc16", glow: "rgba(132,204,22,0.15)" },
   { bg: "rgba(52,211,153,0.07)", border: "rgba(52,211,153,0.28)", accent: "#34d399", glow: "rgba(52,211,153,0.15)" },
@@ -42,7 +48,7 @@ export default function ModuleSelection() {
   }, [user]);
 
   const vocabModules = moduleIndex.filter((m) => m.type === "vocabulary");
-  const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary" && m.id !== "redewendungen");
+  const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary");
 
   const handleModuleClick = (moduleId: string) => {
     const needsAdvance = isAdvanceModule(moduleId);
@@ -290,20 +296,25 @@ export default function ModuleSelection() {
               {specialModules.map((module) => {
                 const needsAdvance = isAdvanceModule(module.id);
                 const isLocked = needsAdvance && !hasAdvance;
+                const palette = SPECIAL_PALETTE[module.id] ?? { bg: "rgba(255,255,255,0.025)", border: "rgba(255,255,255,0.07)", accent: "#9ca3af", glow: "rgba(255,255,255,0.08)" };
 
                 return (
                   <button
                     key={module.id}
                     onClick={() => handleModuleClick(module.id)}
                     className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
-                    style={{
-                      background: "rgba(255,255,255,0.025)",
-                      border: "1px solid rgba(255,255,255,0.07)",
-                    }}
+                    style={{ background: palette.bg, border: `1px solid ${palette.border}` }}
                   >
+                    {/* Top accent stripe */}
                     <div
-                      className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-                      style={{ background: "linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 60%)" }}
+                      className="absolute top-0 left-0 right-0 h-[2px] pointer-events-none"
+                      style={{ background: `linear-gradient(90deg, ${palette.accent}bb, ${palette.accent}33, transparent)` }}
+                    />
+
+                    {/* Hover inner glow */}
+                    <div
+                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
+                      style={{ boxShadow: `inset 0 0 60px ${palette.glow}` }}
                     />
 
                     <div className="relative p-5 flex items-center gap-4">
@@ -321,8 +332,14 @@ export default function ModuleSelection() {
                           )}
                         </h3>
                         <p className="text-sm text-gray-500">{module.description}</p>
+                        <p className="text-[11px] mt-1.5 tabular-nums" style={{ color: palette.accent + "99" }}>
+                          {getModuleItemCount(module.id)} Einträge
+                        </p>
                       </div>
-                      <span className="text-gray-600 group-hover:text-gray-400 transition-colors shrink-0 text-sm group-hover:translate-x-0.5 inline-block transition-transform duration-200">
+                      <span
+                        className="shrink-0 text-sm transition-all duration-200 group-hover:translate-x-0.5"
+                        style={{ color: palette.accent + "88" }}
+                      >
                         →
                       </span>
                     </div>

@@ -21,7 +21,7 @@ export default function ThemeToggle() {
   }, [showToast]);
 
   const getNextThemeName = () => {
-    const themeOrder = { ocean: "Sunset", sunset: "Neon", neon: "Ozean" };
+    const themeOrder = { lime: "Ozean", ocean: "Sunset", sunset: "Neon", neon: "LingoLuup" };
     return themeOrder[theme];
   };
 

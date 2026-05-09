@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 
-type Theme = "ocean" | "sunset" | "neon";
+type Theme = "lime" | "ocean" | "sunset" | "neon";
 
 interface ThemeContextType {
   theme: Theme;
@@ -13,13 +13,16 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 const themeNames: Record<Theme, string> = {
+  lime: "LingoLuup",
   ocean: "Ozean",
   sunset: "Sunset",
   neon: "Neon",
 };
 
+const validThemes = new Set<Theme>(["lime", "ocean", "sunset", "neon"]);
+
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("ocean");
+  const [theme, setTheme] = useState<Theme>("lime");
 
   // Load theme from localStorage on mount
   useEffect(() => {
@@ -31,15 +34,17 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       localStorage.setItem("theme", "ocean");
     }
 
-    if (savedTheme && (savedTheme === "ocean" || savedTheme === "sunset" || savedTheme === "neon")) {
+    if (savedTheme && validThemes.has(savedTheme as Theme)) {
       setTheme(savedTheme as Theme);
       document.documentElement.setAttribute("data-theme", savedTheme);
+    } else {
+      document.documentElement.setAttribute("data-theme", "lime");
     }
   }, []);
 
-  // Update theme - rotate through ocean → sunset → neon → ocean
+  // Update theme - rotate through lime → ocean → sunset → neon → lime
   const toggleTheme = () => {
-    const themeOrder: Theme[] = ["ocean", "sunset", "neon"];
+    const themeOrder: Theme[] = ["lime", "ocean", "sunset", "neon"];
     const currentIndex = themeOrder.indexOf(theme);
     const nextIndex = (currentIndex + 1) % themeOrder.length;
     const newTheme = themeOrder[nextIndex];

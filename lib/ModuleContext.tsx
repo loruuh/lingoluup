@@ -13,13 +13,14 @@ import vokabeln5 from "@/data/modules/vokabeln-5.json";
 import zahlenModule from "@/data/modules/zahlen.json";
 import ausspracheTipps from "@/data/modules/aussprache-tipps.json";
 import redewendungen from "@/data/modules/redewendungen.json";
+import lektionen from "@/data/modules/lektionen.json";
 
 export interface ModuleInfo {
   id: string;
   name: string;
   description: string;
   icon: string;
-  type: "vocabulary" | "numbers" | "tips" | "phrases";
+  type: "vocabulary" | "numbers" | "tips" | "phrases" | "lessons";
   file: string;
 }
 
@@ -47,12 +48,20 @@ export interface NumbersModule {
   items: NumberItem[];
 }
 
+export interface TipQuizItem {
+  question: string;
+  options: string[];
+  correct: number;
+  explanation: string;
+}
+
 export interface Tip {
   id: string;
   title: string;
   rule: string;
   mnemonic: string;
   examples: string[];
+  quiz?: TipQuizItem[];
 }
 
 export interface TipsModule {
@@ -85,7 +94,39 @@ export interface PhrasesModule {
   phrases: PhraseItem[];
 }
 
-export type Module = VocabModule | NumbersModule | TipsModule | PhrasesModule;
+export interface LessonExample {
+  spanish: string;
+  german: string;
+  explanation: string;
+}
+
+export interface LessonQuizItem {
+  question: string;
+  options: string[];
+  correct: number;
+  explanation: string;
+}
+
+export interface LessonItem {
+  id: string;
+  title: string;
+  category: string;
+  difficulty: string;
+  explanation_de: string;
+  examples: LessonExample[];
+  quiz: LessonQuizItem[];
+}
+
+export interface LessonsModule {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  type: "lessons";
+  lessons: LessonItem[];
+}
+
+export type Module = VocabModule | NumbersModule | TipsModule | PhrasesModule | LessonsModule;
 
 // Map module files to imported data
 const moduleDataMap: Record<string, Module> = {
@@ -97,6 +138,7 @@ const moduleDataMap: Record<string, Module> = {
   "zahlen": zahlenModule as unknown as NumbersModule,
   "aussprache-tipps": ausspracheTipps as unknown as TipsModule,
   "redewendungen": redewendungen as unknown as PhrasesModule,
+  "lektionen": lektionen as unknown as LessonsModule,
 };
 
 interface ModuleContextType {
@@ -182,6 +224,9 @@ export function ModuleProvider({ children }: { children: ReactNode }) {
     }
     if (moduleData.type === "phrases") {
       return (moduleData as PhrasesModule).phrases.length;
+    }
+    if (moduleData.type === "lessons") {
+      return (moduleData as LessonsModule).lessons.length;
     }
     return 0;
   }, []);

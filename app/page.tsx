@@ -199,31 +199,6 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* SEKTION 7: Video */}
-        <section className="max-w-3xl mx-auto px-4 py-16">
-          <div className="text-center mb-10">
-            <p className="text-xs font-semibold tracking-widest uppercase text-lime-500 mb-3">Kurzes Erklärvideo</p>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white">LINGOLUUP in 2 Minuten erklärt</h2>
-          </div>
-          <div
-            className="rounded-2xl overflow-hidden"
-            style={{
-              border: "1px solid rgba(132,204,22,0.20)",
-              boxShadow: "0 0 48px rgba(132,204,22,0.08)",
-            }}
-          >
-            <div className="aspect-video">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
-                title="LINGOLUUP Erklärvideo"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </section>
-
         {/* SEKTION 8: Target Audience */}
         <section className="max-w-3xl mx-auto px-4 py-16">
           <div className="text-center mb-10">
