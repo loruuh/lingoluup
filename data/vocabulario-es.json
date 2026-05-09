@@ -44924,5 +44924,319 @@
       "fumar": "rauchen",
       "es insalubre": "ist ungesund"
     }
+  },
+  {
+    "id": "2689",
+    "spanish": "dos mil",
+    "german": "zweitausend",
+    "type": "number",
+    "sentence_es": "El año dos mil fue especial.",
+    "sentence_de": "Das Jahr zweitausend war besonders.",
+    "audio": "",
+    "word_translations": {
+      "dos": "zwei",
+      "mil": "tausend"
+    }
+  },
+  {
+    "id": "2690",
+    "spanish": "diez mil",
+    "german": "zehntausend",
+    "type": "number",
+    "sentence_es": "Necesito diez mil euros.",
+    "sentence_de": "Ich brauche zehntausend Euro.",
+    "audio": "",
+    "word_translations": {
+      "diez": "zehn",
+      "mil": "tausend"
+    }
+  },
+  {
+    "id": "2691",
+    "spanish": "cien mil",
+    "german": "hunderttausend",
+    "type": "number",
+    "sentence_es": "La casa cuesta cien mil euros.",
+    "sentence_de": "Das Haus kostet hunderttausend Euro.",
+    "audio": "",
+    "word_translations": {
+      "cien": "hundert",
+      "mil": "tausend"
+    }
+  },
+  {
+    "id": "2692",
+    "spanish": "un millón",
+    "german": "eine Million",
+    "type": "number",
+    "sentence_es": "Tiene un millón de seguidores.",
+    "sentence_de": "Er/Sie hat eine Million Follower.",
+    "audio": "",
+    "word_translations": {
+      "un": "eine",
+      "millón": "Million"
+    }
+  },
+  {
+    "id": "2693",
+    "spanish": "segundo / segunda",
+    "german": "zweite/r/s",
+    "type": "ordinal",
+    "sentence_es": "Es mi segundo día aquí.",
+    "sentence_de": "Es ist mein zweiter Tag hier.",
+    "audio": "",
+    "word_translations": {
+      "segundo": "zweiter",
+      "mi": "mein",
+      "día": "Tag",
+      "aquí": "hier"
+    }
+  },
+  {
+    "id": "2694",
+    "spanish": "tercero / tercera",
+    "german": "dritte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Vivo en el tercer piso.",
+    "sentence_de": "Ich wohne im dritten Stock.",
+    "audio": "",
+    "word_translations": {
+      "vivo": "ich wohne",
+      "en": "im",
+      "el": "der",
+      "tercer": "dritten",
+      "piso": "Stock"
+    }
+  },
+  {
+    "id": "2695",
+    "spanish": "cuarto / cuarta",
+    "german": "vierte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Es la cuarta vez que vengo.",
+    "sentence_de": "Es ist das vierte Mal, dass ich komme.",
+    "audio": "",
+    "word_translations": {
+      "cuarta": "vierte",
+      "vez": "Mal",
+      "que": "dass",
+      "vengo": "ich komme"
+    }
+  },
+  {
+    "id": "2696",
+    "spanish": "sexto / sexta",
+    "german": "sechste/r/s",
+    "type": "ordinal",
+    "sentence_es": "Estoy en el sexto curso.",
+    "sentence_de": "Ich bin im sechsten Schuljahr.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "en": "im",
+      "el": "der",
+      "sexto": "sechsten",
+      "curso": "Schuljahr"
+    }
+  },
+  {
+    "id": "2697",
+    "spanish": "séptimo / séptima",
+    "german": "siebte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Es mi séptimo intento.",
+    "sentence_de": "Es ist mein siebter Versuch.",
+    "audio": "",
+    "word_translations": {
+      "séptimo": "siebter",
+      "mi": "mein",
+      "intento": "Versuch"
+    }
+  },
+  {
+    "id": "2698",
+    "spanish": "octavo / octava",
+    "german": "achte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Está en octavo lugar.",
+    "sentence_de": "Er/Sie ist auf dem achten Platz.",
+    "audio": "",
+    "word_translations": {
+      "está": "ist",
+      "en": "auf dem",
+      "octavo": "achten",
+      "lugar": "Platz"
+    }
+  },
+  {
+    "id": "2699",
+    "spanish": "noveno / novena",
+    "german": "neunte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Vivo en el noveno piso.",
+    "sentence_de": "Ich wohne im neunten Stock.",
+    "audio": "",
+    "word_translations": {
+      "vivo": "ich wohne",
+      "en": "im",
+      "el": "der",
+      "noveno": "neunten",
+      "piso": "Stock"
+    }
+  },
+  {
+    "id": "2700",
+    "spanish": "décimo / décima",
+    "german": "zehnte/r/s",
+    "type": "ordinal",
+    "sentence_es": "Es mi décimo aniversario.",
+    "sentence_de": "Es ist mein zehntes Jubiläum.",
+    "audio": "",
+    "word_translations": {
+      "décimo": "zehntes",
+      "mi": "mein",
+      "aniversario": "Jubiläum"
+    }
+  },
+  {
+    "id": "2701",
+    "spanish": "la barriga / el vientre",
+    "german": "der Bauch",
+    "type": "noun",
+    "sentence_es": "Me duele la barriga.",
+    "sentence_de": "Mir tut der Bauch weh.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "duele": "tut weh",
+      "la": "der",
+      "barriga": "Bauch"
+    }
+  },
+  {
+    "id": "2702",
+    "spanish": "la lengua",
+    "german": "die Zunge",
+    "type": "noun",
+    "sentence_es": "Me quemé la lengua con el café.",
+    "sentence_de": "Ich habe mir die Zunge am Kaffee verbrannt.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "quemé": "verbrannt",
+      "la": "die",
+      "lengua": "Zunge",
+      "con": "am",
+      "el": "den",
+      "café": "Kaffee"
+    }
+  },
+  {
+    "id": "2703",
+    "spanish": "el cerebro",
+    "german": "das Gehirn",
+    "type": "noun",
+    "sentence_es": "El cerebro es un órgano fascinante.",
+    "sentence_de": "Das Gehirn ist ein faszinierendes Organ.",
+    "audio": "",
+    "word_translations": {
+      "el": "das",
+      "cerebro": "Gehirn",
+      "es": "ist",
+      "un": "ein",
+      "órgano": "Organ",
+      "fascinante": "faszinierendes"
+    }
+  },
+  {
+    "id": "2704",
+    "spanish": "el pulmón / los pulmones",
+    "german": "die Lunge",
+    "type": "noun",
+    "sentence_es": "Fumar daña los pulmones.",
+    "sentence_de": "Rauchen schadet der Lunge.",
+    "audio": "",
+    "word_translations": {
+      "fumar": "Rauchen",
+      "daña": "schadet",
+      "los": "die",
+      "pulmones": "Lungen"
+    }
+  },
+  {
+    "id": "2705",
+    "spanish": "el hígado",
+    "german": "die Leber",
+    "type": "noun",
+    "sentence_es": "El hígado filtra la sangre.",
+    "sentence_de": "Die Leber filtert das Blut.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "hígado": "Leber",
+      "filtra": "filtert",
+      "la": "das",
+      "sangre": "Blut"
+    }
+  },
+  {
+    "id": "2706",
+    "spanish": "el riñón / los riñones",
+    "german": "die Niere",
+    "type": "noun",
+    "sentence_es": "Los riñones limpian la sangre.",
+    "sentence_de": "Die Nieren reinigen das Blut.",
+    "audio": "",
+    "word_translations": {
+      "los": "die",
+      "riñones": "Nieren",
+      "limpian": "reinigen",
+      "la": "die",
+      "sangre": "Blut"
+    }
+  },
+  {
+    "id": "2707",
+    "spanish": "la sangre",
+    "german": "das Blut",
+    "type": "noun",
+    "sentence_es": "Necesito donar sangre.",
+    "sentence_de": "Ich muss Blut spenden.",
+    "audio": "",
+    "word_translations": {
+      "necesito": "ich muss",
+      "donar": "spenden",
+      "sangre": "Blut"
+    }
+  },
+  {
+    "id": "2708",
+    "spanish": "el músculo / los músculos",
+    "german": "der Muskel",
+    "type": "noun",
+    "sentence_es": "Tengo los músculos doloridos.",
+    "sentence_de": "Meine Muskeln tun weh.",
+    "audio": "",
+    "word_translations": {
+      "tengo": "habe ich",
+      "los": "die",
+      "músculos": "Muskeln",
+      "doloridos": "schmerzenden"
+    }
+  },
+  {
+    "id": "2709",
+    "spanish": "el hueso / los huesos",
+    "german": "der Knochen",
+    "type": "noun",
+    "sentence_es": "Me rompí un hueso.",
+    "sentence_de": "Ich habe mir einen Knochen gebrochen.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "rompí": "gebrochen",
+      "un": "einen",
+      "hueso": "Knochen"
+    }
   }
 ]

@@ -1,0 +1,62 @@
+{
+  "id": "lektionen",
+  "name": "Lektionen",
+  "description": "Grammatik-Erklärungen & Unterschiede",
+  "icon": "📖",
+  "type": "lessons",
+  "lessons": [
+    {
+      "id": "leccion-001",
+      "title": "hacia vs hasta",
+      "category": "Präpositionen",
+      "difficulty": "intermediate",
+      "explanation_de": "HACIA und HASTA werden oft verwechselt, haben aber unterschiedliche Bedeutungen:\n\n**HACIA** = Richtung (ohne Ziel zu erreichen)\n- Beschreibt eine ungefähre Richtung\n- Das Ziel wird nicht notwendigerweise erreicht\n- Entspricht: 'in Richtung', 'gegen', 'ungefähr'\n\n**HASTA** = bis zu einem Punkt (Ziel wird erreicht)\n- Beschreibt einen konkreten Endpunkt\n- Das Ziel wird erreicht\n- Entspricht: 'bis', 'bis zu'\n\n**Merkregel:** HACIA = HÄ? (ungefähr) | HASTA = HALT! (konkreter Punkt)",
+      "examples": [
+        {
+          "spanish": "Voy hacia Madrid",
+          "german": "Ich gehe Richtung Madrid",
+          "explanation": "HACIA: Ich bewege mich in Richtung Madrid, aber ich erreiche es vielleicht nicht"
+        },
+        {
+          "spanish": "Voy hasta Madrid",
+          "german": "Ich gehe bis nach Madrid",
+          "explanation": "HASTA: Mein Ziel ist Madrid und ich werde dort ankommen"
+        },
+        {
+          "spanish": "Camina hacia la derecha",
+          "german": "Geh in Richtung rechts",
+          "explanation": "HACIA: Ungefähre Richtung, nicht exakt rechts"
+        },
+        {
+          "spanish": "Camina hasta el semáforo",
+          "german": "Geh bis zur Ampel",
+          "explanation": "HASTA: Konkretes Ziel - die Ampel wird erreicht"
+        },
+        {
+          "spanish": "Llegaré hacia las cinco",
+          "german": "Ich komme gegen fünf Uhr an",
+          "explanation": "HACIA: Ungefähre Zeit - etwa um 5 Uhr herum"
+        },
+        {
+          "spanish": "Trabajo hasta las cinco",
+          "german": "Ich arbeite bis fünf Uhr",
+          "explanation": "HASTA: Konkreter Endpunkt - genau bis 17:00 Uhr"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Voy ___ la playa (Ich gehe in Richtung Strand - ohne anzukommen)",
+          "options": ["hacia", "hasta"],
+          "correct": 0,
+          "explanation": "HACIA, weil nur die Richtung angegeben wird"
+        },
+        {
+          "question": "Estudio ___ medianoche (Ich lerne bis Mitternacht)",
+          "options": ["hacia", "hasta"],
+          "correct": 1,
+          "explanation": "HASTA, weil ein konkreter Endpunkt (Mitternacht) gemeint ist"
+        }
+      ]
+    }
+  ]
+}

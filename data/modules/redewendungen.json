@@ -593,6 +593,36 @@
         "día": "Tag",
         "adiós": "Tschüss"
       }
+    },
+    {
+      "id": "r40",
+      "spanish": "el pan de cada día",
+      "german": "das tägliche Brot / der Alltag",
+      "literal": "das Brot von jedem Tag",
+      "sentence_es": "Los problemas de tráfico son el pan de cada día en Madrid.",
+      "sentence_de": "Verkehrsprobleme sind das tägliche Brot in Madrid.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r41",
+      "spanish": "me faltas / me falta",
+      "german": "du fehlst mir / es fehlt mir",
+      "literal": "mir fehlst du / mir fehlt es",
+      "sentence_es": "Me faltas mucho cuando estás lejos.",
+      "sentence_de": "Du fehlst mir sehr, wenn du weg bist.",
+      "audio": "",
+      "word_translations": {}
+    },
+    {
+      "id": "r42",
+      "spanish": "te echo de menos",
+      "german": "ich vermisse dich",
+      "literal": "dich werfe ich aus weniger",
+      "sentence_es": "Te echo de menos cada día.",
+      "sentence_de": "Ich vermisse dich jeden Tag.",
+      "audio": "",
+      "word_translations": {}
     }
   ]
 }
