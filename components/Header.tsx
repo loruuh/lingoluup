@@ -11,7 +11,7 @@ export default function Header() {
       <div className="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
 
         {/* Logo */}
-        <Link href="/" className="group relative flex items-center gap-1.5">
+        <Link href="/modules" className="group relative flex items-center gap-1.5">
           <span className="text-xl font-bold text-white transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
             LINGO
           </span>

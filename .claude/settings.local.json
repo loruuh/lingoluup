@@ -74,7 +74,9 @@
       "Bash(grep -l \"2246\\\\|2094\\\\|2384\\\\|2287\\\\|820\" \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\"/*.json)",
       "Bash(sort -t. -k1 -n)",
       "Bash(grep -i \"pico\\\\|gallo\\\\|frijol\\\\|basurero\\\\|peluquer\\\\|papelera\\\\|celda\\\\|redes\\\\|pijama\\\\|gorro\\\\|calcetines\\\\|bolso\\\\|ropa interior\\\\|casco\\\\|gratuito\\\\|cualquier\\\\|relacion\\\\|san$\\\\|santo\\\\|santa\")",
-      "Bash(grep -i \"bolso\\\\|gorro\\\\|calcetines\\\\|pijama\\\\|casco\\\\|relacion\\\\|cualquier\\\\|gratuito\\\\|lacteo\\\\|pico\\\\b\\\\|gallo\\\\|frijol\\\\|basurero\\\\|peluquer\\\\|papelera\\\\|celda\\\\|redes\\\\|santo\\\\|san$\")"
+      "Bash(grep -i \"bolso\\\\|gorro\\\\|calcetines\\\\|pijama\\\\|casco\\\\|relacion\\\\|cualquier\\\\|gratuito\\\\|lacteo\\\\|pico\\\\b\\\\|gallo\\\\|frijol\\\\|basurero\\\\|peluquer\\\\|papelera\\\\|celda\\\\|redes\\\\|santo\\\\|san$\")",
+      "Bash(del \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/add_vocab.py\")",
+      "Bash(del \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/update_modules.py\")"
     ]
   }
 }
