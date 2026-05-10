@@ -52,7 +52,7 @@
     "name": "Zahlen",
     "description": "Zahlen 0-1000 auf Spanisch",
     "icon": "🔢",
-    "type": "vocabulary",
+    "type": "numbers",
     "file": "zahlen.json"
   },
   {
@@ -70,5 +70,21 @@
     "icon": "📖",
     "type": "lessons",
     "file": "lektionen.json"
+  },
+  {
+    "id": "lerntipps",
+    "name": "Lerntipps",
+    "description": "Wie dein Gehirn Spanisch lernt",
+    "icon": "🧠",
+    "type": "tips",
+    "file": "lerntipps.json"
+  },
+  {
+    "id": "latam",
+    "name": "Lateinamerikanisches Spanisch",
+    "description": "Vokabeln für Mexiko, Argentinien, Chile & Co.",
+    "icon": "🇲🇽",
+    "type": "vocabulary",
+    "file": "latam.json"
   }
 ]

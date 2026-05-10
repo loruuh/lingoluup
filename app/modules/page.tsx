@@ -5,6 +5,7 @@ import { useModule } from "@/lib/ModuleContext";
 import ModuleSelection from "@/components/ModuleSelection";
 import TipsView from "@/components/TipsView";
 import LektionenView from "@/components/LektionenView";
+import LerntippsView from "@/components/LerntippsView";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Flashcard from "@/components/Flashcard";
@@ -186,6 +187,11 @@ export default function Home() {
   // Kein Modul gewählt → Modul-Auswahl
   if (!selectedModule) {
     return <ModuleSelection />;
+  }
+
+  // Lerntipps-Modul → LerntippsView
+  if (selectedModule.id === "lerntipps") {
+    return <LerntippsView />;
   }
 
   // Tipps-Modul → TipsView

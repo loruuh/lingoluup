@@ -161,7 +161,7 @@ function LessonCard({ lesson }: { lesson: LessonItem }) {
 
 export default function LektionenView() {
   const { selectedModule, clearModule } = useModule();
-  const module = selectedModule as LessonsModule;
+  const lessonsModule = selectedModule as LessonsModule;
 
   return (
     <div className="min-h-screen relative" style={{ background: "#0d1117" }}>
@@ -181,14 +181,14 @@ export default function LektionenView() {
             ← Module
           </button>
           <h1 className="text-base font-bold text-white">
-            {module.icon} {module.name}
+            {lessonsModule.icon} {lessonsModule.name}
           </h1>
           <div className="w-20" />
         </div>
 
         {/* Lessons */}
         <div className="space-y-4">
-          {module.lessons.map((lesson) => (
+          {lessonsModule.lessons.map((lesson) => (
             <LessonCard key={lesson.id} lesson={lesson} />
           ))}
         </div>

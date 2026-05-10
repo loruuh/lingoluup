@@ -20185,7 +20185,7 @@
   {
     "id": "1147",
     "spanish": "la plata",
-    "german": "Silber",
+    "german": "das Geld (umgangssprachlich, Lateinamerika) / das Silber",
     "type": "noun",
     "sentence_es": "Mi abuela guarda la plata en el banco.",
     "sentence_de": "Meine Großmutter bewahrt das Geld in der Bank auf.",
@@ -32845,7 +32845,7 @@
   {
     "id": "1971",
     "spanish": "el departamento",
-    "german": "die Abteilung",
+    "german": "die Wohnung (Lateinamerika) / die Abteilung",
     "type": "noun",
     "sentence_es": "Mi departamento tiene dos habitaciones y una cocina.",
     "sentence_de": "Meine Wohnung hat zwei Zimmer und eine Küche.",
@@ -45237,6 +45237,454 @@
       "rompí": "gebrochen",
       "un": "einen",
       "hueso": "Knochen"
+    }
+  },
+  {
+    "id": "2710",
+    "spanish": "la computadora",
+    "german": "der Computer (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Mi computadora es muy rápida.",
+    "sentence_de": "Mein Computer ist sehr schnell.",
+    "audio": "",
+    "word_translations": {
+      "mi": "mein/meine",
+      "computadora": "Computer",
+      "es": "ist",
+      "muy": "sehr",
+      "rápida": "schnell"
+    }
+  },
+  {
+    "id": "2711",
+    "spanish": "el celular",
+    "german": "das Handy (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "¿Dónde está mi celular?",
+    "sentence_de": "Wo ist mein Handy?",
+    "audio": "",
+    "word_translations": {
+      "dónde": "wo",
+      "está": "ist",
+      "mi": "mein/meine",
+      "celular": "Handy"
+    }
+  },
+  {
+    "id": "2712",
+    "spanish": "el carro",
+    "german": "das Auto (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Voy a comprar un carro nuevo.",
+    "sentence_de": "Ich werde ein neues Auto kaufen.",
+    "audio": "",
+    "word_translations": {
+      "voy": "ich werde",
+      "a": "zu/um",
+      "comprar": "kaufen",
+      "un": "ein",
+      "carro": "Auto",
+      "nuevo": "neu"
+    }
+  },
+  {
+    "id": "2713",
+    "spanish": "la papa",
+    "german": "die Kartoffel (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Me gustan las papas fritas.",
+    "sentence_de": "Ich mag Pommes frites.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "gustan": "gefallen mir",
+      "las": "die",
+      "papas": "Kartoffeln",
+      "fritas": "frittiert/gebacken"
+    }
+  },
+  {
+    "id": "2714",
+    "spanish": "el jugo",
+    "german": "der Saft (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Quiero un jugo de naranja.",
+    "sentence_de": "Ich möchte einen Orangensaft.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte/will",
+      "un": "einen",
+      "jugo": "Saft",
+      "de": "von/aus",
+      "naranja": "Orange"
+    }
+  },
+  {
+    "id": "2715",
+    "spanish": "el mesero / la mesera",
+    "german": "der Kellner / die Kellnerin (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "El mesero fue muy amable.",
+    "sentence_de": "Der Kellner war sehr freundlich.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "mesero": "Kellner",
+      "fue": "war",
+      "muy": "sehr",
+      "amable": "freundlich"
+    }
+  },
+  {
+    "id": "2716",
+    "spanish": "el boleto",
+    "german": "die Fahrkarte / das Ticket (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Compré un boleto para el concierto.",
+    "sentence_de": "Ich habe ein Ticket für das Konzert gekauft.",
+    "audio": "",
+    "word_translations": {
+      "compré": "ich kaufte",
+      "un": "ein",
+      "boleto": "Ticket/Fahrkarte",
+      "para": "für",
+      "el": "das/den",
+      "concierto": "Konzert"
+    }
+  },
+  {
+    "id": "2717",
+    "spanish": "el refrigerador",
+    "german": "der Kühlschrank (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Pon la leche en el refrigerador.",
+    "sentence_de": "Stell die Milch in den Kühlschrank.",
+    "audio": "",
+    "word_translations": {
+      "pon": "stell/leg",
+      "la": "die",
+      "leche": "Milch",
+      "en": "in",
+      "el": "den",
+      "refrigerador": "Kühlschrank"
+    }
+  },
+  {
+    "id": "2718",
+    "spanish": "el elevador",
+    "german": "der Aufzug (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Tomemos el elevador al quinto piso.",
+    "sentence_de": "Nehmen wir den Aufzug in den fünften Stock.",
+    "audio": "",
+    "word_translations": {
+      "tomemos": "nehmen wir",
+      "el": "den",
+      "elevador": "Aufzug",
+      "al": "in den/zum",
+      "quinto": "fünften",
+      "piso": "Stock/Etage"
+    }
+  },
+  {
+    "id": "2719",
+    "spanish": "la pollera",
+    "german": "der Rock (Argentinien/Uruguay)",
+    "type": "noun",
+    "sentence_es": "Me gusta tu pollera nueva.",
+    "sentence_de": "Mir gefällt dein neuer Rock.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "gusta": "gefällt",
+      "tu": "dein/deine",
+      "pollera": "Rock",
+      "nueva": "neu"
+    }
+  },
+  {
+    "id": "2720",
+    "spanish": "la remera",
+    "german": "das T-Shirt (Argentinien/Uruguay)",
+    "type": "noun",
+    "sentence_es": "Voy a comprar una remera.",
+    "sentence_de": "Ich werde ein T-Shirt kaufen.",
+    "audio": "",
+    "word_translations": {
+      "voy": "ich werde",
+      "a": "zu/um",
+      "comprar": "kaufen",
+      "una": "ein",
+      "remera": "T-Shirt"
+    }
+  },
+  {
+    "id": "2721",
+    "spanish": "la vereda",
+    "german": "der Gehweg (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Camina por la vereda, no por la calle.",
+    "sentence_de": "Geh auf dem Gehweg, nicht auf der Straße.",
+    "audio": "",
+    "word_translations": {
+      "camina": "geh/gehe",
+      "por": "auf/durch",
+      "la": "die/dem",
+      "vereda": "Gehweg",
+      "no": "nicht",
+      "calle": "Straße"
+    }
+  },
+  {
+    "id": "2722",
+    "spanish": "la banqueta",
+    "german": "der Bürgersteig (Mexiko)",
+    "type": "noun",
+    "sentence_es": "Los niños juegan en la banqueta.",
+    "sentence_de": "Die Kinder spielen auf dem Bürgersteig.",
+    "audio": "",
+    "word_translations": {
+      "los": "die",
+      "niños": "Kinder",
+      "juegan": "spielen",
+      "en": "auf/in",
+      "la": "dem/der",
+      "banqueta": "Bürgersteig"
+    }
+  },
+  {
+    "id": "2723",
+    "spanish": "el popote",
+    "german": "der Strohhalm (Mexiko)",
+    "type": "noun",
+    "sentence_es": "¿Me das un popote para el refresco?",
+    "sentence_de": "Gibst du mir einen Strohhalm für das Getränk?",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "das": "gibst du",
+      "un": "einen",
+      "popote": "Strohhalm",
+      "para": "für",
+      "el": "das",
+      "refresco": "Getränk/Limonade"
+    }
+  },
+  {
+    "id": "2724",
+    "spanish": "la plática",
+    "german": "das Gespräch (Mexiko)",
+    "type": "noun",
+    "sentence_es": "Tuvimos una buena plática.",
+    "sentence_de": "Wir hatten ein gutes Gespräch.",
+    "audio": "",
+    "word_translations": {
+      "tuvimos": "wir hatten",
+      "una": "ein",
+      "buena": "gutes/gute",
+      "plática": "Gespräch"
+    }
+  },
+  {
+    "id": "2725",
+    "spanish": "parquear",
+    "german": "parken (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Voy a parquear el carro aquí.",
+    "sentence_de": "Ich werde das Auto hier parken.",
+    "audio": "",
+    "word_translations": {
+      "voy": "ich werde",
+      "a": "zu/um",
+      "parquear": "parken",
+      "el": "das",
+      "carro": "Auto",
+      "aquí": "hier"
+    }
+  },
+  {
+    "id": "2726",
+    "spanish": "rentar",
+    "german": "mieten (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Quiero rentar un departamento.",
+    "sentence_de": "Ich möchte eine Wohnung mieten.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte/will",
+      "rentar": "mieten",
+      "un": "eine",
+      "departamento": "Wohnung"
+    }
+  },
+  {
+    "id": "2727",
+    "spanish": "manejar",
+    "german": "fahren / Auto fahren (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "¿Sabes manejar?",
+    "sentence_de": "Kannst du Auto fahren?",
+    "audio": "",
+    "word_translations": {
+      "sabes": "kannst du/weißt du",
+      "manejar": "Auto fahren/fahren"
+    }
+  },
+  {
+    "id": "2728",
+    "spanish": "chambear",
+    "german": "arbeiten (Mexiko, umgangssprachlich)",
+    "type": "verb",
+    "sentence_es": "Tengo que chambear mañana.",
+    "sentence_de": "Ich muss morgen arbeiten.",
+    "audio": "",
+    "word_translations": {
+      "tengo": "ich muss/habe",
+      "que": "zu/dass",
+      "chambear": "arbeiten",
+      "mañana": "morgen"
+    }
+  },
+  {
+    "id": "2729",
+    "spanish": "platicar",
+    "german": "sich unterhalten / plaudern (Mexiko/Zentralamerika)",
+    "type": "verb",
+    "sentence_es": "Vamos a platicar un rato.",
+    "sentence_de": "Lass uns eine Weile plaudern.",
+    "audio": "",
+    "word_translations": {
+      "vamos": "lass uns/wir gehen",
+      "a": "zu/um",
+      "platicar": "plaudern/sich unterhalten",
+      "un": "eine",
+      "rato": "Weile/kurze Zeit"
+    }
+  },
+  {
+    "id": "2730",
+    "spanish": "botar",
+    "german": "wegwerfen (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Bota la basura en el basurero.",
+    "sentence_de": "Wirf den Müll in den Mülleimer.",
+    "audio": "",
+    "word_translations": {
+      "bota": "wirf",
+      "la": "den/die",
+      "basura": "Müll",
+      "en": "in",
+      "el": "den",
+      "basurero": "Mülleimer"
+    }
+  },
+  {
+    "id": "2731",
+    "spanish": "chido / chida",
+    "german": "cool / super (Mexiko)",
+    "type": "adjective",
+    "sentence_es": "¡Qué chido está tu celular!",
+    "sentence_de": "Wie cool ist dein Handy!",
+    "audio": "",
+    "word_translations": {
+      "qué": "wie/was",
+      "chido": "cool/super",
+      "está": "ist",
+      "tu": "dein/deine",
+      "celular": "Handy"
+    }
+  },
+  {
+    "id": "2732",
+    "spanish": "chévere",
+    "german": "cool / super (Lateinamerika allgemein)",
+    "type": "adjective",
+    "sentence_es": "La fiesta estuvo muy chévere.",
+    "sentence_de": "Die Party war sehr cool.",
+    "audio": "",
+    "word_translations": {
+      "la": "die",
+      "fiesta": "Party/Fest",
+      "estuvo": "war",
+      "muy": "sehr",
+      "chévere": "cool/super"
+    }
+  },
+  {
+    "id": "2733",
+    "spanish": "padre",
+    "german": "cool / super (Mexiko, Slang)",
+    "type": "adjective",
+    "sentence_es": "¡Qué padre está tu carro!",
+    "sentence_de": "Wie cool ist dein Auto!",
+    "audio": "",
+    "word_translations": {
+      "qué": "wie/was",
+      "padre": "cool/super",
+      "está": "ist",
+      "tu": "dein/deine",
+      "carro": "Auto"
+    }
+  },
+  {
+    "id": "2734",
+    "spanish": "bacán",
+    "german": "cool / klasse (Südamerika)",
+    "type": "adjective",
+    "sentence_es": "Esa película está bacán.",
+    "sentence_de": "Der Film ist klasse.",
+    "audio": "",
+    "word_translations": {
+      "esa": "dieser/diese",
+      "película": "Film",
+      "está": "ist",
+      "bacán": "klasse/cool"
+    }
+  },
+  {
+    "id": "2735",
+    "spanish": "rico / rica",
+    "german": "schön / angenehm (Lateinamerika, erweiterte Bedeutung)",
+    "type": "adjective",
+    "sentence_es": "¡Qué rico está el tiempo!",
+    "sentence_de": "Was für schönes Wetter!",
+    "audio": "",
+    "word_translations": {
+      "qué": "wie/was",
+      "rico": "schön/angenehm",
+      "está": "ist",
+      "el": "das",
+      "tiempo": "Wetter/Zeit"
+    }
+  },
+  {
+    "id": "2736",
+    "spanish": "güey / wey",
+    "german": "Alter / Kumpel (Mexiko, umgangssprachlich)",
+    "type": "noun",
+    "sentence_es": "¿Qué onda, güey?",
+    "sentence_de": "Was geht, Alter?",
+    "audio": "",
+    "word_translations": {
+      "qué": "was",
+      "onda": "Stimmung/los",
+      "güey": "Alter/Kumpel"
+    }
+  },
+  {
+    "id": "2737",
+    "spanish": "piola",
+    "german": "cool / entspannt (Argentinien/Uruguay)",
+    "type": "adjective",
+    "sentence_es": "Ese lugar es re piola.",
+    "sentence_de": "Der Ort ist echt cool.",
+    "audio": "",
+    "word_translations": {
+      "ese": "dieser/der",
+      "lugar": "Ort",
+      "es": "ist",
+      "re": "echt/sehr (Argentinien)",
+      "piola": "cool/entspannt"
     }
   }
 ]

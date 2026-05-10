@@ -77,7 +77,15 @@
       "Bash(grep -i \"bolso\\\\|gorro\\\\|calcetines\\\\|pijama\\\\|casco\\\\|relacion\\\\|cualquier\\\\|gratuito\\\\|lacteo\\\\|pico\\\\b\\\\|gallo\\\\|frijol\\\\|basurero\\\\|peluquer\\\\|papelera\\\\|celda\\\\|redes\\\\|santo\\\\|san$\")",
       "Bash(del \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/add_vocab.py\")",
       "Bash(del \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/update_modules.py\")",
-      "Bash(Remove-Item *)"
+      "Bash(Remove-Item *)",
+      "Bash(Select-String -Path \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" -Pattern '\"spanish\":\\\\s*\"\\(computadora|celular|carro|papa|jugo|mesero|boleto|elevador|pollera|remera|vereda|banqueta|parquear|rentar|chido|platicar|cuadra|botar|checar|güero|cuate|chamaco|chamba|órale|ándale|lana|camión|pibe|che|vos|bacán|bacano|taco|enchilada|tortilla|padrísimo|palta\\)\"')",
+      "Bash(Select-Object -First 20)",
+      "Bash(Select-String -Path \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" -Pattern '\"id\":')",
+      "Bash(Select-Object -Last 5)",
+      "PowerShell(Select-String -Path \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" -Pattern '\"id\":' | Select-Object -Last 5 | ForEach-Object { $_.Line })",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(node -e \"const d = require\\('./data/vocabulario-es.json'\\); console.log\\('Entries:', d.length, '| Last ID:', d[d.length-1].id\\)\" 2>&1)",
+      "PowerShell(node -e \"const m = require\\('./data/modules/latam.json'\\); console.log\\('Module:', m.id, '| IDs:', m.vocabIds.length\\)\" 2>&1)"
     ]
   }
 }

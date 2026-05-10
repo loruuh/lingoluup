@@ -22,6 +22,8 @@ const SPECIAL_PALETTE: Record<string, { bg: string; border: string; accent: stri
   redewendungen:      { bg: "rgba(132,204,22,0.07)",  border: "rgba(132,204,22,0.28)",  accent: "#84cc16", glow: "rgba(132,204,22,0.15)"  },
   "aussprache-tipps": { bg: "rgba(52,211,153,0.07)",  border: "rgba(52,211,153,0.28)",  accent: "#34d399", glow: "rgba(52,211,153,0.15)"  },
   lektionen:          { bg: "rgba(20,184,166,0.07)",  border: "rgba(20,184,166,0.28)",  accent: "#2dd4bf", glow: "rgba(20,184,166,0.15)"  },
+  zahlen:             { bg: "rgba(251,191,36,0.07)",  border: "rgba(251,191,36,0.28)",  accent: "#fbbf24", glow: "rgba(251,191,36,0.15)"  },
+  lerntipps:          { bg: "rgba(168,85,247,0.07)",  border: "rgba(168,85,247,0.28)",  accent: "#c084fc", glow: "rgba(168,85,247,0.15)"  },
 };
 
 const PALETTE = [
