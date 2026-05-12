@@ -341,6 +341,16 @@ export default function Home() {
             </div>
           </div>
 
+          {/* LATAM Note */}
+          {currentVocab.note && showSentence && (
+            <div className="flex justify-center">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
+                <span className="text-amber-400 text-xs">🇪🇸</span>
+                <span className="text-amber-300/80 text-xs">{currentVocab.note}</span>
+              </div>
+            </div>
+          )}
+
           {/* Next Button */}
           <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <NextButton onClick={handleNext} loading={isLoading} />

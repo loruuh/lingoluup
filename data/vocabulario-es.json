@@ -45253,7 +45253,8 @@
       "es": "ist",
       "muy": "sehr",
       "rápida": "schnell"
-    }
+    },
+    "note": "En España: el ordenador"
   },
   {
     "id": "2711",
@@ -45268,7 +45269,8 @@
       "está": "ist",
       "mi": "mein/meine",
       "celular": "Handy"
-    }
+    },
+    "note": "En España: el móvil"
   },
   {
     "id": "2712",
@@ -45285,7 +45287,8 @@
       "un": "ein",
       "carro": "Auto",
       "nuevo": "neu"
-    }
+    },
+    "note": "En España: el coche"
   },
   {
     "id": "2713",
@@ -45301,7 +45304,8 @@
       "las": "die",
       "papas": "Kartoffeln",
       "fritas": "frittiert/gebacken"
-    }
+    },
+    "note": "En España: la patata"
   },
   {
     "id": "2714",
@@ -45317,7 +45321,8 @@
       "jugo": "Saft",
       "de": "von/aus",
       "naranja": "Orange"
-    }
+    },
+    "note": "En España: el zumo"
   },
   {
     "id": "2715",
@@ -45333,7 +45338,8 @@
       "fue": "war",
       "muy": "sehr",
       "amable": "freundlich"
-    }
+    },
+    "note": "En España: el camarero"
   },
   {
     "id": "2716",
@@ -45350,7 +45356,8 @@
       "para": "für",
       "el": "das/den",
       "concierto": "Konzert"
-    }
+    },
+    "note": "En España: el billete"
   },
   {
     "id": "2717",
@@ -45367,7 +45374,8 @@
       "en": "in",
       "el": "den",
       "refrigerador": "Kühlschrank"
-    }
+    },
+    "note": "En España: la nevera / el frigorífico"
   },
   {
     "id": "2718",
@@ -45384,7 +45392,8 @@
       "al": "in den/zum",
       "quinto": "fünften",
       "piso": "Stock/Etage"
-    }
+    },
+    "note": "En España: el ascensor"
   },
   {
     "id": "2719",
@@ -45400,7 +45409,8 @@
       "tu": "dein/deine",
       "pollera": "Rock",
       "nueva": "neu"
-    }
+    },
+    "note": "En España: la falda"
   },
   {
     "id": "2720",
@@ -45416,7 +45426,8 @@
       "comprar": "kaufen",
       "una": "ein",
       "remera": "T-Shirt"
-    }
+    },
+    "note": "En España: la camiseta"
   },
   {
     "id": "2721",
@@ -45433,7 +45444,8 @@
       "vereda": "Gehweg",
       "no": "nicht",
       "calle": "Straße"
-    }
+    },
+    "note": "En España: la acera"
   },
   {
     "id": "2722",
@@ -45450,7 +45462,8 @@
       "en": "auf/in",
       "la": "dem/der",
       "banqueta": "Bürgersteig"
-    }
+    },
+    "note": "En España: la acera"
   },
   {
     "id": "2723",
@@ -45468,7 +45481,8 @@
       "para": "für",
       "el": "das",
       "refresco": "Getränk/Limonade"
-    }
+    },
+    "note": "En España: la pajita"
   },
   {
     "id": "2724",
@@ -45483,7 +45497,8 @@
       "una": "ein",
       "buena": "gutes/gute",
       "plática": "Gespräch"
-    }
+    },
+    "note": "En España: la conversación"
   },
   {
     "id": "2725",
@@ -45500,7 +45515,8 @@
       "el": "das",
       "carro": "Auto",
       "aquí": "hier"
-    }
+    },
+    "note": "En España: aparcar"
   },
   {
     "id": "2726",
@@ -45515,7 +45531,8 @@
       "rentar": "mieten",
       "un": "eine",
       "departamento": "Wohnung"
-    }
+    },
+    "note": "En España: alquilar"
   },
   {
     "id": "2727",
@@ -45528,7 +45545,8 @@
     "word_translations": {
       "sabes": "kannst du/weißt du",
       "manejar": "Auto fahren/fahren"
-    }
+    },
+    "note": "En España: conducir"
   },
   {
     "id": "2728",
@@ -45543,7 +45561,8 @@
       "que": "zu/dass",
       "chambear": "arbeiten",
       "mañana": "morgen"
-    }
+    },
+    "note": "Mexikanischer Slang"
   },
   {
     "id": "2729",
@@ -45559,7 +45578,8 @@
       "platicar": "plaudern/sich unterhalten",
       "un": "eine",
       "rato": "Weile/kurze Zeit"
-    }
+    },
+    "note": "En España: charlar"
   },
   {
     "id": "2730",
@@ -45576,7 +45596,8 @@
       "en": "in",
       "el": "den",
       "basurero": "Mülleimer"
-    }
+    },
+    "note": "En España: tirar"
   },
   {
     "id": "2731",
@@ -45592,7 +45613,8 @@
       "está": "ist",
       "tu": "dein/deine",
       "celular": "Handy"
-    }
+    },
+    "note": "Mexikanischer Slang"
   },
   {
     "id": "2732",
@@ -45608,7 +45630,8 @@
       "estuvo": "war",
       "muy": "sehr",
       "chévere": "cool/super"
-    }
+    },
+    "note": "In ganz LATAM verbreitet"
   },
   {
     "id": "2733",
@@ -45624,7 +45647,8 @@
       "está": "ist",
       "tu": "dein/deine",
       "carro": "Auto"
-    }
+    },
+    "note": "Mexikanischer Slang (nicht \"Vater\" in diesem Kontext)"
   },
   {
     "id": "2734",
@@ -45639,7 +45663,8 @@
       "película": "Film",
       "está": "ist",
       "bacán": "klasse/cool"
-    }
+    },
+    "note": "Chile, Peru, Kolumbien"
   },
   {
     "id": "2735",
@@ -45655,7 +45680,8 @@
       "está": "ist",
       "el": "das",
       "tiempo": "Wetter/Zeit"
-    }
+    },
+    "note": "In LATAM auch für \"schön/angenehm\" (nicht nur lecker)"
   },
   {
     "id": "2736",
@@ -45669,7 +45695,8 @@
       "qué": "was",
       "onda": "Stimmung/los",
       "güey": "Alter/Kumpel"
-    }
+    },
+    "note": "Mexikanischer Slang, sehr umgangssprachlich"
   },
   {
     "id": "2737",
@@ -45685,6 +45712,179 @@
       "es": "ist",
       "re": "echt/sehr (Argentinien)",
       "piola": "cool/entspannt"
+    },
+    "note": "Argentinien/Uruguay"
+  },
+  {
+    "id": "2738",
+    "spanish": "calentito / calentita",
+    "german": "kuschelig / warm",
+    "type": "adjective",
+    "sentence_es": "Me gusta estar calentito en la cama.",
+    "sentence_de": "Ich mag es kuschelig im Bett zu sein.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "gusta": "mag ich",
+      "estar": "sein",
+      "calentito": "kuschelig/warm",
+      "en": "in",
+      "la": "das",
+      "cama": "Bett"
+    }
+  },
+  {
+    "id": "2739",
+    "spanish": "la estrella de mar",
+    "german": "der Seestern",
+    "type": "noun",
+    "sentence_es": "Vi una estrella de mar en la playa.",
+    "sentence_de": "Ich sah einen Seestern am Strand.",
+    "audio": "",
+    "word_translations": {
+      "vi": "ich sah",
+      "una": "eine/einen",
+      "estrella de mar": "Seestern",
+      "en": "am/an",
+      "la": "der/die",
+      "playa": "Strand"
+    }
+  },
+  {
+    "id": "2740",
+    "spanish": "desagradable",
+    "german": "unangenehm",
+    "type": "adjective",
+    "sentence_es": "La situación fue muy desagradable.",
+    "sentence_de": "Die Situation war sehr unangenehm.",
+    "audio": "",
+    "word_translations": {
+      "la": "die",
+      "situación": "Situation",
+      "fue": "war",
+      "muy": "sehr",
+      "desagradable": "unangenehm"
+    }
+  },
+  {
+    "id": "2741",
+    "spanish": "ingenuo / ingenua",
+    "german": "naiv",
+    "type": "adjective",
+    "sentence_es": "Es demasiado ingenuo para entenderlo.",
+    "sentence_de": "Er ist zu naiv um es zu verstehen.",
+    "audio": "",
+    "word_translations": {
+      "es": "er ist",
+      "demasiado": "zu/zu sehr",
+      "ingenuo": "naiv",
+      "para": "um",
+      "entenderlo": "es zu verstehen"
+    }
+  },
+  {
+    "id": "2742",
+    "spanish": "el caracol",
+    "german": "die Schnecke",
+    "type": "noun",
+    "sentence_es": "El caracol camina muy lento.",
+    "sentence_de": "Die Schnecke läuft sehr langsam.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "caracol": "Schnecke",
+      "camina": "läuft/geht",
+      "muy": "sehr",
+      "lento": "langsam"
+    }
+  },
+  {
+    "id": "2743",
+    "spanish": "en cualquier momento",
+    "german": "jederzeit",
+    "type": "phrase",
+    "sentence_es": "Puedes venir en cualquier momento.",
+    "sentence_de": "Du kannst jederzeit kommen.",
+    "audio": "",
+    "word_translations": {
+      "puedes": "du kannst",
+      "venir": "kommen",
+      "en": "zu",
+      "cualquier": "irgendein/jeder",
+      "momento": "Moment/Zeit"
+    }
+  },
+  {
+    "id": "2744",
+    "spanish": "el alivio",
+    "german": "die Erleichterung",
+    "type": "noun",
+    "sentence_es": "Sentí un gran alivio al escuchar las noticias.",
+    "sentence_de": "Ich fühlte große Erleichterung als ich die Nachrichten hörte.",
+    "audio": "",
+    "word_translations": {
+      "sentí": "ich fühlte",
+      "un": "eine",
+      "gran": "große",
+      "alivio": "Erleichterung",
+      "al": "beim/als",
+      "escuchar": "hören",
+      "las": "die",
+      "noticias": "Nachrichten"
+    }
+  },
+  {
+    "id": "2745",
+    "spanish": "presumir",
+    "german": "angeben / prahlen",
+    "type": "verb",
+    "sentence_es": "Le gusta presumir de su carro nuevo.",
+    "sentence_de": "Er gibt gerne mit seinem neuen Auto an.",
+    "audio": "",
+    "word_translations": {
+      "le": "ihm",
+      "gusta": "gefällt/mag",
+      "presumir": "angeben/prahlen",
+      "de": "mit",
+      "su": "sein",
+      "carro": "Auto",
+      "nuevo": "neu"
+    }
+  },
+  {
+    "id": "2746",
+    "spanish": "los sesos",
+    "german": "die Gehirnmasse / das Gehirn",
+    "type": "noun",
+    "sentence_es": "Se rompió los sesos pensando en la solución.",
+    "sentence_de": "Er zerbrach sich den Kopf über die Lösung.",
+    "audio": "",
+    "word_translations": {
+      "se": "sich",
+      "rompió": "zerbrach",
+      "los": "die",
+      "sesos": "Gehirnmasse/Hirn",
+      "pensando": "denkend",
+      "en": "über",
+      "la": "die",
+      "solución": "Lösung"
+    }
+  },
+  {
+    "id": "2747",
+    "spanish": "festejar",
+    "german": "feiern (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Vamos a festejar tu cumpleaños.",
+    "sentence_de": "Wir werden deinen Geburtstag feiern.",
+    "audio": "",
+    "note": "En España: celebrar (ambos se usan)",
+    "word_translations": {
+      "vamos": "wir werden/gehen",
+      "a": "zu",
+      "festejar": "feiern",
+      "tu": "dein/deinen",
+      "cumpleaños": "Geburtstag"
     }
   }
 ]

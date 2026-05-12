@@ -623,6 +623,91 @@
       "sentence_de": "Ich vermisse dich jeden Tag.",
       "audio": "",
       "word_translations": {}
+    },
+    {
+      "id": "r43",
+      "spanish": "de la nada",
+      "german": "aus dem Nichts / plötzlich",
+      "literal": "aus dem Nichts",
+      "sentence_es": "Apareció de la nada.",
+      "sentence_de": "Er erschien aus dem Nichts.",
+      "audio": "",
+      "word_translations": {
+        "nada": "Nichts"
+      }
+    },
+    {
+      "id": "r44",
+      "spanish": "de un día para otro",
+      "german": "über Nacht / von einem Tag auf den anderen",
+      "literal": "von einem Tag zum anderen",
+      "sentence_es": "Todo cambió de un día para otro.",
+      "sentence_de": "Alles änderte sich über Nacht.",
+      "audio": "",
+      "word_translations": {
+        "día": "Tag",
+        "otro": "anderer"
+      }
+    },
+    {
+      "id": "r45",
+      "spanish": "¡qué asco!",
+      "german": "wie eklig! / wie widerlich!",
+      "literal": "was für ein Ekel",
+      "sentence_es": "¡Qué asco! No puedo comerlo.",
+      "sentence_de": "Wie eklig! Ich kann das nicht essen.",
+      "audio": "",
+      "word_translations": {
+        "asco": "Ekel"
+      }
+    },
+    {
+      "id": "r46",
+      "spanish": "¡qué alivio!",
+      "german": "was für eine Erleichterung!",
+      "literal": "was für eine Erleichterung",
+      "sentence_es": "¡Qué alivio! Por fin llegaste.",
+      "sentence_de": "Was für eine Erleichterung! Du bist endlich da.",
+      "audio": "",
+      "word_translations": {
+        "alivio": "Erleichterung"
+      }
+    },
+    {
+      "id": "r47",
+      "spanish": "¿qué desea?",
+      "german": "was wünschen Sie? / was darf es sein?",
+      "literal": "was wünschen Sie",
+      "sentence_es": "Buenos días, ¿qué desea?",
+      "sentence_de": "Guten Tag, was darf es sein?",
+      "audio": "",
+      "word_translations": {
+        "desear": "wünschen"
+      }
+    },
+    {
+      "id": "r48",
+      "spanish": "¡viva!",
+      "german": "hoch lebe! / es lebe!",
+      "literal": "es lebe",
+      "sentence_es": "¡Viva México!",
+      "sentence_de": "Es lebe Mexiko!",
+      "audio": "",
+      "word_translations": {
+        "vivir": "leben"
+      }
+    },
+    {
+      "id": "r49",
+      "spanish": "¡esto es el colmo!",
+      "german": "das ist die Höhe! / das ist zu viel!",
+      "literal": "das ist der Gipfel",
+      "sentence_es": "¡Esto es el colmo! No puedo más.",
+      "sentence_de": "Das ist die Höhe! Ich kann nicht mehr.",
+      "audio": "",
+      "word_translations": {
+        "colmo": "Gipfel / Höhepunkt"
+      }
     }
   ]
 }

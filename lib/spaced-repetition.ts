@@ -5,10 +5,11 @@ export interface Vocabulary {
   id: string;
   spanish: string;
   german: string;
-  type: "noun" | "verb" | "adjective";
+  type: "noun" | "verb" | "adjective" | "phrase";
   sentence_es: string;
   sentence_de: string;
   audio: string;
+  note?: string;
   word_translations: Record<string, string | undefined>;
 }
 

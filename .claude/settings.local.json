@@ -85,7 +85,15 @@
       "PowerShell(Select-String -Path \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" -Pattern '\"id\":' | Select-Object -Last 5 | ForEach-Object { $_.Line })",
       "PowerShell(\\(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\" | Measure-Object -Line\\).Lines)",
       "PowerShell(node -e \"const d = require\\('./data/vocabulario-es.json'\\); console.log\\('Entries:', d.length, '| Last ID:', d[d.length-1].id\\)\" 2>&1)",
-      "PowerShell(node -e \"const m = require\\('./data/modules/latam.json'\\); console.log\\('Module:', m.id, '| IDs:', m.vocabIds.length\\)\" 2>&1)"
+      "PowerShell(node -e \"const m = require\\('./data/modules/latam.json'\\); console.log\\('Module:', m.id, '| IDs:', m.vocabIds.length\\)\" 2>&1)",
+      "Bash(Get-ChildItem -Recurse -Filter \"*.json\")",
+      "Bash(Select-Object FullName)",
+      "Bash(xargs grep -l \"latam\\\\|vocabIds\")",
+      "Bash(xargs grep -l \"latam\\\\|vocabIds\\\\|note\")",
+      "Bash(xargs grep -l \"latam\\\\|note\\\\b\")",
+      "Bash(xargs grep -l \"\\\\.note\\\\b\\\\|entry\\\\.note\\\\|vocab\\\\.note\")",
+      "Bash(xargs grep -l \"note\")",
+      "Bash(xargs grep -l \"sentence_es\\\\|word_translations\\\\|spanish.*german\")"
     ]
   }
 }
