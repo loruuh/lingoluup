@@ -708,6 +708,20 @@
       "word_translations": {
         "colmo": "Gipfel / Höhepunkt"
       }
+    },
+    {
+      "id": "r50",
+      "spanish": "a mesa puesta",
+      "german": "am gedeckten Tisch / ohne etwas dafür tun zu müssen",
+      "literal": "am gedeckten Tisch",
+      "sentence_es": "Vive a mesa puesta, sin trabajar.",
+      "sentence_de": "Er lebt ohne zu arbeiten, alles wird ihm serviert.",
+      "audio": "",
+      "word_translations": {
+        "mesa": "Tisch",
+        "puesta": "gedeckt"
+      },
+      "note": "Bedeutet: jemand hat es sehr bequem, alles wird ihm serviert ohne dass er etwas tun muss"
     }
   ]
 }

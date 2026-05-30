@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "1",
     "spanish": "el aguacate",
@@ -22292,7 +22292,8 @@
   {
     "id": "1378",
     "spanish": "virgazo",
-    "german": "Scheiße",
+    "german": "die Scheiße / der Mist (Mexiko, vulgär)",
+    "note": "Mexikanisches Schimpfwort, sehr vulgär",
     "type": "other",
     "sentence_es": "El virgazo del látigo asustó al caballo.",
     "sentence_de": "Der Peitschenhieb erschreckte das Pferd.",
@@ -45886,5 +45887,489 @@
       "tu": "dein/deinen",
       "cumpleaños": "Geburtstag"
     }
+  }
+,
+  {
+    "id": "2748",
+    "spanish": "trabajador / trabajadora",
+    "german": "fleißig / arbeitsam",
+    "pronunciation": "tra-ba-cha-DOR",
+    "category": "Adjektive",
+    "sentence_es": "María es muy trabajadora.",
+    "sentence_de": "Maria ist sehr fleißig.",
+    "audio": ""
+  },
+  {
+    "id": "2749",
+    "spanish": "perezoso / perezosa",
+    "german": "faul / träge",
+    "pronunciation": "pe-re-SO-so",
+    "category": "Adjektive",
+    "sentence_es": "Mi gato es muy perezoso.",
+    "sentence_de": "Meine Katze ist sehr faul.",
+    "audio": ""
+  },
+  {
+    "id": "2750",
+    "spanish": "chistoso / chistosa",
+    "german": "witzig / komisch",
+    "pronunciation": "tschis-TO-so",
+    "category": "Adjektive",
+    "sentence_es": "Tu hermano es muy chistoso.",
+    "sentence_de": "Dein Bruder ist sehr witzig.",
+    "audio": ""
+  },
+  {
+    "id": "2751",
+    "spanish": "el chiste",
+    "german": "der Witz",
+    "pronunciation": "el TSCHIS-te",
+    "category": "Substantive",
+    "sentence_es": "Cuéntame un chiste.",
+    "sentence_de": "Erzähl mir einen Witz.",
+    "audio": ""
+  },
+  {
+    "id": "2752",
+    "spanish": "conmovedor / conmovedora",
+    "german": "rührend / bewegend",
+    "pronunciation": "kon-mo-ve-DOR",
+    "category": "Adjektive",
+    "sentence_es": "La historia fue muy conmovedora.",
+    "sentence_de": "Die Geschichte war sehr rührend.",
+    "audio": ""
+  },
+  {
+    "id": "2753",
+    "spanish": "la valentía",
+    "german": "der Mut / die Tapferkeit",
+    "pronunciation": "la va-len-TI-a",
+    "category": "Substantive",
+    "sentence_es": "Admiro tu valentía.",
+    "sentence_de": "Ich bewundere deinen Mut.",
+    "audio": ""
+  },
+  {
+    "id": "2754",
+    "spanish": "los matapasiones",
+    "german": "die Abtörner / die Stimmungskiller",
+    "pronunciation": "los ma-ta-pa-SIO-nes",
+    "category": "Substantive",
+    "sentence_es": "Esos comentarios son unos matapasiones.",
+    "sentence_de": "Diese Kommentare sind echte Abtörner.",
+    "audio": "",
+    "note": "Umgangssprachlich, meist im Plural verwendet"
+  }
+,
+  {
+    "id": "2755",
+    "spanish": "destacado / destacada",
+    "german": "herausragend / bedeutend",
+    "pronunciation": "des-ta-KA-do",
+    "category": "Adjektive",
+    "sentence_es": "Es un científico muy destacado.",
+    "sentence_de": "Er ist ein sehr bedeutender Wissenschaftler.",
+    "audio": ""
+  },
+  {
+    "id": "2756",
+    "spanish": "obtener",
+    "german": "erhalten / bekommen / erlangen",
+    "pronunciation": "ob-te-NER",
+    "category": "Verben",
+    "sentence_es": "Necesito obtener más información.",
+    "sentence_de": "Ich muss mehr Informationen erhalten.",
+    "audio": ""
+  },
+  {
+    "id": "2757",
+    "spanish": "los deseos",
+    "german": "die Wünsche",
+    "pronunciation": "los de-SE-os",
+    "category": "Substantive",
+    "sentence_es": "Todos mis deseos se hicieron realidad.",
+    "sentence_de": "Alle meine Wünsche wurden wahr.",
+    "audio": "",
+    "note": "Plural von 'el deseo' (der Wunsch)"
+  },
+  {
+    "id": "2758",
+    "spanish": "el lema",
+    "german": "das Motto / der Leitspruch",
+    "pronunciation": "el LE-ma",
+    "category": "Substantive",
+    "sentence_es": "El lema de la empresa es 'Calidad primero'.",
+    "sentence_de": "Das Motto der Firma ist 'Qualität zuerst'.",
+    "audio": ""
+  },
+  {
+    "id": "2759",
+    "spanish": "el polvo",
+    "german": "der Staub",
+    "pronunciation": "el POL-vo",
+    "category": "Substantive",
+    "sentence_es": "Hay mucho polvo en la mesa.",
+    "sentence_de": "Auf dem Tisch liegt viel Staub.",
+    "audio": ""
+  },
+  {
+    "id": "2760",
+    "spanish": "la niebla",
+    "german": "der Nebel",
+    "pronunciation": "la ni-E-bla",
+    "category": "Substantive",
+    "sentence_es": "Hay mucha niebla en las montañas hoy.",
+    "sentence_de": "Heute gibt es viel Nebel in den Bergen.",
+    "audio": ""
+  },
+  {
+    "id": "2761",
+    "spanish": "la señal de tráfico / las señales",
+    "german": "das Verkehrsschild / die Verkehrsschilder",
+    "pronunciation": "la se-NYAL de TRA-fi-ko",
+    "category": "Substantive",
+    "sentence_es": "Debes respetar todas las señales de tráfico.",
+    "sentence_de": "Du musst alle Verkehrsschilder beachten.",
+    "audio": ""
+  },
+  {
+    "id": "2762",
+    "spanish": "el letrero",
+    "german": "das Ladenschild / das Schild",
+    "pronunciation": "el le-TRE-ro",
+    "category": "Substantive",
+    "sentence_es": "El letrero de la tienda estaba iluminado.",
+    "sentence_de": "Das Ladenschild war beleuchtet.",
+    "audio": ""
+  },
+  {
+    "id": "2763",
+    "spanish": "tuve que / tuvo que",
+    "german": "ich musste / er·sie musste",
+    "pronunciation": "TU-ve ke / TU-vo ke",
+    "category": "Verben",
+    "sentence_es": "Tuve que salir temprano esta mañana.",
+    "sentence_de": "Ich musste heute Morgen früh aufbrechen.",
+    "audio": ""
+  },
+  {
+    "id": "2764",
+    "spanish": "tuvieron (tener que)",
+    "german": "sie mussten",
+    "pronunciation": "tu-VIE-ron",
+    "category": "Verben",
+    "sentence_es": "Tuvieron que cancelar el vuelo por el mal tiempo.",
+    "sentence_de": "Sie mussten den Flug wegen des schlechten Wetters absagen.",
+    "audio": ""
+  },
+  {
+    "id": "2765",
+    "spanish": "molestar / molesta",
+    "german": "stören / es stört",
+    "pronunciation": "mo-les-TAR",
+    "category": "Verben",
+    "sentence_es": "El ruido me molesta cuando intento estudiar.",
+    "sentence_de": "Der Lärm stört mich, wenn ich versuche zu lernen.",
+    "audio": ""
+  },
+  {
+    "id": "2766",
+    "spanish": "parar de",
+    "german": "aufhören zu",
+    "pronunciation": "pa-RAR de",
+    "category": "Verben",
+    "sentence_es": "Por favor, para de hacer tanto ruido.",
+    "sentence_de": "Hör bitte auf, so viel Lärm zu machen.",
+    "audio": ""
+  },
+  {
+    "id": "2767",
+    "spanish": "intentes (no intentes...)",
+    "german": "versuch nicht... (Subj. Präs.)",
+    "pronunciation": "in-TEN-tes",
+    "category": "Verben",
+    "sentence_es": "No intentes engañarme, por favor.",
+    "sentence_de": "Versuche nicht, mich zu täuschen, bitte.",
+    "audio": ""
+  },
+  {
+    "id": "2768",
+    "spanish": "logró (lograr)",
+    "german": "hat es geschafft (zu...)",
+    "pronunciation": "lo-GRO",
+    "category": "Verben",
+    "sentence_es": "Al final logró terminar el proyecto a tiempo.",
+    "sentence_de": "Am Ende hat er/sie es geschafft, das Projekt rechtzeitig fertigzustellen.",
+    "audio": ""
+  },
+  {
+    "id": "2769",
+    "spanish": "dejes (no dejes...)",
+    "german": "lass nicht... (Subj. Präs.)",
+    "pronunciation": "DE-hes",
+    "category": "Verben",
+    "sentence_es": "No dejes que te afecten los comentarios negativos.",
+    "sentence_de": "Lass nicht zu, dass dich negative Kommentare beeinflussen.",
+    "audio": ""
+  },
+  {
+    "id": "2770",
+    "spanish": "pedimos (pedir)",
+    "german": "wir bitten / wir bestellen",
+    "pronunciation": "pe-DI-mos",
+    "category": "Verben",
+    "sentence_es": "Pedimos dos cafés y una tarta.",
+    "sentence_de": "Wir bestellten zwei Kaffees und einen Kuchen.",
+    "audio": ""
+  },
+  {
+    "id": "2771",
+    "spanish": "entrevistó (entrevistar)",
+    "german": "interviewte",
+    "pronunciation": "en-tre-vis-TO",
+    "category": "Verben",
+    "sentence_es": "El periodista entrevistó al alcalde en la plaza.",
+    "sentence_de": "Der Journalist interviewte den Bürgermeister auf dem Platz.",
+    "audio": ""
+  },
+  {
+    "id": "2772",
+    "spanish": "se equivocó (equivocarse)",
+    "german": "hat sich geirrt",
+    "pronunciation": "se e-ki-vo-KO",
+    "category": "Verben",
+    "sentence_es": "Se equivocó al calcular el precio total.",
+    "sentence_de": "Er/Sie hat sich beim Berechnen des Gesamtpreises geirrt.",
+    "audio": ""
+  },
+  {
+    "id": "2773",
+    "spanish": "vimos (ver)",
+    "german": "wir sahen",
+    "pronunciation": "VI-mos",
+    "category": "Verben",
+    "sentence_es": "Ayer vimos una película muy interesante.",
+    "sentence_de": "Gestern sahen wir einen sehr interessanten Film.",
+    "audio": ""
+  },
+  {
+    "id": "2774",
+    "spanish": "la zona residencial",
+    "german": "das Wohngebiet",
+    "pronunciation": "la SO-na re-si-den-SYAL",
+    "category": "Substantive",
+    "sentence_es": "Hay pocas tiendas en esta zona residencial.",
+    "sentence_de": "In diesem Wohngebiet gibt es wenige Geschäfte.",
+    "audio": ""
+  },
+  {
+    "id": "2775",
+    "spanish": "el imprevisto",
+    "german": "das Unvorhergesehene",
+    "pronunciation": "el im-pre-VIS-to",
+    "category": "Substantive",
+    "sentence_es": "Surgió un imprevisto y no pudimos llegar a tiempo.",
+    "sentence_de": "Etwas Unvorhergesehenes kam dazwischen und wir konnten nicht rechtzeitig kommen.",
+    "audio": ""
+  },
+  {
+    "id": "2776",
+    "spanish": "la lástima",
+    "german": "der Jammer / schade",
+    "pronunciation": "la LAS-ti-ma",
+    "category": "Substantive",
+    "sentence_es": "¡Qué lástima que no puedas venir a la fiesta!",
+    "sentence_de": "Was für ein Jammer, dass du nicht zur Party kommen kannst!",
+    "audio": ""
+  },
+  {
+    "id": "2777",
+    "spanish": "el estrés",
+    "german": "der Stress",
+    "pronunciation": "el es-TRES",
+    "category": "Substantive",
+    "sentence_es": "El estrés del trabajo le afectó mucho.",
+    "sentence_de": "Der Stress bei der Arbeit hat ihn/sie sehr belastet.",
+    "audio": ""
+  },
+  {
+    "id": "2778",
+    "spanish": "la vacuna",
+    "german": "der Impfstoff / die Impfung",
+    "pronunciation": "la va-KU-na",
+    "category": "Substantive",
+    "sentence_es": "La vacuna contra la gripe es recomendable cada año.",
+    "sentence_de": "Die Grippeimpfung wird jedes Jahr empfohlen.",
+    "audio": ""
+  },
+  {
+    "id": "2779",
+    "spanish": "el alcalde / la alcaldesa",
+    "german": "der Bürgermeister / die Bürgermeisterin",
+    "pronunciation": "el al-KAL-de",
+    "category": "Substantive",
+    "sentence_es": "El alcalde inauguró el nuevo parque de la ciudad.",
+    "sentence_de": "Der Bürgermeister eröffnete den neuen Stadtpark.",
+    "audio": ""
+  },
+  {
+    "id": "2780",
+    "spanish": "el racimo",
+    "german": "die Traube (ganze Rispe)",
+    "pronunciation": "el ra-SI-mo",
+    "category": "Substantive",
+    "sentence_es": "Compré un racimo de uvas en el mercado.",
+    "sentence_de": "Ich kaufte eine ganze Weintraube auf dem Markt.",
+    "audio": ""
+  },
+  {
+    "id": "2781",
+    "spanish": "el comedor",
+    "german": "das Esszimmer",
+    "pronunciation": "el ko-me-DOR",
+    "category": "Substantive",
+    "sentence_es": "Cenamos juntos en el comedor cada noche.",
+    "sentence_de": "Wir essen jeden Abend gemeinsam im Esszimmer.",
+    "audio": ""
+  },
+  {
+    "id": "2782",
+    "spanish": "el comportamiento",
+    "german": "das Benehmen / das Verhalten",
+    "pronunciation": "el kom-por-ta-MYEN-to",
+    "category": "Substantive",
+    "sentence_es": "Su comportamiento en clase fue muy disruptivo.",
+    "sentence_de": "Sein/Ihr Benehmen im Unterricht war sehr störend.",
+    "audio": ""
+  },
+  {
+    "id": "2783",
+    "spanish": "la escena",
+    "german": "die Szene",
+    "pronunciation": "la es-SE-na",
+    "category": "Substantive",
+    "sentence_es": "La escena final de la película fue muy emotiva.",
+    "sentence_de": "Die Schlussszene des Films war sehr emotional.",
+    "audio": ""
+  },
+  {
+    "id": "2784",
+    "spanish": "satisfecho / satisfecha",
+    "german": "zufrieden",
+    "pronunciation": "sa-tis-FE-cho",
+    "category": "Adjektive",
+    "sentence_es": "Estoy muy satisfecho con los resultados del proyecto.",
+    "sentence_de": "Ich bin sehr zufrieden mit den Projektergebnissen.",
+    "audio": ""
+  },
+  {
+    "id": "2785",
+    "spanish": "con emoción",
+    "german": "mit Aufregung / voller Emotion",
+    "pronunciation": "kon e-mo-SYON",
+    "category": "Wendungen",
+    "sentence_es": "Habló con emoción sobre su viaje a España.",
+    "sentence_de": "Er/Sie sprach voller Emotion über die Reise nach Spanien.",
+    "audio": ""
+  },
+  {
+    "id": "2786",
+    "spanish": "jugando (jugar)",
+    "german": "spielend",
+    "pronunciation": "hu-GAN-do",
+    "category": "Verben",
+    "sentence_es": "Los niños están jugando en el parque.",
+    "sentence_de": "Die Kinder spielen im Park.",
+    "audio": ""
+  },
+  {
+    "id": "2787",
+    "spanish": "los/las demás",
+    "german": "die anderen / das Übrige",
+    "pronunciation": "los de-MAS",
+    "category": "Wendungen",
+    "sentence_es": "Los demás estudiantes llegaron tarde.",
+    "sentence_de": "Die anderen Schüler kamen zu spät.",
+    "audio": ""
+  },
+  {
+    "id": "2788",
+    "spanish": "repentino / repentina",
+    "german": "plötzlich / unerwartet",
+    "pronunciation": "re-pen-TI-no",
+    "category": "Adjektive",
+    "sentence_es": "Hubo un cambio repentino en el tiempo.",
+    "sentence_de": "Es gab eine plötzliche Wetterveränderung.",
+    "audio": ""
+  },
+  {
+    "id": "2789",
+    "spanish": "de cuero",
+    "german": "aus Leder",
+    "pronunciation": "de KWE-ro",
+    "category": "Wendungen",
+    "sentence_es": "Lleva una chaqueta de cuero muy elegante.",
+    "sentence_de": "Er/Sie trägt eine sehr elegante Lederjacke.",
+    "audio": ""
+  },
+  {
+    "id": "2790",
+    "spanish": "venerada / venerado",
+    "german": "verehrt",
+    "pronunciation": "ve-ne-RA-da",
+    "category": "Adjektive",
+    "sentence_es": "La figura es venerada en toda la región.",
+    "sentence_de": "Die Figur wird in der ganzen Region verehrt.",
+    "audio": ""
+  },
+  {
+    "id": "2791",
+    "spanish": "dedicada a / dedicado a",
+    "german": "gewidmet (zu Ehren von)",
+    "pronunciation": "de-di-KA-da a",
+    "category": "Wendungen",
+    "sentence_es": "Este monumento está dedicado a las víctimas de la guerra.",
+    "sentence_de": "Dieses Denkmal ist den Opfern des Krieges gewidmet.",
+    "audio": ""
+  },
+  {
+    "id": "2792",
+    "spanish": "se considera (como)",
+    "german": "gilt als / wird betrachtet als",
+    "pronunciation": "se kon-si-DE-ra",
+    "category": "Wendungen",
+    "sentence_es": "Se considera uno de los mejores restaurantes de la ciudad.",
+    "sentence_de": "Es gilt als eines der besten Restaurants der Stadt.",
+    "audio": ""
+  },
+  {
+    "id": "2793",
+    "spanish": "mejorará (mejorar)",
+    "german": "wird sich verbessern (Zukunft)",
+    "pronunciation": "me-ho-ra-RA",
+    "category": "Verben",
+    "sentence_es": "La situación económica mejorará el próximo año.",
+    "sentence_de": "Die wirtschaftliche Lage wird sich nächstes Jahr verbessern.",
+    "audio": ""
+  },
+  {
+    "id": "2794",
+    "spanish": "por ver quién llega primero",
+    "german": "um zu sehen, wer zuerst ankommt",
+    "pronunciation": "por ver KYEN YE-ga pri-ME-ro",
+    "category": "Wendungen",
+    "sentence_es": "Corrieron por ver quién llegaba primero a la meta.",
+    "sentence_de": "Sie rannten, um zu sehen, wer zuerst das Ziel erreichte.",
+    "audio": ""
+  },
+  {
+    "id": "2795",
+    "spanish": "No me deja de sorprender",
+    "german": "Es überrascht mich immer wieder",
+    "pronunciation": "no me DE-ha de sor-pren-DER",
+    "category": "Wendungen",
+    "sentence_es": "No me deja de sorprender su dedicación al trabajo.",
+    "sentence_de": "Seine/Ihre Hingabe an die Arbeit überrascht mich immer wieder.",
+    "audio": ""
   }
 ]

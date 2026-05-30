@@ -10,6 +10,7 @@
     "709",
     "1147",
     "1362",
+    "1378",
     "1364",
     "1370",
     "1462",
@@ -44,5 +45,14 @@
     "2736",
     "2737",
     "2747"
+  ],
+  "specialPhrases": [
+    {
+      "spanish": "¿Qué más pues?",
+      "german": "Was geht? / Was gibt's? (Kolumbien)",
+      "region": "Kolumbien",
+      "literal": "Was mehr also?",
+      "note": "Sehr umgangssprachlich, typisch Paisa-Region"
+    }
   ]
 }

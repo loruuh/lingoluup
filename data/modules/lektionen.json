@@ -57,6 +57,70 @@
           "explanation": "HASTA, weil ein konkreter Endpunkt (Mitternacht) gemeint ist"
         }
       ]
+    },
+    {
+      "id": "lesson-002",
+      "title": "¡Exclamación! ¿Pregunta?",
+      "category": "Interpunktion",
+      "difficulty": "beginner",
+      "description": "Ausrufe- und Fragezeichen im Spanischen",
+      "explanation_de": "Im Spanischen werden Ausrufezeichen (!) und Fragezeichen (?) **doppelt** gesetzt — am Anfang UND am Ende des Satzes! Das ist der Hauptunterschied zum Deutschen.\n\n**AUSRUFEZEICHEN (¡ !):**\n\n**Regel 1: Immer doppelt!**\n- ✅ ¡Hola! (Hallo!)\n- ✅ ¡Qué hermoso! (Wie schön!)\n- ✅ ¡No hagas eso! (Tu das nicht!)\n- ❌ Hola! (FALSCH - fehlt das öffnende Zeichen)\n\n**Regel 2: Wann benutzen?**\n- Starke Gefühle, Überraschung, Begeisterung\n- Befehle/Anweisungen\n- Ausrufe von Bewunderung oder Warnung\n\n**Beispiele mit Kontext:**\n- ¡Cuidado! (Vorsicht!) — Warnung\n- ¡Te amo! (Ich liebe dich!) — tiefe Gefühle\n- ¡Qué día tan especial! (Was für ein besonderer Tag!) — Bewunderung\n\n---\n\n**FRAGEZEICHEN (¿ ?):**\n\n**Regel 1: Immer doppelt!**\n- ✅ ¿Cómo estás? (Wie geht es dir?)\n- ✅ ¿Qué hora es? (Wie spät ist es?)\n- ✅ ¿Dónde vives? (Wo wohnst du?)\n- ❌ Cómo estás? (FALSCH - fehlt das öffnende Zeichen)\n\n**Regel 2: Wann benutzen?**\n- Direkte Fragen\n- Rhetorische Fragen\n- Überraschte/ungläubige Fragen\n\n**Beispiele mit Kontext:**\n- ¿Tienes dinero? (Hast du Geld?) — normale Frage\n- ¿Viste eso? (Hast du das gesehen?) — ungläubig/überrascht\n- ¿De verdad? (Wirklich?) — Unglaube/Überraschung\n\n---\n\n**ACHTUNG: BESONDERE REGELN!**\n\n**Teilweise Sätze:**\nWenn die Frage/der Ausruf nur TEIL eines Satzes ist, nicht am Anfang, dann nur EIN Zeichen!\n\n- Normal: ¿Cuántos años tienes?\n- Teilweise: Dime, ¿cuántos años tienes? (Sag mir, wie alt du bist?)\n  → Hier öffnet man erst bei \"cuántos\"!\n\n**Mit Kommas/Semikolons:**\n- Mañana tenemos examen. ¡Debes estudiar! (Morgen haben wir Prüfung. Du musst lernen!)\n- ¿Entiendes?, preguntó. (\"Verstehst du?\", fragte er.)\n\n---\n\n**PRO-TIPP FÜR DEUTSCHSPRACHIGE:**\n\nDu bist es gewohnt, Ausrufe/Fragen NUR am ENDE zu markieren.\nIm Spanischen: **IMMER am ANFANG und am ENDE!**\n\nDas Signal kommt früher — der Leser weiß sofort, dass eine Frage/ein Ausruf kommt! 🎯",
+      "examples": [
+        {
+          "spanish": "¡Buenos días!",
+          "german": "Guten Morgen!",
+          "explanation": "Ausruf der Begrüßung — immer mit doppeltem Ausrufezeichen"
+        },
+        {
+          "spanish": "¿Cuál es tu nombre?",
+          "german": "Wie heißt du?",
+          "explanation": "Normale Frage — immer mit doppeltem Fragezeichen"
+        },
+        {
+          "spanish": "¡Mira! ¿No es hermoso?",
+          "german": "Schau! Ist es nicht wunderschön?",
+          "explanation": "Kombination: Ausruf + Frage — beide mit doppelten Zeichen"
+        },
+        {
+          "spanish": "¿De verdad? ¡No lo puedo creer!",
+          "german": "Wirklich? Ich kann es nicht glauben!",
+          "explanation": "Ungläubige Frage + starker Ausruf — Emotionen ausdrücken"
+        },
+        {
+          "spanish": "Dime, ¿dónde fuiste?",
+          "german": "Sag mir, wohin bist du gegangen?",
+          "explanation": "Spezialregel: Wenn die Frage nicht am Anfang des Satzes ist, öffnet man erst bei der Frage selbst"
+        },
+        {
+          "spanish": "¡Cuidado! ¡El coche viene!",
+          "german": "Vorsicht! Das Auto kommt!",
+          "explanation": "Zwei Ausrufe nacheinander — Dringlichkeit/Warnung"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Welcher Satz ist KORREKT geschrieben?",
+          "options": [
+            "A) Hola, ¿cómo estás?",
+            "B) ¿Hola, cómo estás?",
+            "C) Hola ¿cómo estás?",
+            "D) ¿Cómo estás? Hola."
+          ],
+          "correct": "D",
+          "explanation": "Nur Option D ist vollständig korrekt. Die Begrüßung \"Hola\" ist kein Ausruf in diesem Kontext (kein ¡), und die Frage ist korrekt mit doppeltem Fragezeichen geschrieben."
+        },
+        {
+          "question": "Welche Aussage ist RICHTIG?",
+          "options": [
+            "A) Im Spanischen werden Fragezeichen nur am ENDE eines Satzes gesetzt",
+            "B) Im Spanischen werden Fragezeichen und Ausrufezeichen DOPPELT gesetzt (am Anfang und am Ende)",
+            "C) Ausrufezeichen und Fragezeichen sind im Spanischen optional",
+            "D) Fragezeichen im Spanischen funktionieren genauso wie im Deutschen"
+          ],
+          "correct": "B",
+          "explanation": "Korrekt! Das ist die Hauptregel des Spanischen. Fragezeichen (¿ ?) und Ausrufezeichen (¡ !) werden IMMER doppelt gesetzt — am Anfang und am Ende."
+        }
+      ]
     }
   ]
 }

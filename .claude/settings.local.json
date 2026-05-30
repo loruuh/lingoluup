@@ -93,7 +93,12 @@
       "Bash(xargs grep -l \"latam\\\\|note\\\\b\")",
       "Bash(xargs grep -l \"\\\\.note\\\\b\\\\|entry\\\\.note\\\\|vocab\\\\.note\")",
       "Bash(xargs grep -l \"note\")",
-      "Bash(xargs grep -l \"sentence_es\\\\|word_translations\\\\|spanish.*german\")"
+      "Bash(xargs grep -l \"sentence_es\\\\|word_translations\\\\|spanish.*german\")",
+      "Bash(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\vocabulario-es.json\")",
+      "Bash(Select-Object -Last 30)",
+      "PowerShell(Out-Null *)",
+      "PowerShell(Select-String *)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json\" -Tail 10 | ForEach-Object { \"[$_]\" })"
     ]
   }
 }
