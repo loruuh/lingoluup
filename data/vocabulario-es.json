@@ -31410,22 +31410,6 @@
     }
   },
   {
-    "id": "1891",
-    "spanish": "el legajo",
-    "german": "das Aktenbündel",
-    "type": "noun",
-    "sentence_es": "El jefe revisó mi legajo personal ayer.",
-    "sentence_de": "Der Chef überprüfte gestern meine Personalakte.",
-    "audio": "/audio/1891.mp3",
-    "word_translations": {
-      "jefe": "Chef",
-      "revisó": "überprüfte",
-      "legajo": "Personalakte/Akte",
-      "personal": "persönlich",
-      "ayer": "gestern"
-    }
-  },
-  {
     "id": "1892",
     "spanish": "el dossier",
     "german": "das Dossier",
@@ -46370,6 +46354,116 @@
     "category": "Wendungen",
     "sentence_es": "No me deja de sorprender su dedicación al trabajo.",
     "sentence_de": "Seine/Ihre Hingabe an die Arbeit überrascht mich immer wieder.",
+    "audio": ""
+  },
+  {
+    "id": "2796",
+    "spanish": "los trocitos",
+    "german": "die Stücke (klein) / die Happen",
+    "pronunciation": "los tro-SI-tos",
+    "category": "Substantive",
+    "sentence_es": "Corta el pan en trocitos pequeños.",
+    "sentence_de": "Schneid das Brot in kleine Stücke.",
+    "audio": ""
+  },
+  {
+    "id": "2797",
+    "spanish": "los fideos",
+    "german": "die Nudeln / die Teigwaren",
+    "pronunciation": "los fi-DE-os",
+    "category": "Substantive",
+    "sentence_es": "¿Quieres sopa de fideos?",
+    "sentence_de": "Möchtest du Nudelsuppe?",
+    "audio": ""
+  },
+  {
+    "id": "2798",
+    "spanish": "para ustedes",
+    "german": "für Sie / für euch (Plural, formell)",
+    "pronunciation": "PA-ra us-TE-des",
+    "category": "Redewendungen",
+    "sentence_es": "Esto es para ustedes.",
+    "sentence_de": "Das ist für Sie.",
+    "audio": ""
+  },
+  {
+    "id": "2799",
+    "spanish": "divina / divino",
+    "german": "göttlich / herrlich / wunderbar",
+    "pronunciation": "di-VI-na",
+    "category": "Adjektive",
+    "sentence_es": "¡Qué comida más divina!",
+    "sentence_de": "Was für eine herrliche Mahlzeit!",
+    "audio": ""
+  },
+  {
+    "id": "2800",
+    "spanish": "el rompeolas",
+    "german": "der Wellenbrecher / der Wellenbrecherdamm",
+    "pronunciation": "el rom-pe-O-las",
+    "category": "Substantive",
+    "sentence_es": "El rompeolas protege el puerto.",
+    "sentence_de": "Der Wellenbrecher schützt den Hafen.",
+    "audio": ""
+  },
+  {
+    "id": "2801",
+    "spanish": "acogedor / acogedora",
+    "german": "gemütlich / gastfreundlich / einladend",
+    "pronunciation": "a-ko-che-DOR",
+    "category": "Adjektive",
+    "sentence_es": "La casa es muy acogedora.",
+    "sentence_de": "Das Haus ist sehr gemütlich.",
+    "audio": ""
+  },
+  {
+    "id": "2802",
+    "spanish": "aguantar",
+    "german": "aushalten / ertragen / erdulden / standhalten",
+    "pronunciation": "a-guan-TAR",
+    "category": "Verben",
+    "sentence_es": "No puedo aguantar más.",
+    "sentence_de": "Ich kann nicht mehr aushalten.",
+    "audio": ""
+  },
+  {
+    "id": "2803",
+    "spanish": "adecuada / adecuado",
+    "german": "geeignet / angemessen / passend",
+    "pronunciation": "a-de-KUA-da",
+    "category": "Adjektive",
+    "sentence_es": "Ese vestido es adecuado para la fiesta.",
+    "sentence_de": "Dieses Kleid ist für die Party geeignet.",
+    "audio": ""
+  },
+  {
+    "id": "2804",
+    "spanish": "tacaño / tacaña",
+    "german": "geizig / knauserig",
+    "pronunciation": "ta-KA-ño",
+    "category": "Adjektive",
+    "sentence_es": "Mi tío es muy tacaño.",
+    "sentence_de": "Mein Onkel ist sehr geizig.",
+    "audio": ""
+  },
+  {
+    "id": "2805",
+    "spanish": "el abdomen",
+    "german": "der Bauch / die Bauchdecke",
+    "pronunciation": "el ab-DO-men",
+    "category": "Körperteile",
+    "sentence_es": "Me duele el abdomen.",
+    "sentence_de": "Mir tut der Bauch weh.",
+    "audio": ""
+  },
+  {
+    "id": "2806",
+    "spanish": "los abdominales",
+    "german": "die Bauchmuskeln / das Sixpack",
+    "pronunciation": "los ab-do-mi-NA-les",
+    "category": "Körperteile",
+    "sentence_es": "Tengo buenos abdominales.",
+    "sentence_de": "Ich habe ein gutes Sixpack.",
     "audio": ""
   }
 ]
