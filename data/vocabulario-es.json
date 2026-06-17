@@ -45871,8 +45871,7 @@
       "tu": "dein/deinen",
       "cumpleaños": "Geburtstag"
     }
-  }
-,
+  },
   {
     "id": "2748",
     "spanish": "trabajador / trabajadora",
@@ -45943,8 +45942,7 @@
     "sentence_de": "Diese Kommentare sind echte Abtörner.",
     "audio": "",
     "note": "Umgangssprachlich, meist im Plural verwendet"
-  }
-,
+  },
   {
     "id": "2755",
     "spanish": "destacado / destacada",
@@ -46465,5 +46463,636 @@
     "sentence_es": "Tengo buenos abdominales.",
     "sentence_de": "Ich habe ein gutes Sixpack.",
     "audio": ""
+  },
+  {
+    "id": "2807",
+    "spanish": "los palillos chinos",
+    "german": "die Essstäbchen / die Stäbchen",
+    "pronunciation": "los pa-LI-los CHI-nos",
+    "category": "Substantive",
+    "sentence_es": "¿Sabes comer con palillos chinos?",
+    "sentence_de": "Kannst du mit Essstäbchen essen?",
+    "audio": ""
+  },
+  {
+    "id": "2808",
+    "spanish": "las burbujas",
+    "german": "die Blasen / die Seifenblasen",
+    "pronunciation": "las bur-BU-jas",
+    "category": "Substantive",
+    "sentence_es": "Los niños juegan con burbujas.",
+    "sentence_de": "Die Kinder spielen mit Seifenblasen.",
+    "audio": ""
+  },
+  {
+    "id": "2809",
+    "spanish": "decepcionada / decepcionado",
+    "german": "enttäuscht / desillusioniert",
+    "pronunciation": "de-sep-sio-NA-da",
+    "category": "Adjektive",
+    "sentence_es": "Estoy muy decepcionada con los resultados.",
+    "sentence_de": "Ich bin sehr enttäuscht von den Ergebnissen.",
+    "audio": ""
+  },
+  {
+    "id": "2810",
+    "spanish": "dañado / dañada",
+    "german": "beschädigt / ruiniert / kaputt",
+    "pronunciation": "da-ÑA-do",
+    "category": "Adjektive",
+    "sentence_es": "El teléfono está dañado.",
+    "sentence_de": "Das Telefon ist beschädigt.",
+    "audio": ""
+  },
+  {
+    "id": "2811",
+    "spanish": "la estafa",
+    "german": "der Betrug / die Betrügerei",
+    "pronunciation": "la es-TA-fa",
+    "category": "Substantive",
+    "sentence_es": "Descubrieron una estafa bancaria.",
+    "sentence_de": "Sie entdeckten einen Bankbetrug.",
+    "audio": ""
+  },
+  {
+    "id": "2812",
+    "spanish": "hostigar",
+    "german": "schikanieren / belästigen / plagen",
+    "pronunciation": "os-ti-GAR",
+    "category": "Verben",
+    "sentence_es": "No debes hostigar a otras personas.",
+    "sentence_de": "Du darfst andere Personen nicht schikanieren.",
+    "audio": ""
+  },
+  {
+    "id": "2813",
+    "spanish": "adherir",
+    "german": "beipflichten / sich anschließen / haften",
+    "pronunciation": "a-he-RIR",
+    "category": "Verben",
+    "sentence_es": "Adhiero a tu opinión.",
+    "sentence_de": "Ich stimme deiner Meinung bei.",
+    "audio": ""
+  },
+  {
+    "id": "2814",
+    "spanish": "gestionar",
+    "german": "verwalten / bewirtschaften / regeln",
+    "pronunciation": "ges-tio-NAR",
+    "category": "Verben",
+    "sentence_es": "Debemos gestionar los recursos correctamente.",
+    "sentence_de": "Wir müssen die Ressourcen richtig verwalten.",
+    "audio": ""
+  },
+  {
+    "id": "2815",
+    "spanish": "cumplir",
+    "german": "erfüllen / einhalten / begehen (Geburtstag)",
+    "pronunciation": "kum-PLIR",
+    "category": "Verben",
+    "sentence_es": "Debo cumplir mis promesas.",
+    "sentence_de": "Ich muss meine Versprechen erfüllen.",
+    "audio": ""
+  },
+  {
+    "id": "2816",
+    "spanish": "hacer",
+    "german": "machen / tun / anfertigen",
+    "pronunciation": "a-SER",
+    "category": "Verben",
+    "sentence_es": "¿Qué harías en mi lugar?",
+    "sentence_de": "Was würdest du an meiner Stelle tun?",
+    "audio": ""
+  },
+  {
+    "id": "2817",
+    "spanish": "imponer",
+    "german": "aufzwingen / auferlegen / durchsetzen",
+    "pronunciation": "im-po-NER",
+    "category": "Verben",
+    "sentence_es": "No puedes imponer tus reglas a otros.",
+    "sentence_de": "Du kannst deine Regeln anderen nicht aufzwingen.",
+    "audio": ""
+  },
+  {
+    "id": "2818",
+    "spanish": "decir",
+    "german": "sagen / erzählen / meinen",
+    "pronunciation": "de-SIR",
+    "category": "Verben",
+    "sentence_es": "Te dije que vendrías.",
+    "sentence_de": "Ich sagte dir, dass du kommen würdest.",
+    "audio": ""
+  },
+  {
+    "id": "2819",
+    "spanish": "enardecidos / enardecidas",
+    "german": "aufgeheizt / erregt / leidenschaftlich",
+    "pronunciation": "e-nar-de-SI-dos",
+    "category": "Adjektive",
+    "sentence_es": "Los ánimos estaban muy enardecidos.",
+    "sentence_de": "Die Gemüter waren sehr aufgeheizt.",
+    "audio": ""
+  },
+  {
+    "id": "2820",
+    "spanish": "las mentiras",
+    "german": "die Lügen / die Unwahrheiten",
+    "pronunciation": "las men-TI-ras",
+    "category": "Substantive",
+    "sentence_es": "No toleramos las mentiras en la política.",
+    "sentence_de": "Wir dulden keine Lügen in der Politik.",
+    "audio": ""
+  },
+  {
+    "id": "2821",
+    "spanish": "el abuso",
+    "german": "der Missbrauch / der Übergriff",
+    "pronunciation": "el a-BU-so",
+    "category": "Substantive",
+    "sentence_es": "El abuso de poder es inaceptable.",
+    "sentence_de": "Der Machtmissbrauch ist inakzeptabel.",
+    "audio": ""
+  },
+  {
+    "id": "2822",
+    "spanish": "el escándalo",
+    "german": "der Skandal / der Aufruf",
+    "pronunciation": "el es-KAN-da-lo",
+    "category": "Substantive",
+    "sentence_es": "El escándalo político sacudió al país.",
+    "sentence_de": "Der politische Skandal erschütterte das Land.",
+    "audio": ""
+  },
+  {
+    "id": "2823",
+    "spanish": "infernales",
+    "german": "höllisch / abscheulich / teuflisch",
+    "pronunciation": "in-fer-NA-les",
+    "category": "Adjektive",
+    "sentence_es": "Las condiciones de vida eran infernales.",
+    "sentence_de": "Die Lebensbedingungen waren höllisch.",
+    "audio": ""
+  },
+  {
+    "id": "2824",
+    "spanish": "¡carajo!",
+    "german": "verdammt! / zum Teufel! (vulgärer Ausruf)",
+    "pronunciation": "ka-RA-jo",
+    "category": "Ausdrücke",
+    "sentence_es": "¡Carajo, qué situación tan difícil!",
+    "sentence_de": "Verdammt, was für eine schwierige Situation!",
+    "audio": ""
+  },
+  {
+    "id": "2825",
+    "spanish": "la caballería",
+    "german": "die Kavallerie / die Reiterei (historisch)",
+    "pronunciation": "la ka-ba-lle-RI-a",
+    "category": "Substantive",
+    "sentence_es": "La caballería fue decisiva en la batalla.",
+    "sentence_de": "Die Kavallerie war in der Schlacht entscheidend.",
+    "audio": ""
+  },
+  {
+    "id": "2826",
+    "spanish": "el regimiento",
+    "german": "das Regiment / die militärische Einheit",
+    "pronunciation": "el re-ji-MIEN-to",
+    "category": "Substantive",
+    "sentence_es": "El regimiento marchó hacia la frontera.",
+    "sentence_de": "Das Regiment marschierte zur Grenze.",
+    "audio": ""
+  },
+  {
+    "id": "2827",
+    "spanish": "el futbolista / la futbolista",
+    "german": "der Fußballspieler / die Fußballspielerin",
+    "pronunciation": "el fut-bo-LIS-ta",
+    "category": "Substantive",
+    "sentence_es": "El futbolista marcó el gol del partido.",
+    "sentence_de": "Der Fußballspieler erzielte das Tor des Spiels.",
+    "audio": ""
+  },
+  {
+    "id": "2828",
+    "spanish": "la inmortalidad",
+    "german": "die Unsterblichkeit / das ewige Gedächtnis",
+    "pronunciation": "la in-mor-ta-li-DAD",
+    "category": "Substantive",
+    "sentence_es": "Sus obras le dieron la inmortalidad.",
+    "sentence_de": "Seine Werke verliehen ihm die Unsterblichkeit.",
+    "audio": ""
+  },
+  {
+    "id": "2829",
+    "spanish": "la conmemoración del paso",
+    "german": "das Gedenken des Übergangs / die Gedenkfeier des Schritts",
+    "pronunciation": "la kon-me-mo-ra-SION del PA-so",
+    "category": "Redewendungen",
+    "sentence_es": "La conmemoración del paso fue muy emotiva.",
+    "sentence_de": "Die Gedenkfeier des Übergangs war sehr bewegend.",
+    "audio": ""
+  },
+  {
+    "id": "2830",
+    "spanish": "pertenecientes",
+    "german": "gehörend zu / zugehörig / Angehörige",
+    "pronunciation": "per-te-ne-SIEN-tes",
+    "category": "Adjektive",
+    "sentence_es": "Los ciudadanos pertenecientes a esa región protestaron.",
+    "sentence_de": "Die Bürger, die zu dieser Region gehören, protestierten.",
+    "audio": ""
+  },
+  {
+    "id": "2831",
+    "spanish": "el generador",
+    "german": "der Generator / das Aggregat",
+    "pronunciation": "el je-ne-ra-DOR",
+    "category": "Substantive",
+    "sentence_es": "El generador funciona con energía solar.",
+    "sentence_de": "Der Generator funktioniert mit Solarenergie.",
+    "audio": ""
+  },
+  {
+    "id": "2832",
+    "spanish": "asimismo",
+    "german": "ebenfalls / ebenso / gleichfalls (sehr formell)",
+    "pronunciation": "a-si-MIS-mo",
+    "category": "Adverbien",
+    "sentence_es": "Asimismo, debemos considerar otros factores.",
+    "sentence_de": "Ebenfalls müssen wir andere Faktoren berücksichtigen.",
+    "audio": ""
+  },
+  {
+    "id": "2833",
+    "spanish": "parar",
+    "german": "stoppen / anhalten / aufhören",
+    "pronunciation": "pa-RAR",
+    "category": "Verben",
+    "sentence_es": "¡Debes parar ahora!",
+    "sentence_de": "Du musst jetzt stoppen!",
+    "audio": ""
+  },
+  {
+    "id": "2834",
+    "spanish": "ir",
+    "german": "gehen / fahren / weggehen",
+    "pronunciation": "IR",
+    "category": "Verben",
+    "sentence_es": "¿A dónde vamos?",
+    "sentence_de": "Wohin gehen wir?",
+    "audio": ""
+  },
+  {
+    "id": "2835",
+    "spanish": "por muy lejos",
+    "german": "mit großem Abstand / bei weitem",
+    "pronunciation": "por muy LE-jos",
+    "category": "Redewendungen",
+    "sentence_es": "Es la mejor economía de la región, por muy lejos.",
+    "sentence_de": "Es ist bei weitem die beste Wirtschaft der Region.",
+    "audio": ""
+  },
+  {
+    "id": "2836",
+    "spanish": "las uñas",
+    "german": "die Nägel",
+    "pronunciation": "las U-ñas",
+    "category": "Körperteile",
+    "sentence_es": "Me duelen las uñas.",
+    "sentence_de": "Meine Nägel tun weh.",
+    "audio": ""
+  },
+  {
+    "id": "2837",
+    "spanish": "los senos",
+    "german": "die Brüste",
+    "pronunciation": "los SE-nos",
+    "category": "Körperteile",
+    "sentence_es": "La operación de senos fue exitosa.",
+    "sentence_de": "Die Brustoperation war erfolgreich.",
+    "audio": ""
+  },
+  {
+    "id": "2838",
+    "spanish": "la cadera",
+    "german": "die Hüfte",
+    "pronunciation": "la ka-DE-ra",
+    "category": "Körperteile",
+    "sentence_es": "Me duele la cadera.",
+    "sentence_de": "Meine Hüfte tut weh.",
+    "audio": ""
+  },
+  {
+    "id": "2839",
+    "spanish": "las rodillas",
+    "german": "die Knie",
+    "pronunciation": "las ro-DI-llas",
+    "category": "Körperteile",
+    "sentence_es": "Las rodillas me duelen después del ejercicio.",
+    "sentence_de": "Meine Knie tun nach dem Training weh.",
+    "audio": ""
+  },
+  {
+    "id": "2840",
+    "spanish": "deslizar",
+    "german": "gleiten / rutschen",
+    "pronunciation": "des-li-SAR",
+    "category": "Verben",
+    "sentence_es": "Desliza el cuchillo suavemente.",
+    "sentence_de": "Lass das Messer sanft gleiten.",
+    "audio": ""
+  },
+  {
+    "id": "2841",
+    "spanish": "costosos / costosa",
+    "german": "teuer / kostspielig",
+    "pronunciation": "kos-TO-sos",
+    "category": "Adjektive",
+    "sentence_es": "Los ingredientes orgánicos son costosos.",
+    "sentence_de": "Bio-Zutaten sind teuer.",
+    "audio": ""
+  },
+  {
+    "id": "2842",
+    "spanish": "el matrimonio",
+    "german": "die Ehe / das Ehepaar",
+    "pronunciation": "el ma-tri-MO-nio",
+    "category": "Substantive",
+    "sentence_es": "Celebraron el matrimonio en la iglesia.",
+    "sentence_de": "Sie feierten die Hochzeit in der Kirche.",
+    "audio": ""
+  },
+  {
+    "id": "2843",
+    "spanish": "las joyas",
+    "german": "der Schmuck / die Juwelen",
+    "pronunciation": "las JO-yas",
+    "category": "Substantive",
+    "sentence_es": "Ella colecciona joyas antiguas.",
+    "sentence_de": "Sie sammelt antiken Schmuck.",
+    "audio": ""
+  },
+  {
+    "id": "2844",
+    "spanish": "enamorar / enamorarse",
+    "german": "verlieben / bezaubern",
+    "pronunciation": "e-na-mo-RAR",
+    "category": "Verben",
+    "sentence_es": "Me enamoré de sus ojos.",
+    "sentence_de": "Ich verliebte mich in ihre Augen.",
+    "audio": ""
+  },
+  {
+    "id": "2845",
+    "spanish": "los consejos",
+    "german": "die Ratschläge / die Tipps",
+    "pronunciation": "los kon-SE-jos",
+    "category": "Substantive",
+    "sentence_es": "Me dieron buenos consejos.",
+    "sentence_de": "Sie gaben mir gute Ratschläge.",
+    "audio": ""
+  },
+  {
+    "id": "2846",
+    "spanish": "amasar",
+    "german": "kneten / durchkneten",
+    "pronunciation": "a-ma-SAR",
+    "category": "Verben",
+    "sentence_es": "Amasamos la masa durante 10 minutos.",
+    "sentence_de": "Wir kneteten den Teig 10 Minuten lang.",
+    "audio": ""
+  },
+  {
+    "id": "2847",
+    "spanish": "aplanar",
+    "german": "flach drücken / ebnen",
+    "pronunciation": "a-pla-NAR",
+    "category": "Verben",
+    "sentence_es": "Aplanamos la masa con un rodillo.",
+    "sentence_de": "Wir drückten den Teig mit einem Nudelholz flach.",
+    "audio": ""
+  },
+  {
+    "id": "2848",
+    "spanish": "el guiso",
+    "german": "der Eintopf / das Schmorgericht",
+    "pronunciation": "el GUI-so",
+    "category": "Substantive",
+    "sentence_es": "El guiso estaba delicioso.",
+    "sentence_de": "Der Eintopf war köstlich.",
+    "audio": ""
+  },
+  {
+    "id": "2849",
+    "spanish": "los vegetales",
+    "german": "das Gemüse (Lateinamerika) / En España: las verduras",
+    "pronunciation": "los ve-he-TA-les",
+    "category": "Substantive",
+    "sentence_es": "Los vegetales orgánicos son más sanos.",
+    "sentence_de": "Bio-Gemüse ist gesünder.",
+    "audio": ""
+  },
+  {
+    "id": "2850",
+    "spanish": "orgánico / orgánica",
+    "german": "biologisch / ökologisch",
+    "pronunciation": "or-GA-ni-ko",
+    "category": "Adjektive",
+    "sentence_es": "Compro comida orgánica siempre.",
+    "sentence_de": "Ich kaufe immer Bio-Essen.",
+    "audio": ""
+  },
+  {
+    "id": "2851",
+    "spanish": "sazonar",
+    "german": "würzen / abschmecken",
+    "pronunciation": "sa-so-NAR",
+    "category": "Verben",
+    "sentence_es": "Debes sazonar bien el guiso.",
+    "sentence_de": "Du musst den Eintopf gut würzen.",
+    "audio": ""
+  },
+  {
+    "id": "2852",
+    "spanish": "el toque",
+    "german": "der Hauch / die Note / die Spur",
+    "pronunciation": "el TO-ke",
+    "category": "Substantive",
+    "sentence_es": "Un toque de limón le da un sabor especial.",
+    "sentence_de": "Ein Hauch von Zitrone gibt einen besonderen Geschmack.",
+    "audio": ""
+  },
+  {
+    "id": "2853",
+    "spanish": "magra / magro",
+    "german": "mager / fettarm",
+    "pronunciation": "MA-gra",
+    "category": "Adjektive",
+    "sentence_es": "Prefiero la carne magra.",
+    "sentence_de": "Ich bevorzuge mageres Fleisch.",
+    "audio": ""
+  },
+  {
+    "id": "2854",
+    "spanish": "los pedacitos",
+    "german": "die kleinen Stücke / die Happen",
+    "pronunciation": "los pe-da-SI-tos",
+    "category": "Substantive",
+    "sentence_es": "Corta la carne en pedacitos.",
+    "sentence_de": "Schneid das Fleisch in kleine Stücke.",
+    "audio": ""
+  },
+  {
+    "id": "2855",
+    "spanish": "el cebollín",
+    "german": "der Schnittlauch / die Frühlingszwiebel",
+    "pronunciation": "el se-bo-LIN",
+    "category": "Substantive",
+    "sentence_es": "Agregué cebollín fresco al plato.",
+    "sentence_de": "Ich gab frischen Schnittlauch auf den Teller.",
+    "audio": ""
+  },
+  {
+    "id": "2856",
+    "spanish": "agregar",
+    "german": "hinzufügen / beifügen",
+    "pronunciation": "a-gre-GAR",
+    "category": "Verben",
+    "sentence_es": "Agrega sal al agua.",
+    "sentence_de": "Gib Salz zum Wasser.",
+    "audio": ""
+  },
+  {
+    "id": "2857",
+    "spanish": "incorporar",
+    "german": "einarbeiten / unterrühren / hinzufügen",
+    "pronunciation": "in-kor-po-RAR",
+    "category": "Verben",
+    "sentence_es": "Incorpora los huevos a la masa.",
+    "sentence_de": "Arbeite die Eier in den Teig ein.",
+    "audio": ""
+  },
+  {
+    "id": "2858",
+    "spanish": "armar",
+    "german": "zusammensetzen / montieren / zubereiten",
+    "pronunciation": "ar-MAR",
+    "category": "Verben",
+    "sentence_es": "Armamos las empanadas con cuidado.",
+    "sentence_de": "Wir bereiteten die Empanadas sorgfältig zu.",
+    "audio": ""
+  },
+  {
+    "id": "2859",
+    "spanish": "repulgar",
+    "german": "versiegeln / Rand fälteln (Empanada-Technik)",
+    "pronunciation": "re-pul-GAR",
+    "category": "Verben",
+    "sentence_es": "Repulga los bordes de la empanada.",
+    "sentence_de": "Versiegle die Ränder der Empanada.",
+    "audio": ""
+  },
+  {
+    "id": "2860",
+    "spanish": "ligeras y llenas de sabor",
+    "german": "leicht und voller Geschmack / leicht aber schmackhaft",
+    "pronunciation": "li-HE-ras i LLE-nas de sa-BOR",
+    "category": "Redewendungen",
+    "sentence_es": "Las empanadas son ligeras y llenas de sabor.",
+    "sentence_de": "Die Empanadas sind leicht und voller Geschmack.",
+    "audio": ""
+  },
+  {
+    "id": "2861",
+    "spanish": "la cucharada",
+    "german": "der Löffel voll / die Löffelmenge",
+    "pronunciation": "la ku-tscha-RA-da",
+    "category": "Substantive",
+    "sentence_es": "Agrega una cucharada de azúcar.",
+    "sentence_de": "Gib einen Löffel Zucker dazu.",
+    "audio": ""
+  },
+  {
+    "id": "2862",
+    "spanish": "apenas",
+    "german": "kaum / gerade so / kaum dass",
+    "pronunciation": "a-PE-nas",
+    "category": "Adverbien",
+    "sentence_es": "Apenas tengo tiempo hoy.",
+    "sentence_de": "Ich habe heute kaum Zeit.",
+    "audio": ""
+  },
+  {
+    "id": "2863",
+    "spanish": "condimentar",
+    "german": "würzen / abschmecken",
+    "pronunciation": "kon-di-men-TAR",
+    "category": "Verben",
+    "sentence_es": "Hay que condimentar bien la carne.",
+    "sentence_de": "Man muss das Fleisch gut würzen.",
+    "audio": ""
+  },
+  {
+    "id": "2864",
+    "spanish": "el ají molido",
+    "german": "der gemahlene Chili / gemahlenes Chilipulver",
+    "pronunciation": "el a-CHI mo-LI-do",
+    "category": "Substantive",
+    "sentence_es": "Añade un poco de ají molido para picante.",
+    "sentence_de": "Füge etwas gemahlenen Chili für die Schärfe hinzu.",
+    "audio": ""
+  },
+  {
+    "id": "2865",
+    "spanish": "el comino",
+    "german": "der Kreuzkümmel",
+    "pronunciation": "el ko-MI-no",
+    "category": "Substantive",
+    "sentence_es": "El comino le da un sabor especial al guiso.",
+    "sentence_de": "Der Kreuzkümmel gibt dem Eintopf einen besonderen Geschmack.",
+    "audio": ""
+  },
+  {
+    "id": "2866",
+    "spanish": "el pimentón",
+    "german": "das Paprikapulver",
+    "pronunciation": "el pi-men-TON",
+    "category": "Substantive",
+    "sentence_es": "El pimentón ahumado es delicioso.",
+    "sentence_de": "Geräuchertes Paprikapulver ist köstlich.",
+    "audio": ""
+  },
+  {
+    "id": "2867",
+    "spanish": "el relleno",
+    "german": "die Füllung",
+    "pronunciation": "el re-LLE-no",
+    "category": "Substantive",
+    "sentence_es": "El relleno de la empanada es de carne.",
+    "sentence_de": "Die Füllung der Empanada ist aus Fleisch.",
+    "audio": ""
+  },
+  {
+    "id": "2868",
+    "spanish": "la cebolla de verdeo",
+    "german": "die Frühlingszwiebel (Argentinien)",
+    "pronunciation": "la se-BO-lla de ver-DE-o",
+    "category": "Substantive",
+    "sentence_es": "Pica la cebolla de verdeo finamente.",
+    "sentence_de": "Schneide die Frühlingszwiebel fein.",
+    "audio": ""
+  },
+  {
+    "id": "2869",
+    "spanish": "archi-",
+    "german": "super- / extrem- / erz- (Vorsilbe zur Verstärkung)",
+    "pronunciation": "AR-tschi",
+    "category": "Grammatik",
+    "sentence_es": "Estas empanadas son archi-jugosas.",
+    "sentence_de": "Diese Empanadas sind super saftig.",
+    "audio": "",
+    "note": "Präfix, das die Bedeutung verstärkt: archi-conocido = super bekannt, archi-jugosas = super saftig"
   }
 ]

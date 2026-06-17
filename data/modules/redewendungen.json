@@ -722,6 +722,19 @@
         "puesta": "gedeckt"
       },
       "note": "Bedeutet: jemand hat es sehr bequem, alles wird ihm serviert ohne dass er etwas tun muss"
+    },
+    {
+      "id": "r51",
+      "spanish": "sin palabras",
+      "german": "ohne Worte / sprachlos",
+      "literal": "ohne Worte",
+      "sentence_es": "Me quedé sin palabras.",
+      "sentence_de": "Ich war sprachlos.",
+      "audio": "",
+      "word_translations": {
+        "sin": "ohne",
+        "palabras": "Worte"
+      }
     }
   ]
 }

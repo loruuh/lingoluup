@@ -16,6 +16,7 @@ import redewendungen from "@/data/modules/redewendungen.json";
 import lektionen from "@/data/modules/lektionen.json";
 import lerntipps from "@/data/modules/lerntipps.json";
 import latam from "@/data/modules/latam.json";
+import formalVokabeln from "@/data/modules/formale-vokabeln.json";
 
 export interface ModuleInfo {
   id: string;
@@ -143,6 +144,7 @@ const moduleDataMap: Record<string, Module> = {
   "lektionen": lektionen as unknown as LessonsModule,
   "lerntipps": lerntipps as unknown as TipsModule,
   "latam": latam as unknown as VocabModule,
+  "formale-vokabeln": formalVokabeln as unknown as VocabModule,
 };
 
 interface ModuleContextType {
