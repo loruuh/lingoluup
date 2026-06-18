@@ -98,7 +98,15 @@
       "Bash(Select-Object -Last 30)",
       "PowerShell(Out-Null *)",
       "PowerShell(Select-String *)",
-      "PowerShell(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json\" -Tail 10 | ForEach-Object { \"[$_]\" })"
+      "PowerShell(Get-Content \"C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json\" -Tail 10 | ForEach-Object { \"[$_]\" })",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_check_vocab.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_add_vocab.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_audit.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_phase1.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_phase1b.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_execute.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_audit2.js\")",
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_move.js\")"
     ]
   }
 }

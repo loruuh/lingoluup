@@ -10,12 +10,6 @@ import vokabeln2 from "@/data/modules/vokabeln-2.json";
 import vokabeln3 from "@/data/modules/vokabeln-3.json";
 import vokabeln4 from "@/data/modules/vokabeln-4.json";
 import vokabeln5 from "@/data/modules/vokabeln-5.json";
-import vokabeln6 from "@/data/modules/vokabeln-6.json";
-import vokabeln7 from "@/data/modules/vokabeln-7.json";
-import vokabeln8 from "@/data/modules/vokabeln-8.json";
-import vokabeln9 from "@/data/modules/vokabeln-9.json";
-import vokabeln10 from "@/data/modules/vokabeln-10.json";
-import vokabeln11 from "@/data/modules/vokabeln-11.json";
 import zahlenModule from "@/data/modules/zahlen.json";
 import ausspracheTipps from "@/data/modules/aussprache-tipps.json";
 import redewendungen from "@/data/modules/redewendungen.json";
@@ -139,17 +133,11 @@ export type Module = VocabModule | NumbersModule | TipsModule | PhrasesModule | 
 
 // Map module files to imported data
 const moduleDataMap: Record<string, Module> = {
-  "vokabeln-1":  vokabeln1  as unknown as VocabModule,
-  "vokabeln-2":  vokabeln2  as unknown as VocabModule,
-  "vokabeln-3":  vokabeln3  as unknown as VocabModule,
-  "vokabeln-4":  vokabeln4  as unknown as VocabModule,
-  "vokabeln-5":  vokabeln5  as unknown as VocabModule,
-  "vokabeln-6":  vokabeln6  as unknown as VocabModule,
-  "vokabeln-7":  vokabeln7  as unknown as VocabModule,
-  "vokabeln-8":  vokabeln8  as unknown as VocabModule,
-  "vokabeln-9":  vokabeln9  as unknown as VocabModule,
-  "vokabeln-10": vokabeln10 as unknown as VocabModule,
-  "vokabeln-11": vokabeln11 as unknown as VocabModule,
+  "vokabeln-1": vokabeln1 as unknown as VocabModule,
+  "vokabeln-2": vokabeln2 as unknown as VocabModule,
+  "vokabeln-3": vokabeln3 as unknown as VocabModule,
+  "vokabeln-4": vokabeln4 as unknown as VocabModule,
+  "vokabeln-5": vokabeln5 as unknown as VocabModule,
   "zahlen": zahlenModule as unknown as NumbersModule,
   "aussprache-tipps": ausspracheTipps as unknown as TipsModule,
   "redewendungen": redewendungen as unknown as PhrasesModule,

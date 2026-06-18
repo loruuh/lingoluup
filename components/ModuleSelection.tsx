@@ -1,12 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { useModule } from "@/lib/ModuleContext";
 import moduleIndex from "@/data/modules/index.json";
-import { useAuth } from "@/lib/useAuth";
-import { hasAdvanceAccess, isAdvanceModule } from "@/lib/subscription";
-import { UpgradeModal } from "./UpgradeModal";
-import { LoginButton } from "./LoginButton";
 import HistoryButton from "./HistoryButton";
 import { NavIcon } from "./NavIcon";
 import Link from "next/link";
@@ -37,29 +32,9 @@ const PALETTE = [
 
 export default function ModuleSelection() {
   const { selectModule, getModuleItemCount } = useModule();
-  const { user } = useAuth();
-  const [hasAdvance, setHasAdvance] = useState(false);
-  const [showUpgrade, setShowUpgrade] = useState(false);
 
-  useEffect(() => {
-    if (user) {
-      hasAdvanceAccess(user.id).then(setHasAdvance);
-    } else {
-      setHasAdvance(false);
-    }
-  }, [user]);
-
-  const vocabModules = moduleIndex.filter((m) => m.type === "vocabulary");
+  const vocabModules   = moduleIndex.filter((m) => m.type === "vocabulary");
   const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary");
-
-  const handleModuleClick = (moduleId: string) => {
-    const needsAdvance = isAdvanceModule(moduleId);
-    if (needsAdvance && !hasAdvance) {
-      setShowUpgrade(true);
-    } else {
-      selectModule(moduleId);
-    }
-  };
 
   return (
     <div className="min-h-screen relative overflow-x-hidden" style={{ background: "#0d1117" }}>
@@ -98,12 +73,6 @@ export default function ModuleSelection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </NavIcon>
-            <NavIcon href="/account" label="Account">
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-            </NavIcon>
-            <LoginButton />
           </div>
         </div>
       </header>
@@ -130,7 +99,7 @@ export default function ModuleSelection() {
             Wähle dein Modul
           </h1>
           <p className="text-gray-500 text-sm">
-            2,600+ Vokabeln · 5 Level · Science-backed
+            2.600+ Vokabeln · 11 Module · Komplett kostenlos
           </p>
         </div>
 
@@ -166,96 +135,54 @@ export default function ModuleSelection() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {vocabModules.map((module, idx) => {
-              const palette = PALETTE[idx % PALETTE.length];
-              const needsAdvance = isAdvanceModule(module.id);
-              const isLocked = needsAdvance && !hasAdvance;
-              const count = getModuleItemCount(module.id);
+              const palette    = PALETTE[idx % PALETTE.length];
+              const count      = getModuleItemCount(module.id);
               const levelMatch = module.id.match(/vokabeln-(\d+)/);
               const levelLabel = levelMatch ? `Level ${levelMatch[1].padStart(2, "0")}` : "Extra";
 
               return (
                 <button
                   key={module.id}
-                  onClick={() => handleModuleClick(module.id)}
+                  onClick={() => selectModule(module.id)}
                   className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
-                  style={{
-                    background: isLocked ? "rgba(255,255,255,0.02)" : palette.bg,
-                    border: `1px solid ${isLocked ? "rgba(255,255,255,0.06)" : palette.border}`,
-                  }}
+                  style={{ background: palette.bg, border: `1px solid ${palette.border}` }}
                 >
                   {/* Hover inner glow */}
-                  {!isLocked && (
-                    <div
-                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
-                      style={{ boxShadow: `inset 0 0 60px ${palette.glow}` }}
-                    />
-                  )}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
+                    style={{ boxShadow: `inset 0 0 60px ${palette.glow}` }}
+                  />
 
                   {/* Top accent stripe */}
                   <div
                     className="absolute top-0 left-0 right-0 h-[2px]"
-                    style={{
-                      background: isLocked
-                        ? "rgba(255,255,255,0.04)"
-                        : `linear-gradient(90deg, ${palette.accent}bb, ${palette.accent}33, transparent)`,
-                    }}
+                    style={{ background: `linear-gradient(90deg, ${palette.accent}bb, ${palette.accent}33, transparent)` }}
                   />
 
                   <div className="relative p-5">
-                    {/* Level label + badge */}
+                    {/* Level label */}
                     <div className="flex items-center justify-between mb-4">
                       <span
                         className="text-[10px] font-bold tracking-widest uppercase"
-                        style={{ color: isLocked ? "#374151" : palette.accent }}
+                        style={{ color: palette.accent }}
                       >
                         {levelLabel}
                       </span>
-                      {needsAdvance ? (
-                        <span
-                          className="text-[9px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-full"
-                          style={
-                            hasAdvance
-                              ? { background: "rgba(132,204,22,0.12)", color: "#84cc16", border: "1px solid rgba(132,204,22,0.25)" }
-                              : { background: "rgba(255,255,255,0.04)", color: "#4b5563", border: "1px solid rgba(255,255,255,0.08)" }
-                          }
-                        >
-                          {hasAdvance ? "ADVANCE ✓" : "ADVANCE"}
-                        </span>
-                      ) : (
-                        <span
-                          className="text-[9px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-full"
-                          style={{ background: "rgba(132,204,22,0.10)", color: "#84cc16", border: "1px solid rgba(132,204,22,0.22)" }}
-                        >
-                          GRATIS
-                        </span>
-                      )}
                     </div>
 
                     {/* Emoji + content */}
                     <div className="flex items-start gap-4">
-                      <span
-                        className="text-4xl leading-none inline-block transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5"
-                        style={{ filter: isLocked ? "grayscale(0.7) opacity(0.4)" : undefined }}
-                      >
+                      <span className="text-4xl leading-none inline-block transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
                         {module.icon}
                       </span>
                       <div className="flex-1 min-w-0">
-                        <h3
-                          className="font-bold text-base leading-tight mb-1"
-                          style={{ color: isLocked ? "#4b5563" : "#f3f4f6" }}
-                        >
+                        <h3 className="font-bold text-base leading-tight mb-1 text-gray-100">
                           {module.name}
                         </h3>
-                        <p
-                          className="text-sm leading-relaxed"
-                          style={{ color: isLocked ? "#374151" : "#9ca3af" }}
-                        >
+                        <p className="text-sm leading-relaxed text-gray-400">
                           {module.description}
                         </p>
-                        <p
-                          className="text-[11px] mt-2 tabular-nums"
-                          style={{ color: isLocked ? "#1f2937" : "#6b7280" }}
-                        >
+                        <p className="text-[11px] mt-2 tabular-nums text-gray-600">
                           {count} Vokabeln
                         </p>
                       </div>
@@ -263,19 +190,13 @@ export default function ModuleSelection() {
 
                     {/* CTA */}
                     <div className="mt-5 flex justify-end">
-                      {isLocked ? (
-                        <span className="text-[11px] text-gray-700 flex items-center gap-1.5">
-                          🔒 Advance freischalten
-                        </span>
-                      ) : (
-                        <span
-                          className="text-xs font-semibold flex items-center gap-1 transition-all duration-200 group-hover:gap-2"
-                          style={{ color: palette.accent }}
-                        >
-                          Starten
-                          <span className="inline-block transition-transform duration-200 group-hover:translate-x-0.5">→</span>
-                        </span>
-                      )}
+                      <span
+                        className="text-xs font-semibold flex items-center gap-1 transition-all duration-200 group-hover:gap-2"
+                        style={{ color: palette.accent }}
+                      >
+                        Starten
+                        <span className="inline-block transition-transform duration-200 group-hover:translate-x-0.5">→</span>
+                      </span>
                     </div>
                   </div>
                 </button>
@@ -296,14 +217,12 @@ export default function ModuleSelection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {specialModules.map((module) => {
-                const needsAdvance = isAdvanceModule(module.id);
-                const isLocked = needsAdvance && !hasAdvance;
                 const palette = SPECIAL_PALETTE[module.id] ?? { bg: "rgba(255,255,255,0.025)", border: "rgba(255,255,255,0.07)", accent: "#9ca3af", glow: "rgba(255,255,255,0.08)" };
 
                 return (
                   <button
                     key={module.id}
-                    onClick={() => handleModuleClick(module.id)}
+                    onClick={() => selectModule(module.id)}
                     className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
                     style={{ background: palette.bg, border: `1px solid ${palette.border}` }}
                   >
@@ -326,12 +245,6 @@ export default function ModuleSelection() {
                       <div className="flex-1 min-w-0">
                         <h3 className="font-bold text-white text-base leading-tight mb-1">
                           {module.name}
-                          {isLocked && (
-                            <span className="ml-2 text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded-full align-middle"
-                              style={{ background: "rgba(255,255,255,0.05)", color: "#4b5563", border: "1px solid rgba(255,255,255,0.08)" }}>
-                              ADVANCE
-                            </span>
-                          )}
                         </h3>
                         <p className="text-sm text-gray-500">{module.description}</p>
                         <p className="text-[11px] mt-1.5 tabular-nums" style={{ color: palette.accent + "99" }}>
@@ -378,11 +291,6 @@ export default function ModuleSelection() {
         </section>
 
       </main>
-
-      <UpgradeModal
-        isOpen={showUpgrade}
-        onClose={() => setShowUpgrade(false)}
-      />
     </div>
   );
 }

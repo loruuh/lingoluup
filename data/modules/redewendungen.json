@@ -735,6 +735,19 @@
         "sin": "ohne",
         "palabras": "Worte"
       }
+    },
+    {
+      "id": "r52",
+      "spanish": "en primer lugar",
+      "german": "an erster Stelle / zuerst / erstens",
+      "literal": "an erstem Ort",
+      "sentence_es": "En primer lugar, quiero darte las gracias.",
+      "sentence_de": "Zuerst möchte ich dir danken.",
+      "audio": "",
+      "word_translations": {
+        "primer": "erster",
+        "lugar": "Ort/Platz"
+      }
     }
   ]
 }

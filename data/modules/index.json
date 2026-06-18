@@ -1,43 +1,91 @@
 [
   {
     "id": "vokabeln-1",
-    "name": "Vokabeln Modul 1",
-    "description": "500 Vokabeln – Top-Frequenz (wichtigste!)",
+    "name": "Vokabeln 1 – Kern",
+    "description": "Absolut häufigste Wörter – Verben, Grundnomen, Kernvokabular",
     "icon": "📘",
     "type": "vocabulary",
     "file": "vokabeln-1.json"
   },
   {
     "id": "vokabeln-2",
-    "name": "Vokabeln Modul 2",
-    "description": "500 Vokabeln – häufig & nützlich",
+    "name": "Vokabeln 2 – Alltag I",
+    "description": "Alltag: Essen & Trinken, Körper, Wohnen, Transport",
     "icon": "📗",
     "type": "vocabulary",
     "file": "vokabeln-2.json"
   },
   {
     "id": "vokabeln-3",
-    "name": "Vokabeln Modul 3",
-    "description": "500 Vokabeln – erweitert",
+    "name": "Vokabeln 3 – Alltag II",
+    "description": "Alltag: Kleidung, Familie, Orte, Tiere & Natur",
     "icon": "📙",
     "type": "vocabulary",
     "file": "vokabeln-3.json"
   },
   {
     "id": "vokabeln-4",
-    "name": "Vokabeln Modul 4",
-    "description": "500 Vokabeln – fortgeschritten",
+    "name": "Vokabeln 4 – Übergang",
+    "description": "Übergang: Ausdrücke, Natur, Gefühle, Konnektoren",
     "icon": "📕",
     "type": "vocabulary",
     "file": "vokabeln-4.json"
   },
   {
     "id": "vokabeln-5",
-    "name": "Vokabeln Modul 5",
-    "description": "407 Vokabeln – Spezial & Rest",
+    "name": "Vokabeln 5 – Mittelstufe I",
+    "description": "Mittelstufe: Arbeit, Reisen, Bildung, Beziehungen",
     "icon": "📓",
     "type": "vocabulary",
     "file": "vokabeln-5.json"
+  },
+  {
+    "id": "vokabeln-6",
+    "name": "Vokabeln 6 – Mittelstufe II",
+    "description": "Mittelstufe: Konnektoren, Gefühle, Gesellschaft, Kultur",
+    "icon": "📔",
+    "type": "vocabulary",
+    "file": "vokabeln-6.json"
+  },
+  {
+    "id": "vokabeln-7",
+    "name": "Vokabeln 7 – Fortgeschritten I",
+    "description": "Fortgeschritten: Konzepte, Wirtschaft, abstrakte Nomen",
+    "icon": "📒",
+    "type": "vocabulary",
+    "file": "vokabeln-7.json"
+  },
+  {
+    "id": "vokabeln-8",
+    "name": "Vokabeln 8 – Fortgeschritten II",
+    "description": "Fortgeschritten: Tätigkeiten, Prozesse, Zusammenarbeit",
+    "icon": "📃",
+    "type": "vocabulary",
+    "file": "vokabeln-8.json"
+  },
+  {
+    "id": "vokabeln-9",
+    "name": "Vokabeln 9 – Fortgeschritten III",
+    "description": "Fortgeschritten: Ereignisse, Themen, Situationen",
+    "icon": "📄",
+    "type": "vocabulary",
+    "file": "vokabeln-9.json"
+  },
+  {
+    "id": "vokabeln-10",
+    "name": "Vokabeln 10 – Fortgeschritten IV",
+    "description": "Fortgeschritten: Charakter, Fähigkeiten, Spezialnomen",
+    "icon": "📑",
+    "type": "vocabulary",
+    "file": "vokabeln-10.json"
+  },
+  {
+    "id": "vokabeln-11",
+    "name": "Vokabeln 11 – Spezial",
+    "description": "Spezial: Fachsprache, regionale Ausdrücke & Seltenes",
+    "icon": "🔖",
+    "type": "vocabulary",
+    "file": "vokabeln-11.json"
   },
   {
     "id": "redewendungen",

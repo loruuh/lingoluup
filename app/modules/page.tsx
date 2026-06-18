@@ -15,6 +15,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import NextButton from "@/components/NextButton";
 import OnboardingOverlay from "@/components/OnboardingOverlay";
 import ConfettiAnimation from "@/components/ConfettiAnimation";
+import VocabListModal from "@/components/VocabListModal";
 import { useStreak } from "@/components/StreakCounter";
 import { playSound } from "@/lib/sounds";
 import {
@@ -49,6 +50,7 @@ export default function Home() {
   const [showConfetti, setShowConfetti] = useState(false);
   const [showMilestone, setShowMilestone] = useState(false);
   const [milestoneText, setMilestoneText] = useState("");
+  const [showVocabList, setShowVocabList] = useState(false);
 
   // Check onboarding status beim Mount
   useEffect(() => {
@@ -248,16 +250,28 @@ export default function Home() {
         </div>
       )}
 
-      {/* Top Bar: Zurück + Streak */}
+      {/* Top Bar: Zurück + Wortliste + Streak */}
       <div className="px-4 pt-3 flex items-center justify-between">
-        <button
-          onClick={handleBackToModules}
-          aria-label="Zurück zu Modulen"
-          className="group flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-primary hover:text-primary-light rounded-full border border-white/10 hover:border-primary/40 transition-all duration-200 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-        >
-          <span className="text-sm transition-transform duration-200 group-hover:-translate-x-0.5">←</span>
-          <span className="font-semibold text-sm">Module</span>
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleBackToModules}
+            aria-label="Zurück zu Modulen"
+            className="group flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 text-primary hover:text-primary-light rounded-full border border-white/10 hover:border-primary/40 transition-all duration-200 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            <span className="text-sm transition-transform duration-200 group-hover:-translate-x-0.5">←</span>
+            <span className="font-semibold text-sm">Module</span>
+          </button>
+          {selectedModule?.type === "vocabulary" && (
+            <button
+              onClick={() => setShowVocabList(true)}
+              aria-label="Wortliste anzeigen"
+              className="flex items-center gap-1.5 px-3 py-2 bg-white/5 hover:bg-white/10 text-gray-400 hover:text-primary rounded-full border border-white/10 hover:border-primary/40 transition-all duration-200 active:scale-95"
+            >
+              <span className="text-sm">📋</span>
+              <span className="font-medium text-sm hidden sm:inline">Wortliste</span>
+            </button>
+          )}
+        </div>
         {streak > 1 && (
           <div className="flex items-center gap-1.5 bg-orange-500/15 border border-orange-500/25 px-3 py-1.5 rounded-full">
             <span className="text-base">🔥</span>
@@ -359,6 +373,8 @@ export default function Home() {
       </main>
 
       <Footer />
+
+      <VocabListModal isOpen={showVocabList} onClose={() => setShowVocabList(false)} />
     </div>
   );
 }

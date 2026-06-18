@@ -47094,5 +47094,227 @@
     "sentence_de": "Diese Empanadas sind super saftig.",
     "audio": "",
     "note": "Präfix, das die Bedeutung verstärkt: archi-conocido = super bekannt, archi-jugosas = super saftig"
+  },
+  {
+    "id": "2870",
+    "spanish": "pelado / pelada",
+    "german": "kahl / nackt / geschält",
+    "pronunciation": "pe-LA-do",
+    "category": "Adjektive",
+    "sentence_es": "La montaña está pelada, sin árboles.",
+    "sentence_de": "Der Berg ist kahl, ohne Bäume.",
+    "audio": ""
+  },
+  {
+    "id": "2871",
+    "spanish": "subterráneo / subterránea",
+    "german": "unterirdisch",
+    "pronunciation": "sub-te-RRA-ne-o",
+    "category": "Adjektive",
+    "sentence_es": "Hay un río subterráneo en la cueva.",
+    "sentence_de": "In der Höhle gibt es einen unterirdischen Fluss.",
+    "audio": ""
+  },
+  {
+    "id": "2872",
+    "spanish": "la piedra caliza",
+    "german": "der Kalkstein",
+    "pronunciation": "la PIE-dra ka-LI-za",
+    "category": "Substantive",
+    "sentence_es": "Las cuevas se forman en piedra caliza.",
+    "sentence_de": "Die Höhlen entstehen in Kalkstein.",
+    "audio": ""
+  },
+  {
+    "id": "2873",
+    "spanish": "habitado / habitada",
+    "german": "bewohnt",
+    "pronunciation": "a-bi-TA-do",
+    "category": "Adjektive",
+    "sentence_es": "La isla está habitada por pescadores.",
+    "sentence_de": "Die Insel ist von Fischern bewohnt.",
+    "audio": ""
+  },
+  {
+    "id": "2874",
+    "spanish": "la colonia británica",
+    "german": "die britische Kolonie",
+    "pronunciation": "la ko-LO-nia bri-TA-ni-ka",
+    "category": "Substantive",
+    "sentence_es": "Fue una colonia británica hasta 1947.",
+    "sentence_de": "Es war bis 1947 eine britische Kolonie.",
+    "audio": ""
+  },
+  {
+    "id": "2875",
+    "spanish": "el dialecto",
+    "german": "der Dialekt / die Mundart",
+    "pronunciation": "el dia-LEK-to",
+    "category": "Substantive",
+    "sentence_es": "Cada región tiene su propio dialecto.",
+    "sentence_de": "Jede Region hat ihren eigenen Dialekt.",
+    "audio": ""
+  },
+  {
+    "id": "2876",
+    "spanish": "el entretenimiento",
+    "german": "die Unterhaltung",
+    "pronunciation": "el en-tre-te-ni-MIEN-to",
+    "category": "Substantive",
+    "sentence_es": "La televisión es una forma de entretenimiento.",
+    "sentence_de": "Das Fernsehen ist eine Form der Unterhaltung.",
+    "audio": ""
+  },
+  {
+    "id": "2877",
+    "spanish": "el lecho",
+    "german": "das Bett / das Flussbett (gehoben)",
+    "pronunciation": "el LE-tscho",
+    "category": "Substantive",
+    "sentence_es": "El río dejó su lecho seco.",
+    "sentence_de": "Der Fluss hinterließ sein Flussbett trocken.",
+    "audio": ""
+  },
+  {
+    "id": "2878",
+    "spanish": "propio / propia",
+    "german": "eigen / eigentümlich",
+    "pronunciation": "PRO-pio",
+    "category": "Adjektive",
+    "sentence_es": "Tengo mi propio coche.",
+    "sentence_de": "Ich habe mein eigenes Auto.",
+    "audio": ""
+  },
+  {
+    "id": "2879",
+    "spanish": "contento / contenta",
+    "german": "zufrieden / froh",
+    "pronunciation": "kon-TEN-to",
+    "category": "Adjektive",
+    "sentence_es": "Estoy muy contento con el resultado.",
+    "sentence_de": "Ich bin sehr zufrieden mit dem Ergebnis.",
+    "audio": ""
+  },
+  {
+    "id": "2880",
+    "spanish": "enfermo / enferma",
+    "german": "krank",
+    "pronunciation": "en-FER-mo",
+    "category": "Adjektive",
+    "sentence_es": "Mi hermano está enfermo hoy.",
+    "sentence_de": "Mein Bruder ist heute krank.",
+    "audio": ""
+  },
+  {
+    "id": "2881",
+    "spanish": "libre",
+    "german": "frei",
+    "pronunciation": "LI-bre",
+    "category": "Adjektive",
+    "sentence_es": "¿Estás libre esta tarde?",
+    "sentence_de": "Bist du heute Nachmittag frei?",
+    "audio": ""
+  },
+  {
+    "id": "2882",
+    "spanish": "plano / plana",
+    "german": "flach / eben",
+    "pronunciation": "PLA-no",
+    "category": "Adjektive",
+    "sentence_es": "La superficie es completamente plana.",
+    "sentence_de": "Die Oberfläche ist vollkommen flach.",
+    "audio": ""
+  },
+  {
+    "id": "2883",
+    "spanish": "la cosa",
+    "german": "das Ding / die Sache",
+    "pronunciation": "la KO-sa",
+    "category": "Substantive",
+    "sentence_es": "No entiendo esta cosa.",
+    "sentence_de": "Ich verstehe dieses Ding nicht.",
+    "audio": ""
+  },
+  {
+    "id": "2884",
+    "spanish": "el agua",
+    "german": "das Wasser",
+    "pronunciation": "el A-gua",
+    "category": "Substantive",
+    "sentence_es": "Quiero un vaso de agua.",
+    "sentence_de": "Ich möchte ein Glas Wasser.",
+    "audio": "",
+    "note": "weiblich, aber mit 'el' im Singular (el agua, las aguas)"
+  },
+  {
+    "id": "2885",
+    "spanish": "la persona",
+    "german": "die Person",
+    "pronunciation": "la per-SO-na",
+    "category": "Substantive",
+    "sentence_es": "Es una persona muy amable.",
+    "sentence_de": "Sie ist eine sehr nette Person.",
+    "audio": ""
+  },
+  {
+    "id": "2886",
+    "spanish": "el amigo / la amiga",
+    "german": "der Freund / die Freundin",
+    "pronunciation": "el a-MI-go",
+    "category": "Substantive",
+    "sentence_es": "Mi mejor amigo se llama Pablo.",
+    "sentence_de": "Mein bester Freund heißt Pablo.",
+    "audio": ""
+  },
+  {
+    "id": "2887",
+    "spanish": "el día",
+    "german": "der Tag",
+    "pronunciation": "el DI-a",
+    "category": "Substantive",
+    "sentence_es": "Hoy es un día hermoso.",
+    "sentence_de": "Heute ist ein schöner Tag.",
+    "audio": "",
+    "note": "endet auf -a, ist aber maskulin: el día"
+  },
+  {
+    "id": "2888",
+    "spanish": "la vez",
+    "german": "das Mal",
+    "pronunciation": "la VES",
+    "category": "Substantive",
+    "sentence_es": "Es la primera vez que vengo aquí.",
+    "sentence_de": "Es ist das erste Mal, dass ich hierherkomme.",
+    "audio": ""
+  },
+  {
+    "id": "2889",
+    "spanish": "el punto",
+    "german": "der Punkt",
+    "pronunciation": "el PUN-to",
+    "category": "Substantive",
+    "sentence_es": "Ese es un buen punto.",
+    "sentence_de": "Das ist ein guter Punkt.",
+    "audio": ""
+  },
+  {
+    "id": "2890",
+    "spanish": "tratar",
+    "german": "behandeln / versuchen (tratar de)",
+    "pronunciation": "tra-TAR",
+    "category": "Verben",
+    "sentence_es": "Debes tratar a todos con respeto.",
+    "sentence_de": "Du musst alle mit Respekt behandeln.",
+    "audio": ""
+  },
+  {
+    "id": "2891",
+    "spanish": "el padre",
+    "german": "der Vater",
+    "pronunciation": "el PA-dre",
+    "category": "Substantive",
+    "sentence_es": "Mi padre trabaja en un banco.",
+    "sentence_de": "Mein Vater arbeitet in einer Bank.",
+    "audio": ""
   }
 ]
