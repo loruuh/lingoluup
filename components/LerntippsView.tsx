@@ -98,7 +98,7 @@ export default function LerntippsView() {
             Diese 8 Lerntipps basieren auf{" "}
             <strong className="text-lime-400">wissenschaftlichen Erkenntnissen</strong> aus der
             Neurowissenschaft und Lernpsychologie. Sie erklären, wie dein Gehirn am besten lernt –
-            und wie du Churros optimal nutzt! 🧠
+            und wie du HablaPalabra optimal nutzt! 🧠
           </p>
         </div>
 

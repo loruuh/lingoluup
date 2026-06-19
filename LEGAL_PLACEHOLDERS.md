@@ -1,4 +1,4 @@
-# LingoLuup — Rechtliche Seiten: Offene Platzhalter
+# HablaPalabra — Rechtliche Seiten: Offene Platzhalter
 
 Diese Datei listet alle Stellen, die vor dem offiziellen Launch ausgefüllt werden müssen.
 Die persönlichen Daten (Name, Adresse, E-Mail) sind bereits in allen 3 Seiten eingetragen.
@@ -52,7 +52,7 @@ Wenn du ein Analyse-Tool einbindest:
 
 - ✅ Impressum nach § 5 DDG (neu, ersetzt TMG)
 - ✅ Datenschutz: Stripe-Abschnitt vollständig
-- ✅ Datenschutz: Google OAuth entfernt (LingoLuup nutzt Email/Passwort)
+- ✅ Datenschutz: Google OAuth entfernt (HablaPalabra nutzt Email/Passwort)
 - ✅ Datenschutz: Cookies Variante A (kein Banner nötig)
 - ✅ Nutzungsbedingungen: Widerrufsformular enthalten
 - ✅ Nutzungsbedingungen: Preise (7,99 €/Monat, ~84 €/Jahr)

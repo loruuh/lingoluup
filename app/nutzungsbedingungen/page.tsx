@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Nutzungsbedingungen - Churros',
+  title: 'Nutzungsbedingungen - HablaPalabra',
   robots: { index: false, follow: false },
 };
 
@@ -79,7 +79,7 @@ export default function NutzungsbedingungenPage() {
           <ul className="text-sm text-gray-200 space-y-1">
             <li>✅ <strong>Kostenlos:</strong> Module 1–2 vollständig, ~800 Vokabeln, dauerhaft gratis.</li>
             <li>✅ <strong>Premium:</strong> Alle 5 Module (2.600+ Vokabeln) ab 7,99&nbsp;€/Monat — jederzeit kündbar.</li>
-            <li>✅ <strong>Lernwerkzeug:</strong> Churros ersetzt keinen professionellen Sprachkurs oder Lehrer.</li>
+            <li>✅ <strong>Lernwerkzeug:</strong> HablaPalabra ersetzt keinen professionellen Sprachkurs oder Lehrer.</li>
             <li>✅ <strong>Kein Abo-Zwang:</strong> Kostenloser Plan bleibt immer kostenlos.</li>
           </ul>
         </div>
@@ -119,15 +119,15 @@ export default function NutzungsbedingungenPage() {
             <Section id="geltung" badge="§1" title="Geltungsbereich">
               <div className="text-sm text-gray-300 space-y-2 leading-relaxed">
                 <p>
-                  Diese Nutzungsbedingungen gelten für die Nutzung von <strong className="text-white">Churros</strong>
+                  Diese Nutzungsbedingungen gelten für die Nutzung von <strong className="text-white">HablaPalabra</strong>
                   {' '}— einer webbasierten Plattform für Spanisch-Vokabeltraining (Spanish vocabulary learning).
                 </p>
                 <p>
                   Anbieter ist Sven Bixenstein, Weidenstr. 10, 72145 Hirrlingen (nachfolgend
-                  &quot;Churros&quot; oder &quot;wir&quot;).
+                  &quot;HablaPalabra&quot; oder &quot;wir&quot;).
                 </p>
                 <p>
-                  Mit der Registrierung oder Nutzung von Churros akzeptieren Sie diese
+                  Mit der Registrierung oder Nutzung von HablaPalabra akzeptieren Sie diese
                   Nutzungsbedingungen sowie unsere{' '}
                   <Link href="/datenschutz" className="text-lime-400 hover:underline">Datenschutzerklärung</Link>.
                   Abweichende Bedingungen des Nutzers werden nicht anerkannt.
@@ -140,10 +140,10 @@ export default function NutzungsbedingungenPage() {
                 className="rounded-xl p-4 mb-4"
                 style={{ background: 'rgba(132,204,22,0.06)', border: '1px solid rgba(132,204,22,0.22)' }}
               >
-                <p className="text-lime-400 font-semibold text-sm mb-2">Churros ist ein Lernwerkzeug</p>
+                <p className="text-lime-400 font-semibold text-sm mb-2">HablaPalabra ist ein Lernwerkzeug</p>
                 <p className="text-gray-300 text-sm leading-relaxed">
                   Die App bietet Vokabeln, Beispielsätze und Audio-Unterstützung zum Selbststudium.
-                  Churros <strong>ersetzt keinen</strong> professionellen Sprachkurs, Lehrer oder
+                  HablaPalabra <strong>ersetzt keinen</strong> professionellen Sprachkurs, Lehrer oder
                   zertifizierten Sprachunterricht. Es wird keine Garantie für das Erreichen
                   bestimmter Sprachniveaus (A1–C2, DELE, SIELE etc.) übernommen.
                 </p>
@@ -157,8 +157,8 @@ export default function NutzungsbedingungenPage() {
 
             <Section id="haftung" badge="§3" title="Haftungsausschluss">
               <div className="text-sm text-gray-300 space-y-3 leading-relaxed">
-                <p>Die Nutzung von Churros erfolgt eigenverantwortlich.</p>
-                <p>Churros übernimmt keine Gewähr für:</p>
+                <p>Die Nutzung von HablaPalabra erfolgt eigenverantwortlich.</p>
+                <p>HablaPalabra übernimmt keine Gewähr für:</p>
                 <ul className="space-y-1.5 ml-2">
                   {[
                     'Vollständigkeit der Vokabelsammlung (derzeit ~2.600 Einträge)',
@@ -184,13 +184,13 @@ export default function NutzungsbedingungenPage() {
             <Section id="verfuegbar" badge="§4" title="Verfügbarkeit">
               <div className="text-sm text-gray-300 space-y-2 leading-relaxed">
                 <p>
-                  Wir bemühen uns um eine möglichst hohe Verfügbarkeit von Churros. Es besteht
+                  Wir bemühen uns um eine möglichst hohe Verfügbarkeit von HablaPalabra. Es besteht
                   jedoch kein Anspruch auf unterbrechungsfreien Betrieb.
                 </p>
                 <p className="text-gray-400">
                   Wartungsarbeiten, Updates und technische Störungen können die Verfügbarkeit
                   zeitweise einschränken. Planmäßige Wartungsfenster werden nach Möglichkeit
-                  vorab angekündigt. Churros haftet nicht für Ausfälle, die auf Drittanbieter
+                  vorab angekündigt. HablaPalabra haftet nicht für Ausfälle, die auf Drittanbieter
                   (Vercel, Supabase) zurückzuführen sind.
                 </p>
               </div>

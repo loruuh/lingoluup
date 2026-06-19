@@ -1,4 +1,4 @@
-# 🎯 Pareto-Prinzip für LingoLuup
+# 🎯 Pareto-Prinzip für HablaPalabra
 
 ## Was ist das?
 
@@ -25,7 +25,7 @@ Top 3000 →  95% Verständnis (B2 fließend)
 ### 1. Dateien platzieren
 
 ```
-LingoLuup/
+HablaPalabra/
 ├─ data/
 │  └─ spanish-frequency-3000.json  ← Hier
 └─ scripts/

@@ -56,7 +56,7 @@ export default function ModuleSelection() {
               <BookIcon />
             </div>
             <span className="font-bold text-base tracking-tight text-lime-400">
-              Churros
+              HablaPalabra
             </span>
           </Link>
 

@@ -51,7 +51,7 @@ async function main() {
     throw new Error('GOOGLE_CLOUD_TTS_API_KEY not set in .env');
   }
 
-  console.log('🎵 LingoLuup — Audio Generation\n');
+  console.log('🎵 HablaPalabra — Audio Generation\n');
 
   const missingIds = JSON.parse(fs.readFileSync(MISSING_IDS_PATH, 'utf8'));
   const vocab      = JSON.parse(fs.readFileSync(VOCAB_PATH, 'utf8'));

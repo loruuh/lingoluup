@@ -14,7 +14,7 @@ export function LearningMethodology() {
         <div className="flex items-center gap-3">
           <span className="text-xl">🎓</span>
           <span className="text-white font-semibold text-sm">
-            Warum Churros so effektiv ist
+            Warum HablaPalabra so effektiv ist
           </span>
         </div>
         <span className={`text-primary font-bold text-lg leading-none transition-transform duration-200 ${isExpanded ? 'rotate-45' : ''}`}>
@@ -136,7 +136,7 @@ export function LearningMethodology() {
               </h4>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Während traditionelle Apps dich mit Grammatikregeln und endlosen Lektionen ausbremsen,
-                fokussiert sich Churros auf das Wesentliche: die häufigsten 500 Wörter.
+                fokussiert sich HablaPalabra auf das Wesentliche: die häufigsten 500 Wörter.
                 Das Ergebnis? Du lernst 10-15 Minuten täglich und kannst nach nur{' '}
                 <span className="text-orange-300 font-semibold">20 Tagen echte Gespräche führen!</span>
                 Keine monatelangen Kurse – nur pure Effizienz. ⚡

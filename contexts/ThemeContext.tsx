@@ -13,7 +13,7 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 const themeNames: Record<Theme, string> = {
-  lime: "Churros",
+  lime: "Limón",
   ocean: "Ozean",
   sunset: "Sunset",
   neon: "Neon",
