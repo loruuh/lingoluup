@@ -14,13 +14,9 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
   const isRevealed = externalIsRevealed ?? internalIsRevealed;
 
   const handleClick = (e: React.MouseEvent) => {
-    e.stopPropagation(); // Verhindert dass der Click zum Main-Container weitergegeben wird
-    if (!isRevealed) {
-      setInternalIsRevealed(true);
-      if (onReveal) {
-        onReveal();
-      }
-    }
+    e.stopPropagation();
+    if (!isRevealed) setInternalIsRevealed(true);
+    if (onReveal) onReveal();
   };
 
   return (

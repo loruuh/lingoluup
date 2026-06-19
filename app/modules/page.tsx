@@ -333,8 +333,13 @@ export default function Home() {
   }
 
   const handleMainClick = () => {
+    if (isLoading) return;
     if (!isRevealed) {
       handleReveal();
+    } else if (!showNextButton) {
+      setShowNextButton(true);
+    } else {
+      handleNext();
     }
   };
 
@@ -437,8 +442,7 @@ export default function Home() {
       )}
 
       <main
-        className={`flex-1 flex items-center justify-center px-4 py-6 ${!isRevealed ? "cursor-pointer" : ""}`}
-        onClick={!isRevealed ? handleMainClick : undefined}
+        className="flex-1 flex items-center justify-center px-4 py-6"
       >
         <div className="w-full max-w-3xl space-y-8">
           {/* Flashcard */}
@@ -446,7 +450,7 @@ export default function Home() {
             key={currentVocab.id}
             german={currentVocab.german}
             spanish={currentVocab.spanish}
-            onReveal={handleReveal}
+            onReveal={handleMainClick}
             isRevealed={isRevealed}
           />
 
@@ -464,6 +468,7 @@ export default function Home() {
                   germanSentence={germanSentence || "..."}
                   isVisible={showSentence}
                   onTranslationRevealed={handleTranslationRevealed}
+                  germanRevealed={showNextButton}
                 />
               </div>
               <div className="pt-1 shrink-0">

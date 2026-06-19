@@ -7,6 +7,7 @@ interface SentenceProps {
   germanSentence: string;
   isVisible: boolean;
   onTranslationRevealed?: () => void;
+  germanRevealed?: boolean;
 }
 
 export default function Sentence({
@@ -14,9 +15,11 @@ export default function Sentence({
   germanSentence,
   isVisible,
   onTranslationRevealed,
+  germanRevealed = false,
 }: SentenceProps) {
   const [showSentence, setShowSentence] = useState(false);
   const [showGermanTranslation, setShowGermanTranslation] = useState(false);
+  const isGermanVisible = showGermanTranslation || germanRevealed;
 
   // Fade in the Spanish sentence after 500ms delay
   useEffect(() => {
@@ -32,14 +35,10 @@ export default function Sentence({
   }, [isVisible]);
 
   const handleClick = (e: React.MouseEvent) => {
-    if (!showSentence) return;
-    e.stopPropagation(); // Prevent clicks on sentence area from bubbling to parent (would trigger handleNext)
-    if (!showGermanTranslation) {
-      setShowGermanTranslation(true);
-      if (onTranslationRevealed) {
-        onTranslationRevealed();
-      }
-    }
+    if (!showSentence || isGermanVisible) return;
+    e.stopPropagation();
+    setShowGermanTranslation(true);
+    if (onTranslationRevealed) onTranslationRevealed();
   };
 
   return (
@@ -60,7 +59,7 @@ export default function Sentence({
       {/* German Translation */}
       <div
         className={`text-white px-5 py-4 rounded-2xl text-center text-base md:text-lg font-medium transition-all duration-500 min-h-[4.5rem] flex items-center justify-center leading-relaxed ${
-          showGermanTranslation ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
+          isGermanVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
         }`}
         style={{ backgroundColor: 'var(--sentence-german)' }}
       >
@@ -69,7 +68,7 @@ export default function Sentence({
 
       {/* Hint text */}
       <div className={`text-center transition-all duration-300 min-h-[1.75rem] flex items-center justify-center ${
-        showSentence && !showGermanTranslation ? "opacity-100" : "opacity-0 pointer-events-none"
+        showSentence && !isGermanVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}>
         <p className="text-xs text-gray-500 animate-pulse flex items-center gap-1.5">
           <span>👆</span> Tippe für die Übersetzung
