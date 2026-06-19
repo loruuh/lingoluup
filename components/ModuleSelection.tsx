@@ -55,9 +55,8 @@ export default function ModuleSelection() {
             <div className="w-6 h-6 text-lime-400 group-hover:text-lime-300 transition-colors">
               <BookIcon />
             </div>
-            <span className="font-bold text-base tracking-tight">
-              <span className="text-white">LINGO</span>
-              <span className="text-lime-500">LUUP</span>
+            <span className="font-bold text-base tracking-tight text-lime-400">
+              Churros
             </span>
           </Link>
 
@@ -133,7 +132,7 @@ export default function ModuleSelection() {
             <div className="flex-1 h-px" style={{ background: "rgba(255,255,255,0.06)" }} />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {vocabModules.map((module, idx) => {
               const palette    = PALETTE[idx % PALETTE.length];
               const count      = getModuleItemCount(module.id);
@@ -215,7 +214,7 @@ export default function ModuleSelection() {
               <div className="flex-1 h-px" style={{ background: "rgba(255,255,255,0.06)" }} />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {specialModules.map((module) => {
                 const palette = SPECIAL_PALETTE[module.id] ?? { bg: "rgba(255,255,255,0.025)", border: "rgba(255,255,255,0.07)", accent: "#9ca3af", glow: "rgba(255,255,255,0.08)" };
 

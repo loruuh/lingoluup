@@ -12,11 +12,8 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/modules" className="group relative flex items-center gap-1.5">
-          <span className="text-xl font-bold text-white transition-all duration-300 group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
-            LINGO
-          </span>
-          <span className="text-xl font-bold bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent">
-            LUUP
+          <span className="text-xl font-bold bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent transition-all duration-300">
+            Churros
           </span>
           <span className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 inline-block">
             🌟

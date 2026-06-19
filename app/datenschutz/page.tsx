@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Datenschutzerklärung - LingoLuup',
+  title: 'Datenschutzerklärung - Churros',
   robots: { index: false, follow: false },
 };
 
@@ -126,7 +126,7 @@ export default function DatenschutzPage() {
               <div className="space-y-3 text-gray-300 text-sm leading-relaxed">
                 <p>
                   Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren
-                  personenbezogenen Daten passiert, wenn Sie LingoLuup nutzen.
+                  personenbezogenen Daten passiert, wenn Sie Churros nutzen.
                 </p>
                 <p>
                   <span className="font-semibold text-white">Welche Daten erfassen wir?</span><br />
@@ -171,7 +171,7 @@ export default function DatenschutzPage() {
 
               <ProviderCard
                 name="Vercel (Hosting)"
-                address="Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. Vercel hostet die LingoLuup-Webanwendung. Datenverarbeitung auf Servern in den USA; Vercel ist unter dem EU-US Data Privacy Framework zertifiziert."
+                address="Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. Vercel hostet die Churros-Webanwendung. Datenverarbeitung auf Servern in den USA; Vercel ist unter dem EU-US Data Privacy Framework zertifiziert."
                 privacy="https://vercel.com/legal/privacy-policy"
               />
 
