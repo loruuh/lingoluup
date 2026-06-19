@@ -142,5 +142,13 @@
     "icon": "🎩",
     "type": "vocabulary",
     "file": "formale-vokabeln.json"
+  },
+  {
+    "id": "essen-und-trinken",
+    "name": "Essen & Trinken",
+    "description": "Lebensmittel, Gerichte, Getränke, Küche & Restaurant",
+    "icon": "🍽️",
+    "type": "vocabulary",
+    "file": "essen-und-trinken.json"
   }
 ]
