@@ -47298,5 +47298,261 @@
     "sentence_es": "Mi padre trabaja en un banco.",
     "sentence_de": "Mein Vater arbeitet in einer Bank.",
     "audio": ""
+  },
+  {
+    "id": "2892",
+    "spanish": "treinta y uno",
+    "german": "einunddreißig",
+    "type": "number",
+    "note": "Ab 31 steht \"y\" zwischen Zehner und Einer: treinta y uno, treinta y dos usw. Vor maskulinen Substantiven: treinta y un libro.",
+    "sentence_es": "Mi padre tiene treinta y un años.",
+    "sentence_de": "Mein Vater ist einunddreißig Jahre alt.",
+    "audio": "",
+    "word_translations": {
+      "mi": "mein",
+      "padre": "Vater",
+      "tiene": "ist",
+      "treinta": "dreißig",
+      "y": "und",
+      "un": "ein",
+      "años": "Jahre"
+    }
+  },
+  {
+    "id": "2893",
+    "spanish": "cuarenta y cinco",
+    "german": "fünfundvierzig",
+    "type": "number",
+    "sentence_es": "El partido dura cuarenta y cinco minutos.",
+    "sentence_de": "Das Spiel dauert fünfundvierzig Minuten.",
+    "audio": "",
+    "word_translations": {
+      "el": "das",
+      "partido": "Spiel",
+      "dura": "dauert",
+      "cuarenta": "vierzig",
+      "y": "und",
+      "cinco": "fünf",
+      "minutos": "Minuten"
+    }
+  },
+  {
+    "id": "2894",
+    "spanish": "noventa y nueve",
+    "german": "neunundneunzig",
+    "type": "number",
+    "sentence_es": "El abuelo cumple noventa y nueve años mañana.",
+    "sentence_de": "Der Opa wird morgen neunundneunzig Jahre alt.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "abuelo": "Opa",
+      "cumple": "wird ... alt",
+      "noventa": "neunzig",
+      "y": "und",
+      "nueve": "neun",
+      "años": "Jahre",
+      "mañana": "morgen"
+    }
+  },
+  {
+    "id": "2895",
+    "spanish": "ciento uno",
+    "german": "hunderteins",
+    "type": "number",
+    "note": "Regel: \"cien\" steht allein (cien euros, cien personas), aber \"ciento\" wenn weitere Zahlen folgen (ciento uno, ciento veinte, ciento noventa y nueve).",
+    "sentence_es": "Hay ciento un países en el torneo.",
+    "sentence_de": "Es gibt hunderteins Länder im Turnier.",
+    "audio": "",
+    "word_translations": {
+      "hay": "es gibt",
+      "ciento": "hundert",
+      "un": "ein",
+      "países": "Länder",
+      "en": "im",
+      "el": "das",
+      "torneo": "Turnier"
+    }
+  },
+  {
+    "id": "2896",
+    "spanish": "tres mil",
+    "german": "dreitausend",
+    "type": "number",
+    "sentence_es": "El estadio tiene tres mil asientos.",
+    "sentence_de": "Das Stadion hat dreitausend Sitzplätze.",
+    "audio": "",
+    "word_translations": {
+      "el": "das",
+      "estadio": "Stadion",
+      "tiene": "hat",
+      "tres": "drei",
+      "mil": "tausend",
+      "asientos": "Sitzplätze"
+    }
+  },
+  {
+    "id": "2897",
+    "spanish": "cuatro mil",
+    "german": "viertausend",
+    "type": "number",
+    "sentence_es": "El maratón tiene cuatro mil participantes.",
+    "sentence_de": "Der Marathon hat viertausend Teilnehmer.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "maratón": "Marathon",
+      "tiene": "hat",
+      "cuatro": "vier",
+      "mil": "tausend",
+      "participantes": "Teilnehmer"
+    }
+  },
+  {
+    "id": "2898",
+    "spanish": "cinco mil",
+    "german": "fünftausend",
+    "type": "number",
+    "sentence_es": "El viaje costó cinco mil euros.",
+    "sentence_de": "Die Reise kostete fünftausend Euro.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "viaje": "Reise",
+      "costó": "kostete",
+      "cinco": "fünf",
+      "mil": "tausend",
+      "euros": "Euro"
+    }
+  },
+  {
+    "id": "2899",
+    "spanish": "seis mil",
+    "german": "sechstausend",
+    "type": "number",
+    "sentence_es": "La ciudad tiene seis mil habitantes.",
+    "sentence_de": "Die Stadt hat sechstausend Einwohner.",
+    "audio": "",
+    "word_translations": {
+      "la": "die",
+      "ciudad": "Stadt",
+      "tiene": "hat",
+      "seis": "sechs",
+      "mil": "tausend",
+      "habitantes": "Einwohner"
+    }
+  },
+  {
+    "id": "2900",
+    "spanish": "siete mil",
+    "german": "siebentausend",
+    "type": "number",
+    "sentence_es": "La empresa tiene siete mil empleados.",
+    "sentence_de": "Das Unternehmen hat siebentausend Mitarbeiter.",
+    "audio": "",
+    "word_translations": {
+      "la": "das",
+      "empresa": "Unternehmen",
+      "tiene": "hat",
+      "siete": "sieben",
+      "mil": "tausend",
+      "empleados": "Mitarbeiter"
+    }
+  },
+  {
+    "id": "2901",
+    "spanish": "ocho mil",
+    "german": "achttausend",
+    "type": "number",
+    "sentence_es": "El Everest mide más de ocho mil metros.",
+    "sentence_de": "Der Everest ist über achttausend Meter hoch.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "Everest": "Everest",
+      "mide": "ist hoch",
+      "más": "über",
+      "de": "als",
+      "ocho": "acht",
+      "mil": "tausend",
+      "metros": "Meter"
+    }
+  },
+  {
+    "id": "2902",
+    "spanish": "nueve mil",
+    "german": "neuntausend",
+    "type": "number",
+    "sentence_es": "Viajamos nueve mil kilómetros hasta Australia.",
+    "sentence_de": "Wir reisten neuntausend Kilometer bis nach Australien.",
+    "audio": "",
+    "word_translations": {
+      "viajamos": "wir reisten",
+      "nueve": "neun",
+      "mil": "tausend",
+      "kilómetros": "Kilometer",
+      "hasta": "bis nach",
+      "Australia": "Australien"
+    }
+  },
+  {
+    "id": "2903",
+    "spanish": "mil novecientos treinta",
+    "german": "neunzehnhundertdreißig",
+    "type": "number",
+    "note": "Jahreszahlen auf Spanisch: immer \"mil novecientos...\" — niemals \"diecinueve treinta\" wie im Englischen.",
+    "sentence_es": "Mis abuelos se casaron en mil novecientos treinta.",
+    "sentence_de": "Meine Großeltern heirateten neunzehnhundertdreißig.",
+    "audio": "",
+    "word_translations": {
+      "mis": "meine",
+      "abuelos": "Großeltern",
+      "se": "sich",
+      "casaron": "heirateten",
+      "en": "im Jahr",
+      "mil": "tausend",
+      "novecientos": "neunhundert",
+      "treinta": "dreißig"
+    }
+  },
+  {
+    "id": "2904",
+    "spanish": "mil novecientos ochenta y cinco",
+    "german": "neunzehnhundertfünfundachtzig",
+    "type": "number",
+    "sentence_es": "Mi madre nació en mil novecientos ochenta y cinco.",
+    "sentence_de": "Meine Mutter wurde neunzehnhundertfünfundachtzig geboren.",
+    "audio": "",
+    "word_translations": {
+      "mi": "meine",
+      "madre": "Mutter",
+      "nació": "wurde geboren",
+      "en": "im Jahr",
+      "mil": "tausend",
+      "novecientos": "neunhundert",
+      "ochenta": "achtzig",
+      "y": "und",
+      "cinco": "fünf"
+    }
+  },
+  {
+    "id": "2905",
+    "spanish": "dos mil veinticuatro",
+    "german": "zweitausendvierundzwanzig",
+    "type": "number",
+    "sentence_es": "Los Juegos Olímpicos se celebraron en dos mil veinticuatro.",
+    "sentence_de": "Die Olympischen Spiele fanden zweitausendvierundzwanzig statt.",
+    "audio": "",
+    "word_translations": {
+      "los": "die",
+      "Juegos": "Spiele",
+      "Olímpicos": "Olympischen",
+      "se": "sich",
+      "celebraron": "fanden statt",
+      "en": "im Jahr",
+      "dos": "zwei",
+      "mil": "tausend",
+      "veinticuatro": "vierundzwanzig"
+    }
   }
 ]
