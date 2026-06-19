@@ -13,53 +13,79 @@ const BookIcon = () => (
   </svg>
 );
 
-const SPECIAL_PALETTE: Record<string, { bg: string; border: string; accent: string; glow: string }> = {
-  redewendungen:      { bg: "rgba(132,204,22,0.07)",  border: "rgba(132,204,22,0.28)",  accent: "#84cc16", glow: "rgba(132,204,22,0.15)"  },
-  "aussprache-tipps": { bg: "rgba(52,211,153,0.07)",  border: "rgba(52,211,153,0.28)",  accent: "#34d399", glow: "rgba(52,211,153,0.15)"  },
-  lektionen:          { bg: "rgba(20,184,166,0.07)",  border: "rgba(20,184,166,0.28)",  accent: "#2dd4bf", glow: "rgba(20,184,166,0.15)"  },
-  zahlen:             { bg: "rgba(251,191,36,0.07)",  border: "rgba(251,191,36,0.28)",  accent: "#fbbf24", glow: "rgba(251,191,36,0.15)"  },
-  lerntipps:          { bg: "rgba(168,85,247,0.07)",  border: "rgba(168,85,247,0.28)",  accent: "#c084fc", glow: "rgba(168,85,247,0.15)"  },
-};
+type LevelColor = { accent: string; bg: string; border: string; glow: string; badge: string };
 
-const PALETTE = [
-  { bg: "rgba(132,204,22,0.07)", border: "rgba(132,204,22,0.28)", accent: "#84cc16", glow: "rgba(132,204,22,0.15)" },
-  { bg: "rgba(52,211,153,0.07)", border: "rgba(52,211,153,0.28)", accent: "#34d399", glow: "rgba(52,211,153,0.15)" },
-  { bg: "rgba(59,130,246,0.07)", border: "rgba(59,130,246,0.28)", accent: "#60a5fa", glow: "rgba(59,130,246,0.15)" },
-  { bg: "rgba(168,85,247,0.07)", border: "rgba(168,85,247,0.28)", accent: "#c084fc", glow: "rgba(168,85,247,0.15)" },
-  { bg: "rgba(236,72,153,0.07)", border: "rgba(236,72,153,0.28)", accent: "#f472b6", glow: "rgba(236,72,153,0.15)" },
-  { bg: "rgba(251,191,36,0.07)", border: "rgba(251,191,36,0.28)", accent: "#fbbf24", glow: "rgba(251,191,36,0.15)" },
+const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string; color: LevelColor; moduleIds: string[] }[] = [
+  {
+    id: "basis",
+    label: "Basis",
+    sublabel: "Anfänger · A1 – A2",
+    emoji: "🌱",
+    color: { accent: "#84cc16", bg: "rgba(132,204,22,0.07)", border: "rgba(132,204,22,0.22)", glow: "rgba(132,204,22,0.14)", badge: "rgba(132,204,22,0.12)" },
+    moduleIds: ["vokabeln-1", "vokabeln-2", "vokabeln-3"],
+  },
+  {
+    id: "aufbau",
+    label: "Aufbau",
+    sublabel: "Mittelstufe · A2 – B1",
+    emoji: "🔥",
+    color: { accent: "#fbbf24", bg: "rgba(251,191,36,0.07)", border: "rgba(251,191,36,0.22)", glow: "rgba(251,191,36,0.14)", badge: "rgba(251,191,36,0.12)" },
+    moduleIds: ["vokabeln-4", "vokabeln-5", "vokabeln-6", "vokabeln-7"],
+  },
+  {
+    id: "fortgeschritten",
+    label: "Fortgeschritten",
+    sublabel: "Oberstufe · B1 – C1",
+    emoji: "🚀",
+    color: { accent: "#f97316", bg: "rgba(249,115,22,0.07)", border: "rgba(249,115,22,0.22)", glow: "rgba(249,115,22,0.14)", badge: "rgba(249,115,22,0.12)" },
+    moduleIds: ["vokabeln-8", "vokabeln-9", "vokabeln-10", "vokabeln-11"],
+  },
+  {
+    id: "thematisch",
+    label: "Thematisch",
+    sublabel: "Alle Level",
+    emoji: "🌍",
+    color: { accent: "#a78bfa", bg: "rgba(167,139,250,0.07)", border: "rgba(167,139,250,0.22)", glow: "rgba(167,139,250,0.14)", badge: "rgba(167,139,250,0.12)" },
+    moduleIds: ["latam", "essen-und-trinken", "formale-vokabeln"],
+  },
 ];
+
+const TOOL_MODULE_IDS = ["redewendungen", "zahlen", "aussprache-tipps", "lektionen", "lerntipps"];
+
+const TOOL_COLORS: Record<string, LevelColor> = {
+  redewendungen:      { accent: "#84cc16", bg: "rgba(132,204,22,0.06)",  border: "rgba(132,204,22,0.20)",  glow: "rgba(132,204,22,0.12)",  badge: "rgba(132,204,22,0.10)"  },
+  zahlen:             { accent: "#fbbf24", bg: "rgba(251,191,36,0.06)",  border: "rgba(251,191,36,0.20)",  glow: "rgba(251,191,36,0.12)",  badge: "rgba(251,191,36,0.10)"  },
+  "aussprache-tipps": { accent: "#34d399", bg: "rgba(52,211,153,0.06)",  border: "rgba(52,211,153,0.20)",  glow: "rgba(52,211,153,0.12)",  badge: "rgba(52,211,153,0.10)"  },
+  lektionen:          { accent: "#22d3ee", bg: "rgba(34,211,238,0.06)",  border: "rgba(34,211,238,0.20)",  glow: "rgba(34,211,238,0.12)",  badge: "rgba(34,211,238,0.10)"  },
+  lerntipps:          { accent: "#c084fc", bg: "rgba(192,132,252,0.06)", border: "rgba(192,132,252,0.20)", glow: "rgba(192,132,252,0.12)", badge: "rgba(192,132,252,0.10)" },
+};
 
 export default function ModuleSelection() {
   const { selectModule, getModuleItemCount } = useModule();
 
-  const vocabModules   = moduleIndex.filter((m) => m.type === "vocabulary");
-  const specialModules = moduleIndex.filter((m) => m.type !== "vocabulary");
+  const moduleMap = Object.fromEntries(moduleIndex.map((m) => [m.id, m]));
 
   return (
     <div className="min-h-screen relative overflow-x-hidden" style={{ background: "#0d1117" }}>
 
-      {/* Background lime glow */}
+      {/* Ambient top glow */}
       <div
         className="fixed inset-0 pointer-events-none z-0"
-        style={{ background: "radial-gradient(ellipse 80% 45% at 50% 0%, rgba(132,204,22,0.08) 0%, transparent 65%)" }}
+        style={{ background: "radial-gradient(ellipse 90% 40% at 50% 0%, rgba(132,204,22,0.07) 0%, transparent 65%)" }}
       />
 
-      {/* Sticky header */}
+      {/* Header */}
       <header
         className="sticky top-0 z-50 border-b border-white/[0.06]"
-        style={{ background: "rgba(13,17,23,0.90)", backdropFilter: "blur(14px)" }}
+        style={{ background: "rgba(13,17,23,0.92)", backdropFilter: "blur(16px)" }}
       >
         <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="w-6 h-6 text-lime-400 group-hover:text-lime-300 transition-colors">
               <BookIcon />
             </div>
-            <span className="font-bold text-base tracking-tight text-lime-400">
-              HablaPalabra
-            </span>
+            <span className="font-bold text-base tracking-tight text-lime-400">HablaPalabra</span>
           </Link>
-
           <div className="flex items-center gap-1">
             <HistoryButton />
             <NavIcon href="/vokabelheft" label="Vokabelheft">
@@ -76,10 +102,10 @@ export default function ModuleSelection() {
         </div>
       </header>
 
-      <main className="relative z-10 max-w-5xl mx-auto px-4 pb-20">
+      <main className="relative z-10 max-w-5xl mx-auto px-4 pb-24">
 
-        {/* Hero */}
-        <div className="text-center pt-14 pb-12">
+        {/* ── Hero ─────────────────────────────────────────────── */}
+        <div className="text-center pt-14 pb-14">
           <div
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-6 text-[11px] font-bold tracking-widest uppercase text-lime-400"
             style={{ background: "rgba(132,204,22,0.08)", border: "1px solid rgba(132,204,22,0.18)" }}
@@ -87,205 +113,169 @@ export default function ModuleSelection() {
             🇪🇸 Spanisch lernen
           </div>
           <h1
-            className="text-4xl sm:text-5xl font-black tracking-tight mb-4"
+            className="text-4xl sm:text-5xl font-black tracking-tight mb-3"
             style={{
-              background: "linear-gradient(135deg, #ffffff 0%, #84cc16 65%, #65a30d 100%)",
+              background: "linear-gradient(135deg, #ffffff 0%, #84cc16 60%, #65a30d 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
             }}
           >
-            Wähle dein Modul
+            ¿Qué aprendes hoy?
           </h1>
           <p className="text-gray-500 text-sm">
-            2.600+ Vokabeln · 11 Module · Komplett kostenlos
+            2.800+ Vokabeln · 19 Module · Komplett kostenlos
           </p>
         </div>
 
-        {/* Feature pillars */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12">
-          {[
-            { icon: "🧠", title: "Active Recall", sub: "Erst denken, dann aufdecken" },
-            { icon: "🎵", title: "Native Audio", sub: "Korrekte Aussprache" },
-            { icon: "📝", title: "Kontext-Sätze", sub: "Für jede Vokabel" },
-          ].map((f, i) => (
+        {/* ── Level Groups ─────────────────────────────────────── */}
+        {LEVEL_GROUPS.map((group) => {
+          const modules = group.moduleIds
+            .map((id) => moduleMap[id])
+            .filter(Boolean);
+
+          return (
+            <section key={group.id} className="mb-16">
+
+              {/* Section header */}
+              <div className="flex items-center gap-4 mb-7">
+                <div
+                  className="flex items-center gap-3 px-4 py-2 rounded-xl shrink-0"
+                  style={{ background: group.color.badge, border: `1px solid ${group.color.border}` }}
+                >
+                  <span className="text-xl leading-none">{group.emoji}</span>
+                  <div>
+                    <p className="text-sm font-bold leading-tight" style={{ color: group.color.accent }}>
+                      {group.label}
+                    </p>
+                    <p className="text-[10px] leading-tight" style={{ color: group.color.accent + "88" }}>
+                      {group.sublabel}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex-1 h-px" style={{ background: `linear-gradient(90deg, ${group.color.border}, transparent)` }} />
+              </div>
+
+              {/* Cards */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {modules.map((module) => {
+                  const count = getModuleItemCount(module.id);
+                  return (
+                    <button
+                      key={module.id}
+                      onClick={() => selectModule(module.id)}
+                      className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
+                      style={{
+                        background: group.color.bg,
+                        border: `1px solid ${group.color.border}`,
+                        // @ts-ignore
+                        "--tw-ring-color": group.color.accent,
+                      }}
+                    >
+                      {/* Top stripe */}
+                      <div
+                        className="absolute top-0 left-0 right-0 h-[2px] pointer-events-none"
+                        style={{ background: `linear-gradient(90deg, ${group.color.accent}cc, ${group.color.accent}22, transparent)` }}
+                      />
+                      {/* Hover glow */}
+                      <div
+                        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                        style={{ boxShadow: `inset 0 0 60px ${group.color.glow}` }}
+                      />
+
+                      <div className="relative p-6">
+                        {/* Icon */}
+                        <span className="text-5xl leading-none inline-block mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
+                          {module.icon}
+                        </span>
+
+                        {/* Text */}
+                        <h3 className="font-bold text-base text-gray-100 leading-tight mb-1.5">
+                          {module.name}
+                        </h3>
+                        <p className="text-sm text-gray-500 leading-relaxed line-clamp-2">
+                          {module.description}
+                        </p>
+
+                        {/* Footer */}
+                        <div className="mt-5 flex items-center justify-between">
+                          <span className="text-[11px] tabular-nums text-gray-600">
+                            {count} Vokabeln
+                          </span>
+                          <span
+                            className="text-xs font-semibold flex items-center gap-1 transition-all duration-200 group-hover:gap-2"
+                            style={{ color: group.color.accent }}
+                          >
+                            Starten
+                            <span className="transition-transform duration-200 group-hover:translate-x-0.5">→</span>
+                          </span>
+                        </div>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+
+        {/* ── Werkzeuge & Extras ───────────────────────────────── */}
+        <section>
+          <div className="flex items-center gap-4 mb-7">
             <div
-              key={i}
-              className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl"
-              style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)" }}
+              className="flex items-center gap-3 px-4 py-2 rounded-xl shrink-0"
+              style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.10)" }}
             >
-              <span className="text-lg">{f.icon}</span>
+              <span className="text-xl leading-none">🛠</span>
               <div>
-                <div className="text-xs font-semibold text-white leading-tight">{f.title}</div>
-                <div className="text-[11px] text-gray-500 leading-tight">{f.sub}</div>
+                <p className="text-sm font-bold text-gray-300 leading-tight">Werkzeuge & Extras</p>
+                <p className="text-[10px] text-gray-600 leading-tight">Grammatik · Aussprache · Tipps</p>
               </div>
             </div>
-          ))}
-        </div>
-
-        {/* Vocab Modules */}
-        <section className="mb-10">
-          <div className="flex items-center gap-3 mb-6">
-            <p className="text-[11px] font-bold tracking-widest uppercase text-lime-500 shrink-0">
-              Vokabel-Module
-            </p>
-            <div className="flex-1 h-px" style={{ background: "rgba(255,255,255,0.06)" }} />
+            <div className="flex-1 h-px" style={{ background: "linear-gradient(90deg, rgba(255,255,255,0.08), transparent)" }} />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {vocabModules.map((module, idx) => {
-              const palette    = PALETTE[idx % PALETTE.length];
-              const count      = getModuleItemCount(module.id);
-              const levelMatch = module.id.match(/vokabeln-(\d+)/);
-              const levelLabel = levelMatch ? `Level ${levelMatch[1].padStart(2, "0")}` : "Extra";
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {TOOL_MODULE_IDS.map((id) => {
+              const module = moduleMap[id];
+              if (!module) return null;
+              const c = TOOL_COLORS[id] ?? { accent: "#9ca3af", bg: "rgba(255,255,255,0.04)", border: "rgba(255,255,255,0.10)", glow: "rgba(255,255,255,0.08)", badge: "rgba(255,255,255,0.04)" };
+              const count = getModuleItemCount(id);
 
               return (
                 <button
-                  key={module.id}
-                  onClick={() => selectModule(module.id)}
-                  className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
-                  style={{ background: palette.bg, border: `1px solid ${palette.border}` }}
+                  key={id}
+                  onClick={() => selectModule(id)}
+                  className="group relative text-left rounded-xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
+                  style={{ background: c.bg, border: `1px solid ${c.border}` }}
                 >
-                  {/* Hover inner glow */}
+                  {/* Top stripe */}
                   <div
-                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
-                    style={{ boxShadow: `inset 0 0 60px ${palette.glow}` }}
+                    className="absolute top-0 left-0 right-0 h-[2px] pointer-events-none"
+                    style={{ background: `linear-gradient(90deg, ${c.accent}bb, transparent)` }}
+                  />
+                  {/* Hover glow */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                    style={{ boxShadow: `inset 0 0 40px ${c.glow}` }}
                   />
 
-                  {/* Top accent stripe */}
-                  <div
-                    className="absolute top-0 left-0 right-0 h-[2px]"
-                    style={{ background: `linear-gradient(90deg, ${palette.accent}bb, ${palette.accent}33, transparent)` }}
-                  />
-
-                  <div className="relative p-5">
-                    {/* Level label */}
-                    <div className="flex items-center justify-between mb-4">
-                      <span
-                        className="text-[10px] font-bold tracking-widest uppercase"
-                        style={{ color: palette.accent }}
-                      >
-                        {levelLabel}
-                      </span>
-                    </div>
-
-                    {/* Emoji + content */}
-                    <div className="flex items-start gap-4">
-                      <span className="text-4xl leading-none inline-block transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
-                        {module.icon}
-                      </span>
-                      <div className="flex-1 min-w-0">
-                        <h3 className="font-bold text-base leading-tight mb-1 text-gray-100">
-                          {module.name}
-                        </h3>
-                        <p className="text-sm leading-relaxed text-gray-400">
-                          {module.description}
-                        </p>
-                        <p className="text-[11px] mt-2 tabular-nums text-gray-600">
-                          {count} Vokabeln
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* CTA */}
-                    <div className="mt-5 flex justify-end">
-                      <span
-                        className="text-xs font-semibold flex items-center gap-1 transition-all duration-200 group-hover:gap-2"
-                        style={{ color: palette.accent }}
-                      >
-                        Starten
-                        <span className="inline-block transition-transform duration-200 group-hover:translate-x-0.5">→</span>
-                      </span>
+                  <div className="relative p-4 flex flex-col items-start gap-2.5">
+                    <span className="text-3xl leading-none transition-transform duration-300 group-hover:scale-110">
+                      {module.icon}
+                    </span>
+                    <div>
+                      <p className="font-bold text-sm text-gray-200 leading-tight">
+                        {module.name}
+                      </p>
+                      <p className="text-[11px] tabular-nums mt-0.5" style={{ color: c.accent + "99" }}>
+                        {count} Einträge
+                      </p>
                     </div>
                   </div>
                 </button>
               );
             })}
-          </div>
-        </section>
-
-        {/* Special Modules */}
-        {specialModules.length > 0 && (
-          <section className="mb-10">
-            <div className="flex items-center gap-3 mb-6">
-              <p className="text-[11px] font-bold tracking-widest uppercase text-lime-500 shrink-0">
-                Spezial-Module
-              </p>
-              <div className="flex-1 h-px" style={{ background: "rgba(255,255,255,0.06)" }} />
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {specialModules.map((module) => {
-                const palette = SPECIAL_PALETTE[module.id] ?? { bg: "rgba(255,255,255,0.025)", border: "rgba(255,255,255,0.07)", accent: "#9ca3af", glow: "rgba(255,255,255,0.08)" };
-
-                return (
-                  <button
-                    key={module.id}
-                    onClick={() => selectModule(module.id)}
-                    className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
-                    style={{ background: palette.bg, border: `1px solid ${palette.border}` }}
-                  >
-                    {/* Top accent stripe */}
-                    <div
-                      className="absolute top-0 left-0 right-0 h-[2px] pointer-events-none"
-                      style={{ background: `linear-gradient(90deg, ${palette.accent}bb, ${palette.accent}33, transparent)` }}
-                    />
-
-                    {/* Hover inner glow */}
-                    <div
-                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl"
-                      style={{ boxShadow: `inset 0 0 60px ${palette.glow}` }}
-                    />
-
-                    <div className="relative p-5 flex items-center gap-4">
-                      <span className="text-3xl leading-none inline-block transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
-                        {module.icon}
-                      </span>
-                      <div className="flex-1 min-w-0">
-                        <h3 className="font-bold text-white text-base leading-tight mb-1">
-                          {module.name}
-                        </h3>
-                        <p className="text-sm text-gray-500">{module.description}</p>
-                        <p className="text-[11px] mt-1.5 tabular-nums" style={{ color: palette.accent + "99" }}>
-                          {getModuleItemCount(module.id)} Einträge
-                        </p>
-                      </div>
-                      <span
-                        className="shrink-0 text-sm transition-all duration-200 group-hover:translate-x-0.5"
-                        style={{ color: palette.accent + "88" }}
-                      >
-                        →
-                      </span>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
-          </section>
-        )}
-
-        {/* Why it works */}
-        <section
-          className="rounded-2xl p-6"
-          style={{ background: "rgba(132,204,22,0.04)", border: "1px solid rgba(132,204,22,0.12)" }}
-        >
-          <p className="text-[11px] font-bold tracking-widest uppercase text-lime-500 mb-5">
-            Warum es funktioniert
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-            {[
-              { icon: "🧠", title: "Active Recall", desc: "Erst denken, dann aufdecken — bis zu 10× effektiver als passives Lesen." },
-              { icon: "📝", title: "Kontext-Lernen", desc: "Vokabeln in echten Sätzen speichert dein Gehirn 3× besser." },
-              { icon: "🎵", title: "Native Audio", desc: "Hören + Nachsprechen = multimodales Lernen auf drei Kanälen gleichzeitig." },
-            ].map((f, i) => (
-              <div key={i} className="flex gap-3">
-                <span className="text-xl shrink-0 mt-0.5">{f.icon}</span>
-                <div>
-                  <div className="text-sm font-semibold text-white mb-1">{f.title}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{f.desc}</div>
-                </div>
-              </div>
-            ))}
           </div>
         </section>
 
