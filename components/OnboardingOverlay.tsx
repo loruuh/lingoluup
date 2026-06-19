@@ -50,7 +50,7 @@ export default function OnboardingOverlay({ onComplete }: OnboardingOverlayProps
             Du siehst ein <span className="text-white font-semibold">deutsches Wort</span> - überleg kurz!
           </p>
           <p className="leading-relaxed">
-            <span className="text-white font-semibold">Tippe</span>, um die spanische Übersetzung zu sehen
+            <span className="text-white font-semibold">Drücke</span>, um die spanische Übersetzung zu sehen
           </p>
           <p className="leading-relaxed">
             Ein <span className="text-white font-semibold">Beispielsatz</span> hilft dir, das Wort im Kontext zu verstehen
@@ -67,7 +67,7 @@ export default function OnboardingOverlay({ onComplete }: OnboardingOverlayProps
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg">🔊</span>
-              <span className="leading-relaxed">Höre dir die Aussprache an - klick den Lautsprecher</span>
+              <span className="leading-relaxed">Höre dir die Aussprache an – drücke auf den Lautsprecher</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-lg">📊</span>

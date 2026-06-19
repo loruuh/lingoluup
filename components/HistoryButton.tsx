@@ -11,7 +11,7 @@ export default function HistoryButton() {
       <button
         onClick={() => setIsOpen(true)}
         aria-label="Historie"
-        className="group relative flex items-center justify-center w-10 h-10 rounded-xl transition-all duration-300 hover:scale-110 bg-white/5 border-2 border-white/10 hover:border-primary/50 hover:bg-primary/10 hover:shadow-md hover:shadow-primary/20 overflow-visible"
+        className="group relative flex items-center justify-center w-12 h-12 rounded-xl transition-all duration-300 hover:scale-110 bg-white/5 border-2 border-white/10 hover:border-primary/50 hover:bg-primary/10 hover:shadow-md hover:shadow-primary/20 overflow-visible"
       >
         <span className="relative z-10 transition-transform duration-300 group-hover:scale-110">
           <svg

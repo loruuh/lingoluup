@@ -46,7 +46,7 @@ export default function ThemeToggle() {
 
       {/* Toast notification */}
       {showToast && (
-        <div className="fixed bottom-20 right-4 bg-primary text-white px-4 py-2 rounded-lg shadow-lg z-50 animate-fade-in">
+        <div className="fixed bottom-36 right-4 bg-primary text-white px-4 py-2 rounded-lg shadow-lg z-50 animate-fade-in">
           {themeName}
         </div>
       )}
