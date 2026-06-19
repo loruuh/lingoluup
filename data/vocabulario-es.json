@@ -307,7 +307,7 @@
   {
     "id": "18",
     "spanish": "trucha",
-    "german": "wachsam",
+    "german": "die Forelle",
     "type": "noun",
     "sentence_es": "Mi abuelo pescó una trucha en el río.",
     "sentence_de": "Mein Großvater fischte eine Forelle im Fluss.",
@@ -495,7 +495,7 @@
   },
   {
     "id": "29",
-    "spanish": "el ventana",
+    "spanish": "la ventana",
     "german": "das Fenster",
     "type": "noun",
     "sentence_es": "Abro la ventana para que entre aire fresco.",
@@ -30412,7 +30412,7 @@
   {
     "id": "1834",
     "spanish": "el embarazo",
-    "german": "die Verlegenheit",
+    "german": "die Schwangerschaft",
     "type": "noun",
     "sentence_es": "El embarazo de María dura nueve meses.",
     "sentence_de": "Marías Schwangerschaft dauert neun Monate.",
