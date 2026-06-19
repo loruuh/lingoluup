@@ -106,7 +106,10 @@
       "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_phase1b.js\")",
       "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_execute.js\")",
       "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_audit2.js\")",
-      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_move.js\")"
+      "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_move.js\")",
+      "Bash(cp \"app/modules/page.tsx\" \"app/modules/page.tsx.bak\")",
+      "Bash(cp \"components/VocabListModal.tsx\" \"components/VocabListModal.tsx.bak\")",
+      "Bash(cp \"lib/supabase.ts\" \"lib/supabase.ts.bak\")"
     ]
   }
 }

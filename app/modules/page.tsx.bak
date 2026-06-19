@@ -32,12 +32,6 @@ import {
   type DailyGoal,
 } from "@/lib/local-storage";
 import { loadProgressFromDb, syncProgressToDb } from "@/lib/daily-progress-db";
-import {
-  ensureAnonSession,
-  getProgress,
-  markSeen,
-  pickNext,
-} from "@/lib/round-robin";
 
 export default function Home() {
   const { selectedModule, clearModule, getModuleVocab } = useModule();
@@ -58,17 +52,6 @@ export default function Home() {
   const [milestoneText, setMilestoneText] = useState("");
   const [showVocabList, setShowVocabList] = useState(false);
 
-  // Round-robin coverage state
-  const [rrSeenSet, setRrSeenSet] = useState<Set<string>>(new Set());
-  const [rrSeenCount, setRrSeenCount] = useState(0);
-  const [rrTotal, setRrTotal] = useState(0);
-  const [rrRound, setRrRound] = useState(1);
-
-  // Ensure anon Supabase session once on mount (fails gracefully → localStorage)
-  useEffect(() => {
-    ensureAnonSession();
-  }, []);
-
   // Check onboarding status beim Mount
   useEffect(() => {
     const onboardingComplete = localStorage.getItem("onboardingComplete");
@@ -80,81 +63,12 @@ export default function Home() {
     }
   }, []);
 
-  const resetCardState = () => {
-    setIsRevealed(false);
-    setShowSentence(false);
-    setShowNextButton(false);
-    setSpanishSentence("");
-    setGermanSentence("");
-  };
-
-  // ── Round-robin initial loader (module mode) ──────────────────────────────
-  const loadRoundRobinVocab = async (moduleId: string) => {
-    setIsLoading(true);
-    resetCardState();
-    try {
-      const moduleVocab = getModuleVocab(moduleId);
-      const progress = await getProgress(moduleId);
-      setRrSeenSet(progress.seenIds);
-      setRrSeenCount(progress.seenIds.size);
-      setRrTotal(moduleVocab.length);
-      setRrRound(progress.round);
-      const next = pickNext(moduleId, moduleVocab, progress.seenIds);
-      if (next) setCurrentVocab(next);
-      incrementStats();
-    } catch (error) {
-      console.error("Fehler beim Laden der RR-Vokabel:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // ── SR loader — kept intact for global mode (Change 2) ────────────────────
-  // This path is unreachable from modules/page.tsx (no-module case returns
-  // <ModuleSelection>), but is preserved so SR data is never accidentally wired
-  // into the module path.
-  const loadNextVocab = () => {
-    setIsLoading(true);
-    resetCardState();
-    try {
-      let vocab: Vocabulary;
-      if (selectedModule && selectedModule.type !== "tips") {
-        const moduleVocabs = getModuleVocab(selectedModule.id);
-        vocab = selectNextVocab(moduleVocabs, selectedModule.id);
-        markVocabAsSeen(vocab.id, selectedModule.id);
-      } else {
-        vocab = selectNextVocab();
-        markVocabAsSeen(vocab.id);
-      }
-      setCurrentVocab(vocab);
-      incrementStats();
-    } catch (error) {
-      console.error("Fehler beim Laden der Vokabel:", error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
   // Lade Daily Goal + erste Vokabel wenn ein Modul ausgewählt wird
   useEffect(() => {
-    if (
-      selectedModule &&
-      selectedModule.type !== "tips" &&
-      selectedModule.type !== "lessons" &&
-      isInitialized &&
-      !showOnboarding
-    ) {
+    if (selectedModule && selectedModule.type !== "tips" && selectedModule.type !== "lessons" && isInitialized && !showOnboarding) {
       const localGoal = getTodayGoal(selectedModule.id);
       setDailyGoal(localGoal);
-
-      // Reset coverage counters while new module loads
-      setRrSeenSet(new Set());
-      setRrSeenCount(0);
-      setRrTotal(0);
-      setRrRound(1);
-
-      // Module mode → round-robin only (Change 2: SR not called here)
-      loadRoundRobinVocab(selectedModule.id);
+      loadNextVocab();
 
       // DB-Sync: Falls User eingeloggt ist, DB-Wert laden (höherer Wert gewinnt)
       loadProgressFromDb(selectedModule.id).then((dbCount) => {
@@ -164,15 +78,47 @@ export default function Home() {
         }
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedModule, isInitialized]);
+
+  const loadNextVocab = () => {
+    setIsLoading(true);
+    setIsRevealed(false);
+    setShowSentence(false);
+    setShowNextButton(false);
+    setSpanishSentence("");
+    setGermanSentence("");
+
+    try {
+      let vocab: Vocabulary;
+
+      if (selectedModule && selectedModule.type !== "tips") {
+        const moduleVocabs = getModuleVocab(selectedModule.id);
+        vocab = selectNextVocab(moduleVocabs, selectedModule.id);
+        markVocabAsSeen(vocab.id, selectedModule.id);
+      } else {
+        vocab = selectNextVocab();
+        markVocabAsSeen(vocab.id);
+      }
+
+      setCurrentVocab(vocab);
+      incrementStats();
+    } catch (error) {
+      console.error("Fehler beim Laden der Vokabel:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const handleReveal = () => {
     setIsRevealed(true);
+
     if (!currentVocab) return;
+
     setSpanishSentence(currentVocab.sentence_es);
     setGermanSentence(currentVocab.sentence_de);
     setShowSentence(true);
+
     addToHistory({
       vocabId: currentVocab.id,
       sentence: currentVocab.sentence_es,
@@ -184,96 +130,40 @@ export default function Home() {
     setShowNextButton(true);
   };
 
-  // ── "Nächster Satz" handler ───────────────────────────────────────────────
-  const handleNext = async () => {
-    if (!currentVocab) return;
-
+  // "Nächster Satz" → zählt zum Tagesziel + Gamification
+  const handleNext = () => {
     if (selectedModule) {
-      // ── MODULE MODE: round-robin path ────────────────────────────────────
-      // Change 1: markSeen fires here (on Weiter), never on display.
-      // Change 2: selectNextVocab / markVocabAsSeen (SR) are NOT called.
-      const moduleVocab = getModuleVocab(selectedModule.id);
-      const allVocabIds = moduleVocab.map((v) => v.id);
-
-      setIsLoading(true);
-      resetCardState();
-
-      const result = await markSeen(selectedModule.id, currentVocab.id, allVocabIds);
-      setRrSeenSet(result.newSeenSet);
-      setRrSeenCount(result.seenCount);
-      setRrTotal(result.total);
-      setRrRound(result.round);
-
-      // Daily goal
       const updated = incrementTodayGoal(selectedModule.id);
       setDailyGoal(updated);
+
+      // DB-Sync (fire & forget)
       syncProgressToDb(selectedModule.id, updated.completed);
+
       const newCount = updated.completed;
 
-      // Milestone toasts (count-based)
+      // Meilensteine: 5, 10, 15, 20
       if ([5, 10, 15, 20].includes(newCount)) {
         setMilestoneText(`${newCount} von ${updated.goal}!`);
         setShowMilestone(true);
-        playSound("milestone");
+        playSound('milestone');
         setTimeout(() => setShowMilestone(false), 2000);
       }
 
+      // Tagesziel erreicht!
       if (newCount === updated.goal) {
-        setMilestoneText("Tagesziel erreicht!");
+        setMilestoneText('Tagesziel erreicht!');
         setShowMilestone(true);
         setShowConfetti(true);
-        playSound("complete");
+        playSound('complete');
         setTimeout(() => {
           setShowConfetti(false);
           setShowMilestone(false);
         }, 5000);
       } else if (newCount < updated.goal) {
-        playSound("correct");
+        playSound('correct');
       }
-
-      // Round-complete toast (overwrites count toast when both fire simultaneously)
-      if (result.roundJustCompleted) {
-        const completedRound = result.round - 1;
-        setMilestoneText(`Runde ${completedRound} komplett! ↺`);
-        setShowMilestone(true);
-        playSound("milestone");
-        setTimeout(() => setShowMilestone(false), 3000);
-      }
-
-      // Pick next word using the fresh seen set returned by markSeen
-      const next = pickNext(selectedModule.id, moduleVocab, result.newSeenSet);
-      if (next) setCurrentVocab(next);
-      setIsLoading(false);
-    } else {
-      // ── GLOBAL / NO-MODULE MODE: SR path unchanged (Change 2) ────────────
-      // Unreachable from this component (no selectedModule → ModuleSelection),
-      // kept so the SR branch is never accidentally merged into module mode.
-      const updated = incrementTodayGoal("global");
-      setDailyGoal(updated);
-      const newCount = updated.completed;
-
-      if ([5, 10, 15, 20].includes(newCount)) {
-        setMilestoneText(`${newCount} von ${updated.goal}!`);
-        setShowMilestone(true);
-        playSound("milestone");
-        setTimeout(() => setShowMilestone(false), 2000);
-      }
-
-      if (newCount === updated.goal) {
-        setMilestoneText("Tagesziel erreicht!");
-        setShowMilestone(true);
-        setShowConfetti(true);
-        playSound("complete");
-        setTimeout(() => {
-          setShowConfetti(false);
-          setShowMilestone(false);
-        }, 5000);
-      } else if (newCount < updated.goal) {
-        playSound("correct");
-      }
-
-      loadNextVocab();
     }
+    loadNextVocab();
   };
 
   const handleOnboardingComplete = () => {
@@ -360,7 +250,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* Top Bar: Zurück + Wortliste + Coverage Counter + Streak */}
+      {/* Top Bar: Zurück + Wortliste + Streak */}
       <div className="px-4 pt-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <button
@@ -382,22 +272,12 @@ export default function Home() {
             </button>
           )}
         </div>
-
-        <div className="flex items-center gap-2">
-          {/* Coverage Counter: "seen / total ↺round" */}
-          {rrTotal > 0 && (
-            <span className="text-xs font-medium tabular-nums text-gray-400 bg-white/5 border border-white/10 px-3 py-1.5 rounded-full">
-              {rrSeenCount}&nbsp;/&nbsp;{rrTotal}&nbsp;↺{rrRound}
-            </span>
-          )}
-
-          {streak > 1 && (
-            <div className="flex items-center gap-1.5 bg-orange-500/15 border border-orange-500/25 px-3 py-1.5 rounded-full">
-              <span className="text-base">🔥</span>
-              <span className="text-sm font-bold text-orange-400">{streak} Tage</span>
-            </div>
-          )}
-        </div>
+        {streak > 1 && (
+          <div className="flex items-center gap-1.5 bg-orange-500/15 border border-orange-500/25 px-3 py-1.5 rounded-full">
+            <span className="text-base">🔥</span>
+            <span className="text-sm font-bold text-orange-400">{streak} Tage</span>
+          </div>
+        )}
       </div>
 
       {/* Daily Goal Progress Bar */}
@@ -408,7 +288,7 @@ export default function Home() {
               <span className="text-xs font-medium text-gray-500">
                 Tagesziel
               </span>
-              <span className={`text-xs font-bold tabular-nums ${goalReached ? "text-green-400" : "text-gray-300"}`}>
+              <span className={`text-xs font-bold tabular-nums ${goalReached ? 'text-green-400' : 'text-gray-300'}`}>
                 {dailyGoal.completed} / {dailyGoal.goal}
               </span>
             </div>
@@ -437,7 +317,7 @@ export default function Home() {
       )}
 
       <main
-        className={`flex-1 flex items-center justify-center px-4 py-6 ${!isRevealed ? "cursor-pointer" : ""}`}
+        className={`flex-1 flex items-center justify-center px-4 py-6 ${!isRevealed ? 'cursor-pointer' : ''}`}
         onClick={!isRevealed ? handleMainClick : undefined}
       >
         <div className="w-full max-w-3xl space-y-8">
@@ -451,12 +331,12 @@ export default function Home() {
           />
 
           {/* Favorite Button */}
-          <div className={`flex justify-center transition-all duration-300 min-h-[2.5rem] items-center ${isRevealed ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+          <div className={`flex justify-center transition-all duration-300 min-h-[2.5rem] items-center ${isRevealed ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <FavoriteButton vocabId={currentVocab.id} />
           </div>
 
           {/* Beispielsatz mit Speaker */}
-          <div className={`transition-all duration-300 ${showSentence ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+          <div className={`transition-all duration-300 ${showSentence ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <div className="flex items-start gap-3 justify-center">
               <div className="flex-1 max-w-2xl">
                 <Sentence
@@ -486,7 +366,7 @@ export default function Home() {
           )}
 
           {/* Next Button */}
-          <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+          <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <NextButton onClick={handleNext} loading={isLoading} />
           </div>
         </div>
@@ -494,11 +374,7 @@ export default function Home() {
 
       <Footer />
 
-      <VocabListModal
-        isOpen={showVocabList}
-        onClose={() => setShowVocabList(false)}
-        seenIds={rrSeenSet}
-      />
+      <VocabListModal isOpen={showVocabList} onClose={() => setShowVocabList(false)} />
     </div>
   );
 }

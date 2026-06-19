@@ -7,10 +7,9 @@ import { useModule } from "@/lib/ModuleContext";
 interface VocabListModalProps {
   isOpen: boolean;
   onClose: () => void;
-  seenIds?: Set<string>;
 }
 
-export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListModalProps) {
+export default function VocabListModal({ isOpen, onClose }: VocabListModalProps) {
   const { selectedModule, getModuleVocab } = useModule();
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
   const [search, setSearch] = useState("");
@@ -136,30 +135,17 @@ export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListMo
             <div className="divide-y divide-white/[0.05] px-2 pb-2">
               {filtered.map((v, i) => {
                 const revealed = revealedIds.has(v.id);
-                const seen = seenIds?.has(v.id) ?? false;
                 return (
                   <div
                     key={v.id}
                     onClick={() => toggleReveal(v.id)}
                     className="grid grid-cols-[2.5rem_1fr_1.5rem_1fr] gap-x-2 items-center px-3 py-3 cursor-pointer hover:bg-white/5 rounded-lg transition-colors group"
                   >
-                    {/* Index column: green ✓ for seen words */}
-                    {seen ? (
-                      <span className="text-xs text-green-500 font-bold select-none">✓</span>
-                    ) : (
-                      <span className="text-xs text-gray-600 tabular-nums select-none">{i + 1}</span>
-                    )}
-
-                    {/* German: dimmed when seen */}
-                    <span className={`text-sm ${seen ? "text-gray-400" : "text-white"}`}>
-                      {v.german}
-                    </span>
-
+                    <span className="text-xs text-gray-600 tabular-nums select-none">{i + 1}</span>
+                    <span className="text-sm text-white">{v.german}</span>
                     <span className={`text-xs select-none transition-colors text-center ${revealed ? "text-primary" : "text-gray-600 group-hover:text-gray-400"}`}>
                       👁
                     </span>
-
-                    {/* Spanish: reveal logic untouched */}
                     <span className={`text-sm font-medium transition-colors ${revealed ? "text-primary" : "text-gray-700"}`}>
                       {revealed ? v.spanish : "· · · · ·"}
                     </span>
