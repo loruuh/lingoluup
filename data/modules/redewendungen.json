@@ -748,6 +748,321 @@
         "primer": "erster",
         "lugar": "Ort/Platz"
       }
+    },
+    {
+      "id": "r53",
+      "spanish": "¡qué pena!",
+      "german": "wie schade! / wie peinlich! (regional)",
+      "literal": "was für ein Leid",
+      "sentence_es": "¡Qué pena! Me perdí el concierto por el tráfico.",
+      "sentence_de": "Wie schade! Ich habe das Konzert wegen des Staus verpasst.",
+      "audio": "",
+      "word_translations": {
+        "pena": "Leid / Schande"
+      }
+    },
+    {
+      "id": "r54",
+      "spanish": "¡qué lástima!",
+      "german": "wie schade! / wie bedauerlich!",
+      "literal": "was für ein Jammer",
+      "sentence_es": "¡Qué lástima que no puedas venir a la fiesta!",
+      "sentence_de": "Wie schade, dass du nicht zur Party kommen kannst!",
+      "audio": "",
+      "word_translations": {
+        "lástima": "Jammer / Schade"
+      }
+    },
+    {
+      "id": "r55",
+      "spanish": "¡qué va!",
+      "german": "ach was! / von wegen! / Quatsch!",
+      "literal": "was geht da",
+      "sentence_es": "¿Estás cansado? - ¡Qué va! Podría correr otros cinco kilómetros.",
+      "sentence_de": "Bist du müde? - Ach was! Ich könnte noch fünf Kilometer laufen.",
+      "audio": "",
+      "word_translations": {
+        "va": "geht / kommt"
+      }
+    },
+    {
+      "id": "r56",
+      "spanish": "¡qué rollo!",
+      "german": "wie nervig! / was für ein Mist! (v.a. Spanien)",
+      "literal": "was für eine Rolle / ein Blödsinn",
+      "sentence_es": "¡Qué rollo! Tres horas esperando y al final nada.",
+      "sentence_de": "Wie nervig! Drei Stunden warten und am Ende nichts.",
+      "audio": "",
+      "word_translations": {
+        "rollo": "Rolle / Unsinn / Mist"
+      }
+    },
+    {
+      "id": "r57",
+      "spanish": "¡menos mal!",
+      "german": "zum Glück! / Gott sei Dank!",
+      "literal": "wenigstens gut",
+      "sentence_es": "¡Menos mal que llegaste! Ya me estaba preocupando.",
+      "sentence_de": "Zum Glück bist du da! Ich machte mir schon Sorgen.",
+      "audio": "",
+      "word_translations": {
+        "menos": "weniger",
+        "mal": "schlecht"
+      }
+    },
+    {
+      "id": "r58",
+      "spanish": "¡ya era hora!",
+      "german": "wurde auch Zeit! / endlich!",
+      "literal": "es war schon Zeit",
+      "sentence_es": "¡Ya era hora! Llevas veinte minutos tarde.",
+      "sentence_de": "Wurde auch Zeit! Du bist schon zwanzig Minuten zu spät.",
+      "audio": "",
+      "word_translations": {
+        "ya": "schon",
+        "era": "war",
+        "hora": "Zeit / Stunde"
+      }
+    },
+    {
+      "id": "r59",
+      "spanish": "¡no me digas!",
+      "german": "was du nicht sagst! / echt jetzt?",
+      "literal": "sag mir nicht",
+      "sentence_es": "¡No me digas! ¿Se casaron al final?",
+      "sentence_de": "Was du nicht sagst! Haben sie am Ende geheiratet?",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "me": "mir",
+        "digas": "sag"
+      }
+    },
+    {
+      "id": "r60",
+      "spanish": "¡qué fuerte!",
+      "german": "krass! / heftig! / unglaublich!",
+      "literal": "wie stark",
+      "sentence_es": "¡Qué fuerte! ¿De verdad dijo eso delante de todos?",
+      "sentence_de": "Krass! Hat er das wirklich vor allen gesagt?",
+      "audio": "",
+      "word_translations": {
+        "fuerte": "stark / heftig"
+      }
+    },
+    {
+      "id": "r61",
+      "spanish": "¡qué horror!",
+      "german": "wie furchtbar! / wie schrecklich!",
+      "literal": "was für ein Schrecken",
+      "sentence_es": "¡Qué horror! ¿Cómo puede pasar algo así?",
+      "sentence_de": "Wie furchtbar! Wie kann so etwas passieren?",
+      "audio": "",
+      "word_translations": {
+        "horror": "Schrecken / Horror"
+      }
+    },
+    {
+      "id": "r62",
+      "spanish": "¡por supuesto!",
+      "german": "selbstverständlich! / natürlich!",
+      "literal": "durch das Vorausgesetzte",
+      "sentence_es": "¿Puedo sentarme aquí? - ¡Por supuesto!",
+      "sentence_de": "Kann ich mich hier setzen? - Selbstverständlich!",
+      "audio": "",
+      "word_translations": {
+        "por": "durch / für",
+        "supuesto": "vorausgesetzt"
+      }
+    },
+    {
+      "id": "r63",
+      "spanish": "¡ni idea!",
+      "german": "keine Ahnung!",
+      "literal": "nicht mal eine Idee",
+      "sentence_es": "¿Dónde está Carlos? - ¡Ni idea!",
+      "sentence_de": "Wo ist Carlos? - Keine Ahnung!",
+      "audio": "",
+      "word_translations": {
+        "ni": "nicht mal",
+        "idea": "Idee / Ahnung"
+      }
+    },
+    {
+      "id": "r64",
+      "spanish": "¡da igual!",
+      "german": "egal! / macht nichts! / ist mir gleich!",
+      "literal": "es gibt gleich",
+      "sentence_es": "¿Prefieres café o té? - ¡Da igual, lo que tengas!",
+      "sentence_de": "Möchtest du Kaffee oder Tee? - Egal, was du hast!",
+      "audio": "",
+      "word_translations": {
+        "da": "gibt",
+        "igual": "gleich / egal"
+      }
+    },
+    {
+      "id": "r65",
+      "spanish": "¡no pasa nada!",
+      "german": "kein Problem! / schon gut! / macht nichts!",
+      "literal": "es passiert nichts",
+      "sentence_es": "Perdona el retraso. - ¡No pasa nada, tranquilo!",
+      "sentence_de": "Sorry für die Verspätung. - Kein Problem, ist doch okay!",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "pasa": "passiert",
+        "nada": "nichts",
+        "tranquilo": "ruhig / keine Sorge"
+      }
+    },
+    {
+      "id": "r66",
+      "spanish": "¡qué más da!",
+      "german": "was soll's! / ist doch egal!",
+      "literal": "was gibt mehr",
+      "sentence_es": "¡Qué más da! Ya no puedo cambiarlo, así que adelante.",
+      "sentence_de": "Was soll's! Ich kann es eh nicht mehr ändern, also vorwärts.",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "más": "mehr",
+        "da": "gibt"
+      }
+    },
+    {
+      "id": "r67",
+      "spanish": "¡vale!",
+      "german": "okay! / in Ordnung! (v.a. Spanien; LatAm: bueno / dale)",
+      "literal": "es gilt",
+      "sentence_es": "¿Quedamos a las ocho en el bar? - ¡Vale!",
+      "sentence_de": "Treffen wir uns um acht in der Bar? - Okay!",
+      "audio": "",
+      "word_translations": {
+        "vale": "gilt / okay"
+      }
+    },
+    {
+      "id": "r68",
+      "spanish": "de acuerdo",
+      "german": "einverstanden / okay / abgemacht",
+      "literal": "gemäß der Übereinkunft",
+      "sentence_es": "Entonces, tú traes la comida y yo las bebidas. - De acuerdo.",
+      "sentence_de": "Also, du bringst das Essen und ich die Getränke. - Einverstanden.",
+      "audio": "",
+      "word_translations": {
+        "de": "von / gemäß",
+        "acuerdo": "Übereinkunft / Einigung"
+      }
+    },
+    {
+      "id": "r69",
+      "spanish": "¡que te mejores!",
+      "german": "gute Besserung!",
+      "literal": "mögest du dich bessern",
+      "sentence_es": "¿Sigues enfermo? ¡Que te mejores pronto!",
+      "sentence_de": "Bist du noch krank? Gute Besserung!",
+      "audio": "",
+      "word_translations": {
+        "que": "mögest",
+        "te": "dich",
+        "mejores": "du besserst"
+      }
+    },
+    {
+      "id": "r70",
+      "spanish": "¡suerte!",
+      "german": "viel Glück! / viel Erfolg!",
+      "literal": "Glück!",
+      "sentence_es": "Mañana tienes el examen. ¡Suerte!",
+      "sentence_de": "Morgen hast du die Prüfung. Viel Glück!",
+      "audio": "",
+      "word_translations": {
+        "suerte": "Glück"
+      }
+    },
+    {
+      "id": "r71",
+      "spanish": "no te preocupes",
+      "german": "mach dir keine Sorgen / keine Sorge",
+      "literal": "beunruhige dich nicht",
+      "sentence_es": "No te preocupes, todo va a salir bien.",
+      "sentence_de": "Mach dir keine Sorgen, alles wird gut.",
+      "audio": "",
+      "word_translations": {
+        "no": "nicht",
+        "te": "dich",
+        "preocupes": "sorge / beunruhige",
+        "todo": "alles",
+        "va": "wird",
+        "salir": "ausgehen / werden",
+        "bien": "gut"
+      }
+    },
+    {
+      "id": "r72",
+      "spanish": "¿cómo? / ¿perdón?",
+      "german": "wie bitte?",
+      "literal": "wie? / Verzeihung?",
+      "sentence_es": "No te escuché bien. ¿Cómo?",
+      "sentence_de": "Ich habe dich nicht gut gehört. Wie bitte?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "perdón": "Verzeihung / wie bitte"
+      }
+    },
+    {
+      "id": "r73",
+      "spanish": "¿en serio?",
+      "german": "im Ernst? / wirklich?",
+      "literal": "im Ernst?",
+      "sentence_es": "¡Me han dado el trabajo! - ¿En serio? ¡Enhorabuena!",
+      "sentence_de": "Ich habe die Stelle bekommen! - Im Ernst? Herzlichen Glückwunsch!",
+      "audio": "",
+      "word_translations": {
+        "en": "im",
+        "serio": "Ernst"
+      }
+    },
+    {
+      "id": "r74",
+      "spanish": "¿de verdad?",
+      "german": "wirklich? / tatsächlich?",
+      "literal": "von Wahrheit?",
+      "sentence_es": "¿De verdad ganaste la lotería? ¡No me lo puedo creer!",
+      "sentence_de": "Hast du wirklich im Lotto gewonnen? Das glaube ich nicht!",
+      "audio": "",
+      "word_translations": {
+        "de": "von",
+        "verdad": "Wahrheit"
+      }
+    },
+    {
+      "id": "r75",
+      "spanish": "o sea",
+      "german": "also / das heißt / ich meine (Füllwort)",
+      "literal": "oder es sei",
+      "sentence_es": "Llegué tarde, o sea, me perdí la primera parte.",
+      "sentence_de": "Ich kam zu spät, also habe ich den ersten Teil verpasst.",
+      "audio": "",
+      "word_translations": {
+        "o": "oder",
+        "sea": "sei / ist"
+      }
+    },
+    {
+      "id": "r76",
+      "spanish": "es decir",
+      "german": "das heißt / also / mit anderen Worten",
+      "literal": "es ist zu sagen",
+      "sentence_es": "Es muy tarde, es decir, tenemos que irnos ya.",
+      "sentence_de": "Es ist sehr spät, das heißt, wir müssen jetzt gehen.",
+      "audio": "",
+      "word_translations": {
+        "es": "es ist",
+        "decir": "sagen"
+      }
     }
   ]
 }
