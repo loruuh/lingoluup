@@ -42,7 +42,7 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
         {/* Deutsches Wort */}
         <div className="relative mb-8">
           <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Deutsch</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-white transition-all duration-500 ease-out leading-tight"
+          <h2 className="text-4xl md:text-5xl font-bold text-white break-words transition-all duration-500 ease-out leading-tight"
               style={{ transform: isRevealed ? 'translateY(-4px) scale(0.97)' : 'translateY(0) scale(1)' }}>
             {german}
           </h2>

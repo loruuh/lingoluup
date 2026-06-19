@@ -82,7 +82,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
                     )}
 
                     {/* Beispielsatz */}
-                    <p className="text-white text-lg mb-2">{entry.sentence}</p>
+                    <p className="text-white text-lg mb-2 break-words">{entry.sentence}</p>
 
                     {/* Timestamp */}
                     <p className="text-gray-500 text-xs">

@@ -22,7 +22,6 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
 
   // Fallback zu Web Speech API
   const speakWithWebSpeechAPI = () => {
-    console.log("!!! Fallback zu WebSpeechAPI !!!");
     if (!isSupported || !text) return;
 
     // Stoppe vorherige Wiedergabe
@@ -58,10 +57,6 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
     e.stopPropagation();
     if (!text || isSpeaking || isLoading) return;
 
-    console.log("=== SpeakButton geklickt ===");
-    console.log("Text zum Sprechen:", text);
-    console.log("Audio URL:", audioUrl);
-
     // Stoppe vorherige Audio-Wiedergabe
     if (audioRef.current) {
       audioRef.current.pause();
@@ -70,7 +65,6 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
 
     // Nutze lokale MP3-Datei wenn verfügbar
     if (audioUrl) {
-      console.log("Spiele lokale MP3 ab:", audioUrl);
       setIsLoading(true);
 
       try {
@@ -79,23 +73,19 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
         audio.playbackRate = 1.0; // Normal speed
 
         audio.onloadeddata = () => {
-          console.log("Audio geladen, starte Wiedergabe...");
           setIsLoading(false);
         };
 
         audio.onplay = () => {
-          console.log("Audio-Wiedergabe gestartet");
           setIsSpeaking(true);
         };
 
         audio.onended = () => {
-          console.log("Audio-Wiedergabe beendet");
           setIsSpeaking(false);
         };
 
         audio.onerror = (e) => {
-          console.error("!!! Audio-Wiedergabe fehlgeschlagen !!!", e);
-          console.log("Fallback zu WebSpeechAPI");
+          console.error("[SpeakButton] Audio error:", e);
           setIsSpeaking(false);
           setIsLoading(false);
           speakWithWebSpeechAPI();
@@ -109,8 +99,6 @@ export default function SpeakButton({ text, audioUrl }: SpeakButtonProps) {
         speakWithWebSpeechAPI();
       }
     } else {
-      // Kein Audio-URL vorhanden, nutze WebSpeechAPI
-      console.log("Keine Audio-URL vorhanden, nutze WebSpeechAPI");
       speakWithWebSpeechAPI();
     }
   };

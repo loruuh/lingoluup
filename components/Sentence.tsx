@@ -72,7 +72,7 @@ export default function Sentence({
         showSentence && !showGermanTranslation ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}>
         <p className="text-xs text-gray-500 animate-pulse flex items-center gap-1.5">
-          <span>👆</span> Klicke für die Übersetzung
+          <span>👆</span> Tippe für die Übersetzung
         </p>
       </div>
     </div>
