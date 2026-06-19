@@ -66,7 +66,7 @@ export default function HistoryOverlay({ isOpen, onClose }: HistoryOverlayProps)
                 return (
                   <div
                     key={`${entry.vocabId}-${entry.timestamp}-${index}`}
-                    className="bg-gray-800 rounded-xl p-5 border border-primary/20 hover:border-primary/40 transition-colors"
+                    className="bg-white/[0.04] rounded-2xl p-5 border border-white/8 hover:border-primary/30 hover:bg-white/[0.07] transition-all duration-200"
                   >
                     {/* Vokabel */}
                     {vocab && (
