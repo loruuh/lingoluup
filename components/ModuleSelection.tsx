@@ -112,15 +112,7 @@ export default function ModuleSelection() {
           >
             🇪🇸 Spanisch lernen
           </div>
-          <h1
-            className="text-4xl sm:text-5xl font-black tracking-tight mb-3"
-            style={{
-              background: "linear-gradient(135deg, #ffffff 0%, #84cc16 60%, #65a30d 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}
-          >
+          <h1 className="text-4xl sm:text-5xl font-black tracking-tight mb-3 text-black">
             ¿Qué aprendes hoy?
           </h1>
           <p className="text-gray-500 text-sm">
