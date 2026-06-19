@@ -393,7 +393,7 @@
   {
     "id": "23",
     "spanish": "ganar",
-    "german": "gewinnen",
+    "german": "gewinnen / verdienen",
     "type": "noun",
     "sentence_es": "Mi hermano quiere ganar más dinero.",
     "sentence_de": "Mein Bruder möchte mehr Geld verdienen.",
@@ -465,7 +465,7 @@
   {
     "id": "27",
     "spanish": "echar",
-    "german": "rauswerfen",
+    "german": "rauswerfen / (hinein)geben",
     "type": "noun",
     "sentence_es": "Voy a echar sal a la sopa.",
     "sentence_de": "Ich werde Salz in die Suppe geben.",
@@ -4263,7 +4263,7 @@
   {
     "id": "239",
     "spanish": "el segundo",
-    "german": "die Sekunde",
+    "german": "die Sekunde / der/die Zweite (Ordinalzahl)",
     "type": "noun",
     "sentence_es": "Mi hermano vive en el segundo piso.",
     "sentence_de": "Mein Bruder wohnt im zweiten Stock.",
@@ -5280,7 +5280,7 @@
   {
     "id": "297",
     "spanish": "quedar",
-    "german": "bleiben",
+    "german": "bleiben / sich verabreden",
     "type": "verb",
     "sentence_es": "Quedamos a las tres en el café.",
     "sentence_de": "Wir treffen uns um drei im Café.",
