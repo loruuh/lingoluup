@@ -67,7 +67,7 @@ export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListMo
       onClick={onClose}
     >
       <div
-        className="bg-[var(--background)] w-full sm:max-w-2xl sm:rounded-2xl rounded-t-2xl border border-white/10 flex flex-col max-h-[92vh] sm:max-h-[85vh]"
+        className="bg-[var(--background)] w-full sm:max-w-2xl sm:rounded-2xl rounded-t-2xl border border-white/10 flex flex-col max-h-[92vh] sm:max-h-[85vh] pb-[env(safe-area-inset-bottom)]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}

@@ -41,8 +41,8 @@ export function FeedbackWidget() {
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4">
-          <div className="bg-gray-800 rounded-2xl max-w-md w-full p-6 border border-gray-700">
+        <div className="fixed inset-0 bg-black/60 z-50 flex items-end sm:items-center justify-center sm:p-4">
+          <div className="bg-gray-800 rounded-t-2xl sm:rounded-2xl max-w-md w-full p-6 border border-gray-700 overflow-y-auto max-h-[90vh]">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-2xl font-bold text-white">💬 Feedback</h2>
               <button

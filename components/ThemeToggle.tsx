@@ -29,7 +29,7 @@ export default function ThemeToggle() {
     <>
       <button
         onClick={handleToggle}
-        className="fixed bottom-4 right-4 p-3 bg-primary text-white rounded-full shadow-lg hover:scale-110 transition-transform z-50"
+        className="fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-4 p-3 bg-primary text-white rounded-full shadow-lg hover:scale-110 transition-transform z-50"
         aria-label="Toggle theme"
         title={`Wechsel zu ${getNextThemeName()}-Modus`}
       >

@@ -33,7 +33,7 @@ export default function InstallHint() {
   if (!showHint) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-blue-600 text-white p-4 z-50 shadow-2xl">
+    <div className="fixed bottom-0 left-0 right-0 bg-blue-600 text-white px-4 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))] z-50 shadow-2xl">
       <div className="max-w-md mx-auto flex items-start gap-3">
         <div className="flex-1">
           <div className="font-bold mb-1">Als App installieren</div>
