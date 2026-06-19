@@ -2400,24 +2400,6 @@
     }
   },
   {
-    "id": "135",
-    "spanish": "la ciudad",
-    "german": "die Stadt",
-    "type": "noun",
-    "sentence_es": "Me gusta caminar por la ciudad vieja.",
-    "sentence_de": "Ich gehe gerne durch die Altstadt spazieren.",
-    "audio": "/audio/135.mp3",
-    "word_translations": {
-      "me": "mir",
-      "gusta": "gefällt",
-      "caminar": "spazieren gehen",
-      "por": "durch",
-      "la": "die",
-      "ciudad": "Stadt",
-      "vieja": "alte"
-    }
-  },
-  {
     "id": "136",
     "spanish": "el pueblo",
     "german": "das Dorf",
