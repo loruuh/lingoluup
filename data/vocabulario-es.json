@@ -47554,5 +47554,414 @@
       "mil": "tausend",
       "veinticuatro": "vierundzwanzig"
     }
+  },
+  {
+    "id": "2906",
+    "spanish": "el durazno",
+    "german": "der Pfirsich (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "¿Quieres un durazno del árbol?",
+    "sentence_de": "Möchtest du einen Pfirsich vom Baum?",
+    "audio": "",
+    "word_translations": {
+      "quieres": "möchtest du",
+      "un": "einen",
+      "durazno": "Pfirsich",
+      "del": "vom",
+      "árbol": "Baum"
+    },
+    "note": "En España: el melocotón"
+  },
+  {
+    "id": "2907",
+    "spanish": "la frutilla",
+    "german": "die Erdbeere (Südamerika)",
+    "type": "noun",
+    "sentence_es": "Las frutillas están maduras y dulces.",
+    "sentence_de": "Die Erdbeeren sind reif und süß.",
+    "audio": "",
+    "word_translations": {
+      "las": "die",
+      "frutillas": "Erdbeeren",
+      "están": "sind",
+      "maduras": "reif",
+      "y": "und",
+      "dulces": "süß"
+    },
+    "note": "En España: la fresa"
+  },
+  {
+    "id": "2908",
+    "spanish": "la arveja",
+    "german": "die Erbse (Südamerika)",
+    "type": "noun",
+    "sentence_es": "Echamos arvejas en la sopa de verduras.",
+    "sentence_de": "Wir geben Erbsen in die Gemüsesuppe.",
+    "audio": "",
+    "word_translations": {
+      "echamos": "wir geben",
+      "arvejas": "Erbsen",
+      "en": "in",
+      "la": "die",
+      "sopa": "Suppe",
+      "de": "aus",
+      "verduras": "Gemüse"
+    },
+    "note": "En España: el guisante"
+  },
+  {
+    "id": "2909",
+    "spanish": "el choclo",
+    "german": "der Maiskolben (Südamerika)",
+    "type": "noun",
+    "sentence_es": "Me gusta el choclo hervido con sal.",
+    "sentence_de": "Ich mag gekochten Maiskolben mit Salz.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "gusta": "mag",
+      "el": "der",
+      "choclo": "Maiskolben",
+      "hervido": "gekocht",
+      "con": "mit",
+      "sal": "Salz"
+    },
+    "note": "En España: el maíz (en mazorca). En México: el elote."
+  },
+  {
+    "id": "2910",
+    "spanish": "el maní",
+    "german": "die Erdnuss (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Comemos maní tostado en el cine.",
+    "sentence_de": "Wir essen geröstete Erdnüsse im Kino.",
+    "audio": "",
+    "word_translations": {
+      "comemos": "wir essen",
+      "maní": "Erdnuss",
+      "tostado": "geröstet",
+      "en": "im",
+      "el": "das",
+      "cine": "Kino"
+    },
+    "note": "En España: el cacahuete"
+  },
+  {
+    "id": "2911",
+    "spanish": "la torta",
+    "german": "der Kuchen / die Torte (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Mamá hizo una torta de chocolate para mi cumpleaños.",
+    "sentence_de": "Mama hat eine Schokoladentorte zu meinem Geburtstag gemacht.",
+    "audio": "",
+    "word_translations": {
+      "mamá": "Mama",
+      "hizo": "hat gemacht",
+      "una": "eine",
+      "torta": "Torte",
+      "de": "aus",
+      "chocolate": "Schokolade",
+      "para": "für",
+      "mi": "meinen",
+      "cumpleaños": "Geburtstag"
+    },
+    "note": "En España: la tarta. Ojo: en México \"torta\" es un sándwich."
+  },
+  {
+    "id": "2912",
+    "spanish": "la heladera",
+    "german": "der Kühlschrank (Südamerika)",
+    "type": "noun",
+    "sentence_es": "El jugo está en la heladera, sírvete.",
+    "sentence_de": "Der Saft ist im Kühlschrank, bedien dich.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "jugo": "Saft",
+      "está": "ist",
+      "en": "im",
+      "la": "der",
+      "heladera": "Kühlschrank",
+      "sírvete": "bedien dich"
+    },
+    "note": "En España: la nevera / el frigorífico"
+  },
+  {
+    "id": "2913",
+    "spanish": "el saco",
+    "german": "das Sakko / die Jacke (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Ponte el saco porque hace frío afuera.",
+    "sentence_de": "Zieh die Jacke an, draußen ist es kalt.",
+    "audio": "",
+    "word_translations": {
+      "ponte": "zieh an",
+      "el": "die",
+      "saco": "Jacke",
+      "porque": "weil",
+      "hace": "ist",
+      "frío": "kalt",
+      "afuera": "draußen"
+    },
+    "note": "En España: la chaqueta"
+  },
+  {
+    "id": "2914",
+    "spanish": "los aretes",
+    "german": "die Ohrringe (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Me regalaron unos aretes de plata.",
+    "sentence_de": "Ich habe Silber-Ohrringe geschenkt bekommen.",
+    "audio": "",
+    "word_translations": {
+      "me": "mir",
+      "regalaron": "schenkten",
+      "unos": "ein paar",
+      "aretes": "Ohrringe",
+      "de": "aus",
+      "plata": "Silber"
+    },
+    "note": "En España: los pendientes"
+  },
+  {
+    "id": "2915",
+    "spanish": "los lentes / los anteojos",
+    "german": "die Brille (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Olvidé mis lentes en casa y no veo bien.",
+    "sentence_de": "Ich habe meine Brille zuhause vergessen und sehe schlecht.",
+    "audio": "",
+    "word_translations": {
+      "olvidé": "vergaß",
+      "mis": "meine",
+      "lentes": "Brille",
+      "en": "zuhause",
+      "casa": "Haus",
+      "y": "und",
+      "no": "nicht",
+      "veo": "sehe",
+      "bien": "gut"
+    },
+    "note": "En España: las gafas. \"Lentes\" más común en México/Colombia; \"anteojos\" en Argentina/Chile."
+  },
+  {
+    "id": "2916",
+    "spanish": "la valija",
+    "german": "der Koffer (Südamerika)",
+    "type": "noun",
+    "sentence_es": "La valija pesa veinte kilos exactos.",
+    "sentence_de": "Der Koffer wiegt genau zwanzig Kilo.",
+    "audio": "",
+    "word_translations": {
+      "la": "der",
+      "valija": "Koffer",
+      "pesa": "wiegt",
+      "veinte": "zwanzig",
+      "kilos": "Kilo",
+      "exactos": "genau"
+    },
+    "note": "En España: la maleta"
+  },
+  {
+    "id": "2917",
+    "spanish": "el pasaje",
+    "german": "das Ticket / die Fahrkarte (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "¿Cuánto cuesta el pasaje al aeropuerto?",
+    "sentence_de": "Wie viel kostet das Ticket zum Flughafen?",
+    "audio": "",
+    "word_translations": {
+      "cuánto": "wie viel",
+      "cuesta": "kostet",
+      "el": "das",
+      "pasaje": "Ticket",
+      "al": "zum",
+      "aeropuerto": "Flughafen"
+    },
+    "note": "En España: el billete"
+  },
+  {
+    "id": "2918",
+    "spanish": "la cuadra",
+    "german": "der Häuserblock (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "El banco está a dos cuadras de aquí.",
+    "sentence_de": "Die Bank ist zwei Blocks von hier.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "banco": "Bank",
+      "está": "ist",
+      "a": "in",
+      "dos": "zwei",
+      "cuadras": "Blocks",
+      "de": "von",
+      "aquí": "hier"
+    },
+    "note": "En España: la manzana"
+  },
+  {
+    "id": "2919",
+    "spanish": "la licencia de conducir",
+    "german": "der Führerschein (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Se me venció la licencia de conducir el mes pasado.",
+    "sentence_de": "Mein Führerschein ist letzten Monat abgelaufen.",
+    "audio": "",
+    "word_translations": {
+      "se": "mir",
+      "me": "mein",
+      "venció": "ist abgelaufen",
+      "la": "der",
+      "licencia": "Führerschein",
+      "de": "zum",
+      "conducir": "Fahren",
+      "el": "den",
+      "mes": "Monat",
+      "pasado": "letzten"
+    },
+    "note": "En España: el carné de conducir"
+  },
+  {
+    "id": "2920",
+    "spanish": "el plomero",
+    "german": "der Klempner / Installateur (Lateinamerika)",
+    "type": "noun",
+    "sentence_es": "Llamamos al plomero porque hay una fuga de agua.",
+    "sentence_de": "Wir riefen den Klempner, weil es ein Wasserleck gibt.",
+    "audio": "",
+    "word_translations": {
+      "llamamos": "riefen",
+      "al": "den",
+      "plomero": "Klempner",
+      "porque": "weil",
+      "hay": "es gibt",
+      "una": "ein",
+      "fuga": "Leck",
+      "de": "von",
+      "agua": "Wasser"
+    },
+    "note": "En España: el fontanero"
+  },
+  {
+    "id": "2921",
+    "spanish": "el camote",
+    "german": "die Süßkartoffel (Mexiko)",
+    "type": "noun",
+    "sentence_es": "El camote asado es muy popular en México.",
+    "sentence_de": "Die geröstete Süßkartoffel ist sehr beliebt in Mexiko.",
+    "audio": "",
+    "word_translations": {
+      "el": "die",
+      "camote": "Süßkartoffel",
+      "asado": "geröstet",
+      "es": "ist",
+      "muy": "sehr",
+      "popular": "beliebt",
+      "en": "in",
+      "México": "Mexiko"
+    },
+    "note": "En España: el boniato. En otros países: la batata."
+  },
+  {
+    "id": "2922",
+    "spanish": "el elote",
+    "german": "der Maiskolben / frischer Mais (Mexiko)",
+    "type": "noun",
+    "sentence_es": "Compramos elotes con chile y limón en la calle.",
+    "sentence_de": "Wir kauften Maiskolben mit Chili und Limette auf der Straße.",
+    "audio": "",
+    "word_translations": {
+      "compramos": "kauften",
+      "elotes": "Maiskolben",
+      "con": "mit",
+      "chile": "Chili",
+      "y": "und",
+      "limón": "Limette",
+      "en": "auf",
+      "la": "der",
+      "calle": "Straße"
+    },
+    "note": "En España: mazorca de maíz. Término típicamente mexicano; en Sudamérica: el choclo."
+  },
+  {
+    "id": "2923",
+    "spanish": "la recámara",
+    "german": "das Schlafzimmer (Mexiko)",
+    "type": "noun",
+    "sentence_es": "La recámara tiene una ventana grande y una cama doble.",
+    "sentence_de": "Das Schlafzimmer hat ein großes Fenster und ein Doppelbett.",
+    "audio": "",
+    "word_translations": {
+      "la": "das",
+      "recámara": "Schlafzimmer",
+      "tiene": "hat",
+      "una": "ein",
+      "ventana": "Fenster",
+      "grande": "großes",
+      "y": "und",
+      "cama": "Bett",
+      "doble": "Doppel-"
+    },
+    "note": "En España: el dormitorio. En otros países: el cuarto / la habitación."
+  },
+  {
+    "id": "2924",
+    "spanish": "enojarse",
+    "german": "sich ärgern / wütend werden (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Me enojo cuando alguien llega tarde sin avisar.",
+    "sentence_de": "Ich ärgere mich, wenn jemand zu spät kommt ohne Bescheid zu sagen.",
+    "audio": "",
+    "word_translations": {
+      "me": "mich",
+      "enojo": "ärgere",
+      "cuando": "wenn",
+      "alguien": "jemand",
+      "llega": "kommt",
+      "tarde": "zu spät",
+      "sin": "ohne",
+      "avisar": "Bescheid sagen"
+    },
+    "note": "En España: enfadarse"
+  },
+  {
+    "id": "2925",
+    "spanish": "extrañar",
+    "german": "vermissen (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "Extraño mucho a mi familia cuando viajo.",
+    "sentence_de": "Ich vermisse meine Familie sehr, wenn ich reise.",
+    "audio": "",
+    "word_translations": {
+      "extraño": "ich vermisse",
+      "mucho": "sehr",
+      "a": "meine",
+      "mi": "mein",
+      "familia": "Familie",
+      "cuando": "wenn",
+      "viajo": "ich reise"
+    },
+    "note": "En España: echar de menos"
+  },
+  {
+    "id": "2926",
+    "spanish": "apurarse",
+    "german": "sich beeilen (Lateinamerika)",
+    "type": "verb",
+    "sentence_es": "¡Apúrate, que el tren sale en cinco minutos!",
+    "sentence_de": "Beeil dich, der Zug fährt in fünf Minuten ab!",
+    "audio": "",
+    "word_translations": {
+      "apúrate": "beeil dich",
+      "que": "der",
+      "el": "der",
+      "tren": "Zug",
+      "sale": "fährt ab",
+      "en": "in",
+      "cinco": "fünf",
+      "minutos": "Minuten"
+    },
+    "note": "En España: darse prisa"
   }
 ]
