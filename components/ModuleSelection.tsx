@@ -112,14 +112,17 @@ export default function ModuleSelection() {
           >
             🇪🇸 Spanisch lernen
           </div>
-          <div
-            className="inline-block px-7 py-3 rounded-2xl mb-3"
-            style={{ background: "linear-gradient(135deg, #ffffff 0%, #84cc16 58%, #65a30d 100%)" }}
+          <h1
+            className="text-4xl sm:text-5xl font-black tracking-tight mb-3"
+            style={{
+              background: "linear-gradient(135deg, #ecfccb 0%, #84cc16 55%, #4d7c0f 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
           >
-            <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-black">
-              ¿Qué aprendes hoy?
-            </h1>
-          </div>
+            ¿Qué aprendes hoy?
+          </h1>
           <p className="text-gray-500 text-sm">
             2.800+ Vokabeln · 19 Module · Komplett kostenlos
           </p>
