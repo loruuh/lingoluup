@@ -37,7 +37,7 @@
   {
     "id": "3",
     "spanish": "la bodega",
-    "german": "die Weinkneipe",
+    "german": "der Weinladen / der Weinkeller",
     "type": "noun",
     "sentence_es": "Vamos a comprar vino en la bodega.",
     "sentence_de": "Wir gehen Wein in der Bodega kaufen.",
@@ -3033,7 +3033,7 @@
   {
     "id": "170",
     "spanish": "la pluma",
-    "german": "der Stift",
+    "german": "der Füller / die Feder",
     "type": "noun",
     "sentence_es": "María escribió una carta con la pluma azul.",
     "sentence_de": "María schrieb einen Brief mit dem blauen Füller.",
@@ -46617,7 +46617,7 @@
   {
     "id": "2822",
     "spanish": "el escándalo",
-    "german": "der Skandal / der Aufruf",
+    "german": "der Skandal",
     "pronunciation": "el es-KAN-da-lo",
     "category": "Substantive",
     "sentence_es": "El escándalo político sacudió al país.",
@@ -46746,12 +46746,12 @@
   },
   {
     "id": "2835",
-    "spanish": "por muy lejos",
-    "german": "mit großem Abstand / bei weitem",
-    "pronunciation": "por muy LE-jos",
+    "spanish": "con mucho",
+    "german": "bei weitem / mit großem Abstand",
+    "pronunciation": "con MU-cho",
     "category": "Redewendungen",
-    "sentence_es": "Es la mejor economía de la región, por muy lejos.",
-    "sentence_de": "Es ist bei weitem die beste Wirtschaft der Region.",
+    "sentence_es": "Es la mejor película del año, con mucho.",
+    "sentence_de": "Es ist bei weitem der beste Film des Jahres.",
     "audio": ""
   },
   {
