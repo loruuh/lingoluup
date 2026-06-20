@@ -175,12 +175,12 @@ export default function ModuleSelection() {
 
               {/* Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {modules.map((module) => {
-                  const count = getModuleItemCount(module.id);
+                {modules.map((mod) => {
+                  const count = getModuleItemCount(mod.id);
                   return (
                     <button
-                      key={module.id}
-                      onClick={() => selectModule(module.id)}
+                      key={mod.id}
+                      onClick={() => selectModule(mod.id)}
                       className="group relative text-left rounded-2xl overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
                       style={{
                         background: group.color.bg,
@@ -203,23 +203,23 @@ export default function ModuleSelection() {
                       <div className="relative p-6">
                         {/* Icon */}
                         <span className="text-5xl leading-none inline-block mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
-                          {module.icon}
+                          {mod.icon}
                         </span>
 
                         {/* Text */}
                         <h3 className="font-bold text-base text-gray-100 leading-tight mb-1.5">
-                          {module.name}
+                          {mod.name}
                         </h3>
                         <p className="text-sm text-gray-500 leading-relaxed line-clamp-2">
-                          {module.description}
+                          {mod.description}
                         </p>
 
                         {/* Footer */}
                         <div className="mt-5 flex items-center justify-between">
                           <span className="text-[11px] tabular-nums text-gray-600">
                             {count} Vokabeln
-                            {averages[module.id] !== undefined && (
-                              <> · Ø {averages[module.id].toFixed(1)}×</>
+                            {averages[mod.id] !== undefined && (
+                              <> · Ø {averages[mod.id].toFixed(1)}×</>
                             )}
                           </span>
                           <span
@@ -257,8 +257,8 @@ export default function ModuleSelection() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {TOOL_MODULE_IDS.map((id) => {
-              const module = moduleMap[id];
-              if (!module) return null;
+              const mod = moduleMap[id];
+              if (!mod) return null;
               const c = TOOL_COLORS[id] ?? { accent: "#9ca3af", bg: "rgba(255,255,255,0.04)", border: "rgba(255,255,255,0.10)", glow: "rgba(255,255,255,0.08)", badge: "rgba(255,255,255,0.04)" };
               const count = getModuleItemCount(id);
 
@@ -282,11 +282,11 @@ export default function ModuleSelection() {
 
                   <div className="relative p-4 flex flex-col items-start gap-2.5">
                     <span className="text-3xl leading-none transition-transform duration-300 group-hover:scale-110">
-                      {module.icon}
+                      {mod.icon}
                     </span>
                     <div>
                       <p className="font-bold text-sm text-gray-200 leading-tight">
-                        {module.name}
+                        {mod.name}
                       </p>
                       <p className="text-[11px] tabular-nums mt-0.5" style={{ color: c.accent + "99" }}>
                         {count} Einträge
