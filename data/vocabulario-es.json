@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "1",
     "spanish": "el aguacate",
@@ -4603,7 +4603,7 @@
   {
     "id": "259",
     "spanish": "querer",
-    "german": "wollen",
+    "german": "möchten / wollen",
     "type": "verb",
     "sentence_es": "Quiero aprender español para viajar a México.",
     "sentence_de": "Ich möchte Spanisch lernen, um nach Mexiko zu reisen.",
@@ -5497,14 +5497,14 @@
   {
     "id": "311",
     "spanish": "esperar",
-    "german": "warten",
+    "german": "warten / hoffen",
     "type": "verb",
     "sentence_es": "Voy a esperar el autobús en la parada.",
     "sentence_de": "Ich werde an der Haltestelle auf den Bus warten.",
     "audio": "/audio/311.mp3",
     "word_translations": {
       "voy": "ich gehe/werde",
-      "esperar": "warten",
+      "esperar": "warten / hoffen",
       "autobús": "Bus",
       "parada": "Haltestelle"
     }
@@ -13207,23 +13207,6 @@
     }
   },
   {
-    "id": "747",
-    "spanish": "gustar",
-    "german": "liken",
-    "type": "verb",
-    "sentence_es": "Me gusta mucho la comida italiana.",
-    "sentence_de": "Mir gefällt italienisches Essen sehr.",
-    "audio": "/audio/747.mp3",
-    "word_translations": {
-      "me": "mir",
-      "gusta": "gefällt",
-      "mucho": "sehr",
-      "la": "das/die",
-      "comida": "Essen",
-      "italiana": "italienische"
-    }
-  },
-  {
     "id": "748",
     "spanish": "seguir",
     "german": "folgen",
@@ -14364,21 +14347,6 @@
       "será": "wird sein",
       "muy": "sehr",
       "difícil": "schwer/schwierig"
-    }
-  },
-  {
-    "id": "815",
-    "spanish": "esperar",
-    "german": "hoffen",
-    "type": "verb",
-    "sentence_es": "Voy a esperar el autobús en la parada.",
-    "sentence_de": "Ich werde an der Haltestelle auf den Bus warten.",
-    "audio": "/audio/815.mp3",
-    "word_translations": {
-      "voy": "ich gehe",
-      "esperar": "warten",
-      "autobús": "Bus",
-      "parada": "Haltestelle"
     }
   },
   {
@@ -15934,7 +15902,7 @@
   {
     "id": "905",
     "spanish": "asado",
-    "german": "geröstet",
+    "german": "gegrillt / gebraten",
     "type": "adjective",
     "sentence_es": "El domingo haremos un asado en el jardín.",
     "sentence_de": "Am Sonntag machen wir einen Grillabend im Garten.",
@@ -28033,7 +28001,7 @@
   {
     "id": "1701",
     "spanish": "el apoyo",
-    "german": "die Unterstützung",
+    "german": "die Unterstützung / der Rückhalt",
     "type": "noun",
     "sentence_es": "Necesito el apoyo de mi familia.",
     "sentence_de": "Ich brauche die Unterstützung meiner Familie.",
@@ -40014,7 +39982,7 @@
   {
     "id": "2378",
     "spanish": "lanzar",
-    "german": "werfen",
+    "german": "werfen / starten / auf den Markt bringen",
     "type": "verb",
     "sentence_es": "Voy a lanzar la pelota a mi hermano.",
     "sentence_de": "Ich werde den Ball zu meinem Bruder werfen.",
@@ -40114,7 +40082,7 @@
   {
     "id": "2384",
     "spanish": "la muñeca",
-    "german": "die Puppe",
+    "german": "das Handgelenk / die Puppe",
     "type": "noun",
     "sentence_es": "La niña juega con su muñeca favorita.",
     "sentence_de": "Das Mädchen spielt mit ihrer Lieblingspuppe.",
@@ -46077,16 +46045,6 @@
     "audio": ""
   },
   {
-    "id": "2770",
-    "spanish": "pedimos (pedir)",
-    "german": "wir bitten / wir bestellen",
-    "pronunciation": "pe-DI-mos",
-    "category": "Verben",
-    "sentence_es": "Pedimos dos cafés y una tarta.",
-    "sentence_de": "Wir bestellten zwei Kaffees und einen Kuchen.",
-    "audio": ""
-  },
-  {
     "id": "2771",
     "spanish": "entrevistó (entrevistar)",
     "german": "interviewte",
@@ -46104,16 +46062,6 @@
     "category": "Verben",
     "sentence_es": "Se equivocó al calcular el precio total.",
     "sentence_de": "Er/Sie hat sich beim Berechnen des Gesamtpreises geirrt.",
-    "audio": ""
-  },
-  {
-    "id": "2773",
-    "spanish": "vimos (ver)",
-    "german": "wir sahen",
-    "pronunciation": "VI-mos",
-    "category": "Verben",
-    "sentence_es": "Ayer vimos una película muy interesante.",
-    "sentence_de": "Gestern sahen wir einen sehr interessanten Film.",
     "audio": ""
   },
   {
@@ -47963,5 +47911,381 @@
       "minutos": "Minuten"
     },
     "note": "En España: darse prisa"
+  },
+  {
+    "id": "2927",
+    "spanish": "almorzar",
+    "german": "zu Mittag essen",
+    "type": "verb",
+    "sentence_es": "Solemos almorzar a las dos de la tarde.",
+    "sentence_de": "Wir essen normalerweise um zwei Uhr zu Mittag.",
+    "audio": "",
+    "word_translations": {
+      "solemos": "wir pflegen/gewöhnlich",
+      "almorzar": "zu Mittag essen",
+      "a las dos": "um zwei Uhr",
+      "de la tarde": "nachmittags"
+    }
+  },
+  {
+    "id": "2928",
+    "spanish": "el horario",
+    "german": "der Zeitplan / der Fahrplan / die Öffnungszeiten",
+    "type": "noun",
+    "sentence_es": "¿Cuál es el horario de apertura de la tienda?",
+    "sentence_de": "Was sind die Öffnungszeiten des Geschäfts?",
+    "audio": "",
+    "word_translations": {
+      "cuál": "welche/welcher",
+      "es": "ist",
+      "el": "der/die/das",
+      "horario": "Zeitplan/Fahrplan/Öffnungszeiten",
+      "de": "von",
+      "apertura": "Öffnung",
+      "tienda": "Geschäft/Laden"
+    }
+  },
+  {
+    "id": "2929",
+    "spanish": "el enfado",
+    "german": "der Ärger / der Unmut",
+    "type": "noun",
+    "sentence_es": "Su enfado era completamente comprensible.",
+    "sentence_de": "Sein Ärger war vollkommen verständlich.",
+    "audio": "",
+    "word_translations": {
+      "su": "sein/ihr",
+      "enfado": "Ärger",
+      "era": "war",
+      "completamente": "vollkommen",
+      "comprensible": "verständlich"
+    }
+  },
+  {
+    "id": "2930",
+    "spanish": "la cuna",
+    "german": "die Wiege",
+    "type": "noun",
+    "sentence_es": "El bebé duerme tranquilamente en su cuna.",
+    "sentence_de": "Das Baby schläft ruhig in seiner Wiege.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "bebé": "Baby",
+      "duerme": "schläft",
+      "tranquilamente": "ruhig/friedlich",
+      "en": "in",
+      "su": "seiner/ihrer",
+      "cuna": "Wiege"
+    }
+  },
+  {
+    "id": "2931",
+    "spanish": "la hierba",
+    "german": "das Kraut / das Gras",
+    "type": "noun",
+    "sentence_es": "Añade un poco de hierba fresca al plato.",
+    "sentence_de": "Füge ein bisschen frisches Kraut zum Gericht hinzu.",
+    "audio": "",
+    "word_translations": {
+      "añade": "füge hinzu",
+      "un poco de": "ein bisschen",
+      "hierba": "Kraut/Gras",
+      "fresca": "frisch",
+      "al": "zum/zur",
+      "plato": "Gericht/Teller"
+    }
+  },
+  {
+    "id": "2932",
+    "spanish": "regar",
+    "german": "gießen / bewässern",
+    "type": "verb",
+    "sentence_es": "Hay que regar las plantas todos los días en verano.",
+    "sentence_de": "Man muss die Pflanzen im Sommer jeden Tag gießen.",
+    "audio": "",
+    "word_translations": {
+      "hay que": "man muss",
+      "regar": "gießen/bewässern",
+      "las plantas": "die Pflanzen",
+      "todos los días": "jeden Tag",
+      "en verano": "im Sommer"
+    }
+  },
+  {
+    "id": "2933",
+    "spanish": "caramelizado / caramelizada",
+    "german": "karamellisiert",
+    "type": "adjective",
+    "sentence_es": "Las cebollas caramelizadas están perfectas con el queso.",
+    "sentence_de": "Die karamellisierten Zwiebeln passen perfekt zum Käse.",
+    "audio": "",
+    "word_translations": {
+      "las": "die",
+      "cebollas": "Zwiebeln",
+      "caramelizadas": "karamellisiert",
+      "están": "sind",
+      "perfectas": "perfekt",
+      "con": "mit",
+      "el": "der",
+      "queso": "Käse"
+    }
+  },
+  {
+    "id": "2934",
+    "spanish": "harto / harta",
+    "german": "genervt / überdrüssig — estar harto de = die Nase voll haben von",
+    "type": "adjective",
+    "sentence_es": "Estoy harto de esperar en esta cola.",
+    "sentence_de": "Ich habe die Nase voll davon, in dieser Schlange zu warten.",
+    "audio": "",
+    "word_translations": {
+      "estoy": "ich bin",
+      "harto": "genervt/überdrüssig",
+      "de": "von",
+      "esperar": "warten",
+      "en": "in",
+      "esta": "dieser",
+      "cola": "Schlange/Warteschlange"
+    }
+  },
+  {
+    "id": "2935",
+    "spanish": "el agujero",
+    "german": "das Loch",
+    "type": "noun",
+    "sentence_es": "Hay un agujero en la pared que hay que reparar.",
+    "sentence_de": "Es gibt ein Loch in der Wand, das repariert werden muss.",
+    "audio": "",
+    "word_translations": {
+      "hay": "es gibt",
+      "un": "ein",
+      "agujero": "Loch",
+      "en": "in",
+      "la": "der/die",
+      "pared": "Wand",
+      "reparar": "reparieren"
+    }
+  },
+  {
+    "id": "2936",
+    "spanish": "el infierno",
+    "german": "die Hölle",
+    "type": "noun",
+    "sentence_es": "El atasco en la ciudad era un infierno esta mañana.",
+    "sentence_de": "Der Stau in der Stadt war heute Morgen die Hölle.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "atasco": "Stau",
+      "en": "in",
+      "la": "der/die",
+      "ciudad": "Stadt",
+      "era": "war",
+      "un": "eine",
+      "infierno": "Hölle",
+      "esta mañana": "heute Morgen"
+    }
+  },
+  {
+    "id": "2937",
+    "spanish": "la tasa de criminalidad",
+    "german": "die Kriminalitätsrate",
+    "type": "noun",
+    "sentence_es": "La tasa de criminalidad ha bajado en los últimos años.",
+    "sentence_de": "Die Kriminalitätsrate ist in den letzten Jahren gesunken.",
+    "audio": "",
+    "word_translations": {
+      "la": "die",
+      "tasa": "Rate/Quote",
+      "de": "von",
+      "criminalidad": "Kriminalität",
+      "ha bajado": "ist gesunken",
+      "los últimos años": "die letzten Jahre"
+    }
+  },
+  {
+    "id": "2938",
+    "spanish": "la pajita",
+    "german": "der Strohhalm",
+    "type": "noun",
+    "sentence_es": "Prefiero beber el batido con pajita.",
+    "sentence_de": "Ich trinke den Milchshake lieber mit einem Strohhalm.",
+    "audio": "",
+    "word_translations": {
+      "prefiero": "ich bevorzuge",
+      "beber": "trinken",
+      "el": "den",
+      "batido": "Milchshake",
+      "con": "mit",
+      "pajita": "Strohhalm"
+    }
+  },
+  {
+    "id": "2939",
+    "spanish": "coincidir",
+    "german": "übereinstimmen / zusammentreffen",
+    "type": "verb",
+    "sentence_es": "Nuestras opiniones coinciden en este punto.",
+    "sentence_de": "Unsere Meinungen stimmen in diesem Punkt überein.",
+    "audio": "",
+    "word_translations": {
+      "nuestras": "unsere",
+      "opiniones": "Meinungen",
+      "coinciden": "stimmen überein",
+      "en": "in",
+      "este": "diesem",
+      "punto": "Punkt"
+    }
+  },
+  {
+    "id": "2940",
+    "spanish": "el frasco de mermelada",
+    "german": "das Marmeladenglas",
+    "type": "noun",
+    "sentence_es": "Abrí un frasco de mermelada de fresas para el desayuno.",
+    "sentence_de": "Ich öffnete ein Glas Erdbeermarmelade zum Frühstück.",
+    "audio": "",
+    "word_translations": {
+      "abrí": "ich öffnete",
+      "un": "ein",
+      "frasco": "Glas/Gefäß",
+      "de": "von/mit",
+      "mermelada": "Marmelade",
+      "fresas": "Erdbeeren",
+      "para": "für",
+      "el desayuno": "das Frühstück"
+    }
+  },
+  {
+    "id": "2941",
+    "spanish": "los pedidos",
+    "german": "die Bestellungen",
+    "type": "noun",
+    "sentence_es": "El camarero anotó todos los pedidos de la mesa.",
+    "sentence_de": "Der Kellner notierte alle Bestellungen des Tisches.",
+    "audio": "",
+    "word_translations": {
+      "el": "der",
+      "camarero": "Kellner",
+      "anotó": "notierte",
+      "todos": "alle",
+      "los": "die",
+      "pedidos": "Bestellungen",
+      "la mesa": "der Tisch"
+    }
+  },
+  {
+    "id": "2942",
+    "spanish": "asar",
+    "german": "grillen / braten",
+    "type": "verb",
+    "sentence_es": "Vamos a asar la carne a la parrilla esta tarde.",
+    "sentence_de": "Wir werden das Fleisch heute Nachmittag auf dem Grill braten.",
+    "audio": "",
+    "word_translations": {
+      "vamos a": "wir werden",
+      "asar": "grillen/braten",
+      "la": "das",
+      "carne": "Fleisch",
+      "a la parrilla": "auf dem Grill",
+      "esta tarde": "heute Nachmittag"
+    }
+  },
+  {
+    "id": "2943",
+    "spanish": "el carbón",
+    "german": "die Kohle",
+    "type": "noun",
+    "sentence_es": "Necesitamos más carbón para mantener el fuego del asado.",
+    "sentence_de": "Wir brauchen mehr Kohle, um das Feuer des Grills am Brennen zu halten.",
+    "audio": "",
+    "word_translations": {
+      "necesitamos": "wir brauchen",
+      "más": "mehr",
+      "carbón": "Kohle",
+      "para": "um",
+      "mantener": "aufrechterhalten",
+      "el": "das",
+      "fuego": "Feuer",
+      "del": "des",
+      "asado": "Grills/Grillgerichts"
+    }
+  },
+  {
+    "id": "2944",
+    "spanish": "la parrilla",
+    "german": "der Grill / der Rost",
+    "type": "noun",
+    "sentence_es": "Pon la parrilla sobre las brasas antes de colocar la carne.",
+    "sentence_de": "Lege den Rost auf die Glut, bevor du das Fleisch auflegst.",
+    "audio": "",
+    "word_translations": {
+      "pon": "lege/stelle",
+      "la": "den/die",
+      "parrilla": "Grill/Rost",
+      "sobre": "auf",
+      "las brasas": "die Glut",
+      "antes de": "bevor",
+      "colocar": "platzieren/auflegen",
+      "la carne": "das Fleisch"
+    }
+  },
+  {
+    "id": "2945",
+    "spanish": "encendido / encendida",
+    "german": "brennend / angezündet / eingeschaltet",
+    "type": "adjective",
+    "sentence_es": "Asegúrate de que el carbón esté bien encendido antes de cocinar.",
+    "sentence_de": "Stelle sicher, dass die Kohle gut brennt, bevor du anfängst zu kochen.",
+    "audio": "",
+    "word_translations": {
+      "asegúrate de que": "stelle sicher, dass",
+      "el": "die",
+      "carbón": "Kohle",
+      "esté": "ist/sei",
+      "bien": "gut/richtig",
+      "encendido": "angezündet/am Brennen",
+      "antes de": "bevor",
+      "cocinar": "kochen"
+    }
+  },
+  {
+    "id": "2946",
+    "spanish": "la Unión Europea",
+    "german": "die Europäische Union",
+    "type": "noun",
+    "sentence_es": "España es miembro de la Unión Europea desde 1986.",
+    "sentence_de": "Spanien ist seit 1986 Mitglied der Europäischen Union.",
+    "audio": "",
+    "word_translations": {
+      "España": "Spanien",
+      "es": "ist",
+      "miembro": "Mitglied",
+      "de": "von/der",
+      "la": "die",
+      "Unión Europea": "Europäische Union",
+      "desde": "seit"
+    }
+  },
+  {
+    "id": "2947",
+    "spanish": "las achuras",
+    "german": "Innereien vom Grill (Argentinien)",
+    "type": "noun",
+    "note": "Argentinien — typisch für den asado: chinchulines (Kutteln), mollejas (Bries), riñones (Nieren)",
+    "sentence_es": "Las achuras son una parte esencial del asado argentino.",
+    "sentence_de": "Gegrillte Innereien sind ein wesentlicher Bestandteil des argentinischen Grillgerichts.",
+    "audio": "",
+    "word_translations": {
+      "las": "die",
+      "achuras": "Innereien vom Grill",
+      "son": "sind",
+      "una parte": "ein Teil",
+      "esencial": "wesentlich/essenziell",
+      "del": "des",
+      "asado": "Grillgerichts",
+      "argentino": "argentinischen"
+    }
   }
 ]

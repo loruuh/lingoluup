@@ -118,7 +118,8 @@
       "Read(//c/Program Files/Google/Chrome/**)",
       "Bash(npx playwright *)",
       "Bash(npm list *)",
-      "Bash(npm root *)"
+      "Bash(npm root *)",
+      "Bash(npx next *)"
     ]
   }
 }

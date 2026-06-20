@@ -1,294 +1,212 @@
+/* eslint-disable */
 const fs = require('fs');
 const path = require('path');
 
-const base = path.join(__dirname, '..');
+function readJson(p) {
+  let raw = fs.readFileSync(p, 'utf8');
+  if (raw.charCodeAt(0) === 0xFEFF) raw = raw.slice(1);
+  return JSON.parse(raw);
+}
+function writeJson(p, data) {
+  fs.writeFileSync(p, JSON.stringify(data, null, 2) + '\n', 'utf8');
+}
 
-// ── 1. Add 20 vocab entries to vocabulario-es.json ──────────────────────────
-const vocabPath = path.join(base, 'data/vocabulario-es.json');
-const vocab = JSON.parse(fs.readFileSync(vocabPath, 'utf8'));
+// ── 1. Update existing entries ───────────────────────────────────────────────
+const vocabPath = path.join(__dirname, '../data/vocabulario-es.json');
+const vocab = readJson(vocabPath);
 
+const updates = {
+  '1701': { german: 'die Unterstützung / der Rückhalt' },
+  '2384': { german: 'das Handgelenk / die Puppe' },
+  '2378': { german: 'werfen / starten / auf den Markt bringen' },
+  '905':  { german: 'gegrillt / gebraten' },
+};
+vocab.forEach(v => {
+  if (updates[v.id]) Object.assign(v, updates[v.id]);
+});
+console.log('Updated existing entries: 1701, 2384, 2378, 905');
+
+// ── 2. New entries ────────────────────────────────────────────────────────────
 const newEntries = [
   {
-    id: '2463',
-    spanish: 'c\u00f3mo',
-    german: 'wie',
-    type: 'other',
-    sentence_es: '\u00bfC\u00f3mo est\u00e1s hoy?',
-    sentence_de: 'Wie geht es dir heute?',
+    id: '2927', spanish: 'almorzar', german: 'zu Mittag essen', type: 'verb',
+    sentence_es: 'Solemos almorzar a las dos de la tarde.',
+    sentence_de: 'Wir essen normalerweise um zwei Uhr zu Mittag.',
     audio: '',
-    word_translations: { 'c\u00f3mo': 'wie', 'est\u00e1s': 'geht es dir', 'hoy': 'heute' }
+    word_translations: { solemos: 'wir pflegen/gewöhnlich', almorzar: 'zu Mittag essen', 'a las dos': 'um zwei Uhr', 'de la tarde': 'nachmittags' }
   },
   {
-    id: '2464',
-    spanish: 'sentir / sentirse',
-    german: 'f\u00fchlen / sich f\u00fchlen',
-    type: 'verb',
-    sentence_es: 'Me siento muy bien hoy.',
-    sentence_de: 'Ich f\u00fchle mich heute sehr gut.',
+    id: '2928', spanish: 'el horario', german: 'der Zeitplan / der Fahrplan / die Öffnungszeiten', type: 'noun',
+    sentence_es: '¿Cuál es el horario de apertura de la tienda?',
+    sentence_de: 'Was sind die Öffnungszeiten des Geschäfts?',
     audio: '',
-    word_translations: { 'me': 'mich', 'siento': 'f\u00fchle', 'muy': 'sehr', 'bien': 'gut', 'hoy': 'heute' }
+    word_translations: { cuál: 'welche/welcher', es: 'ist', el: 'der/die/das', horario: 'Zeitplan/Fahrplan/Öffnungszeiten', de: 'von', apertura: 'Öffnung', tienda: 'Geschäft/Laden' }
   },
   {
-    id: '2465',
-    spanish: 'la leche',
-    german: 'die Milch',
-    type: 'noun',
-    sentence_es: 'Necesito leche para el caf\u00e9.',
-    sentence_de: 'Ich brauche Milch f\u00fcr den Kaffee.',
+    id: '2929', spanish: 'el enfado', german: 'der Ärger / der Unmut', type: 'noun',
+    sentence_es: 'Su enfado era completamente comprensible.',
+    sentence_de: 'Sein Ärger war vollkommen verständlich.',
     audio: '',
-    word_translations: { 'necesito': 'ich brauche', 'leche': 'Milch', 'para': 'f\u00fcr', 'el': 'den', 'caf\u00e9': 'Kaffee' }
+    word_translations: { su: 'sein/ihr', enfado: 'Ärger', era: 'war', completamente: 'vollkommen', comprensible: 'verständlich' }
   },
   {
-    id: '2466',
-    spanish: 'el caf\u00e9',
-    german: 'der Kaffee',
-    type: 'noun',
-    sentence_es: 'Me encanta tomar caf\u00e9 por la ma\u00f1ana.',
-    sentence_de: 'Ich liebe es, morgens Kaffee zu trinken.',
+    id: '2930', spanish: 'la cuna', german: 'die Wiege', type: 'noun',
+    sentence_es: 'El bebé duerme tranquilamente en su cuna.',
+    sentence_de: 'Das Baby schläft ruhig in seiner Wiege.',
     audio: '',
-    word_translations: { 'me': 'mir', 'encanta': 'gef\u00e4llt sehr', 'tomar': 'trinken', 'caf\u00e9': 'Kaffee', 'por': 'am', 'la': 'die', 'ma\u00f1ana': 'Morgen' }
+    word_translations: { el: 'der', bebé: 'Baby', duerme: 'schläft', tranquilamente: 'ruhig/friedlich', en: 'in', su: 'seiner/ihrer', cuna: 'Wiege' }
   },
   {
-    id: '2467',
-    spanish: 'nervioso / nerviosa',
-    german: 'nerv\u00f6s',
-    type: 'adjective',
-    sentence_es: 'Estoy nervioso antes del examen.',
-    sentence_de: 'Ich bin vor der Pr\u00fcfung nerv\u00f6s.',
+    id: '2931', spanish: 'la hierba', german: 'das Kraut / das Gras', type: 'noun',
+    sentence_es: 'Añade un poco de hierba fresca al plato.',
+    sentence_de: 'Füge ein bisschen frisches Kraut zum Gericht hinzu.',
     audio: '',
-    word_translations: { 'estoy': 'ich bin', 'nervioso': 'nerv\u00f6s', 'antes': 'vor', 'del': 'der', 'examen': 'Pr\u00fcfung' }
+    word_translations: { añade: 'füge hinzu', 'un poco de': 'ein bisschen', hierba: 'Kraut/Gras', fresca: 'frisch', al: 'zum/zur', plato: 'Gericht/Teller' }
   },
   {
-    id: '2468',
-    spanish: 'enojado / enojada',
-    german: 'w\u00fctend / ver\u00e4rgert',
-    type: 'adjective',
-    sentence_es: 'Estoy muy enojada con \u00e9l.',
-    sentence_de: 'Ich bin sehr w\u00fctend auf ihn.',
+    id: '2932', spanish: 'regar', german: 'gießen / bewässern', type: 'verb',
+    sentence_es: 'Hay que regar las plantas todos los días en verano.',
+    sentence_de: 'Man muss die Pflanzen im Sommer jeden Tag gießen.',
     audio: '',
-    word_translations: { 'estoy': 'ich bin', 'muy': 'sehr', 'enojada': 'w\u00fctend', 'con': 'auf', '\u00e9l': 'ihn' }
+    word_translations: { 'hay que': 'man muss', regar: 'gießen/bewässern', 'las plantas': 'die Pflanzen', 'todos los días': 'jeden Tag', 'en verano': 'im Sommer' }
   },
   {
-    id: '2469',
-    spanish: 'emocionado / emocionada',
-    german: 'aufgeregt / begeistert',
-    type: 'adjective',
-    sentence_es: 'Estoy emocionada por el viaje.',
-    sentence_de: 'Ich bin begeistert von der Reise.',
+    id: '2933', spanish: 'caramelizado / caramelizada', german: 'karamellisiert', type: 'adjective',
+    sentence_es: 'Las cebollas caramelizadas están perfectas con el queso.',
+    sentence_de: 'Die karamellisierten Zwiebeln passen perfekt zum Käse.',
     audio: '',
-    word_translations: { 'estoy': 'ich bin', 'emocionada': 'begeistert', 'por': 'von', 'el': 'die', 'viaje': 'Reise' }
+    word_translations: { las: 'die', cebollas: 'Zwiebeln', caramelizadas: 'karamellisiert', están: 'sind', perfectas: 'perfekt', con: 'mit', el: 'der', queso: 'Käse' }
   },
   {
-    id: '2470',
-    spanish: 'mantener',
-    german: 'aufrechterhalten / behalten',
-    type: 'verb',
-    sentence_es: 'Es dif\u00edcil mantener una dieta saludable.',
-    sentence_de: 'Es ist schwer, eine gesunde Ern\u00e4hrung beizubehalten.',
+    id: '2934', spanish: 'harto / harta', german: 'genervt / überdrüssig — estar harto de = die Nase voll haben von', type: 'adjective',
+    sentence_es: 'Estoy harto de esperar en esta cola.',
+    sentence_de: 'Ich habe die Nase voll davon, in dieser Schlange zu warten.',
     audio: '',
-    word_translations: { 'es': 'es ist', 'dif\u00edcil': 'schwer', 'mantener': 'beizubehalten', 'una': 'eine', 'dieta': 'Ern\u00e4hrung', 'saludable': 'gesunde' }
+    word_translations: { estoy: 'ich bin', harto: 'genervt/überdrüssig', de: 'von', esperar: 'warten', en: 'in', esta: 'dieser', cola: 'Schlange/Warteschlange' }
   },
   {
-    id: '2471',
-    spanish: 'comenzar',
-    german: 'beginnen / anfangen',
-    type: 'verb',
-    sentence_es: 'La clase comienza a las nueve.',
-    sentence_de: 'Der Unterricht beginnt um neun Uhr.',
+    id: '2935', spanish: 'el agujero', german: 'das Loch', type: 'noun',
+    sentence_es: 'Hay un agujero en la pared que hay que reparar.',
+    sentence_de: 'Es gibt ein Loch in der Wand, das repariert werden muss.',
     audio: '',
-    word_translations: { 'la': 'der', 'clase': 'Unterricht', 'comienza': 'beginnt', 'a': 'um', 'las': 'die', 'nueve': 'neun' }
+    word_translations: { hay: 'es gibt', un: 'ein', agujero: 'Loch', en: 'in', la: 'der/die', pared: 'Wand', reparar: 'reparieren' }
   },
   {
-    id: '2472',
-    spanish: 'morir',
-    german: 'sterben',
-    type: 'verb',
-    sentence_es: 'Las plantas mueren sin agua.',
-    sentence_de: 'Pflanzen sterben ohne Wasser.',
+    id: '2936', spanish: 'el infierno', german: 'die Hölle', type: 'noun',
+    sentence_es: 'El atasco en la ciudad era un infierno esta mañana.',
+    sentence_de: 'Der Stau in der Stadt war heute Morgen die Hölle.',
     audio: '',
-    word_translations: { 'las': 'die', 'plantas': 'Pflanzen', 'mueren': 'sterben', 'sin': 'ohne', 'agua': 'Wasser' }
+    word_translations: { el: 'der', atasco: 'Stau', en: 'in', la: 'der/die', ciudad: 'Stadt', era: 'war', un: 'eine', infierno: 'Hölle', 'esta mañana': 'heute Morgen' }
   },
   {
-    id: '2473',
-    spanish: 'aparecer',
-    german: 'erscheinen / auftauchen',
-    type: 'verb',
-    sentence_es: 'El sol aparece por la ma\u00f1ana.',
-    sentence_de: 'Die Sonne erscheint am Morgen.',
+    id: '2937', spanish: 'la tasa de criminalidad', german: 'die Kriminalitätsrate', type: 'noun',
+    sentence_es: 'La tasa de criminalidad ha bajado en los últimos años.',
+    sentence_de: 'Die Kriminalitätsrate ist in den letzten Jahren gesunken.',
     audio: '',
-    word_translations: { 'el': 'die', 'sol': 'Sonne', 'aparece': 'erscheint', 'por': 'am', 'la': 'dem', 'ma\u00f1ana': 'Morgen' }
+    word_translations: { la: 'die', tasa: 'Rate/Quote', de: 'von', criminalidad: 'Kriminalität', 'ha bajado': 'ist gesunken', 'los últimos años': 'die letzten Jahre' }
   },
   {
-    id: '2474',
-    spanish: 'existir',
-    german: 'existieren',
-    type: 'verb',
-    sentence_es: '\u00bfExisten otras galaxias en el universo?',
-    sentence_de: 'Gibt es andere Galaxien im Universum?',
+    id: '2938', spanish: 'la pajita', german: 'der Strohhalm', type: 'noun',
+    sentence_es: 'Prefiero beber el batido con pajita.',
+    sentence_de: 'Ich trinke den Milchshake lieber mit einem Strohhalm.',
     audio: '',
-    word_translations: { 'existen': 'gibt es', 'otras': 'andere', 'galaxias': 'Galaxien', 'en': 'im', 'el': 'das', 'universo': 'Universum' }
+    word_translations: { prefiero: 'ich bevorzuge', beber: 'trinken', el: 'den', batido: 'Milchshake', con: 'mit', pajita: 'Strohhalm' }
   },
   {
-    id: '2475',
-    spanish: 'o\u00edr',
-    german: 'h\u00f6ren',
-    type: 'verb',
-    sentence_es: '\u00bfOyes esa m\u00fasica? Es preciosa.',
-    sentence_de: 'H\u00f6rst du diese Musik? Sie ist wundersch\u00f6n.',
+    id: '2939', spanish: 'coincidir', german: 'übereinstimmen / zusammentreffen', type: 'verb',
+    sentence_es: 'Nuestras opiniones coinciden en este punto.',
+    sentence_de: 'Unsere Meinungen stimmen in diesem Punkt überein.',
     audio: '',
-    word_translations: { 'oyes': 'h\u00f6rst du', 'esa': 'diese', 'm\u00fasica': 'Musik', 'es': 'sie ist', 'preciosa': 'wundersch\u00f6n' }
+    word_translations: { nuestras: 'unsere', opiniones: 'Meinungen', coinciden: 'stimmen überein', en: 'in', este: 'diesem', punto: 'Punkt' }
   },
   {
-    id: '2476',
-    spanish: 'servir',
-    german: 'dienen / n\u00fctzen',
-    type: 'verb',
-    sentence_es: '\u00bfPara qu\u00e9 sirve esto?',
-    sentence_de: 'Wof\u00fcr dient das?',
+    id: '2940', spanish: 'el frasco de mermelada', german: 'das Marmeladenglas', type: 'noun',
+    sentence_es: 'Abrí un frasco de mermelada de fresas para el desayuno.',
+    sentence_de: 'Ich öffnete ein Glas Erdbeermarmelade zum Frühstück.',
     audio: '',
-    word_translations: { 'para': 'f\u00fcr', 'qu\u00e9': 'was', 'sirve': 'dient', 'esto': 'das' }
+    word_translations: { abrí: 'ich öffnete', un: 'ein', frasco: 'Glas/Gefäß', de: 'von/mit', mermelada: 'Marmelade', fresas: 'Erdbeeren', para: 'für', 'el desayuno': 'das Frühstück' }
   },
   {
-    id: '2477',
-    spanish: 'el restaurante',
-    german: 'das Restaurant',
-    type: 'noun',
-    sentence_es: 'Vamos a cenar en un restaurante.',
-    sentence_de: 'Wir gehen in einem Restaurant essen.',
+    id: '2941', spanish: 'los pedidos', german: 'die Bestellungen', type: 'noun',
+    sentence_es: 'El camarero anotó todos los pedidos de la mesa.',
+    sentence_de: 'Der Kellner notierte alle Bestellungen des Tisches.',
     audio: '',
-    word_translations: { 'vamos': 'wir gehen', 'a': 'zum', 'cenar': 'Abendessen', 'en': 'in', 'un': 'einem', 'restaurante': 'Restaurant' }
+    word_translations: { el: 'der', camarero: 'Kellner', anotó: 'notierte', todos: 'alle', los: 'die', pedidos: 'Bestellungen', 'la mesa': 'der Tisch' }
   },
   {
-    id: '2478',
-    spanish: 'internet',
-    german: 'das Internet',
-    type: 'noun',
-    sentence_es: 'Necesito conexi\u00f3n a internet.',
-    sentence_de: 'Ich brauche eine Internetverbindung.',
+    id: '2942', spanish: 'asar', german: 'grillen / braten', type: 'verb',
+    sentence_es: 'Vamos a asar la carne a la parrilla esta tarde.',
+    sentence_de: 'Wir werden das Fleisch heute Nachmittag auf dem Grill braten.',
     audio: '',
-    word_translations: { 'necesito': 'ich brauche', 'conexi\u00f3n': 'Verbindung', 'a': 'zum', 'internet': 'Internet' }
+    word_translations: { 'vamos a': 'wir werden', asar: 'grillen/braten', la: 'das', carne: 'Fleisch', 'a la parrilla': 'auf dem Grill', 'esta tarde': 'heute Nachmittag' }
   },
   {
-    id: '2479',
-    spanish: 'asustado / asustada',
-    german: 'ver\u00e4ngstigt / erschrocken',
-    type: 'adjective',
-    sentence_es: 'El ni\u00f1o est\u00e1 asustado de la oscuridad.',
-    sentence_de: 'Das Kind hat Angst vor der Dunkelheit.',
+    id: '2943', spanish: 'el carbón', german: 'die Kohle', type: 'noun',
+    sentence_es: 'Necesitamos más carbón para mantener el fuego del asado.',
+    sentence_de: 'Wir brauchen mehr Kohle, um das Feuer des Grills am Brennen zu halten.',
     audio: '',
-    word_translations: { 'el': 'das', 'ni\u00f1o': 'Kind', 'est\u00e1': 'ist', 'asustado': 'ver\u00e4ngstigt', 'de': 'vor', 'la': 'der', 'oscuridad': 'Dunkelheit' }
+    word_translations: { necesitamos: 'wir brauchen', más: 'mehr', carbón: 'Kohle', para: 'um', mantener: 'aufrechterhalten', el: 'das', fuego: 'Feuer', del: 'des', asado: 'Grills/Grillgerichts' }
   },
   {
-    id: '2480',
-    spanish: 'orgulloso / orgullosa',
-    german: 'stolz',
-    type: 'adjective',
-    sentence_es: 'Estoy muy orgullosa de ti.',
-    sentence_de: 'Ich bin sehr stolz auf dich.',
+    id: '2944', spanish: 'la parrilla', german: 'der Grill / der Rost', type: 'noun',
+    sentence_es: 'Pon la parrilla sobre las brasas antes de colocar la carne.',
+    sentence_de: 'Lege den Rost auf die Glut, bevor du das Fleisch auflegst.',
     audio: '',
-    word_translations: { 'estoy': 'ich bin', 'muy': 'sehr', 'orgullosa': 'stolz', 'de': 'auf', 'ti': 'dich' }
+    word_translations: { pon: 'lege/stelle', la: 'den/die', parrilla: 'Grill/Rost', sobre: 'auf', 'las brasas': 'die Glut', 'antes de': 'bevor', colocar: 'platzieren/auflegen', 'la carne': 'das Fleisch' }
   },
   {
-    id: '2481',
-    spanish: 'enamorado / enamorada',
-    german: 'verliebt',
-    type: 'adjective',
-    sentence_es: 'Estoy enamorado de ella.',
-    sentence_de: 'Ich bin in sie verliebt.',
+    id: '2945', spanish: 'encendido / encendida', german: 'brennend / angezündet / eingeschaltet', type: 'adjective',
+    sentence_es: 'Asegúrate de que el carbón esté bien encendido antes de cocinar.',
+    sentence_de: 'Stelle sicher, dass die Kohle gut brennt, bevor du anfängst zu kochen.',
     audio: '',
-    word_translations: { 'estoy': 'ich bin', 'enamorado': 'verliebt', 'de': 'in', 'ella': 'sie' }
+    word_translations: { 'asegúrate de que': 'stelle sicher, dass', el: 'die', carbón: 'Kohle', esté: 'ist/sei', bien: 'gut/richtig', encendido: 'angezündet/am Brennen', 'antes de': 'bevor', cocinar: 'kochen' }
   },
   {
-    id: '2482',
-    spanish: 'deprimido / deprimida',
-    german: 'deprimiert',
-    type: 'adjective',
-    sentence_es: 'Me siento deprimido \u00faltimamente.',
-    sentence_de: 'Ich f\u00fchle mich in letzter Zeit deprimiert.',
+    id: '2946', spanish: 'la Unión Europea', german: 'die Europäische Union', type: 'noun',
+    sentence_es: 'España es miembro de la Unión Europea desde 1986.',
+    sentence_de: 'Spanien ist seit 1986 Mitglied der Europäischen Union.',
     audio: '',
-    word_translations: { 'me': 'mich', 'siento': 'f\u00fchle', 'deprimido': 'deprimiert', '\u00faltimamente': 'in letzter Zeit' }
-  }
+    word_translations: { España: 'Spanien', es: 'ist', miembro: 'Mitglied', de: 'von/der', la: 'die', 'Unión Europea': 'Europäische Union', desde: 'seit' }
+  },
+  {
+    id: '2947', spanish: 'las achuras', german: 'Innereien vom Grill (Argentinien)', type: 'noun',
+    note: 'Argentinien — typisch für den asado: chinchulines (Kutteln), mollejas (Bries), riñones (Nieren)',
+    sentence_es: 'Las achuras son una parte esencial del asado argentino.',
+    sentence_de: 'Gegrillte Innereien sind ein wesentlicher Bestandteil des argentinischen Grillgerichts.',
+    audio: '',
+    word_translations: { las: 'die', achuras: 'Innereien vom Grill', son: 'sind', 'una parte': 'ein Teil', esencial: 'wesentlich/essenziell', del: 'des', asado: 'Grillgerichts', argentino: 'argentinischen' }
+  },
 ];
 
-const updatedVocab = [...vocab, ...newEntries];
-fs.writeFileSync(vocabPath, JSON.stringify(updatedVocab, null, 2), 'utf8');
-console.log('vocabulario-es.json: added', newEntries.length, 'entries. Total:', updatedVocab.length);
+newEntries.forEach(e => vocab.push(e));
+writeJson(vocabPath, vocab);
+console.log('Added', newEntries.length, 'new entries (IDs 2927-2947)');
+console.log('New total:', vocab.length);
 
-// ── 2. Add 5 phrases to redewendungen.json ──────────────────────────────────
-const redePath = path.join(base, 'data/modules/redewendungen.json');
-const redeData = JSON.parse(fs.readFileSync(redePath, 'utf8'));
+// ── 3. Update module vocabIds ────────────────────────────────────────────────
+const moduleAssignments = {
+  'vokabeln-3.json':        ['2927', '2928'],
+  'vokabeln-4.json':        ['2929', '2931', '2934', '2935'],
+  'vokabeln-5.json':        ['2932', '2939'],
+  'vokabeln-6.json':        ['2936'],
+  'vokabeln-7.json':        ['2930', '2938'],
+  'vokabeln-8.json':        ['2933'],
+  'vokabeln-10.json':       ['2937'],
+  'essen-und-trinken.json': ['2940', '2941', '2942', '2943', '2944', '2945'],
+  'formale-vokabeln.json':  ['2946'],
+  'latam.json':             ['2947'],
+};
 
-const newPhrases = [
-  {
-    id: 'r5',
-    spanish: 'Buenos d\u00edas',
-    german: 'Guten Morgen',
-    literal: '',
-    sentence_es: 'Buenos d\u00edas, \u00bfc\u00f3mo est\u00e1 usted?',
-    sentence_de: 'Guten Morgen, wie geht es Ihnen?',
-    audio: '',
-    word_translations: { 'buenos': 'gute', 'd\u00edas': 'Tage/Morgen', 'c\u00f3mo': 'wie', 'est\u00e1': 'geht', 'usted': 'Ihnen' }
-  },
-  {
-    id: 'r6',
-    spanish: 'Por favor',
-    german: 'Bitte',
-    literal: '',
-    sentence_es: '\u00bfMe puede ayudar, por favor?',
-    sentence_de: 'K\u00f6nnen Sie mir bitte helfen?',
-    audio: '',
-    word_translations: { 'me': 'mir', 'puede': 'k\u00f6nnen Sie', 'ayudar': 'helfen', 'por': 'f\u00fcr', 'favor': 'Gefallen/bitte' }
-  },
-  {
-    id: 'r7',
-    spanish: 'Gracias',
-    german: 'Danke',
-    literal: '',
-    sentence_es: 'Muchas gracias por tu ayuda.',
-    sentence_de: 'Vielen Dank f\u00fcr deine Hilfe.',
-    audio: '',
-    word_translations: { 'muchas': 'vielen', 'gracias': 'Dank/Danke', 'por': 'f\u00fcr', 'tu': 'deine', 'ayuda': 'Hilfe' }
-  },
-  {
-    id: 'r8',
-    spanish: '\u00bfCu\u00e1nto cuesta?',
-    german: 'Wie viel kostet das?',
-    literal: '',
-    sentence_es: '\u00bfCu\u00e1nto cuesta este caf\u00e9?',
-    sentence_de: 'Wie viel kostet dieser Kaffee?',
-    audio: '',
-    word_translations: { 'cu\u00e1nto': 'wie viel', 'cuesta': 'kostet', 'este': 'dieser', 'caf\u00e9': 'Kaffee' }
-  },
-  {
-    id: 'r9',
-    spanish: 'No entiendo',
-    german: 'Ich verstehe nicht',
-    literal: '',
-    sentence_es: 'No entiendo, \u00bfpuede repetir?',
-    sentence_de: 'Ich verstehe nicht, k\u00f6nnen Sie wiederholen?',
-    audio: '',
-    word_translations: { 'no': 'nicht', 'entiendo': 'ich verstehe', 'puede': 'k\u00f6nnen Sie', 'repetir': 'wiederholen' }
-  }
-];
+const modDir = path.join(__dirname, '../data/modules');
+Object.entries(moduleAssignments).forEach(([file, ids]) => {
+  const p = path.join(modDir, file);
+  const mod = readJson(p);
+  const before = (mod.vocabIds || []).length;
+  ids.forEach(id => {
+    if (!mod.vocabIds.includes(id)) mod.vocabIds.push(id);
+  });
+  writeJson(p, mod);
+  console.log(file + ': added [' + ids.join(', ') + '] (was ' + before + ', now ' + mod.vocabIds.length + ')');
+});
 
-redeData.phrases = [...redeData.phrases, ...newPhrases];
-fs.writeFileSync(redePath, JSON.stringify(redeData, null, 2), 'utf8');
-console.log('redewendungen.json: added', newPhrases.length, 'phrases. Total:', redeData.phrases.length);
-
-// ── 3. Add IDs to module files ────────────────────────────────────────────────
-// vokabeln-2: ultra-basics (cómo, sentir, leche, café)
-const v2Path = path.join(base, 'data/modules/vokabeln-2.json');
-const v2 = JSON.parse(fs.readFileSync(v2Path, 'utf8'));
-v2.vocabIds = [...v2.vocabIds, '2463', '2464', '2465', '2466'];
-fs.writeFileSync(v2Path, JSON.stringify(v2, null, 2), 'utf8');
-console.log('vokabeln-2.json: added 4 IDs. Total:', v2.vocabIds.length);
-
-// vokabeln-3: remaining 16 entries (2467–2482)
-const v3Path = path.join(base, 'data/modules/vokabeln-3.json');
-const v3 = JSON.parse(fs.readFileSync(v3Path, 'utf8'));
-const v3New = Array.from({ length: 16 }, (_, i) => String(2467 + i));
-v3.vocabIds = [...v3.vocabIds, ...v3New];
-fs.writeFileSync(v3Path, JSON.stringify(v3, null, 2), 'utf8');
-console.log('vokabeln-3.json: added 16 IDs. Total:', v3.vocabIds.length);
-
-console.log('\nAll done!');
+console.log('\nDone.');
