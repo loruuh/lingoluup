@@ -48287,5 +48287,3615 @@
       "asado": "Grillgerichts",
       "argentino": "argentinischen"
     }
+  },
+  {
+    "id": "2948",
+    "spanish": "soy",
+    "german": "ich bin",
+    "category": "Verben: ser",
+    "sentence_es": "Soy estudiante.",
+    "sentence_de": "Ich bin Student.",
+    "note": "ser – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "2949",
+    "spanish": "eres",
+    "german": "du bist",
+    "category": "Verben: ser",
+    "sentence_es": "¿Eres de España?",
+    "sentence_de": "Bist du aus Spanien?",
+    "note": "ser – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "2950",
+    "spanish": "es",
+    "german": "er/sie ist",
+    "category": "Verben: ser",
+    "sentence_es": "Ella es muy simpática.",
+    "sentence_de": "Sie ist sehr nett.",
+    "note": "ser – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2951",
+    "spanish": "somos",
+    "german": "wir sind",
+    "category": "Verben: ser",
+    "sentence_es": "Somos cuatro hermanos.",
+    "sentence_de": "Wir sind vier Geschwister.",
+    "note": "ser – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2952",
+    "spanish": "sois",
+    "german": "ihr seid",
+    "category": "Verben: ser",
+    "sentence_es": "¿Sois de Madrid?",
+    "sentence_de": "Seid ihr aus Madrid?",
+    "note": "ser – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2953",
+    "spanish": "son",
+    "german": "sie sind",
+    "category": "Verben: ser",
+    "sentence_es": "Son las diez de la noche.",
+    "sentence_de": "Es ist zehn Uhr abends.",
+    "note": "ser – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2954",
+    "spanish": "fui",
+    "german": "ich war",
+    "category": "Verben: ser",
+    "sentence_es": "Ayer fui al médico.",
+    "sentence_de": "Gestern war ich beim Arzt.",
+    "note": "ser – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "2955",
+    "spanish": "fuiste",
+    "german": "du warst",
+    "category": "Verben: ser",
+    "sentence_es": "¿Fuiste tú quien llamó?",
+    "sentence_de": "Warst du derjenige, der angerufen hat?",
+    "note": "ser – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "2956",
+    "spanish": "fue",
+    "german": "er/sie war",
+    "category": "Verben: ser",
+    "sentence_es": "Fue una gran sorpresa.",
+    "sentence_de": "Es war eine große Überraschung.",
+    "note": "ser – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2957",
+    "spanish": "fuimos",
+    "german": "wir waren",
+    "category": "Verben: ser",
+    "sentence_es": "Fuimos los primeros en llegar.",
+    "sentence_de": "Wir waren die Ersten, die ankamen.",
+    "note": "ser – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2958",
+    "spanish": "fuisteis",
+    "german": "ihr wart",
+    "category": "Verben: ser",
+    "sentence_es": "¿Fuisteis al concierto ayer?",
+    "sentence_de": "Wart ihr gestern beim Konzert?",
+    "note": "ser – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2959",
+    "spanish": "fueron",
+    "german": "sie waren",
+    "category": "Verben: ser",
+    "sentence_es": "Fueron muy amables con nosotros.",
+    "sentence_de": "Sie waren sehr freundlich zu uns.",
+    "note": "ser – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2960",
+    "spanish": "seré",
+    "german": "ich werde sein",
+    "category": "Verben: ser",
+    "sentence_es": "Seré médico algún día.",
+    "sentence_de": "Eines Tages werde ich Arzt sein.",
+    "note": "ser – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "2961",
+    "spanish": "serás",
+    "german": "du wirst sein",
+    "category": "Verben: ser",
+    "sentence_es": "Serás un gran músico.",
+    "sentence_de": "Du wirst ein großer Musiker sein.",
+    "note": "ser – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "2962",
+    "spanish": "será",
+    "german": "er/sie wird sein",
+    "category": "Verben: ser",
+    "sentence_es": "La reunión será a las cinco.",
+    "sentence_de": "Das Treffen wird um fünf sein.",
+    "note": "ser – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2963",
+    "spanish": "seremos",
+    "german": "wir werden sein",
+    "category": "Verben: ser",
+    "sentence_es": "Seremos felices juntos.",
+    "sentence_de": "Wir werden glücklich zusammen sein.",
+    "note": "ser – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2964",
+    "spanish": "seréis",
+    "german": "ihr werdet sein",
+    "category": "Verben: ser",
+    "sentence_es": "Seréis los mejores del equipo.",
+    "sentence_de": "Ihr werdet die Besten des Teams sein.",
+    "note": "ser – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2965",
+    "spanish": "serán",
+    "german": "sie werden sein",
+    "category": "Verben: ser",
+    "sentence_es": "Las clases serán por la mañana.",
+    "sentence_de": "Der Unterricht wird morgens sein.",
+    "note": "ser – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2966",
+    "spanish": "sería",
+    "german": "ich wäre",
+    "category": "Verben: ser",
+    "sentence_es": "Sería mejor esperar un poco.",
+    "sentence_de": "Es wäre besser, etwas zu warten.",
+    "note": "ser – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "2967",
+    "spanish": "serías",
+    "german": "du wärst",
+    "category": "Verben: ser",
+    "sentence_es": "Serías un buen maestro.",
+    "sentence_de": "Du wärst ein guter Lehrer.",
+    "note": "ser – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "2968",
+    "spanish": "sería",
+    "german": "er/sie wäre",
+    "category": "Verben: ser",
+    "sentence_es": "Sería perfecto para ese puesto.",
+    "sentence_de": "Er/sie wäre perfekt für die Stelle.",
+    "note": "ser – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2969",
+    "spanish": "seríamos",
+    "german": "wir wären",
+    "category": "Verben: ser",
+    "sentence_es": "Seríamos más felices allí.",
+    "sentence_de": "Wir wären dort glücklicher.",
+    "note": "ser – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2970",
+    "spanish": "seríais",
+    "german": "ihr wärt",
+    "category": "Verben: ser",
+    "sentence_es": "Seríais buenos en ese trabajo.",
+    "sentence_de": "Ihr wärt gut in dieser Arbeit.",
+    "note": "ser – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2971",
+    "spanish": "serían",
+    "german": "sie wären",
+    "category": "Verben: ser",
+    "sentence_es": "Serían las mejores opciones.",
+    "sentence_de": "Das wären die besten Möglichkeiten.",
+    "note": "ser – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2972",
+    "spanish": "estoy",
+    "german": "ich bin",
+    "category": "Verben: estar",
+    "sentence_es": "Estoy en casa ahora.",
+    "sentence_de": "Ich bin jetzt zu Hause.",
+    "note": "estar – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "2973",
+    "spanish": "estás",
+    "german": "du bist",
+    "category": "Verben: estar",
+    "sentence_es": "¿Cómo estás hoy?",
+    "sentence_de": "Wie geht es dir heute?",
+    "note": "estar – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "2974",
+    "spanish": "está",
+    "german": "er/sie ist",
+    "category": "Verben: estar",
+    "sentence_es": "La puerta está abierta.",
+    "sentence_de": "Die Tür ist offen.",
+    "note": "estar – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2975",
+    "spanish": "estamos",
+    "german": "wir sind",
+    "category": "Verben: estar",
+    "sentence_es": "Estamos listos para salir.",
+    "sentence_de": "Wir sind bereit loszugehen.",
+    "note": "estar – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2976",
+    "spanish": "estáis",
+    "german": "ihr seid",
+    "category": "Verben: estar",
+    "sentence_es": "¿Estáis cansados?",
+    "sentence_de": "Seid ihr müde?",
+    "note": "estar – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2977",
+    "spanish": "están",
+    "german": "sie sind",
+    "category": "Verben: estar",
+    "sentence_es": "Los niños están durmiendo.",
+    "sentence_de": "Die Kinder schlafen gerade.",
+    "note": "estar – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2978",
+    "spanish": "estuve",
+    "german": "ich war",
+    "category": "Verben: estar",
+    "sentence_es": "Estuve en Madrid el año pasado.",
+    "sentence_de": "Letztes Jahr war ich in Madrid.",
+    "note": "estar – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "2979",
+    "spanish": "estuviste",
+    "german": "du warst",
+    "category": "Verben: estar",
+    "sentence_es": "¿Estuviste en la fiesta anoche?",
+    "sentence_de": "Warst du gestern Abend auf der Party?",
+    "note": "estar – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "2980",
+    "spanish": "estuvo",
+    "german": "er/sie war",
+    "category": "Verben: estar",
+    "sentence_es": "Estuvo enfermo toda la semana.",
+    "sentence_de": "Er/sie war die ganze Woche krank.",
+    "note": "estar – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2981",
+    "spanish": "estuvimos",
+    "german": "wir waren",
+    "category": "Verben: estar",
+    "sentence_es": "Estuvimos esperando dos horas.",
+    "sentence_de": "Wir haben zwei Stunden gewartet.",
+    "note": "estar – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2982",
+    "spanish": "estuvisteis",
+    "german": "ihr wart",
+    "category": "Verben: estar",
+    "sentence_es": "¿Estuvisteis en casa todo el día?",
+    "sentence_de": "Wart ihr den ganzen Tag zu Hause?",
+    "note": "estar – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2983",
+    "spanish": "estuvieron",
+    "german": "sie waren",
+    "category": "Verben: estar",
+    "sentence_es": "Estuvieron de viaje tres semanas.",
+    "sentence_de": "Sie waren drei Wochen auf Reisen.",
+    "note": "estar – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2984",
+    "spanish": "estaré",
+    "german": "ich werde sein",
+    "category": "Verben: estar",
+    "sentence_es": "Estaré en casa a las seis.",
+    "sentence_de": "Ich werde um sechs zu Hause sein.",
+    "note": "estar – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "2985",
+    "spanish": "estarás",
+    "german": "du wirst sein",
+    "category": "Verben: estar",
+    "sentence_es": "Estarás bien muy pronto.",
+    "sentence_de": "Du wirst sehr bald wieder gesund sein.",
+    "note": "estar – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "2986",
+    "spanish": "estará",
+    "german": "er/sie wird sein",
+    "category": "Verben: estar",
+    "sentence_es": "La tienda estará cerrada mañana.",
+    "sentence_de": "Der Laden wird morgen geschlossen sein.",
+    "note": "estar – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2987",
+    "spanish": "estaremos",
+    "german": "wir werden sein",
+    "category": "Verben: estar",
+    "sentence_es": "Estaremos listos para el lunes.",
+    "sentence_de": "Wir werden bis Montag fertig sein.",
+    "note": "estar – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2988",
+    "spanish": "estaréis",
+    "german": "ihr werdet sein",
+    "category": "Verben: estar",
+    "sentence_es": "Estaréis orgullosos del resultado.",
+    "sentence_de": "Ihr werdet stolz auf das Ergebnis sein.",
+    "note": "estar – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2989",
+    "spanish": "estarán",
+    "german": "sie werden sein",
+    "category": "Verben: estar",
+    "sentence_es": "Estarán de vacaciones la semana que viene.",
+    "sentence_de": "Sie werden nächste Woche im Urlaub sein.",
+    "note": "estar – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2990",
+    "spanish": "estaría",
+    "german": "ich wäre",
+    "category": "Verben: estar",
+    "sentence_es": "Estaría mejor en casa hoy.",
+    "sentence_de": "Ich wäre heute zu Hause besser aufgehoben.",
+    "note": "estar – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "2991",
+    "spanish": "estarías",
+    "german": "du wärst",
+    "category": "Verben: estar",
+    "sentence_es": "Estarías más cómodo en el sofá.",
+    "sentence_de": "Du wärst auf dem Sofa bequemer.",
+    "note": "estar – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "2992",
+    "spanish": "estaría",
+    "german": "er/sie wäre",
+    "category": "Verben: estar",
+    "sentence_es": "Estaría bien tomar un descanso.",
+    "sentence_de": "Es wäre gut, eine Pause zu machen.",
+    "note": "estar – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2993",
+    "spanish": "estaríamos",
+    "german": "wir wären",
+    "category": "Verben: estar",
+    "sentence_es": "Estaríamos allí a tiempo.",
+    "sentence_de": "Wir wären rechtzeitig dort.",
+    "note": "estar – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "2994",
+    "spanish": "estaríais",
+    "german": "ihr wärt",
+    "category": "Verben: estar",
+    "sentence_es": "Estaríais más tranquilos en el campo.",
+    "sentence_de": "Ihr wärt auf dem Land ruhiger.",
+    "note": "estar – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "2995",
+    "spanish": "estarían",
+    "german": "sie wären",
+    "category": "Verben: estar",
+    "sentence_es": "Estarían encantados de ayudarte.",
+    "sentence_de": "Sie wären begeistert, dir zu helfen.",
+    "note": "estar – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "2996",
+    "spanish": "tengo",
+    "german": "ich habe",
+    "category": "Verben: tener",
+    "sentence_es": "Tengo mucha hambre.",
+    "sentence_de": "Ich habe großen Hunger.",
+    "note": "tener – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "2997",
+    "spanish": "tienes",
+    "german": "du hast",
+    "category": "Verben: tener",
+    "sentence_es": "¿Tienes un momento?",
+    "sentence_de": "Hast du einen Moment?",
+    "note": "tener – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "2998",
+    "spanish": "tiene",
+    "german": "er/sie hat",
+    "category": "Verben: tener",
+    "sentence_es": "Tiene veinte años.",
+    "sentence_de": "Er/sie ist zwanzig Jahre alt.",
+    "note": "tener – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "2999",
+    "spanish": "tenemos",
+    "german": "wir haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tenemos una reunión importante.",
+    "sentence_de": "Wir haben ein wichtiges Meeting.",
+    "note": "tener – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3000",
+    "spanish": "tenéis",
+    "german": "ihr habt",
+    "category": "Verben: tener",
+    "sentence_es": "¿Tenéis suficiente dinero?",
+    "sentence_de": "Habt ihr genug Geld?",
+    "note": "tener – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3001",
+    "spanish": "tienen",
+    "german": "sie haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tienen razón en eso.",
+    "sentence_de": "Sie haben damit recht.",
+    "note": "tener – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3002",
+    "spanish": "tuve",
+    "german": "ich hatte",
+    "category": "Verben: tener",
+    "sentence_es": "Tuve un día muy difícil.",
+    "sentence_de": "Ich hatte einen sehr schwierigen Tag.",
+    "note": "tener – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3003",
+    "spanish": "tuviste",
+    "german": "du hattest",
+    "category": "Verben: tener",
+    "sentence_es": "¿Tuviste suerte en el examen?",
+    "sentence_de": "Hattest du Glück bei der Prüfung?",
+    "note": "tener – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3004",
+    "spanish": "tuvo",
+    "german": "er/sie hatte",
+    "category": "Verben: tener",
+    "sentence_es": "Tuvo que esperar mucho tiempo.",
+    "sentence_de": "Er/sie musste sehr lange warten.",
+    "note": "tener – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3005",
+    "spanish": "tuvimos",
+    "german": "wir hatten",
+    "category": "Verben: tener",
+    "sentence_es": "Tuvimos muchos problemas.",
+    "sentence_de": "Wir hatten viele Probleme.",
+    "note": "tener – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3006",
+    "spanish": "tuvisteis",
+    "german": "ihr hattet",
+    "category": "Verben: tener",
+    "sentence_es": "¿Tuvisteis tiempo de comer?",
+    "sentence_de": "Hattet ihr Zeit zu essen?",
+    "note": "tener – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3007",
+    "spanish": "tuvieron",
+    "german": "sie hatten",
+    "category": "Verben: tener",
+    "sentence_es": "Tuvieron que cancelar el viaje.",
+    "sentence_de": "Sie mussten die Reise absagen.",
+    "note": "tener – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3008",
+    "spanish": "tendré",
+    "german": "ich werde haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendré más tiempo la semana que viene.",
+    "sentence_de": "Nächste Woche werde ich mehr Zeit haben.",
+    "note": "tener – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3009",
+    "spanish": "tendrás",
+    "german": "du wirst haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendrás que estudiar más.",
+    "sentence_de": "Du wirst mehr lernen müssen.",
+    "note": "tener – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3010",
+    "spanish": "tendrá",
+    "german": "er/sie wird haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendrá razón, supongo.",
+    "sentence_de": "Er/sie wird wohl recht haben.",
+    "note": "tener – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3011",
+    "spanish": "tendremos",
+    "german": "wir werden haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendremos una reunión el lunes.",
+    "sentence_de": "Wir werden am Montag ein Meeting haben.",
+    "note": "tener – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3012",
+    "spanish": "tendréis",
+    "german": "ihr werdet haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendréis mucha suerte.",
+    "sentence_de": "Ihr werdet viel Glück haben.",
+    "note": "tener – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3013",
+    "spanish": "tendrán",
+    "german": "sie werden haben",
+    "category": "Verben: tener",
+    "sentence_es": "Tendrán que decidir pronto.",
+    "sentence_de": "Sie werden bald entscheiden müssen.",
+    "note": "tener – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3014",
+    "spanish": "tendría",
+    "german": "ich hätte",
+    "category": "Verben: tener",
+    "sentence_es": "Tendría más cuidado la próxima vez.",
+    "sentence_de": "Ich würde beim nächsten Mal vorsichtiger sein.",
+    "note": "tener – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3015",
+    "spanish": "tendrías",
+    "german": "du hättest",
+    "category": "Verben: tener",
+    "sentence_es": "Tendrías más éxito con práctica.",
+    "sentence_de": "Du hättest mit Übung mehr Erfolg.",
+    "note": "tener – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3016",
+    "spanish": "tendría",
+    "german": "er/sie hätte",
+    "category": "Verben: tener",
+    "sentence_es": "Tendría paciencia en tu lugar.",
+    "sentence_de": "Er/sie hätte an deiner Stelle Geduld.",
+    "note": "tener – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3017",
+    "spanish": "tendríamos",
+    "german": "wir hätten",
+    "category": "Verben: tener",
+    "sentence_es": "Tendríamos más tiempo así.",
+    "sentence_de": "Wir hätten so mehr Zeit.",
+    "note": "tener – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3018",
+    "spanish": "tendríais",
+    "german": "ihr hättet",
+    "category": "Verben: tener",
+    "sentence_es": "Tendríais que decidirlo vosotros.",
+    "sentence_de": "Ihr hättet das selbst entscheiden müssen.",
+    "note": "tener – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3019",
+    "spanish": "tendrían",
+    "german": "sie hätten",
+    "category": "Verben: tener",
+    "sentence_es": "Tendrían que hablar con el jefe.",
+    "sentence_de": "Sie hätten mit dem Chef sprechen müssen.",
+    "note": "tener – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3020",
+    "spanish": "he",
+    "german": "ich habe",
+    "category": "Verben: haber",
+    "sentence_es": "He comido demasiado.",
+    "sentence_de": "Ich habe zu viel gegessen.",
+    "note": "haber – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3021",
+    "spanish": "has",
+    "german": "du hast",
+    "category": "Verben: haber",
+    "sentence_es": "¿Has visto esa película?",
+    "sentence_de": "Hast du diesen Film gesehen?",
+    "note": "haber – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3022",
+    "spanish": "ha",
+    "german": "er/sie hat",
+    "category": "Verben: haber",
+    "sentence_es": "Ella ha llegado tarde.",
+    "sentence_de": "Sie ist spät angekommen.",
+    "note": "haber – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3023",
+    "spanish": "hemos",
+    "german": "wir haben",
+    "category": "Verben: haber",
+    "sentence_es": "Hemos terminado el proyecto.",
+    "sentence_de": "Wir haben das Projekt beendet.",
+    "note": "haber – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3024",
+    "spanish": "habéis",
+    "german": "ihr habt",
+    "category": "Verben: haber",
+    "sentence_es": "¿Habéis reservado mesa?",
+    "sentence_de": "Habt ihr einen Tisch reserviert?",
+    "note": "haber – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3025",
+    "spanish": "han",
+    "german": "sie haben",
+    "category": "Verben: haber",
+    "sentence_es": "Han salido a las ocho.",
+    "sentence_de": "Sie sind um acht ausgegangen.",
+    "note": "haber – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3026",
+    "spanish": "hube",
+    "german": "ich hatte (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Cuando hube terminado, salí.",
+    "sentence_de": "Als ich fertig war, ging ich.",
+    "note": "haber – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3027",
+    "spanish": "hubiste",
+    "german": "du hattest (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Cuando hubiste llegado, llamaste.",
+    "sentence_de": "Als du angekommen warst, riefst du an.",
+    "note": "haber – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3028",
+    "spanish": "hubo",
+    "german": "er/sie hatte (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Cuando hubo comido, se marchó.",
+    "sentence_de": "Als er/sie gegessen hatte, ging er/sie.",
+    "note": "haber – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3029",
+    "spanish": "hubimos",
+    "german": "wir hatten (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Cuando hubimos salido, cerró.",
+    "sentence_de": "Als wir gegangen waren, schloss er.",
+    "note": "haber – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3030",
+    "spanish": "hubisteis",
+    "german": "ihr hattet (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Después de que hubisteis entrado, empezó.",
+    "sentence_de": "Nachdem ihr hineingegangen wart, begann es.",
+    "note": "haber – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3031",
+    "spanish": "hubieron",
+    "german": "sie hatten (Vorvergangenheit)",
+    "category": "Verben: haber",
+    "sentence_es": "Cuando hubieron llegado, empezamos.",
+    "sentence_de": "Als sie angekommen waren, begannen wir.",
+    "note": "haber – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3032",
+    "spanish": "habré",
+    "german": "ich werde haben",
+    "category": "Verben: haber",
+    "sentence_es": "Para mañana habré terminado el informe.",
+    "sentence_de": "Bis morgen werde ich den Bericht fertig haben.",
+    "note": "haber – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3033",
+    "spanish": "habrás",
+    "german": "du wirst haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habrás oído la noticia para entonces.",
+    "sentence_de": "Du wirst die Neuigkeit bis dahin gehört haben.",
+    "note": "haber – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3034",
+    "spanish": "habrá",
+    "german": "er/sie wird haben",
+    "category": "Verben: haber",
+    "sentence_es": "Para el viernes habrá llegado.",
+    "sentence_de": "Bis Freitag wird er/sie angekommen sein.",
+    "note": "haber – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3035",
+    "spanish": "habremos",
+    "german": "wir werden haben",
+    "category": "Verben: haber",
+    "sentence_es": "Para el lunes habremos terminado.",
+    "sentence_de": "Bis Montag werden wir fertig sein.",
+    "note": "haber – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3036",
+    "spanish": "habréis",
+    "german": "ihr werdet haben",
+    "category": "Verben: haber",
+    "sentence_es": "Para la cena habréis vuelto.",
+    "sentence_de": "Bis zum Abendessen werdet ihr zurück sein.",
+    "note": "haber – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3037",
+    "spanish": "habrán",
+    "german": "sie werden haben",
+    "category": "Verben: haber",
+    "sentence_es": "Ya habrán llegado a casa.",
+    "sentence_de": "Sie werden schon zu Hause angekommen sein.",
+    "note": "haber – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3038",
+    "spanish": "habría",
+    "german": "ich würde haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habría venido antes si hubiera sabido.",
+    "sentence_de": "Ich wäre früher gekommen, wenn ich es gewusst hätte.",
+    "note": "haber – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3039",
+    "spanish": "habrías",
+    "german": "du würdest haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habrías ganado si hubieras jugado.",
+    "sentence_de": "Du hättest gewonnen, wenn du gespielt hättest.",
+    "note": "haber – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3040",
+    "spanish": "habría",
+    "german": "er/sie würde haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habría sido mejor esperar.",
+    "sentence_de": "Es wäre besser gewesen zu warten.",
+    "note": "haber – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3041",
+    "spanish": "habríamos",
+    "german": "wir würden haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habríamos llegado antes sin el tráfico.",
+    "sentence_de": "Wir wären ohne den Stau früher angekommen.",
+    "note": "haber – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3042",
+    "spanish": "habríais",
+    "german": "ihr würdet haben",
+    "category": "Verben: haber",
+    "sentence_es": "Habríais disfrutado la película.",
+    "sentence_de": "Ihr hättet den Film genossen.",
+    "note": "haber – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3043",
+    "spanish": "habrían",
+    "german": "sie würden haben",
+    "category": "Verben: haber",
+    "sentence_es": "Ya habrían terminado sin los problemas.",
+    "sentence_de": "Sie wären ohne die Probleme schon fertig gewesen.",
+    "note": "haber – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3044",
+    "spanish": "hay",
+    "german": "es gibt",
+    "category": "Verben: haber",
+    "sentence_es": "Hay un banco en la esquina.",
+    "sentence_de": "Es gibt eine Bank an der Ecke.",
+    "note": "haber – Impersonal – hay (es gibt)",
+    "audio": ""
+  },
+  {
+    "id": "3045",
+    "spanish": "voy",
+    "german": "ich gehe",
+    "category": "Verben: ir",
+    "sentence_es": "Voy al supermercado.",
+    "sentence_de": "Ich gehe zum Supermarkt.",
+    "note": "ir – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3046",
+    "spanish": "vas",
+    "german": "du gehst",
+    "category": "Verben: ir",
+    "sentence_es": "¿A dónde vas tan rápido?",
+    "sentence_de": "Wohin gehst du so schnell?",
+    "note": "ir – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3047",
+    "spanish": "va",
+    "german": "er/sie geht",
+    "category": "Verben: ir",
+    "sentence_es": "El tren va a Barcelona.",
+    "sentence_de": "Der Zug fährt nach Barcelona.",
+    "note": "ir – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3048",
+    "spanish": "vamos",
+    "german": "wir gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Vamos a la playa hoy.",
+    "sentence_de": "Wir gehen heute an den Strand.",
+    "note": "ir – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3049",
+    "spanish": "vais",
+    "german": "ihr geht",
+    "category": "Verben: ir",
+    "sentence_es": "¿A dónde vais este verano?",
+    "sentence_de": "Wohin fahrt ihr diesen Sommer?",
+    "note": "ir – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3050",
+    "spanish": "van",
+    "german": "sie gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Van al cine esta noche.",
+    "sentence_de": "Sie gehen heute Abend ins Kino.",
+    "note": "ir – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3051",
+    "spanish": "fui",
+    "german": "ich ging",
+    "category": "Verben: ir",
+    "sentence_es": "Fui a la tienda esta mañana.",
+    "sentence_de": "Ich bin heute Morgen in den Laden gegangen.",
+    "note": "ir – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3052",
+    "spanish": "fuiste",
+    "german": "du gingst",
+    "category": "Verben: ir",
+    "sentence_es": "¿Fuiste al dentista ayer?",
+    "sentence_de": "Bist du gestern zum Zahnarzt gegangen?",
+    "note": "ir – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3053",
+    "spanish": "fue",
+    "german": "er/sie ging",
+    "category": "Verben: ir",
+    "sentence_es": "Fue a Madrid por trabajo.",
+    "sentence_de": "Er/sie fuhr beruflich nach Madrid.",
+    "note": "ir – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3054",
+    "spanish": "fuimos",
+    "german": "wir gingen",
+    "category": "Verben: ir",
+    "sentence_es": "Fuimos de vacaciones a Italia.",
+    "sentence_de": "Wir fuhren in den Urlaub nach Italien.",
+    "note": "ir – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3055",
+    "spanish": "fuisteis",
+    "german": "ihr gingt",
+    "category": "Verben: ir",
+    "sentence_es": "¿Fuisteis al partido de fútbol?",
+    "sentence_de": "Seid ihr zum Fußballspiel gegangen?",
+    "note": "ir – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3056",
+    "spanish": "fueron",
+    "german": "sie gingen",
+    "category": "Verben: ir",
+    "sentence_es": "Fueron al concierto juntos.",
+    "sentence_de": "Sie gingen zusammen zum Konzert.",
+    "note": "ir – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3057",
+    "spanish": "iré",
+    "german": "ich werde gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Iré a la playa mañana.",
+    "sentence_de": "Ich werde morgen an den Strand gehen.",
+    "note": "ir – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3058",
+    "spanish": "irás",
+    "german": "du wirst gehen",
+    "category": "Verben: ir",
+    "sentence_es": "¿Irás a la fiesta el sábado?",
+    "sentence_de": "Wirst du am Samstag zur Party gehen?",
+    "note": "ir – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3059",
+    "spanish": "irá",
+    "german": "er/sie wird gehen",
+    "category": "Verben: ir",
+    "sentence_es": "El jefe irá a la reunión.",
+    "sentence_de": "Der Chef wird zum Meeting gehen.",
+    "note": "ir – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3060",
+    "spanish": "iremos",
+    "german": "wir werden gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Iremos juntos al aeropuerto.",
+    "sentence_de": "Wir werden zusammen zum Flughafen gehen.",
+    "note": "ir – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3061",
+    "spanish": "iréis",
+    "german": "ihr werdet gehen",
+    "category": "Verben: ir",
+    "sentence_es": "¿Iréis de viaje este año?",
+    "sentence_de": "Werdet ihr dieses Jahr verreisen?",
+    "note": "ir – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3062",
+    "spanish": "irán",
+    "german": "sie werden gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Todos irán a la boda.",
+    "sentence_de": "Alle werden zur Hochzeit gehen.",
+    "note": "ir – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3063",
+    "spanish": "iría",
+    "german": "ich würde gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Iría contigo, pero estoy ocupado.",
+    "sentence_de": "Ich würde mit dir gehen, aber ich bin beschäftigt.",
+    "note": "ir – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3064",
+    "spanish": "irías",
+    "german": "du würdest gehen",
+    "category": "Verben: ir",
+    "sentence_es": "¿Irías tú solo a ese lugar?",
+    "sentence_de": "Würdest du alleine an diesen Ort gehen?",
+    "note": "ir – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3065",
+    "spanish": "iría",
+    "german": "er/sie würde gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Iría si pudiera.",
+    "sentence_de": "Er/sie würde gehen, wenn er/sie könnte.",
+    "note": "ir – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3066",
+    "spanish": "iríamos",
+    "german": "wir würden gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Iríamos de vacaciones a Japón.",
+    "sentence_de": "Wir würden nach Japan in den Urlaub gehen.",
+    "note": "ir – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3067",
+    "spanish": "iríais",
+    "german": "ihr würdet gehen",
+    "category": "Verben: ir",
+    "sentence_es": "¿Iríais vosotros sin nosotros?",
+    "sentence_de": "Würdet ihr ohne uns gehen?",
+    "note": "ir – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3068",
+    "spanish": "irían",
+    "german": "sie würden gehen",
+    "category": "Verben: ir",
+    "sentence_es": "Irían al extranjero si tuvieran dinero.",
+    "sentence_de": "Sie würden ins Ausland gehen, wenn sie Geld hätten.",
+    "note": "ir – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3069",
+    "spanish": "hago",
+    "german": "ich mache",
+    "category": "Verben: hacer",
+    "sentence_es": "Hago deporte todos los días.",
+    "sentence_de": "Ich treibe jeden Tag Sport.",
+    "note": "hacer – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3070",
+    "spanish": "haces",
+    "german": "du machst",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué haces el fin de semana?",
+    "sentence_de": "Was machst du am Wochenende?",
+    "note": "hacer – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3071",
+    "spanish": "hace",
+    "german": "er/sie macht",
+    "category": "Verben: hacer",
+    "sentence_es": "Hace calor hoy.",
+    "sentence_de": "Heute ist es warm.",
+    "note": "hacer – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3072",
+    "spanish": "hacemos",
+    "german": "wir machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Hacemos una pausa ahora.",
+    "sentence_de": "Wir machen jetzt eine Pause.",
+    "note": "hacer – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3073",
+    "spanish": "hacéis",
+    "german": "ihr macht",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué hacéis aquí?",
+    "sentence_de": "Was macht ihr hier?",
+    "note": "hacer – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3074",
+    "spanish": "hacen",
+    "german": "sie machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Los vecinos hacen demasiado ruido.",
+    "sentence_de": "Die Nachbarn machen zu viel Lärm.",
+    "note": "hacer – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3075",
+    "spanish": "hice",
+    "german": "ich machte",
+    "category": "Verben: hacer",
+    "sentence_es": "Hice los deberes ayer.",
+    "sentence_de": "Ich habe gestern die Hausaufgaben gemacht.",
+    "note": "hacer – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3076",
+    "spanish": "hiciste",
+    "german": "du machtest",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué hiciste el fin de semana?",
+    "sentence_de": "Was hast du am Wochenende gemacht?",
+    "note": "hacer – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3077",
+    "spanish": "hizo",
+    "german": "er/sie machte",
+    "category": "Verben: hacer",
+    "sentence_es": "Hizo mucho frío ayer.",
+    "sentence_de": "Gestern war es sehr kalt.",
+    "note": "hacer – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3078",
+    "spanish": "hicimos",
+    "german": "wir machten",
+    "category": "Verben: hacer",
+    "sentence_es": "Hicimos una excursión juntos.",
+    "sentence_de": "Wir haben gemeinsam einen Ausflug gemacht.",
+    "note": "hacer – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3079",
+    "spanish": "hicisteis",
+    "german": "ihr machtet",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Hicisteis los deberes?",
+    "sentence_de": "Habt ihr die Hausaufgaben gemacht?",
+    "note": "hacer – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3080",
+    "spanish": "hicieron",
+    "german": "sie machten",
+    "category": "Verben: hacer",
+    "sentence_es": "Hicieron un buen trabajo.",
+    "sentence_de": "Sie haben gute Arbeit geleistet.",
+    "note": "hacer – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3081",
+    "spanish": "haré",
+    "german": "ich werde machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Haré la compra mañana.",
+    "sentence_de": "Ich werde morgen einkaufen.",
+    "note": "hacer – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3082",
+    "spanish": "harás",
+    "german": "du wirst machen",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué harás este verano?",
+    "sentence_de": "Was wirst du diesen Sommer machen?",
+    "note": "hacer – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3083",
+    "spanish": "hará",
+    "german": "er/sie wird machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Mañana hará buen tiempo.",
+    "sentence_de": "Morgen wird das Wetter schön sein.",
+    "note": "hacer – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3084",
+    "spanish": "haremos",
+    "german": "wir werden machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Haremos lo posible.",
+    "sentence_de": "Wir werden unser Möglichstes tun.",
+    "note": "hacer – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3085",
+    "spanish": "haréis",
+    "german": "ihr werdet machen",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué haréis el próximo año?",
+    "sentence_de": "Was werdet ihr nächstes Jahr machen?",
+    "note": "hacer – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3086",
+    "spanish": "harán",
+    "german": "sie werden machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Harán los cambios necesarios.",
+    "sentence_de": "Sie werden die notwendigen Änderungen vornehmen.",
+    "note": "hacer – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3087",
+    "spanish": "haría",
+    "german": "ich würde machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Haría lo mismo en tu lugar.",
+    "sentence_de": "Ich würde dasselbe an deiner Stelle tun.",
+    "note": "hacer – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3088",
+    "spanish": "harías",
+    "german": "du würdest machen",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué harías tú en esa situación?",
+    "sentence_de": "Was würdest du in dieser Situation tun?",
+    "note": "hacer – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3089",
+    "spanish": "haría",
+    "german": "er/sie würde machen",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Qué haría sin tu ayuda?",
+    "sentence_de": "Was würde er/sie ohne deine Hilfe tun?",
+    "note": "hacer – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3090",
+    "spanish": "haríamos",
+    "german": "wir würden machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Haríamos más si tuviéramos tiempo.",
+    "sentence_de": "Wir würden mehr tun, wenn wir Zeit hätten.",
+    "note": "hacer – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3091",
+    "spanish": "haríais",
+    "german": "ihr würdet machen",
+    "category": "Verben: hacer",
+    "sentence_es": "¿Haríais algo diferente?",
+    "sentence_de": "Würdet ihr etwas anderes tun?",
+    "note": "hacer – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3092",
+    "spanish": "harían",
+    "german": "sie würden machen",
+    "category": "Verben: hacer",
+    "sentence_es": "Harían lo que pudieran.",
+    "sentence_de": "Sie würden tun, was sie könnten.",
+    "note": "hacer – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3093",
+    "spanish": "puedo",
+    "german": "ich kann",
+    "category": "Verben: poder",
+    "sentence_es": "No puedo dormir bien.",
+    "sentence_de": "Ich kann nicht gut schlafen.",
+    "note": "poder – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3094",
+    "spanish": "puedes",
+    "german": "du kannst",
+    "category": "Verben: poder",
+    "sentence_es": "¿Puedes ayudarme?",
+    "sentence_de": "Kannst du mir helfen?",
+    "note": "poder – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3095",
+    "spanish": "puede",
+    "german": "er/sie kann",
+    "category": "Verben: poder",
+    "sentence_es": "No puede venir hoy.",
+    "sentence_de": "Er/sie kann heute nicht kommen.",
+    "note": "poder – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3096",
+    "spanish": "podemos",
+    "german": "wir können",
+    "category": "Verben: poder",
+    "sentence_es": "¿Podemos entrar?",
+    "sentence_de": "Können wir reinkommen?",
+    "note": "poder – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3097",
+    "spanish": "podéis",
+    "german": "ihr könnt",
+    "category": "Verben: poder",
+    "sentence_es": "¿Podéis hablar más alto?",
+    "sentence_de": "Könnt ihr lauter sprechen?",
+    "note": "poder – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3098",
+    "spanish": "pueden",
+    "german": "sie können",
+    "category": "Verben: poder",
+    "sentence_es": "Pueden elegir lo que quieran.",
+    "sentence_de": "Sie können wählen, was sie möchten.",
+    "note": "poder – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3099",
+    "spanish": "pude",
+    "german": "ich konnte",
+    "category": "Verben: poder",
+    "sentence_es": "No pude terminar a tiempo.",
+    "sentence_de": "Ich konnte nicht rechtzeitig fertig werden.",
+    "note": "poder – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3100",
+    "spanish": "pudiste",
+    "german": "du konntest",
+    "category": "Verben: poder",
+    "sentence_es": "¿Pudiste dormir bien anoche?",
+    "sentence_de": "Konntest du gestern Nacht gut schlafen?",
+    "note": "poder – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3101",
+    "spanish": "pudo",
+    "german": "er/sie konnte",
+    "category": "Verben: poder",
+    "sentence_es": "No pudo abrir la puerta.",
+    "sentence_de": "Er/sie konnte die Tür nicht öffnen.",
+    "note": "poder – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3102",
+    "spanish": "pudimos",
+    "german": "wir konnten",
+    "category": "Verben: poder",
+    "sentence_es": "Por fin pudimos hablar.",
+    "sentence_de": "Endlich konnten wir reden.",
+    "note": "poder – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3103",
+    "spanish": "pudisteis",
+    "german": "ihr konntet",
+    "category": "Verben: poder",
+    "sentence_es": "¿Pudisteis encontrar el hotel?",
+    "sentence_de": "Konntet ihr das Hotel finden?",
+    "note": "poder – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3104",
+    "spanish": "pudieron",
+    "german": "sie konnten",
+    "category": "Verben: poder",
+    "sentence_es": "No pudieron llegar a tiempo.",
+    "sentence_de": "Sie konnten nicht rechtzeitig ankommen.",
+    "note": "poder – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3105",
+    "spanish": "podré",
+    "german": "ich werde können",
+    "category": "Verben: poder",
+    "sentence_es": "Podré ayudarte mañana.",
+    "sentence_de": "Ich werde dir morgen helfen können.",
+    "note": "poder – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3106",
+    "spanish": "podrás",
+    "german": "du wirst können",
+    "category": "Verben: poder",
+    "sentence_es": "Podrás hacerlo solo.",
+    "sentence_de": "Du wirst es alleine können.",
+    "note": "poder – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3107",
+    "spanish": "podrá",
+    "german": "er/sie wird können",
+    "category": "Verben: poder",
+    "sentence_es": "Podrá venir la próxima semana.",
+    "sentence_de": "Er/sie wird nächste Woche kommen können.",
+    "note": "poder – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3108",
+    "spanish": "podremos",
+    "german": "wir werden können",
+    "category": "Verben: poder",
+    "sentence_es": "Podremos salir más tarde.",
+    "sentence_de": "Wir werden später ausgehen können.",
+    "note": "poder – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3109",
+    "spanish": "podréis",
+    "german": "ihr werdet können",
+    "category": "Verben: poder",
+    "sentence_es": "Podréis elegir el destino.",
+    "sentence_de": "Ihr werdet das Ziel wählen können.",
+    "note": "poder – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3110",
+    "spanish": "podrán",
+    "german": "sie werden können",
+    "category": "Verben: poder",
+    "sentence_es": "Podrán entrar a las diez.",
+    "sentence_de": "Sie werden um zehn reinkommen können.",
+    "note": "poder – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3111",
+    "spanish": "podría",
+    "german": "ich könnte",
+    "category": "Verben: poder",
+    "sentence_es": "¿Podría hablar con usted?",
+    "sentence_de": "Könnte ich mit Ihnen sprechen?",
+    "note": "poder – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3112",
+    "spanish": "podrías",
+    "german": "du könntest",
+    "category": "Verben: poder",
+    "sentence_es": "¿Podrías explicarme eso?",
+    "sentence_de": "Könntest du mir das erklären?",
+    "note": "poder – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3113",
+    "spanish": "podría",
+    "german": "er/sie könnte",
+    "category": "Verben: poder",
+    "sentence_es": "Podría ser peor.",
+    "sentence_de": "Es könnte schlimmer sein.",
+    "note": "poder – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3114",
+    "spanish": "podríamos",
+    "german": "wir könnten",
+    "category": "Verben: poder",
+    "sentence_es": "Podríamos quedar mañana.",
+    "sentence_de": "Wir könnten uns morgen treffen.",
+    "note": "poder – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3115",
+    "spanish": "podríais",
+    "german": "ihr könntet",
+    "category": "Verben: poder",
+    "sentence_es": "¿Podríais ayudarnos?",
+    "sentence_de": "Könntet ihr uns helfen?",
+    "note": "poder – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3116",
+    "spanish": "podrían",
+    "german": "sie könnten",
+    "category": "Verben: poder",
+    "sentence_es": "Podrían llamar antes de venir.",
+    "sentence_de": "Sie könnten vor dem Kommen anrufen.",
+    "note": "poder – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3117",
+    "spanish": "digo",
+    "german": "ich sage",
+    "category": "Verben: decir",
+    "sentence_es": "Te digo la verdad.",
+    "sentence_de": "Ich sage dir die Wahrheit.",
+    "note": "decir – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3118",
+    "spanish": "dices",
+    "german": "du sagst",
+    "category": "Verben: decir",
+    "sentence_es": "¿Qué dices?",
+    "sentence_de": "Was sagst du?",
+    "note": "decir – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3119",
+    "spanish": "dice",
+    "german": "er/sie sagt",
+    "category": "Verben: decir",
+    "sentence_es": "El periódico dice que lloverá.",
+    "sentence_de": "Die Zeitung sagt, es wird regnen.",
+    "note": "decir – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3120",
+    "spanish": "decimos",
+    "german": "wir sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Decimos lo que pensamos.",
+    "sentence_de": "Wir sagen, was wir denken.",
+    "note": "decir – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3121",
+    "spanish": "decís",
+    "german": "ihr sagt",
+    "category": "Verben: decir",
+    "sentence_es": "¿Lo decís en serio?",
+    "sentence_de": "Meint ihr das ernst?",
+    "note": "decir – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3122",
+    "spanish": "dicen",
+    "german": "sie sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Dicen que es muy bueno.",
+    "sentence_de": "Sie sagen, es ist sehr gut.",
+    "note": "decir – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3123",
+    "spanish": "dije",
+    "german": "ich sagte",
+    "category": "Verben: decir",
+    "sentence_es": "Te dije la verdad ayer.",
+    "sentence_de": "Ich habe dir gestern die Wahrheit gesagt.",
+    "note": "decir – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3124",
+    "spanish": "dijiste",
+    "german": "du sagtest",
+    "category": "Verben: decir",
+    "sentence_es": "¿Qué dijiste exactamente?",
+    "sentence_de": "Was hast du genau gesagt?",
+    "note": "decir – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3125",
+    "spanish": "dijo",
+    "german": "er/sie sagte",
+    "category": "Verben: decir",
+    "sentence_es": "Me dijo que llegaría tarde.",
+    "sentence_de": "Er/sie sagte mir, er/sie würde spät kommen.",
+    "note": "decir – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3126",
+    "spanish": "dijimos",
+    "german": "wir sagten",
+    "category": "Verben: decir",
+    "sentence_es": "Les dijimos la verdad.",
+    "sentence_de": "Wir haben ihnen die Wahrheit gesagt.",
+    "note": "decir – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3127",
+    "spanish": "dijisteis",
+    "german": "ihr sagtet",
+    "category": "Verben: decir",
+    "sentence_es": "¿Qué dijisteis en la reunión?",
+    "sentence_de": "Was habt ihr im Meeting gesagt?",
+    "note": "decir – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3128",
+    "spanish": "dijeron",
+    "german": "sie sagten",
+    "category": "Verben: decir",
+    "sentence_es": "Dijeron que no podían venir.",
+    "sentence_de": "Sie sagten, sie könnten nicht kommen.",
+    "note": "decir – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3129",
+    "spanish": "diré",
+    "german": "ich werde sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Te diré un secreto.",
+    "sentence_de": "Ich werde dir ein Geheimnis verraten.",
+    "note": "decir – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3130",
+    "spanish": "dirás",
+    "german": "du wirst sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Ya dirás cuándo estés listo.",
+    "sentence_de": "Du sagst mir Bescheid, wenn du fertig bist.",
+    "note": "decir – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3131",
+    "spanish": "dirá",
+    "german": "er/sie wird sagen",
+    "category": "Verben: decir",
+    "sentence_es": "El médico dirá el diagnóstico mañana.",
+    "sentence_de": "Der Arzt wird morgen die Diagnose mitteilen.",
+    "note": "decir – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3132",
+    "spanish": "diremos",
+    "german": "wir werden sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Diremos la verdad siempre.",
+    "sentence_de": "Wir werden immer die Wahrheit sagen.",
+    "note": "decir – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3133",
+    "spanish": "diréis",
+    "german": "ihr werdet sagen",
+    "category": "Verben: decir",
+    "sentence_es": "¿Diréis algo en la reunión?",
+    "sentence_de": "Werdet ihr im Meeting etwas sagen?",
+    "note": "decir – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3134",
+    "spanish": "dirán",
+    "german": "sie werden sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Dirán lo que piensen.",
+    "sentence_de": "Sie werden sagen, was sie denken.",
+    "note": "decir – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3135",
+    "spanish": "diría",
+    "german": "ich würde sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Yo diría que sí.",
+    "sentence_de": "Ich würde sagen, ja.",
+    "note": "decir – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3136",
+    "spanish": "dirías",
+    "german": "du würdest sagen",
+    "category": "Verben: decir",
+    "sentence_es": "¿Qué dirías en esa situación?",
+    "sentence_de": "Was würdest du in dieser Situation sagen?",
+    "note": "decir – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3137",
+    "spanish": "diría",
+    "german": "er/sie würde sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Él diría la verdad.",
+    "sentence_de": "Er/sie würde die Wahrheit sagen.",
+    "note": "decir – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3138",
+    "spanish": "diríamos",
+    "german": "wir würden sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Diríamos que está bien.",
+    "sentence_de": "Wir würden sagen, es ist in Ordnung.",
+    "note": "decir – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3139",
+    "spanish": "diríais",
+    "german": "ihr würdet sagen",
+    "category": "Verben: decir",
+    "sentence_es": "¿Qué diríais si os preguntaran?",
+    "sentence_de": "Was würdet ihr sagen, wenn man euch fragen würde?",
+    "note": "decir – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3140",
+    "spanish": "dirían",
+    "german": "sie würden sagen",
+    "category": "Verben: decir",
+    "sentence_es": "Dirían que no hay problema.",
+    "sentence_de": "Sie würden sagen, es gibt kein Problem.",
+    "note": "decir – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3141",
+    "spanish": "veo",
+    "german": "ich sehe",
+    "category": "Verben: ver",
+    "sentence_es": "No veo nada sin mis gafas.",
+    "sentence_de": "Ich sehe nichts ohne meine Brille.",
+    "note": "ver – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3142",
+    "spanish": "ves",
+    "german": "du siehst",
+    "category": "Verben: ver",
+    "sentence_es": "¿Ves ese edificio allí?",
+    "sentence_de": "Siehst du dieses Gebäude dort?",
+    "note": "ver – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3143",
+    "spanish": "ve",
+    "german": "er/sie sieht",
+    "category": "Verben: ver",
+    "sentence_es": "Ve muy mal sin las gafas.",
+    "sentence_de": "Er/sie sieht ohne Brille sehr schlecht.",
+    "note": "ver – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3144",
+    "spanish": "vemos",
+    "german": "wir sehen",
+    "category": "Verben: ver",
+    "sentence_es": "No nos vemos muy seguido.",
+    "sentence_de": "Wir sehen uns nicht sehr oft.",
+    "note": "ver – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3145",
+    "spanish": "veis",
+    "german": "ihr seht",
+    "category": "Verben: ver",
+    "sentence_es": "¿Veis la diferencia?",
+    "sentence_de": "Seht ihr den Unterschied?",
+    "note": "ver – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3146",
+    "spanish": "ven",
+    "german": "sie sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Se ven muy cansados.",
+    "sentence_de": "Sie sehen sehr müde aus.",
+    "note": "ver – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3147",
+    "spanish": "vi",
+    "german": "ich sah",
+    "category": "Verben: ver",
+    "sentence_es": "Vi una película anoche.",
+    "sentence_de": "Ich habe gestern Abend einen Film gesehen.",
+    "note": "ver – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3148",
+    "spanish": "viste",
+    "german": "du sahst",
+    "category": "Verben: ver",
+    "sentence_es": "¿Viste el partido?",
+    "sentence_de": "Hast du das Spiel gesehen?",
+    "note": "ver – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3149",
+    "spanish": "vio",
+    "german": "er/sie sah",
+    "category": "Verben: ver",
+    "sentence_es": "Vio el accidente desde la ventana.",
+    "sentence_de": "Er/sie sah den Unfall vom Fenster aus.",
+    "note": "ver – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3150",
+    "spanish": "vimos",
+    "german": "wir sahen",
+    "category": "Verben: ver",
+    "sentence_es": "Vimos un arco iris.",
+    "sentence_de": "Wir haben einen Regenbogen gesehen.",
+    "note": "ver – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3151",
+    "spanish": "visteis",
+    "german": "ihr saht",
+    "category": "Verben: ver",
+    "sentence_es": "¿Visteis las noticias?",
+    "sentence_de": "Habt ihr die Nachrichten gesehen?",
+    "note": "ver – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3152",
+    "spanish": "vieron",
+    "german": "sie sahen",
+    "category": "Verben: ver",
+    "sentence_es": "Vieron la aurora boreal.",
+    "sentence_de": "Sie sahen das Nordlicht.",
+    "note": "ver – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3153",
+    "spanish": "veré",
+    "german": "ich werde sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Veré ese filme esta noche.",
+    "sentence_de": "Ich werde diesen Film heute Abend sehen.",
+    "note": "ver – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3154",
+    "spanish": "verás",
+    "german": "du wirst sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Ya verás que todo va bien.",
+    "sentence_de": "Du wirst sehen, dass alles gut wird.",
+    "note": "ver – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3155",
+    "spanish": "verá",
+    "german": "er/sie wird sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Verá los resultados mañana.",
+    "sentence_de": "Er/sie wird die Ergebnisse morgen sehen.",
+    "note": "ver – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3156",
+    "spanish": "veremos",
+    "german": "wir werden sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Veremos qué pasa.",
+    "sentence_de": "Wir werden sehen, was passiert.",
+    "note": "ver – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3157",
+    "spanish": "veréis",
+    "german": "ihr werdet sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Veréis cuánto ha cambiado.",
+    "sentence_de": "Ihr werdet sehen, wie viel sich verändert hat.",
+    "note": "ver – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3158",
+    "spanish": "verán",
+    "german": "sie werden sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Verán la diferencia muy pronto.",
+    "sentence_de": "Sie werden den Unterschied sehr bald sehen.",
+    "note": "ver – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3159",
+    "spanish": "vería",
+    "german": "ich würde sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Vería esa película con gusto.",
+    "sentence_de": "Ich würde diesen Film gerne sehen.",
+    "note": "ver – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3160",
+    "spanish": "verías",
+    "german": "du würdest sehen",
+    "category": "Verben: ver",
+    "sentence_es": "¿Verías esa película tú?",
+    "sentence_de": "Würdest du diesen Film sehen?",
+    "note": "ver – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3161",
+    "spanish": "vería",
+    "german": "er/sie würde sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Él vería antes de decidir.",
+    "sentence_de": "Er/sie würde erst schauen, bevor er/sie entscheidet.",
+    "note": "ver – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3162",
+    "spanish": "veríamos",
+    "german": "wir würden sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Veríamos mejor desde ahí.",
+    "sentence_de": "Von dort würden wir besser sehen.",
+    "note": "ver – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3163",
+    "spanish": "veríais",
+    "german": "ihr würdet sehen",
+    "category": "Verben: ver",
+    "sentence_es": "¿Veríais la final con nosotros?",
+    "sentence_de": "Würdet ihr das Finale mit uns sehen?",
+    "note": "ver – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3164",
+    "spanish": "verían",
+    "german": "sie würden sehen",
+    "category": "Verben: ver",
+    "sentence_es": "Verían el problema si miraran.",
+    "sentence_de": "Sie würden das Problem sehen, wenn sie schauten.",
+    "note": "ver – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3165",
+    "spanish": "doy",
+    "german": "ich gebe",
+    "category": "Verben: dar",
+    "sentence_es": "Te doy mi número de teléfono.",
+    "sentence_de": "Ich gebe dir meine Telefonnummer.",
+    "note": "dar – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3166",
+    "spanish": "das",
+    "german": "du gibst",
+    "category": "Verben: dar",
+    "sentence_es": "¿Me das un poco de agua?",
+    "sentence_de": "Gibst du mir etwas Wasser?",
+    "note": "dar – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3167",
+    "spanish": "da",
+    "german": "er/sie gibt",
+    "category": "Verben: dar",
+    "sentence_es": "Da igual, no importa.",
+    "sentence_de": "Es ist egal, das macht nichts.",
+    "note": "dar – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3168",
+    "spanish": "damos",
+    "german": "wir geben",
+    "category": "Verben: dar",
+    "sentence_es": "Damos una vuelta por el parque.",
+    "sentence_de": "Wir drehen eine Runde durch den Park.",
+    "note": "dar – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3169",
+    "spanish": "dais",
+    "german": "ihr gebt",
+    "category": "Verben: dar",
+    "sentence_es": "¿Dais clases de español?",
+    "sentence_de": "Gebt ihr Spanischunterricht?",
+    "note": "dar – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3170",
+    "spanish": "dan",
+    "german": "sie geben",
+    "category": "Verben: dar",
+    "sentence_es": "Dan las gracias siempre.",
+    "sentence_de": "Sie bedanken sich immer.",
+    "note": "dar – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3171",
+    "spanish": "di",
+    "german": "ich gab",
+    "category": "Verben: dar",
+    "sentence_es": "Le di el libro ayer.",
+    "sentence_de": "Ich habe ihm/ihr gestern das Buch gegeben.",
+    "note": "dar – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3172",
+    "spanish": "diste",
+    "german": "du gabst",
+    "category": "Verben: dar",
+    "sentence_es": "Me diste una buena idea.",
+    "sentence_de": "Du hast mir eine gute Idee gegeben.",
+    "note": "dar – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3173",
+    "spanish": "dio",
+    "german": "er/sie gab",
+    "category": "Verben: dar",
+    "sentence_es": "Me dio su número de teléfono.",
+    "sentence_de": "Er/sie gab mir seine/ihre Telefonnummer.",
+    "note": "dar – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3174",
+    "spanish": "dimos",
+    "german": "wir gaben",
+    "category": "Verben: dar",
+    "sentence_es": "Dimos una caminata de dos horas.",
+    "sentence_de": "Wir machten einen zweistündigen Spaziergang.",
+    "note": "dar – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3175",
+    "spanish": "disteis",
+    "german": "ihr gabt",
+    "category": "Verben: dar",
+    "sentence_es": "¿Disteis las gracias?",
+    "sentence_de": "Habt ihr euch bedankt?",
+    "note": "dar – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3176",
+    "spanish": "dieron",
+    "german": "sie gaben",
+    "category": "Verben: dar",
+    "sentence_es": "Dieron un concierto increíble.",
+    "sentence_de": "Sie gaben ein unglaubliches Konzert.",
+    "note": "dar – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3177",
+    "spanish": "daré",
+    "german": "ich werde geben",
+    "category": "Verben: dar",
+    "sentence_es": "Te daré la respuesta mañana.",
+    "sentence_de": "Ich werde dir morgen die Antwort geben.",
+    "note": "dar – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3178",
+    "spanish": "darás",
+    "german": "du wirst geben",
+    "category": "Verben: dar",
+    "sentence_es": "¿Darás una conferencia?",
+    "sentence_de": "Wirst du einen Vortrag halten?",
+    "note": "dar – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3179",
+    "spanish": "dará",
+    "german": "er/sie wird geben",
+    "category": "Verben: dar",
+    "sentence_es": "El médico dará el diagnóstico.",
+    "sentence_de": "Der Arzt wird die Diagnose mitteilen.",
+    "note": "dar – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3180",
+    "spanish": "daremos",
+    "german": "wir werden geben",
+    "category": "Verben: dar",
+    "sentence_es": "Daremos una fiesta el sábado.",
+    "sentence_de": "Wir werden am Samstag eine Party geben.",
+    "note": "dar – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3181",
+    "spanish": "daréis",
+    "german": "ihr werdet geben",
+    "category": "Verben: dar",
+    "sentence_es": "¿Daréis una respuesta pronto?",
+    "sentence_de": "Werdet ihr bald eine Antwort geben?",
+    "note": "dar – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3182",
+    "spanish": "darán",
+    "german": "sie werden geben",
+    "category": "Verben: dar",
+    "sentence_es": "Darán los resultados esta tarde.",
+    "sentence_de": "Sie werden die Ergebnisse heute Nachmittag geben.",
+    "note": "dar – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3183",
+    "spanish": "daría",
+    "german": "ich würde geben",
+    "category": "Verben: dar",
+    "sentence_es": "Te daría todo lo que necesitas.",
+    "sentence_de": "Ich würde dir alles geben, was du brauchst.",
+    "note": "dar – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3184",
+    "spanish": "darías",
+    "german": "du würdest geben",
+    "category": "Verben: dar",
+    "sentence_es": "¿Darías una segunda oportunidad?",
+    "sentence_de": "Würdest du eine zweite Chance geben?",
+    "note": "dar – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3185",
+    "spanish": "daría",
+    "german": "er/sie würde geben",
+    "category": "Verben: dar",
+    "sentence_es": "Daría cualquier cosa por estar allí.",
+    "sentence_de": "Er/sie würde alles geben, um dort zu sein.",
+    "note": "dar – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3186",
+    "spanish": "daríamos",
+    "german": "wir würden geben",
+    "category": "Verben: dar",
+    "sentence_es": "Daríamos más tiempo si pudiéramos.",
+    "sentence_de": "Wir würden mehr Zeit geben, wenn wir könnten.",
+    "note": "dar – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3187",
+    "spanish": "daríais",
+    "german": "ihr würdet geben",
+    "category": "Verben: dar",
+    "sentence_es": "¿Daríais vuestra opinión?",
+    "sentence_de": "Würdet ihr eure Meinung geben?",
+    "note": "dar – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3188",
+    "spanish": "darían",
+    "german": "sie würden geben",
+    "category": "Verben: dar",
+    "sentence_es": "Darían lo mejor de sí.",
+    "sentence_de": "Sie würden ihr Bestes geben.",
+    "note": "dar – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3189",
+    "spanish": "sé",
+    "german": "ich weiß / ich kann",
+    "category": "Verben: saber",
+    "sentence_es": "Sé hablar tres idiomas.",
+    "sentence_de": "Ich kann drei Sprachen sprechen.",
+    "note": "saber – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3190",
+    "spanish": "sabes",
+    "german": "du weißt / du kannst",
+    "category": "Verben: saber",
+    "sentence_es": "¿Sabes dónde está la calle?",
+    "sentence_de": "Weißt du, wo die Straße ist?",
+    "note": "saber – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3191",
+    "spanish": "sabe",
+    "german": "er/sie weiß",
+    "category": "Verben: saber",
+    "sentence_es": "No sabe nada de eso.",
+    "sentence_de": "Er/sie weiß nichts davon.",
+    "note": "saber – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3192",
+    "spanish": "sabemos",
+    "german": "wir wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabemos lo que hay que hacer.",
+    "sentence_de": "Wir wissen, was zu tun ist.",
+    "note": "saber – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3193",
+    "spanish": "sabéis",
+    "german": "ihr wisst",
+    "category": "Verben: saber",
+    "sentence_es": "¿Sabéis cocinar bien?",
+    "sentence_de": "Könnt ihr gut kochen?",
+    "note": "saber – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3194",
+    "spanish": "saben",
+    "german": "sie wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Saben mucho de historia.",
+    "sentence_de": "Sie wissen viel über Geschichte.",
+    "note": "saber – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3195",
+    "spanish": "supe",
+    "german": "ich wusste",
+    "category": "Verben: saber",
+    "sentence_es": "Supe la noticia por la radio.",
+    "sentence_de": "Ich erfuhr die Neuigkeit im Radio.",
+    "note": "saber – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3196",
+    "spanish": "supiste",
+    "german": "du wusstest",
+    "category": "Verben: saber",
+    "sentence_es": "¿Cuándo supiste la verdad?",
+    "sentence_de": "Wann hast du die Wahrheit erfahren?",
+    "note": "saber – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3197",
+    "spanish": "supo",
+    "german": "er/sie wusste",
+    "category": "Verben: saber",
+    "sentence_es": "Supo la noticia al llegar.",
+    "sentence_de": "Er/sie erfuhr die Neuigkeit bei der Ankunft.",
+    "note": "saber – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3198",
+    "spanish": "supimos",
+    "german": "wir wussten",
+    "category": "Verben: saber",
+    "sentence_es": "Supimos el resultado tarde.",
+    "sentence_de": "Wir erfuhren das Ergebnis spät.",
+    "note": "saber – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3199",
+    "spanish": "supisteis",
+    "german": "ihr wusstet",
+    "category": "Verben: saber",
+    "sentence_es": "¿Supisteis quién ganó?",
+    "sentence_de": "Habt ihr erfahren, wer gewonnen hat?",
+    "note": "saber – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3200",
+    "spanish": "supieron",
+    "german": "sie wussten",
+    "category": "Verben: saber",
+    "sentence_es": "No supieron qué decir.",
+    "sentence_de": "Sie wussten nicht, was sie sagen sollten.",
+    "note": "saber – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3201",
+    "spanish": "sabré",
+    "german": "ich werde wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabré los resultados mañana.",
+    "sentence_de": "Ich werde die Ergebnisse morgen wissen.",
+    "note": "saber – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3202",
+    "spanish": "sabrás",
+    "german": "du wirst wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabrás la respuesta pronto.",
+    "sentence_de": "Du wirst die Antwort bald wissen.",
+    "note": "saber – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3203",
+    "spanish": "sabrá",
+    "german": "er/sie wird wissen",
+    "category": "Verben: saber",
+    "sentence_es": "El juez sabrá la verdad.",
+    "sentence_de": "Der Richter wird die Wahrheit wissen.",
+    "note": "saber – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3204",
+    "spanish": "sabremos",
+    "german": "wir werden wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabremos qué decir cuando llegue.",
+    "sentence_de": "Wir werden wissen, was zu sagen ist, wenn er kommt.",
+    "note": "saber – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3205",
+    "spanish": "sabréis",
+    "german": "ihr werdet wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabréis los resultados mañana.",
+    "sentence_de": "Ihr werdet die Ergebnisse morgen wissen.",
+    "note": "saber – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3206",
+    "spanish": "sabrán",
+    "german": "sie werden wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabrán la noticia muy pronto.",
+    "sentence_de": "Sie werden die Nachricht sehr bald wissen.",
+    "note": "saber – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3207",
+    "spanish": "sabría",
+    "german": "ich würde wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabría qué hacer en tu lugar.",
+    "sentence_de": "Ich würde wissen, was ich an deiner Stelle tun würde.",
+    "note": "saber – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3208",
+    "spanish": "sabrías",
+    "german": "du würdest wissen",
+    "category": "Verben: saber",
+    "sentence_es": "¿Sabrías cómo llegar?",
+    "sentence_de": "Würdest du wissen, wie man hinkommt?",
+    "note": "saber – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3209",
+    "spanish": "sabría",
+    "german": "er/sie würde wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Él sabría la solución.",
+    "sentence_de": "Er/sie würde die Lösung wissen.",
+    "note": "saber – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3210",
+    "spanish": "sabríamos",
+    "german": "wir würden wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabríamos qué hacer.",
+    "sentence_de": "Wir würden wissen, was zu tun ist.",
+    "note": "saber – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3211",
+    "spanish": "sabríais",
+    "german": "ihr würdet wissen",
+    "category": "Verben: saber",
+    "sentence_es": "¿Sabríais arreglarlo?",
+    "sentence_de": "Würdet ihr wissen, wie man es repariert?",
+    "note": "saber – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3212",
+    "spanish": "sabrían",
+    "german": "sie würden wissen",
+    "category": "Verben: saber",
+    "sentence_es": "Sabrían cómo resolver el problema.",
+    "sentence_de": "Sie würden wissen, wie man das Problem löst.",
+    "note": "saber – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3213",
+    "spanish": "quiero",
+    "german": "ich will / ich möchte",
+    "category": "Verben: querer",
+    "sentence_es": "Quiero un café, por favor.",
+    "sentence_de": "Ich möchte einen Kaffee, bitte.",
+    "note": "querer – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3214",
+    "spanish": "quieres",
+    "german": "du willst / du möchtest",
+    "category": "Verben: querer",
+    "sentence_es": "¿Qué quieres comer?",
+    "sentence_de": "Was möchtest du essen?",
+    "note": "querer – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3215",
+    "spanish": "quiere",
+    "german": "er/sie will",
+    "category": "Verben: querer",
+    "sentence_es": "Quiere aprender español.",
+    "sentence_de": "Er/sie möchte Spanisch lernen.",
+    "note": "querer – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3216",
+    "spanish": "queremos",
+    "german": "wir wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Queremos viajar a México.",
+    "sentence_de": "Wir möchten nach Mexiko reisen.",
+    "note": "querer – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3217",
+    "spanish": "queréis",
+    "german": "ihr wollt",
+    "category": "Verben: querer",
+    "sentence_es": "¿Qué queréis de postre?",
+    "sentence_de": "Was möchtet ihr als Nachtisch?",
+    "note": "querer – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3218",
+    "spanish": "quieren",
+    "german": "sie wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Quieren salir esta noche.",
+    "sentence_de": "Sie möchten heute Abend ausgehen.",
+    "note": "querer – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3219",
+    "spanish": "quise",
+    "german": "ich wollte",
+    "category": "Verben: querer",
+    "sentence_es": "Quise llamarte pero no pude.",
+    "sentence_de": "Ich wollte dich anrufen, aber ich konnte nicht.",
+    "note": "querer – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3220",
+    "spanish": "quisiste",
+    "german": "du wolltest",
+    "category": "Verben: querer",
+    "sentence_es": "¿Por qué no quisiste venir?",
+    "sentence_de": "Warum wolltest du nicht kommen?",
+    "note": "querer – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3221",
+    "spanish": "quiso",
+    "german": "er/sie wollte",
+    "category": "Verben: querer",
+    "sentence_es": "No quiso escuchar.",
+    "sentence_de": "Er/sie wollte nicht zuhören.",
+    "note": "querer – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3222",
+    "spanish": "quisimos",
+    "german": "wir wollten",
+    "category": "Verben: querer",
+    "sentence_es": "No quisimos molestar.",
+    "sentence_de": "Wir wollten nicht stören.",
+    "note": "querer – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3223",
+    "spanish": "quisisteis",
+    "german": "ihr wolltet",
+    "category": "Verben: querer",
+    "sentence_es": "¿Quisisteis quedaros más tiempo?",
+    "sentence_de": "Wolltet ihr länger bleiben?",
+    "note": "querer – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3224",
+    "spanish": "quisieron",
+    "german": "sie wollten",
+    "category": "Verben: querer",
+    "sentence_es": "No quisieron esperar más.",
+    "sentence_de": "Sie wollten nicht länger warten.",
+    "note": "querer – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3225",
+    "spanish": "querré",
+    "german": "ich werde wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Siempre querré lo mejor para ti.",
+    "sentence_de": "Ich werde immer das Beste für dich wollen.",
+    "note": "querer – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3226",
+    "spanish": "querrás",
+    "german": "du wirst wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Ya verás que querrás volver.",
+    "sentence_de": "Du wirst sehen, dass du zurückkommen möchtest.",
+    "note": "querer – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3227",
+    "spanish": "querrá",
+    "german": "er/sie wird wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Él querrá saber la verdad.",
+    "sentence_de": "Er/sie wird die Wahrheit wissen wollen.",
+    "note": "querer – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3228",
+    "spanish": "querremos",
+    "german": "wir werden wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Querremos saber el resultado.",
+    "sentence_de": "Wir werden das Ergebnis wissen wollen.",
+    "note": "querer – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3229",
+    "spanish": "querréis",
+    "german": "ihr werdet wollen",
+    "category": "Verben: querer",
+    "sentence_es": "¿Querréis venir con nosotros?",
+    "sentence_de": "Werdet ihr mit uns kommen wollen?",
+    "note": "querer – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3230",
+    "spanish": "querrán",
+    "german": "sie werden wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Querrán participar también.",
+    "sentence_de": "Sie werden auch teilnehmen wollen.",
+    "note": "querer – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3231",
+    "spanish": "querría",
+    "german": "ich würde wollen / ich möchte",
+    "category": "Verben: querer",
+    "sentence_es": "Querría ir, pero no puedo.",
+    "sentence_de": "Ich würde gerne gehen, aber ich kann nicht.",
+    "note": "querer – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3232",
+    "spanish": "querrías",
+    "german": "du würdest wollen",
+    "category": "Verben: querer",
+    "sentence_es": "¿Querrías probar la comida?",
+    "sentence_de": "Würdest du das Essen probieren wollen?",
+    "note": "querer – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3233",
+    "spanish": "querría",
+    "german": "er/sie würde wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Querría saber más sobre eso.",
+    "sentence_de": "Er/sie würde mehr darüber wissen wollen.",
+    "note": "querer – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3234",
+    "spanish": "querríamos",
+    "german": "wir würden wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Querríamos que vinieras.",
+    "sentence_de": "Wir würden möchten, dass du kommst.",
+    "note": "querer – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3235",
+    "spanish": "querríais",
+    "german": "ihr würdet wollen",
+    "category": "Verben: querer",
+    "sentence_es": "¿Querríais un café?",
+    "sentence_de": "Würdet ihr einen Kaffee möchten?",
+    "note": "querer – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3236",
+    "spanish": "querrían",
+    "german": "sie würden wollen",
+    "category": "Verben: querer",
+    "sentence_es": "Querrían volver a visitarnos.",
+    "sentence_de": "Sie würden uns gerne wieder besuchen.",
+    "note": "querer – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3237",
+    "spanish": "vengo",
+    "german": "ich komme",
+    "category": "Verben: venir",
+    "sentence_es": "Vengo del trabajo ahora.",
+    "sentence_de": "Ich komme gerade von der Arbeit.",
+    "note": "venir – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3238",
+    "spanish": "vienes",
+    "german": "du kommst",
+    "category": "Verben: venir",
+    "sentence_es": "¿Vienes con nosotros?",
+    "sentence_de": "Kommst du mit uns?",
+    "note": "venir – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3239",
+    "spanish": "viene",
+    "german": "er/sie kommt",
+    "category": "Verben: venir",
+    "sentence_es": "El tren viene con retraso.",
+    "sentence_de": "Der Zug kommt mit Verspätung.",
+    "note": "venir – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3240",
+    "spanish": "venimos",
+    "german": "wir kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Venimos de España.",
+    "sentence_de": "Wir kommen aus Spanien.",
+    "note": "venir – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3241",
+    "spanish": "venís",
+    "german": "ihr kommt",
+    "category": "Verben: venir",
+    "sentence_es": "¿De dónde venís?",
+    "sentence_de": "Woher kommt ihr?",
+    "note": "venir – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3242",
+    "spanish": "vienen",
+    "german": "sie kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Mis padres vienen de visita.",
+    "sentence_de": "Meine Eltern kommen zu Besuch.",
+    "note": "venir – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3243",
+    "spanish": "vine",
+    "german": "ich kam",
+    "category": "Verben: venir",
+    "sentence_es": "Vine en tren desde Madrid.",
+    "sentence_de": "Ich kam mit dem Zug aus Madrid.",
+    "note": "venir – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3244",
+    "spanish": "viniste",
+    "german": "du kamst",
+    "category": "Verben: venir",
+    "sentence_es": "¿Cuándo viniste a Alemania?",
+    "sentence_de": "Wann bist du nach Deutschland gekommen?",
+    "note": "venir – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3245",
+    "spanish": "vino",
+    "german": "er/sie kam",
+    "category": "Verben: venir",
+    "sentence_es": "Vino sin avisar.",
+    "sentence_de": "Er/sie kam ohne Vorankündigung.",
+    "note": "venir – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3246",
+    "spanish": "vinimos",
+    "german": "wir kamen",
+    "category": "Verben: venir",
+    "sentence_es": "Vinimos juntos desde el aeropuerto.",
+    "sentence_de": "Wir kamen gemeinsam vom Flughafen.",
+    "note": "venir – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3247",
+    "spanish": "vinisteis",
+    "german": "ihr kamt",
+    "category": "Verben: venir",
+    "sentence_es": "¿Por qué vinisteis tan tarde?",
+    "sentence_de": "Warum seid ihr so spät gekommen?",
+    "note": "venir – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3248",
+    "spanish": "vinieron",
+    "german": "sie kamen",
+    "category": "Verben: venir",
+    "sentence_es": "Vinieron todos a la boda.",
+    "sentence_de": "Sie kamen alle zur Hochzeit.",
+    "note": "venir – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3249",
+    "spanish": "vendré",
+    "german": "ich werde kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendré a recogerte al aeropuerto.",
+    "sentence_de": "Ich werde dich am Flughafen abholen.",
+    "note": "venir – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3250",
+    "spanish": "vendrás",
+    "german": "du wirst kommen",
+    "category": "Verben: venir",
+    "sentence_es": "¿Vendrás a la fiesta?",
+    "sentence_de": "Wirst du zur Party kommen?",
+    "note": "venir – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3251",
+    "spanish": "vendrá",
+    "german": "er/sie wird kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Mi jefe vendrá mañana.",
+    "sentence_de": "Mein Chef wird morgen kommen.",
+    "note": "venir – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3252",
+    "spanish": "vendremos",
+    "german": "wir werden kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendremos en coche.",
+    "sentence_de": "Wir werden mit dem Auto kommen.",
+    "note": "venir – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3253",
+    "spanish": "vendréis",
+    "german": "ihr werdet kommen",
+    "category": "Verben: venir",
+    "sentence_es": "¿Vendréis todos?",
+    "sentence_de": "Werdet ihr alle kommen?",
+    "note": "venir – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3254",
+    "spanish": "vendrán",
+    "german": "sie werden kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendrán muchos invitados.",
+    "sentence_de": "Viele Gäste werden kommen.",
+    "note": "venir – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3255",
+    "spanish": "vendría",
+    "german": "ich würde kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendría contigo si pudiera.",
+    "sentence_de": "Ich würde mit dir kommen, wenn ich könnte.",
+    "note": "venir – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3256",
+    "spanish": "vendrías",
+    "german": "du würdest kommen",
+    "category": "Verben: venir",
+    "sentence_es": "¿Vendrías a visitarnos?",
+    "sentence_de": "Würdest du uns besuchen kommen?",
+    "note": "venir – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3257",
+    "spanish": "vendría",
+    "german": "er/sie würde kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendría antes si supiera.",
+    "sentence_de": "Er/sie würde früher kommen, wenn er/sie es wüsste.",
+    "note": "venir – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3258",
+    "spanish": "vendríamos",
+    "german": "wir würden kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendríamos en tren.",
+    "sentence_de": "Wir würden mit dem Zug kommen.",
+    "note": "venir – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3259",
+    "spanish": "vendríais",
+    "german": "ihr würdet kommen",
+    "category": "Verben: venir",
+    "sentence_es": "¿Vendríais a la cena?",
+    "sentence_de": "Würdet ihr zum Abendessen kommen?",
+    "note": "venir – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3260",
+    "spanish": "vendrían",
+    "german": "sie würden kommen",
+    "category": "Verben: venir",
+    "sentence_es": "Vendrían todos si los invitaras.",
+    "sentence_de": "Sie würden alle kommen, wenn du sie einladen würdest.",
+    "note": "venir – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3261",
+    "spanish": "pongo",
+    "german": "ich lege / stelle",
+    "category": "Verben: poner",
+    "sentence_es": "Pongo la mesa cada día.",
+    "sentence_de": "Ich decke jeden Tag den Tisch.",
+    "note": "poner – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3262",
+    "spanish": "pones",
+    "german": "du legst / stellst",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pones las llaves?",
+    "sentence_de": "Wohin legst du die Schlüssel?",
+    "note": "poner – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3263",
+    "spanish": "pone",
+    "german": "er/sie legt",
+    "category": "Verben: poner",
+    "sentence_es": "Pone mucho esfuerzo en su trabajo.",
+    "sentence_de": "Er/sie gibt viel Mühe in seine/ihre Arbeit.",
+    "note": "poner – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3264",
+    "spanish": "ponemos",
+    "german": "wir legen",
+    "category": "Verben: poner",
+    "sentence_es": "Ponemos música mientras comemos.",
+    "sentence_de": "Wir machen Musik an, während wir essen.",
+    "note": "poner – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3265",
+    "spanish": "ponéis",
+    "german": "ihr legt",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde ponéis las maletas?",
+    "sentence_de": "Wohin stellt ihr die Koffer?",
+    "note": "poner – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3266",
+    "spanish": "ponen",
+    "german": "sie legen",
+    "category": "Verben: poner",
+    "sentence_es": "Ponen el telediario a las nueve.",
+    "sentence_de": "Sie schalten um neun die Nachrichten ein.",
+    "note": "poner – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3267",
+    "spanish": "puse",
+    "german": "ich legte",
+    "category": "Verben: poner",
+    "sentence_es": "Puse el libro en la estantería.",
+    "sentence_de": "Ich stellte das Buch ins Regal.",
+    "note": "poner – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3268",
+    "spanish": "pusiste",
+    "german": "du legtest",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pusiste mi móvil?",
+    "sentence_de": "Wo hast du mein Handy hingelegt?",
+    "note": "poner – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3269",
+    "spanish": "puso",
+    "german": "er/sie legte",
+    "category": "Verben: poner",
+    "sentence_es": "Puso la mano en el fuego.",
+    "sentence_de": "Er/sie legte die Hand ins Feuer.",
+    "note": "poner – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3270",
+    "spanish": "pusimos",
+    "german": "wir legten",
+    "category": "Verben: poner",
+    "sentence_es": "Pusimos la mesa juntos.",
+    "sentence_de": "Wir haben zusammen den Tisch gedeckt.",
+    "note": "poner – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3271",
+    "spanish": "pusisteis",
+    "german": "ihr legtet",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pusisteis las compras?",
+    "sentence_de": "Wo habt ihr die Einkäufe hingestellt?",
+    "note": "poner – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3272",
+    "spanish": "pusieron",
+    "german": "sie legten",
+    "category": "Verben: poner",
+    "sentence_es": "Pusieron el árbol de Navidad.",
+    "sentence_de": "Sie haben den Weihnachtsbaum aufgestellt.",
+    "note": "poner – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3273",
+    "spanish": "pondré",
+    "german": "ich werde legen",
+    "category": "Verben: poner",
+    "sentence_es": "Pondré la lavadora esta noche.",
+    "sentence_de": "Ich werde heute Abend die Waschmaschine anmachen.",
+    "note": "poner – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3274",
+    "spanish": "pondrás",
+    "german": "du wirst legen",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pondrás el sofá?",
+    "sentence_de": "Wohin wirst du das Sofa stellen?",
+    "note": "poner – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3275",
+    "spanish": "pondrá",
+    "german": "er/sie wird legen",
+    "category": "Verben: poner",
+    "sentence_es": "El profesor pondrá el examen mañana.",
+    "sentence_de": "Der Lehrer wird morgen die Prüfung geben.",
+    "note": "poner – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3276",
+    "spanish": "pondremos",
+    "german": "wir werden legen",
+    "category": "Verben: poner",
+    "sentence_es": "Pondremos las reglas claras.",
+    "sentence_de": "Wir werden die Regeln klar festlegen.",
+    "note": "poner – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3277",
+    "spanish": "pondréis",
+    "german": "ihr werdet legen",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pondréis la cama?",
+    "sentence_de": "Wohin werdet ihr das Bett stellen?",
+    "note": "poner – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3278",
+    "spanish": "pondrán",
+    "german": "sie werden legen",
+    "category": "Verben: poner",
+    "sentence_es": "Pondrán el anuncio en el periódico.",
+    "sentence_de": "Sie werden die Anzeige in die Zeitung setzen.",
+    "note": "poner – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3279",
+    "spanish": "pondría",
+    "german": "ich würde legen",
+    "category": "Verben: poner",
+    "sentence_es": "Yo pondría las flores aquí.",
+    "sentence_de": "Ich würde die Blumen hier hinstellen.",
+    "note": "poner – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3280",
+    "spanish": "pondrías",
+    "german": "du würdest legen",
+    "category": "Verben: poner",
+    "sentence_es": "¿Dónde pondrías el cuadro?",
+    "sentence_de": "Wo würdest du das Bild hinhängen?",
+    "note": "poner – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3281",
+    "spanish": "pondría",
+    "german": "er/sie würde legen",
+    "category": "Verben: poner",
+    "sentence_es": "Él pondría más sal.",
+    "sentence_de": "Er/sie würde mehr Salz hinzufügen.",
+    "note": "poner – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3282",
+    "spanish": "pondríamos",
+    "german": "wir würden legen",
+    "category": "Verben: poner",
+    "sentence_es": "Pondríamos la tele en otro sitio.",
+    "sentence_de": "Wir würden den Fernseher woanders hinstellen.",
+    "note": "poner – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3283",
+    "spanish": "pondríais",
+    "german": "ihr würdet legen",
+    "category": "Verben: poner",
+    "sentence_es": "¿Pondríais la mesa?",
+    "sentence_de": "Würdet ihr den Tisch decken?",
+    "note": "poner – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3284",
+    "spanish": "pondrían",
+    "german": "sie würden legen",
+    "category": "Verben: poner",
+    "sentence_es": "Lo pondrían todo en orden.",
+    "sentence_de": "Sie würden alles in Ordnung bringen.",
+    "note": "poner – Konditional – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3285",
+    "spanish": "salgo",
+    "german": "ich gehe (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salgo de casa a las ocho.",
+    "sentence_de": "Ich gehe um acht von zu Hause weg.",
+    "note": "salir – Präsens – yo",
+    "audio": ""
+  },
+  {
+    "id": "3286",
+    "spanish": "sales",
+    "german": "du gehst (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "¿A qué hora sales del trabajo?",
+    "sentence_de": "Um wie viel Uhr gehst du von der Arbeit?",
+    "note": "salir – Präsens – tú",
+    "audio": ""
+  },
+  {
+    "id": "3287",
+    "spanish": "sale",
+    "german": "er/sie geht (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "El tren sale a las diez.",
+    "sentence_de": "Der Zug fährt um zehn ab.",
+    "note": "salir – Präsens – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3288",
+    "spanish": "salimos",
+    "german": "wir gehen (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salimos a cenar los viernes.",
+    "sentence_de": "Freitags gehen wir essen.",
+    "note": "salir – Präsens – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3289",
+    "spanish": "salís",
+    "german": "ihr geht (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "¿A qué hora salís?",
+    "sentence_de": "Um wie viel Uhr geht ihr weg?",
+    "note": "salir – Präsens – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3290",
+    "spanish": "salen",
+    "german": "sie gehen (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salen juntos los fines de semana.",
+    "sentence_de": "Sie gehen am Wochenende zusammen aus.",
+    "note": "salir – Präsens – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3291",
+    "spanish": "salí",
+    "german": "ich ging (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salí tarde de la oficina.",
+    "sentence_de": "Ich verließ das Büro spät.",
+    "note": "salir – Vergangenheit – yo",
+    "audio": ""
+  },
+  {
+    "id": "3292",
+    "spanish": "saliste",
+    "german": "du gingst (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "¿Cuándo saliste de casa?",
+    "sentence_de": "Wann bist du von zu Hause weggegangen?",
+    "note": "salir – Vergangenheit – tú",
+    "audio": ""
+  },
+  {
+    "id": "3293",
+    "spanish": "salió",
+    "german": "er/sie ging (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "El vuelo salió a tiempo.",
+    "sentence_de": "Der Flug ist pünktlich abgeflogen.",
+    "note": "salir – Vergangenheit – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3294",
+    "spanish": "salimos",
+    "german": "wir gingen (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salimos a las ocho en punto.",
+    "sentence_de": "Wir sind um Punkt acht losgegangen.",
+    "note": "salir – Vergangenheit – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3295",
+    "spanish": "salisteis",
+    "german": "ihr gingt (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "¿A qué hora salisteis anoche?",
+    "sentence_de": "Um wie viel Uhr seid ihr gestern Abend losgegangen?",
+    "note": "salir – Vergangenheit – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3296",
+    "spanish": "salieron",
+    "german": "sie gingen (weg)",
+    "category": "Verben: salir",
+    "sentence_es": "Salieron de la reunión tarde.",
+    "sentence_de": "Sie sind spät aus dem Meeting herausgekommen.",
+    "note": "salir – Vergangenheit – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3297",
+    "spanish": "saldré",
+    "german": "ich werde ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldré del trabajo a las cinco.",
+    "sentence_de": "Ich werde um fünf Uhr von der Arbeit gehen.",
+    "note": "salir – Zukunft – yo",
+    "audio": ""
+  },
+  {
+    "id": "3298",
+    "spanish": "saldrás",
+    "german": "du wirst ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "¿A qué hora saldrás?",
+    "sentence_de": "Um wie viel Uhr wirst du losgehen?",
+    "note": "salir – Zukunft – tú",
+    "audio": ""
+  },
+  {
+    "id": "3299",
+    "spanish": "saldrá",
+    "german": "er/sie wird ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "El tren saldrá con retraso.",
+    "sentence_de": "Der Zug wird mit Verspätung abfahren.",
+    "note": "salir – Zukunft – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3300",
+    "spanish": "saldremos",
+    "german": "wir werden ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldremos mañana temprano.",
+    "sentence_de": "Wir werden morgen früh aufbrechen.",
+    "note": "salir – Zukunft – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3301",
+    "spanish": "saldréis",
+    "german": "ihr werdet ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "¿A qué hora saldréis?",
+    "sentence_de": "Um wie viel Uhr werdet ihr losfahren?",
+    "note": "salir – Zukunft – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3302",
+    "spanish": "saldrán",
+    "german": "sie werden ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Los resultados saldrán mañana.",
+    "sentence_de": "Die Ergebnisse werden morgen herauskommen.",
+    "note": "salir – Zukunft – ellos",
+    "audio": ""
+  },
+  {
+    "id": "3303",
+    "spanish": "saldría",
+    "german": "ich würde ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldría antes si pudiera.",
+    "sentence_de": "Ich würde früher weggehen, wenn ich könnte.",
+    "note": "salir – Konditional – yo",
+    "audio": ""
+  },
+  {
+    "id": "3304",
+    "spanish": "saldrías",
+    "german": "du würdest ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "¿Saldrías con ese tiempo?",
+    "sentence_de": "Würdest du bei diesem Wetter rausgehen?",
+    "note": "salir – Konditional – tú",
+    "audio": ""
+  },
+  {
+    "id": "3305",
+    "spanish": "saldría",
+    "german": "er/sie würde ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldría de vacaciones mañana mismo.",
+    "sentence_de": "Er/sie würde sofort in den Urlaub fahren.",
+    "note": "salir – Konditional – él/ella",
+    "audio": ""
+  },
+  {
+    "id": "3306",
+    "spanish": "saldríamos",
+    "german": "wir würden ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldríamos, pero llueve.",
+    "sentence_de": "Wir würden rausgehen, aber es regnet.",
+    "note": "salir – Konditional – nosotros",
+    "audio": ""
+  },
+  {
+    "id": "3307",
+    "spanish": "saldríais",
+    "german": "ihr würdet ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "¿Saldríais en esas condiciones?",
+    "sentence_de": "Würdet ihr unter diesen Bedingungen losgehen?",
+    "note": "salir – Konditional – vosotros",
+    "audio": ""
+  },
+  {
+    "id": "3308",
+    "spanish": "saldrían",
+    "german": "sie würden ausgehen",
+    "category": "Verben: salir",
+    "sentence_es": "Saldrían si hiciera mejor tiempo.",
+    "sentence_de": "Sie würden rausgehen, wenn das Wetter besser wäre.",
+    "note": "salir – Konditional – ellos",
+    "audio": ""
   }
 ]

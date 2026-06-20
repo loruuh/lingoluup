@@ -24,6 +24,21 @@ import lerntipps from "@/data/modules/lerntipps.json";
 import latam from "@/data/modules/latam.json";
 import formalVokabeln from "@/data/modules/formale-vokabeln.json";
 import essenUndTrinken from "@/data/modules/essen-und-trinken.json";
+import verbenSer from "@/data/modules/verben-ser.json";
+import verbenEstar from "@/data/modules/verben-estar.json";
+import verbenTener from "@/data/modules/verben-tener.json";
+import verbenHaber from "@/data/modules/verben-haber.json";
+import verbenIr from "@/data/modules/verben-ir.json";
+import verbenHacer from "@/data/modules/verben-hacer.json";
+import verbenPoder from "@/data/modules/verben-poder.json";
+import verbenDecir from "@/data/modules/verben-decir.json";
+import verbenVer from "@/data/modules/verben-ver.json";
+import verbenDar from "@/data/modules/verben-dar.json";
+import verbenSaber from "@/data/modules/verben-saber.json";
+import verbenQuerer from "@/data/modules/verben-querer.json";
+import verbenVenir from "@/data/modules/verben-venir.json";
+import verbenPoner from "@/data/modules/verben-poner.json";
+import verbenSalir from "@/data/modules/verben-salir.json";
 
 export interface ModuleInfo {
   id: string;
@@ -159,6 +174,21 @@ const moduleDataMap: Record<string, Module> = {
   "latam": latam as unknown as VocabModule,
   "formale-vokabeln": formalVokabeln as unknown as VocabModule,
   "essen-und-trinken": essenUndTrinken as unknown as VocabModule,
+  "verben-ser":    verbenSer    as unknown as VocabModule,
+  "verben-estar":  verbenEstar  as unknown as VocabModule,
+  "verben-tener":  verbenTener  as unknown as VocabModule,
+  "verben-haber":  verbenHaber  as unknown as VocabModule,
+  "verben-ir":     verbenIr     as unknown as VocabModule,
+  "verben-hacer":  verbenHacer  as unknown as VocabModule,
+  "verben-poder":  verbenPoder  as unknown as VocabModule,
+  "verben-decir":  verbenDecir  as unknown as VocabModule,
+  "verben-ver":    verbenVer    as unknown as VocabModule,
+  "verben-dar":    verbenDar    as unknown as VocabModule,
+  "verben-saber":  verbenSaber  as unknown as VocabModule,
+  "verben-querer": verbenQuerer as unknown as VocabModule,
+  "verben-venir":  verbenVenir  as unknown as VocabModule,
+  "verben-poner":  verbenPoner  as unknown as VocabModule,
+  "verben-salir":  verbenSalir  as unknown as VocabModule,
 };
 
 interface ModuleContextType {

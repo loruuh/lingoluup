@@ -50,6 +50,14 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     color: { accent: "#a78bfa", bg: "rgba(167,139,250,0.07)", border: "rgba(167,139,250,0.22)", glow: "rgba(167,139,250,0.14)", badge: "rgba(167,139,250,0.12)" },
     moduleIds: ["latam", "essen-und-trinken", "formale-vokabeln"],
   },
+  {
+    id: "verben",
+    label: "Verben",
+    sublabel: "Konjugationen · 15 Verben",
+    emoji: "⚡",
+    color: { accent: "#60a5fa", bg: "rgba(96,165,250,0.07)", border: "rgba(96,165,250,0.22)", glow: "rgba(96,165,250,0.14)", badge: "rgba(96,165,250,0.12)" },
+    moduleIds: ["verben-ser","verben-estar","verben-tener","verben-haber","verben-ir","verben-hacer","verben-poder","verben-decir","verben-ver","verben-dar","verben-saber","verben-querer","verben-venir","verben-poner","verben-salir"],
+  },
 ];
 
 const TOOL_MODULE_IDS = ["redewendungen", "zahlen", "aussprache-tipps", "lektionen", "lerntipps"];

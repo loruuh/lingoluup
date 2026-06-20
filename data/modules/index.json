@@ -150,5 +150,125 @@
     "icon": "🍽️",
     "type": "vocabulary",
     "file": "essen-und-trinken.json"
+  },
+  {
+    "id": "verben-ser",
+    "name": "Ser – Konjugation",
+    "description": "ser in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🔴",
+    "type": "vocabulary",
+    "file": "verben-ser.json"
+  },
+  {
+    "id": "verben-estar",
+    "name": "Estar – Konjugation",
+    "description": "estar in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🟡",
+    "type": "vocabulary",
+    "file": "verben-estar.json"
+  },
+  {
+    "id": "verben-tener",
+    "name": "Tener – Konjugation",
+    "description": "tener in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "💪",
+    "type": "vocabulary",
+    "file": "verben-tener.json"
+  },
+  {
+    "id": "verben-haber",
+    "name": "Haber – Konjugation",
+    "description": "haber (Hilfsverb) in 4 Zeiten + hay (es gibt)",
+    "icon": "✅",
+    "type": "vocabulary",
+    "file": "verben-haber.json"
+  },
+  {
+    "id": "verben-ir",
+    "name": "Ir – Konjugation",
+    "description": "ir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🚶",
+    "type": "vocabulary",
+    "file": "verben-ir.json"
+  },
+  {
+    "id": "verben-hacer",
+    "name": "Hacer – Konjugation",
+    "description": "hacer in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🔨",
+    "type": "vocabulary",
+    "file": "verben-hacer.json"
+  },
+  {
+    "id": "verben-poder",
+    "name": "Poder – Konjugation",
+    "description": "poder in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "⚡",
+    "type": "vocabulary",
+    "file": "verben-poder.json"
+  },
+  {
+    "id": "verben-decir",
+    "name": "Decir – Konjugation",
+    "description": "decir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "💬",
+    "type": "vocabulary",
+    "file": "verben-decir.json"
+  },
+  {
+    "id": "verben-ver",
+    "name": "Ver – Konjugation",
+    "description": "ver in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "👁️",
+    "type": "vocabulary",
+    "file": "verben-ver.json"
+  },
+  {
+    "id": "verben-dar",
+    "name": "Dar – Konjugation",
+    "description": "dar in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🎁",
+    "type": "vocabulary",
+    "file": "verben-dar.json"
+  },
+  {
+    "id": "verben-saber",
+    "name": "Saber – Konjugation",
+    "description": "saber in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🧠",
+    "type": "vocabulary",
+    "file": "verben-saber.json"
+  },
+  {
+    "id": "verben-querer",
+    "name": "Querer – Konjugation",
+    "description": "querer in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "❤️",
+    "type": "vocabulary",
+    "file": "verben-querer.json"
+  },
+  {
+    "id": "verben-venir",
+    "name": "Venir – Konjugation",
+    "description": "venir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🏃",
+    "type": "vocabulary",
+    "file": "verben-venir.json"
+  },
+  {
+    "id": "verben-poner",
+    "name": "Poner – Konjugation",
+    "description": "poner in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "📌",
+    "type": "vocabulary",
+    "file": "verben-poner.json"
+  },
+  {
+    "id": "verben-salir",
+    "name": "Salir – Konjugation",
+    "description": "salir in Präsens, Vergangenheit, Zukunft & Konditional",
+    "icon": "🚪",
+    "type": "vocabulary",
+    "file": "verben-salir.json"
   }
 ]
