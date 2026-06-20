@@ -6,6 +6,221 @@
   "type": "lessons",
   "lessons": [
     {
+      "id": "lesson-005",
+      "title": "para vs por – das ewige Duo",
+      "category": "Präpositionen",
+      "difficulty": "intermediate",
+      "explanation_de": "**PARA** und **POR** bereiten fast jedem deutschen Lernenden Kopfzerbrechen — beide können 'für' bedeuten, aber auf sehr unterschiedliche Weise. Das Geheimnis liegt im Denkmodell dahinter.\n\n---\n\n**Das Kernprinzip:**\n\n> **PARA** schaut vorwärts → Ziel, Zweck, Empfänger, Zeitlimit\n> **POR** erklärt den Kontext → Grund, Dauer, Preis, Route, Mittel\n\n---\n\n**PARA — die 5 wichtigsten Fälle:**\n\n**1. Zweck / Ziel** (um zu...)\n- Estudio **para** aprender. (Ich lerne, um zu lernen.)\n- Tomo café **para** estar despierto. (Ich trinke Kaffee, um wach zu bleiben.)\n\n**2. Empfänger** (für wen ist etwas bestimmt?)\n- Este regalo es **para** ti. (Dieses Geschenk ist für dich.)\n- Preparo la cena **para** mi familia. (Ich koche das Abendessen für meine Familie.)\n\n**3. Destination** (Richtung, wohin jemand aufbricht)\n- Salgo **para** Madrid mañana. (Ich fahre morgen nach Madrid ab.)\n- El avión sale **para** México. (Das Flugzeug fliegt nach Mexiko ab.)\n\n**4. Zeitlimit / Deadline** (bis wann?)\n- Lo necesito **para** el lunes. (Ich brauche es bis Montag.)\n- Termínalo **para** las cinco. (Beende es bis fünf Uhr.)\n\n**5. Meinung / Vergleich**\n- **Para** mí, es perfecto. (Für mich / Meiner Meinung nach ist es perfekt.)\n- **Para** ser principiante, lo haces muy bien. (Für einen Anfänger machst du das sehr gut.)\n\n---\n\n**POR — die 5 wichtigsten Fälle:**\n\n**1. Grund / Ursache** (wegen, aus...)\n- Lo hago **por** amor. (Ich tue es aus Liebe.)\n- Gracias **por** tu ayuda. (Danke für deine Hilfe.)\n\n**2. Zeitraum / Dauer** (wie lange?)\n- Estudié **por** tres horas. (Ich habe drei Stunden lang gelernt.)\n- Vivió en España **por** cinco años. (Er lebte fünf Jahre lang in Spanien.)\n\n**3. Preis / Austausch** (um wie viel?)\n- Lo compré **por** 20 euros. (Ich habe es für 20 Euro gekauft.)\n- Te cambio esto **por** eso. (Ich tausche das gegen das da.)\n\n**4. Route / Bewegung durch** (durch, entlang)\n- Pasamos **por** Madrid. (Wir fuhren durch Madrid.)\n- Camina **por** la playa. (Er geht am Strand entlang.)\n\n**5. Kommunikationsmittel** (per, über)\n- Te llamo **por** teléfono. (Ich ruf dich per Telefon an.)\n- Lo mandé **por** correo. (Ich habe es per Post geschickt.)\n\n---\n\n**Die häufigste Falle: 'für' auf Deutsch, aber was auf Spanisch?**\n\nIm Deutschen sagt man beides mit 'für' — und da fängt die Verwirrung an:\n\n- Este regalo es **para** ti. → Das Geschenk ist für dich. (Empfänger → PARA)\n- Lo hago **por** ti. → Ich tue es für dich / deinetwegen. (Grund → POR)\n- Gracias **por** la ayuda. → Danke für die Hilfe. (Grund → POR)\n\nDer Trick: Wenn 'für' im Deutschen durch 'wegen' ersetzbar ist, ohne den Sinn zu ändern → POR. Wenn nicht → PARA.\n\n---\n\n**Merkregel:**\n> Frag dich: 'Wofür? Für wen? Wohin?' → PARA\n> Frag dich: 'Warum? Wie lange? Wie viel? Wodurch?' → POR",
+      "examples": [
+        {
+          "spanish": "Este regalo es para ti.",
+          "german": "Dieses Geschenk ist für dich.",
+          "explanation": "PARA: Empfänger — das Geschenk ist für jemanden bestimmt"
+        },
+        {
+          "spanish": "Gracias por tu ayuda.",
+          "german": "Danke für deine Hilfe.",
+          "explanation": "POR: Grund — ich danke, weil du geholfen hast. 'Gracias por...' ist eine feste Wendung"
+        },
+        {
+          "spanish": "Estudio español para hablar con mis amigos.",
+          "german": "Ich lerne Spanisch, um mit meinen Freunden zu sprechen.",
+          "explanation": "PARA: Zweck — das Ziel, warum man etwas tut (um zu...)"
+        },
+        {
+          "spanish": "Salimos para Barcelona el viernes.",
+          "german": "Wir fahren Freitag nach Barcelona ab.",
+          "explanation": "PARA: Destination — nicht die Route durch Barcelona, sondern das Ziel"
+        },
+        {
+          "spanish": "Lo compré por 15 euros.",
+          "german": "Ich habe es für 15 Euro gekauft.",
+          "explanation": "POR: Preis/Austausch — auch wenn im Deutschen 'für' steht, nimmt das Spanische hier POR"
+        },
+        {
+          "spanish": "Pasamos por Madrid de camino a Toledo.",
+          "german": "Wir fuhren auf dem Weg nach Toledo durch Madrid.",
+          "explanation": "POR: Route — Bewegung durch einen Ort (nicht das Ziel)"
+        },
+        {
+          "spanish": "Lo necesito para el lunes.",
+          "german": "Ich brauche es bis Montag.",
+          "explanation": "PARA: Deadline — ein Zeitlimit, bis wann etwas fertig sein muss"
+        },
+        {
+          "spanish": "Para mí, el café español es el mejor.",
+          "german": "Für mich ist der spanische Kaffee der beste.",
+          "explanation": "PARA: Meinung/Perspektive — 'para mí' = meiner Meinung nach"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Muchas gracias ___ todo. (Danke für alles.)",
+          "options": ["para", "por"],
+          "correct": 1,
+          "explanation": "POR: Grund/Ursache. 'Gracias por...' ist immer POR — man dankt wegen etwas, das jemand getan hat."
+        },
+        {
+          "question": "El tren sale ___ Valencia en diez minutos. (Der Zug fährt in zehn Minuten nach Valencia ab.)",
+          "options": ["para", "por"],
+          "correct": 0,
+          "explanation": "PARA: Destination. Der Zug hat Valencia als Ziel — wohin? → PARA. Mit POR würde der Zug durch Valencia durchfahren."
+        },
+        {
+          "question": "Lo compré ___ ocho euros. (Ich kaufte es für acht Euro.)",
+          "options": ["para", "por"],
+          "correct": 1,
+          "explanation": "POR: Preis und Austausch. Auch wenn im Deutschen 'für' steht, nimmt das Spanische bei Preisen immer POR — es handelt sich um einen Tausch (Ware gegen Geld)."
+        }
+      ]
+    },
+    {
+      "id": "lesson-006",
+      "title": "bien vs bueno – Adverb oder Adjektiv?",
+      "category": "Adjektive & Adverbien",
+      "difficulty": "beginner",
+      "explanation_de": "**BUENO** und **BIEN** bedeuten beide 'gut' — aber sie funktionieren grundverschieden. Der Unterschied folgt derselben Logik wie im Deutschen: Adjektiv ('ein gutes Buch') vs. Adverb ('er spricht gut').\n\n---\n\n**BUENO = gut** (Adjektiv — beschreibt ein Substantiv)\n\nBueno sagt, wie jemand oder etwas IST:\n\n- Es un libro bueno. (Es ist ein gutes Buch.)\n- La comida está buena. (Das Essen ist gut / lecker.)\n- Es bueno para la salud. (Es ist gut für die Gesundheit.)\n\nBueno passt sich ans Substantiv an — Genus und Numerus:\n- bueno (m. Sing.) / buena (f. Sing.) / buenos (m. Pl.) / buenas (f. Pl.)\n\n**Sonderregel: buen vor maskulinen Substantiven**\nVor einem maskulinen Substantiv im Singular wird bueno zu **buen**:\n- un **buen** hombre (NICHT: un bueno hombre)\n- un **buen** día\n- un **buen** momento\n\n---\n\n**BIEN = gut / wohl** (Adverb — beschreibt ein Verb oder einen Zustand)\n\nBien sagt, WIE eine Handlung ausgeführt wird:\n\n- Hablas muy bien. (Du sprichst sehr gut.)\n- Lo hiciste bien. (Du hast es gut gemacht.)\n- Estoy bien. (Mir geht es gut.)\n\nBien ist **unveränderlich** — kein Genus, kein Numerus, immer 'bien'.\n\n---\n\n**Die gefährlichste Verwechslung: estoy bien vs estoy bueno**\n\n- Estoy **bien**. → Mir geht es gut. ✅ (das meinst du)\n- Estoy **bueno**. → Ich bin attraktiv / heiß. 😅 (umgangssprachlich)\n\nWenn dich jemand fragt '¿Cómo estás?' — antworte immer mit 'Estoy bien'!\n\n---\n\n**ser bueno vs estar bueno — sogar bei 'gut' ändert sich die Bedeutung:**\n\n- **Es** bueno. → Er ist ein guter Mensch. (Charakter → ser)\n- **Está** bueno. → Es schmeckt gut / Er ist attraktiv. (Zustand → estar)\n\n---\n\n**Merkregel:**\n> BUENO = Adjektiv → passt sich an das Substantiv an; vor Maskulinum Singular: buen\n> BIEN = Adverb → unveränderlich, folgt nach Verben\n>\n> 'Hablas bien' ✅ — NICHT 'hablas bueno'\n> 'Es un buen libro' ✅ — NICHT 'es un bien libro'",
+      "examples": [
+        {
+          "spanish": "Hablas muy bien el español.",
+          "german": "Du sprichst sehr gut Spanisch.",
+          "explanation": "BIEN: Adverb — beschreibt das Verb 'sprechen'. Wie sprichst du? → bien"
+        },
+        {
+          "spanish": "Es un buen restaurante.",
+          "german": "Es ist ein gutes Restaurant.",
+          "explanation": "BUENO → buen: Adjektiv vor maskulinem Substantiv. Welches Restaurant? → ein gutes"
+        },
+        {
+          "spanish": "La película está muy buena.",
+          "german": "Der Film ist sehr gut.",
+          "explanation": "BUENA: Adjektiv mit estar — beschreibt den Qualitätszustand des Films (feminin, passt sich an)"
+        },
+        {
+          "spanish": "Estoy bien, gracias.",
+          "german": "Mir geht es gut, danke.",
+          "explanation": "BIEN: Adverb für das Befinden — die Standardantwort auf '¿Cómo estás?'"
+        },
+        {
+          "spanish": "Lo hiciste muy bien.",
+          "german": "Du hast es sehr gut gemacht.",
+          "explanation": "BIEN: Adverb — beschreibt, wie du die Handlung ausgeführt hast"
+        },
+        {
+          "spanish": "Es una buena idea.",
+          "german": "Das ist eine gute Idee.",
+          "explanation": "BUENA: Adjektiv — idea ist feminin, also buena (nicht bueno, nicht buen)"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Hablas ___ el español. (Du sprichst gut Spanisch.)",
+          "options": ["bien", "bueno"],
+          "correct": 0,
+          "explanation": "BIEN ist das Adverb — es beschreibt, wie du sprichst. Bueno würde eine Person oder Sache beschreiben, nicht eine Handlung."
+        },
+        {
+          "question": "Es un ___ momento para hablar. (Es ist ein guter Moment zum Reden.)",
+          "options": [
+            "A) bien",
+            "B) bueno",
+            "C) buen"
+          ],
+          "correct": "C",
+          "explanation": "BUN: Vor einem maskulinen Substantiv im Singular (momento = maskulin) wird 'bueno' zu 'buen' verkürzt. Das ist eine feste Regel!"
+        },
+        {
+          "question": "¿Cómo estás? — Estoy ___.",
+          "options": ["bien", "bueno"],
+          "correct": 0,
+          "explanation": "'Estoy bien' = Mir geht es gut. 'Estoy bueno' ist umgangssprachlich für 'Ich bin attraktiv' — einer der häufigsten und peinlichsten Anfängerfehler!"
+        }
+      ]
+    },
+    {
+      "id": "lesson-007",
+      "title": "me, te, se – Pronomen bei Verben",
+      "category": "Grammatik",
+      "difficulty": "intermediate",
+      "explanation_de": "Die kleinen Wörter **me, te, se, nos** erscheinen ständig im Spanischen — manchmal vor dem Verb, manchmal hinten dran: *te llamo*, *llamarte*, *¡llámame!* Was bedeuten sie, und wo gehören sie hin?\n\n---\n\n**Die Pronomen und ihre Bedeutungen:**\n\n- **me** = mich / mir (1. Person Singular)\n- **te** = dich / dir (2. Person Singular)\n- **se** = sich / ihn / ihr (3. Person Singular)\n- **nos** = uns (1. Person Plural)\n- **os** = euch (2. Person Plural, Spanien)\n- **le / les** = ihm / ihr / ihnen (indirektes Objekt)\n\n---\n\n**3 Einsatzbereiche:**\n\n**1. Reflexiv — die Person tut etwas mit sich selbst (wen/was? = sich selbst)**\n- Me lavo. (Ich wasche mich.)\n- Te peinas. (Du kämmst dich.)\n- Se llama Ana. (Sie heißt Ana. / Sie nennt sich Ana.)\n- Nos vemos mañana. (Wir sehen uns morgen.)\n\n**2. Direktes Objekt — wen? was?**\n- Te quiero. (Ich liebe dich.)\n- Te veo. (Ich sehe dich.)\n- ¿Me escuchas? (Hörst du mir zu?)\n\n**3. Indirektes Objekt — wem? für wen?**\n- Te doy el libro. (Ich gebe dir das Buch.)\n- Me manda un mensaje. (Er schickt mir eine Nachricht.)\n- ¿Puedo hacerte una pregunta? (Darf ich dir eine Frage stellen?)\n\n**Sonderfall: gustar, doler, faltar — das Verb 'dreht sich um'**\nDiese Verben funktionieren umgekehrt: das Subjekt ist das, was gefällt / schmerzt:\n- Me gusta el café. (Kaffee gefällt mir. / Ich mag Kaffee.)\n- Te duele la cabeza. (Dir tut der Kopf weh.)\n- Nos falta tiempo. (Uns fehlt Zeit.)\n\n---\n\n**WO steht das Pronomen?**\n\n**Vor konjugierten Verben (Normalfall):**\n- Te llamo. / Me escuchas. / Nos vemos.\n\n**Beim Infinitiv — BEIDES ist korrekt:**\n- Quiero llamarte. = Te quiero llamar. (Ich will dich anrufen.)\n- Voy a decirte algo. = Te voy a decir algo. (Ich werde dir etwas sagen.)\n- ¿Puedo ayudarte? = ¿Te puedo ayudar? (Kann ich dir helfen?)\n\nNICHT korrekt: ¿Puedo te ayudar? — zwischen konjugiertes Verb und Infinitiv passt das Pronomen nicht.\n\n**Beim Gerundium — ebenfalls beides möglich:**\n- Estoy llamándote. = Te estoy llamando. (Ich rufe dich gerade an.)\n\n**Beim Imperativ — hier gilt eine feste Regel:**\n- Positiv → IMMER ANGEHÄNGT: ¡Llámame! (Ruf mich an!) ¡Dime! (Sag mir!) ¡Siéntate! (Setz dich!)\n- Negativ → IMMER DAVOR: ¡No me llames! ¡No te vayas! (Geh nicht weg!)\n\n---\n\n**Merkregel:**\n> Konjugiertes Verb → Pronomen DAVOR: *te veo, me llamas*\n> Infinitiv / Gerundium → DAVOR oder ANGEHÄNGT, beides korrekt: *llamarte / te llamar*\n> Positiver Imperativ → IMMER ANGEHÄNGT: *¡dime!, ¡llámame!*\n> Negativer Imperativ → IMMER DAVOR: *¡no me digas!, ¡no te vayas!*",
+      "examples": [
+        {
+          "spanish": "Te quiero.",
+          "german": "Ich liebe dich.",
+          "explanation": "TE als direktes Objekt (wen liebe ich? → dich). Vor dem konjugierten Verb."
+        },
+        {
+          "spanish": "Te doy el libro.",
+          "german": "Ich gebe dir das Buch.",
+          "explanation": "TE als indirektes Objekt (wem gebe ich das Buch? → dir)"
+        },
+        {
+          "spanish": "Me gusta el chocolate.",
+          "german": "Ich mag Schokolade.",
+          "explanation": "ME bei gustar: das Verb dreht sich um. 'Mir gefällt Schokolade' — me = mir, gusta = gefällt (Subjekt: el chocolate)"
+        },
+        {
+          "spanish": "¿Puedo hacerte una pregunta?",
+          "german": "Darf ich dir eine Frage stellen?",
+          "explanation": "TE angehängt an den Infinitiv 'hacer'. Gleichbedeutend mit: '¿Te puedo hacer una pregunta?'"
+        },
+        {
+          "spanish": "¡Llámame cuando llegues!",
+          "german": "Ruf mich an, wenn du ankommst!",
+          "explanation": "ME beim positiven Imperativ: IMMER angehängt (nie: ¡Me llama!)"
+        },
+        {
+          "spanish": "¡No te vayas todavía!",
+          "german": "Geh noch nicht weg!",
+          "explanation": "TE beim negativen Imperativ: IMMER davor (nie: ¡No vayaste!)"
+        },
+        {
+          "spanish": "Se llama Carlos.",
+          "german": "Er heißt Carlos.",
+          "explanation": "SE reflexiv: er nennt sich selbst Carlos. Reflexive Verwendung bei 'llamarse'"
+        },
+        {
+          "spanish": "Voy a decirte algo importante.",
+          "german": "Ich werde dir etwas Wichtiges sagen.",
+          "explanation": "TE angehängt an den Infinitiv. Auch korrekt: 'Te voy a decir algo importante'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Welche Form ist FALSCH?",
+          "options": [
+            "A) ¿Te puedo ayudar?",
+            "B) ¿Puedo ayudarte?",
+            "C) ¿Puedo te ayudar?"
+          ],
+          "correct": "C",
+          "explanation": "'¿Puedo te ayudar?' ist falsch — das Pronomen darf nicht zwischen das konjugierte Verb und den Infinitiv. Korrekt ist: entweder davor ('Te puedo ayudar') oder angehängt ('Puedo ayudarte')."
+        },
+        {
+          "question": "'Ruf mich an!' auf Spanisch — welche Form ist korrekt?",
+          "options": [
+            "A) ¡Me llama!",
+            "B) ¡Llámame!",
+            "C) ¡No me llames!",
+            "D) ¡Me llame!"
+          ],
+          "correct": "B",
+          "explanation": "Beim positiven Imperativ steht das Pronomen IMMER angehängt: ¡Llámame! Option A nutzt die normale Verbform statt Imperativ. Option C ist der negative Imperativ (Ruf mich nicht an!). Option D hat die falsche Imperativform."
+        },
+        {
+          "question": "'Ich mag Musik.' auf Spanisch:",
+          "options": [
+            "A) Gusto la música.",
+            "B) Estoy gustando la música.",
+            "C) Me gusta la música.",
+            "D) Te gusta la música."
+          ],
+          "correct": "C",
+          "explanation": "Bei 'gustar' dreht sich die Konstruktion um: Das Verb richtet sich nach dem, was gefällt (la música = Singular → gusta). Me = mir. Also: 'Mir gefällt die Musik.' Option D wäre 'Dir gefällt die Musik.'"
+        }
+      ]
+    },
+    {
       "id": "leccion-001",
       "title": "hacia vs hasta",
       "category": "Präpositionen",
@@ -123,6 +338,90 @@
       ]
     }
     ,
+    {
+      "id": "lesson-004",
+      "title": "Poner – Der spanische Allrounder",
+      "category": "Verben",
+      "difficulty": "intermediate",
+      "explanation_de": "**PONER** ist eines der meistgenutzten Verben der spanischen Sprache — und gleichzeitig eines der am meisten unterschätzten. Im Deutschen braucht man für die verschiedenen Bedeutungen viele verschiedene Verben. Im Spanischen reicht oft: *poner*.\n\n---\n\n**1. Die Basis: legen / stellen / tun**\n\nDie direkteste Bedeutung — jemanden oder etwas irgendwohin bringen:\n\n- Pon el libro en la mesa. (Leg das Buch auf den Tisch.)\n- Pone azúcar en el café. (Sie tut Zucker in den Kaffee.)\n- Ponlo aquí. (Leg es hier hin.)\n\n---\n\n**2. ponerse + Adjektiv = 'werden' (Zustandsänderung)**\n\nDas ist die häufigste Falle für Deutsche! Wenn jemand in einen emotionalen oder körperlichen Zustand übergeht, sagt das Spanische *ponerse* — nicht etwa *volverse* oder *hacerse*:\n\n- Me pongo nervioso. (Ich werde nervös.)\n- Se puso rojo. (Er wurde rot.)\n- ¡No te pongas triste! (Werde nicht traurig!)\n- Se pone de buen humor. (Er kommt in gute Stimmung.)\n\n**Warum nicht volverse?** *Volverse* wird für tiefgreifende, dauerhafte Verwandlungen benutzt (se volvió loco = er wurde verrückt/durchgedreht). *Ponerse* beschreibt kurzfristige, reversible Zustände — genau das, was Gefühle meistens sind.\n\n---\n\n**3. ponerse + Kleidung = anziehen**\n\nKleidung anziehen heißt auf Spanisch *ponerse* — und ausziehen *quitarse*:\n\n- Me pongo el abrigo. (Ich ziehe den Mantel an.)\n- Ponte los zapatos. (Zieh die Schuhe an.)\n- ¿Qué te pones para la fiesta? (Was ziehst du für die Party an?)\n\n---\n\n**4. poner la mesa = den Tisch decken**\n\nEine der ersten festen Wendungen, die Muttersprachler als Kind lernen:\n\n- ¿Puedes poner la mesa? (Kannst du den Tisch decken?)\n- Pongo la mesa a las ocho. (Ich decke den Tisch um acht.)\n\nIm Gegenzug: *quitar la mesa* = den Tisch abräumen.\n\n---\n\n**5. poner + Gerät = anmachen / einschalten**\n\nFernseher, Radio, Musik anmachen — im Spanischen: *poner*:\n\n- Pon la tele. (Mach den Fernseher an.)\n- ¿Puedes poner música? (Kannst du Musik anmachen?)\n- Pon el calefactor, hace frío. (Mach die Heizung an, es ist kalt.)\n\n---\n\n**6. Bonus-Einsätze, die man kennen sollte**\n\n- *La gallina pone huevos.* (Die Henne legt Eier.)\n- *¿Qué pone en el cartel?* (Was steht auf dem Schild?) — poner = stehen (Text/Aufschrift)\n- *ponerse en contacto* (sich in Verbindung setzen)\n- *ponerse de acuerdo* (sich einigen)\n- *poner en marcha* (in Gang setzen)\n- *poner en duda* (in Frage stellen)\n\n---\n\n**Merkregel:**\n> *poner* = irgendwo hinbringen / in Gang setzen\n> *ponerse* = sich selbst in einen neuen Zustand bringen\n>\n> Wann immer du im Deutschen 'werden' für ein Gefühl sagst — denk an *ponerse*.",
+      "examples": [
+        {
+          "spanish": "Pon el libro en la mesa.",
+          "german": "Leg das Buch auf den Tisch.",
+          "explanation": "Basismeaning: etwas irgendwo hinlegen/stellen"
+        },
+        {
+          "spanish": "Me pongo nervioso cuando hablo en público.",
+          "german": "Ich werde nervös, wenn ich vor Leuten spreche.",
+          "explanation": "PONERSE + Adjektiv = kurzfristige Zustandsänderung (Gefühl)"
+        },
+        {
+          "spanish": "Se puso roja de vergüenza.",
+          "german": "Sie wurde rot vor Scham.",
+          "explanation": "PONERSE im Pretérito: se puso — körperliche Reaktion auf ein Gefühl"
+        },
+        {
+          "spanish": "¡Ponte el abrigo, hace frío!",
+          "german": "Zieh den Mantel an, es ist kalt!",
+          "explanation": "PONERSE + Kleidung = anziehen — Imperativ: ¡Ponte!"
+        },
+        {
+          "spanish": "¿Puedes poner la mesa?",
+          "german": "Kannst du den Tisch decken?",
+          "explanation": "Feste Wendung: poner la mesa = den Tisch decken (nicht abräumen!)"
+        },
+        {
+          "spanish": "Pon la tele, empieza el partido.",
+          "german": "Mach den Fernseher an, das Spiel fängt an.",
+          "explanation": "poner + Gerät = einschalten/anmachen"
+        },
+        {
+          "spanish": "¿Qué pone en ese cartel?",
+          "german": "Was steht auf diesem Schild?",
+          "explanation": "poner = stehen (bei Text/Aufschrift) — ein häufiger Alltagseinsatz"
+        },
+        {
+          "spanish": "Tenemos que ponernos de acuerdo.",
+          "german": "Wir müssen uns einigen.",
+          "explanation": "Feste Wendung: ponerse de acuerdo = sich einigen"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Welche Aussage über PONER ist FALSCH?",
+          "options": [
+            "A) ponerse + Adjektiv beschreibt eine emotionale Zustandsänderung",
+            "B) poner la mesa bedeutet 'den Tisch abräumen'",
+            "C) ponerse + Kleidung bedeutet 'anziehen'",
+            "D) poner la tele bedeutet 'den Fernseher anmachen'"
+          ],
+          "correct": "B",
+          "explanation": "FALSCH ist B! 'Poner la mesa' heißt 'den Tisch DECKEN' — abräumen wäre 'quitar la mesa'."
+        },
+        {
+          "question": "Wie sagt man auf Spanisch 'Sie wurde nervös'?",
+          "options": [
+            "A) Se puso nerviosa.",
+            "B) Se hizo nerviosa.",
+            "C) Fue nerviosa.",
+            "D) Estuvo nerviosa."
+          ],
+          "correct": "A",
+          "explanation": "PONERSE + Adjektiv = kurzfristige Zustandsänderung (Gefühl). Im Pretérito: se puso. Hacerse/Volverse wären für dauerhafte Verwandlungen."
+        },
+        {
+          "question": "Was bedeutet '¿Qué pone en el letrero?'",
+          "options": [
+            "A) Was stellt er auf das Schild?",
+            "B) Was steht auf dem Schild?",
+            "C) Warum hängt er ein Schild auf?",
+            "D) Wann kommt das Schild an?"
+          ],
+          "correct": "B",
+          "explanation": "Poner kann auch bedeuten, dass etwas 'steht' (Text/Aufschrift). '¿Qué pone?' = Was steht da? — ein typischer Alltagssatz beim Lesen von Schildern oder Nachrichten."
+        }
+      ]
+    },
     {
       "id": "lesson-003",
       "title": "ser vs. estar",
