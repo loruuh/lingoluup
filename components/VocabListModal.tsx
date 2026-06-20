@@ -3,27 +3,48 @@
 import { useState, useMemo, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { useModule } from "@/lib/ModuleContext";
+import { getFavorites, addFavorite, removeFavorite } from "@/lib/local-storage";
 
 interface VocabListModalProps {
   isOpen: boolean;
   onClose: () => void;
   seenIds?: Set<string>;
+  playCounts?: Record<string, number>;
 }
 
-export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListModalProps) {
+export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }: VocabListModalProps) {
   const { selectedModule, getModuleVocab } = useModule();
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
   const [search, setSearch] = useState("");
+  const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (!isOpen) {
       setRevealedIds(new Set());
       setSearch("");
+    } else {
+      setFavoritedIds(new Set(getFavorites()));
     }
   }, [isOpen]);
 
+  const toggleFavorite = (e: React.MouseEvent, vocabId: string) => {
+    e.stopPropagation();
+    if (favoritedIds.has(vocabId)) {
+      removeFavorite(vocabId);
+      setFavoritedIds((prev) => {
+        const next = new Set(prev);
+        next.delete(vocabId);
+        return next;
+      });
+    } else {
+      addFavorite(vocabId);
+      setFavoritedIds((prev) => new Set([...prev, vocabId]));
+    }
+    window.dispatchEvent(new CustomEvent("favoritesChanged"));
+  };
+
   const vocab = useMemo(() => {
-    if (!selectedModule || selectedModule.type !== "vocabulary") return [];
+    if (!selectedModule || (selectedModule.type !== "vocabulary" && selectedModule.type !== "phrases")) return [];
     return getModuleVocab(selectedModule.id);
   }, [selectedModule, getModuleVocab]);
 
@@ -119,11 +140,13 @@ export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListMo
         </div>
 
         {/* Column headers */}
-        <div className="grid grid-cols-[2.5rem_1fr_1.5rem_1fr] gap-x-2 px-5 py-2 border-b border-white/10 shrink-0">
+        <div className="grid grid-cols-[2.5rem_1fr_1.5rem_1fr_2.5rem_2.5rem] gap-x-2 px-5 py-2 border-b border-white/10 shrink-0">
           <span className="text-xs font-semibold uppercase tracking-wider text-gray-600">#</span>
           <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Deutsch</span>
           <span />
           <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Español</span>
+          <span />
+          <span />
         </div>
 
         {/* Scrollable list */}
@@ -141,7 +164,7 @@ export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListMo
                   <div
                     key={v.id}
                     onClick={() => toggleReveal(v.id)}
-                    className="grid grid-cols-[2.5rem_1fr_1.5rem_1fr] gap-x-2 items-center px-3 py-3 cursor-pointer hover:bg-white/5 rounded-lg transition-colors group"
+                    className="grid grid-cols-[2.5rem_1fr_1.5rem_1fr_2.5rem_2.5rem] gap-x-2 items-center px-3 py-3 cursor-pointer hover:bg-white/5 rounded-lg transition-colors group"
                   >
                     {/* Index column: green ✓ for seen words */}
                     {seen ? (
@@ -163,6 +186,34 @@ export default function VocabListModal({ isOpen, onClose, seenIds }: VocabListMo
                     <span className={`text-sm font-medium transition-colors ${revealed ? "text-primary" : "text-gray-700"}`}>
                       {revealed ? v.spanish : "· · · · ·"}
                     </span>
+
+                    {/* Lifetime play count */}
+                    <span className="text-[11px] tabular-nums text-gray-600 text-right select-none self-center">
+                      {(playCounts?.[v.id] ?? 0) > 0 ? `${playCounts![v.id]}×` : "—"}
+                    </span>
+
+                    {/* Favorite / Vokabelheft */}
+                    <button
+                      onClick={(e) => toggleFavorite(e, v.id)}
+                      aria-label={favoritedIds.has(v.id) ? "Aus Vokabelheft entfernen" : "Zum Vokabelheft hinzufügen"}
+                      className="flex items-center justify-center w-full h-full active:scale-90 transition-transform"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        className={`w-4 h-4 transition-all duration-200 ${
+                          favoritedIds.has(v.id)
+                            ? "text-secondary fill-secondary"
+                            : "text-gray-600 fill-none group-hover:text-gray-400"
+                        }`}
+                      >
+                        <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      </svg>
+                    </button>
                   </div>
                 );
               })}

@@ -4,14 +4,17 @@ import Link from "next/link";
 import HistoryButton from "./HistoryButton";
 import { NavIcon } from "./NavIcon";
 import VokabelheftBadge from "./VokabelheftBadge";
+import { useModule } from "@/lib/ModuleContext";
 
 export default function Header() {
+  const { clearModule } = useModule();
+
   return (
     <header className="w-full bg-background/80 backdrop-blur-lg border-b border-primary/20 sticky top-0 z-40">
       <div className="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
 
         {/* Logo */}
-        <Link href="/modules" className="group relative flex items-center gap-1.5">
+        <Link href="/modules" onClick={clearModule} className="group relative flex items-center gap-1.5">
           <span className="text-xl font-bold bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent transition-all duration-300">
             HablaPalabra
           </span>

@@ -122,5 +122,78 @@
         }
       ]
     }
+    ,
+    {
+      "id": "lesson-003",
+      "title": "ser vs. estar",
+      "category": "Verben",
+      "difficulty": "intermediate",
+      "explanation_de": "Beide Verben bedeuten ‚sein' — aber sie sind NICHT austauschbar. Das Spanische unterscheidet zwischen dem WAS jemand ist und dem WIE oder WO jemand gerade ist.\n\n---\n\n**SER — das unveränderliche Wesen**\n\nSER beschreibt Eigenschaften, die zur Identität gehören oder sich nicht einfach ändern:\n\n- **Identität & Herkunft:** Soy alemán. / María es médica.\n- **Zeit & Datum:** Son las tres. / Hoy es martes.\n- **Material:** La mesa es de madera. (Der Tisch ist aus Holz.)\n- **Zugehörigkeit:** El libro es de Ana. (Das Buch gehört Ana.)\n- **Charaktereigenschaften:** Es alto e inteligente. (Er ist groß und intelligent.)\n- **Ort von VERANSTALTUNGEN** ← Ausnahme, aber dazu gleich mehr!\n\n---\n\n**ESTAR — Zustand, Position, Lage**\n\nESTAR beschreibt, wie jemand/etwas gerade ist, oder WO sich etwas befindet:\n\n- **Gefühle & körperliche Zustände:** Estoy cansado. / Está enferma.\n- **Laufende Handlungen:** Estoy comiendo. (Ich esse gerade.)\n- **Ergebnis einer Handlung:** La puerta está abierta. (Die Tür ist offen.)\n- **ORT — immer ESTAR, auch bei festen Gebäuden!** ← Kernregel!\n\n---\n\n**⚠️ Die Ortsfalle — und warum das Klo doch ESTAR bekommt**\n\nDeutscher Instinkt sagt: Ein Badezimmer ist festgemauert → also dauerhaft → also SER.\n\nSpanisch denkt das nicht so. Im Spanischen ist ORT grundsätzlich eine Lage im Raum — und Lage gehört immer zu ESTAR, egal wie fest etwas gebaut ist:\n\n> ¿Dónde **está** el baño? — Wo ist die Toilette?\n> El banco **está** al lado de la farmacia. — Die Bank ist neben der Apotheke.\n> Madrid **está** en España. — Madrid liegt in Spanien.\n\nMadrid wird sich nicht bewegen. Die Apotheke auch nicht. Trotzdem: ESTAR.\n\n**Die einzige Ausnahme: Veranstaltungen benutzen SER für ihren Ort**\n\n> La fiesta **es** en mi casa. — Die Party ist bei mir zu Hause.\n> El concierto **es** en el teatro. — Das Konzert ist im Theater.\n\nHier ist ‚die Party' das Subjekt, nicht das Haus. Das Haus selbst bleibt bei ESTAR:\n> La casa **está** en las afueras. — Das Haus liegt am Stadtrand.\n\n---\n\n**Merkregel:**\n> SER = Wesen / Identität\n> ESTAR = Zustand / Ort\n>\n> Und bei ORT: **immer ESTAR** — auch wenn das Gebäude nicht wegläuft.",
+      "examples": [
+        {
+          "spanish": "¿Dónde está el baño?",
+          "german": "Wo ist die Toilette?",
+          "explanation": "ESTAR für Ort — das Badezimmer ist festgemauert, aber Lage im Raum bekommt immer ESTAR"
+        },
+        {
+          "spanish": "Madrid está en España.",
+          "german": "Madrid liegt in Spanien.",
+          "explanation": "ESTAR für Ort — Madrid wird sich nie bewegen, trotzdem ESTAR"
+        },
+        {
+          "spanish": "Soy alemán.",
+          "german": "Ich bin Deutscher.",
+          "explanation": "SER für Nationalität — gehört zur Identität, unveränderlich"
+        },
+        {
+          "spanish": "Estoy cansado.",
+          "german": "Ich bin müde.",
+          "explanation": "ESTAR für Zustand — Müdigkeit ist vorübergehend"
+        },
+        {
+          "spanish": "La fiesta es en mi casa.",
+          "german": "Die Party ist bei mir zu Hause.",
+          "explanation": "SER für Veranstaltungsort — einzige Ausnahme! Das Haus selbst würde 'estar' bekommen"
+        },
+        {
+          "spanish": "El banco está al lado de la farmacia.",
+          "german": "Die Bank ist neben der Apotheke.",
+          "explanation": "ESTAR für Ort eines Gebäudes — keine Ausnahme, Gebäude sind immer ESTAR"
+        },
+        {
+          "spanish": "Es alta e inteligente.",
+          "german": "Sie ist groß und intelligent.",
+          "explanation": "SER für dauerhaften Charakter — definiert die Person"
+        },
+        {
+          "spanish": "La puerta está abierta.",
+          "german": "Die Tür ist offen.",
+          "explanation": "ESTAR für Zustand/Ergebnis — die Tür wurde geöffnet, dieser Zustand ist vorübergehend"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "¿Dónde ___ el museo? (Wo ist das Museum?)",
+          "options": ["es", "está"],
+          "correct": 1,
+          "explanation": "ESTAR — Gebäude und Orte benutzen immer estar, auch wenn sie fest gebaut sind"
+        },
+        {
+          "question": "La reunión ___ en la sala de conferencias. (Das Meeting ist im Konferenzraum.)",
+          "options": ["es", "está"],
+          "correct": 0,
+          "explanation": "SER — Veranstaltungen und Ereignisse benutzen ser für ihren Ort. Der Konferenzraum selbst würde 'estar' bekommen!"
+        },
+        {
+          "question": "Estoy cansado. Was sagt uns ESTAR hier?",
+          "options": [
+            "Müdigkeit ist ein dauerhafter Charakterzug dieser Person",
+            "Müdigkeit ist ein vorübergehender Zustand"
+          ],
+          "correct": 1,
+          "explanation": "ESTAR beschreibt Zustände — Müdigkeit ist zeitlich begrenzt. Mit SER ('Soy cansado') würde man sagen, Faulheit gehört zur Identität der Person."
+        }
+      ]
+    }
   ]
 }

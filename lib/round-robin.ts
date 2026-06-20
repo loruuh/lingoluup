@@ -9,18 +9,21 @@ export interface MarkSeenResult {
   round: number;
   roundJustCompleted: boolean;
   newSeenSet: Set<string>;
+  playCounts: Record<string, number>;
 }
 
 interface RoundProgress {
   seenIds: Set<string>;
   round: number;
   updatedAt: string;
+  playCounts: Record<string, number>;
 }
 
 interface LocalRoundData {
   seen_ids: string[];
   round: number;
   updated_at: string;
+  play_counts?: Record<string, number>;
 }
 
 // ── Module-level auth flag ────────────────────────────────────────────────────
@@ -60,24 +63,26 @@ function lsKey(moduleId: string): string {
 function readLs(moduleId: string): RoundProgress {
   try {
     const raw = localStorage.getItem(lsKey(moduleId));
-    if (!raw) return { seenIds: new Set(), round: 1, updatedAt: new Date(0).toISOString() };
+    if (!raw) return { seenIds: new Set(), round: 1, updatedAt: new Date(0).toISOString(), playCounts: {} };
     const d: LocalRoundData = JSON.parse(raw);
     return {
       seenIds: new Set(d.seen_ids ?? []),
       round: d.round ?? 1,
       updatedAt: d.updated_at ?? new Date(0).toISOString(),
+      playCounts: d.play_counts ?? {},
     };
   } catch {
-    return { seenIds: new Set(), round: 1, updatedAt: new Date(0).toISOString() };
+    return { seenIds: new Set(), round: 1, updatedAt: new Date(0).toISOString(), playCounts: {} };
   }
 }
 
-function writeLs(moduleId: string, seenIds: Set<string>, round: number): void {
+function writeLs(moduleId: string, seenIds: Set<string>, round: number, playCounts: Record<string, number>): void {
   try {
     const d: LocalRoundData = {
       seen_ids: Array.from(seenIds),
       round,
       updated_at: new Date().toISOString(),
+      play_counts: playCounts,
     };
     localStorage.setItem(lsKey(moduleId), JSON.stringify(d));
   } catch (e) {
@@ -91,7 +96,8 @@ async function upsertDb(
   userId: string,
   moduleId: string,
   seenIds: Set<string>,
-  round: number
+  round: number,
+  playCounts: Record<string, number>
 ): Promise<{ error: unknown }> {
   const { error } = await supabase.from("module_round_progress").upsert(
     {
@@ -100,6 +106,7 @@ async function upsertDb(
       seen_ids: Array.from(seenIds),
       round,
       updated_at: new Date().toISOString(),
+      play_counts: playCounts,
     },
     { onConflict: "user_id,module_id" }
   );
@@ -124,7 +131,7 @@ export async function getProgress(moduleId: string): Promise<RoundProgress> {
 
     const { data, error } = await supabase
       .from("module_round_progress")
-      .select("seen_ids, round, updated_at")
+      .select("seen_ids, round, updated_at, play_counts")
       .eq("user_id", user.id)
       .eq("module_id", moduleId)
       .maybeSingle();
@@ -141,7 +148,7 @@ export async function getProgress(moduleId: string): Promise<RoundProgress> {
 
     if (lsTs > dbTs) {
       // Offline progress is newer – sync up to DB
-      await upsertDb(user.id, moduleId, lsData.seenIds, lsData.round);
+      await upsertDb(user.id, moduleId, lsData.seenIds, lsData.round, lsData.playCounts);
       return lsData;
     }
 
@@ -149,8 +156,9 @@ export async function getProgress(moduleId: string): Promise<RoundProgress> {
       seenIds: new Set((data.seen_ids as string[]) ?? []),
       round: (data.round as number) ?? 1,
       updatedAt: data.updated_at as string,
+      playCounts: (data.play_counts as Record<string, number>) ?? {},
     };
-    writeLs(moduleId, dbProgress.seenIds, dbProgress.round);
+    writeLs(moduleId, dbProgress.seenIds, dbProgress.round, dbProgress.playCounts);
     return dbProgress;
   } catch {
     return readLs(moduleId);
@@ -161,6 +169,7 @@ export async function getProgress(moduleId: string): Promise<RoundProgress> {
 
 /**
  * Marks wordId as seen for this module (Change 1: called on Weiter, not on display).
+ * Increments play_counts[wordId] by 1 — never resets across rounds.
  * If all vocab in allVocabIds are now seen: increments round and resets seen set.
  * Persists to localStorage always; Supabase if anon session is active.
  */
@@ -171,6 +180,11 @@ export async function markSeen(
 ): Promise<MarkSeenResult> {
   // Read from localStorage (always the authoritative in-memory mirror during a session)
   const current = readLs(moduleId);
+
+  // Increment lifetime play counter — separate from seenIds, never reset
+  const playCounts = { ...current.playCounts };
+  playCounts[wordId] = (playCounts[wordId] ?? 0) + 1;
+
   current.seenIds.add(wordId);
 
   const total = allVocabIds.length;
@@ -182,9 +196,10 @@ export async function markSeen(
     roundJustCompleted = true;
     current.round += 1;
     current.seenIds = new Set();
+    // playCounts is NOT touched here — survives round reset
   }
 
-  writeLs(moduleId, current.seenIds, current.round);
+  writeLs(moduleId, current.seenIds, current.round, playCounts);
 
   if (!anonSessionFailed) {
     try {
@@ -192,7 +207,7 @@ export async function markSeen(
         data: { user },
       } = await supabase.auth.getUser();
       if (user) {
-        const { error } = await upsertDb(user.id, moduleId, current.seenIds, current.round);
+        const { error } = await upsertDb(user.id, moduleId, current.seenIds, current.round, playCounts);
         if (error) {
           console.warn("[round-robin] Supabase upsert returned an error — data is in localStorage only:", error);
         } else {
@@ -214,6 +229,7 @@ export async function markSeen(
     round: current.round,
     roundJustCompleted,
     newSeenSet: current.seenIds,
+    playCounts,
   };
 }
 
@@ -232,4 +248,28 @@ export function pickNext(
   const unseen = moduleVocab.filter((v) => !seenSet.has(v.id));
   if (unseen.length === 0) return null;
   return unseen[Math.floor(Math.random() * unseen.length)];
+}
+
+// ── Public: Play count helpers ────────────────────────────────────────────────
+
+/**
+ * Returns the play_counts map for a module from localStorage (synchronous).
+ * Used by ModuleSelection to compute averages without async Supabase calls.
+ */
+export function getModulePlayCounts(moduleId: string): Record<string, number> {
+  return readLs(moduleId).playCounts;
+}
+
+/**
+ * Computes average plays per word across the live vocab list only.
+ * Stale ids in play_counts (removed words) are excluded automatically.
+ * Words not yet in play_counts count as 0.
+ */
+export function calcModuleAverage(
+  playCounts: Record<string, number>,
+  liveVocabIds: string[]
+): number {
+  if (liveVocabIds.length === 0) return 0;
+  const sum = liveVocabIds.reduce((acc, id) => acc + (playCounts[id] ?? 0), 0);
+  return sum / liveVocabIds.length;
 }

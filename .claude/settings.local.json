@@ -109,7 +109,16 @@
       "PowerShell(node \"C:/Users/svenb/Desktop/loruuh/02 Spanish Generator/CapturCherry/_move.js\")",
       "Bash(cp \"app/modules/page.tsx\" \"app/modules/page.tsx.bak\")",
       "Bash(cp \"components/VocabListModal.tsx\" \"components/VocabListModal.tsx.bak\")",
-      "Bash(cp \"lib/supabase.ts\" \"lib/supabase.ts.bak\")"
+      "Bash(cp \"lib/supabase.ts\" \"lib/supabase.ts.bak\")",
+      "Skill(run)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3456/modules)",
+      "Bash('button')",
+      "Bash(where chromium *)",
+      "Bash(where chromium-browser *)",
+      "Read(//c/Program Files/Google/Chrome/**)",
+      "Bash(npx playwright *)",
+      "Bash(npm list *)",
+      "Bash(npm root *)"
     ]
   }
 }

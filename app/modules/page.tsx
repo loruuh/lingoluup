@@ -63,6 +63,7 @@ export default function Home() {
   const [rrSeenCount, setRrSeenCount] = useState(0);
   const [rrTotal, setRrTotal] = useState(0);
   const [rrRound, setRrRound] = useState(1);
+  const [playCounts, setPlayCounts] = useState<Record<string, number>>({});
 
   // Ensure anon Supabase session once on mount (fails gracefully → localStorage)
   useEffect(() => {
@@ -99,6 +100,7 @@ export default function Home() {
       setRrSeenCount(progress.seenIds.size);
       setRrTotal(moduleVocab.length);
       setRrRound(progress.round);
+      setPlayCounts(progress.playCounts);
       const next = pickNext(moduleId, moduleVocab, progress.seenIds);
       if (next) setCurrentVocab(next);
       incrementStats();
@@ -203,6 +205,7 @@ export default function Home() {
       setRrSeenCount(result.seenCount);
       setRrTotal(result.total);
       setRrRound(result.round);
+      setPlayCounts(result.playCounts);
 
       // Daily goal
       const updated = incrementTodayGoal(selectedModule.id);
@@ -376,7 +379,7 @@ export default function Home() {
             <span className="text-sm transition-transform duration-200 group-hover:-translate-x-0.5">←</span>
             <span className="font-semibold text-sm">Module</span>
           </button>
-          {selectedModule?.type === "vocabulary" && (
+          {(selectedModule?.type === "vocabulary" || selectedModule?.type === "phrases") && (
             <button
               onClick={() => setShowVocabList(true)}
               aria-label="Wortliste anzeigen"
@@ -503,6 +506,7 @@ export default function Home() {
         isOpen={showVocabList}
         onClose={() => setShowVocabList(false)}
         seenIds={rrSeenSet}
+        playCounts={playCounts}
       />
     </div>
   );

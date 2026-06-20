@@ -1,10 +1,12 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useModule } from "@/lib/ModuleContext";
 import moduleIndex from "@/data/modules/index.json";
 import HistoryButton from "./HistoryButton";
 import { NavIcon } from "./NavIcon";
 import Link from "next/link";
+import { getModulePlayCounts, calcModuleAverage } from "@/lib/round-robin";
 
 const BookIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" className="w-full h-full" stroke="currentColor" strokeWidth="1.5">
@@ -61,9 +63,24 @@ const TOOL_COLORS: Record<string, LevelColor> = {
 };
 
 export default function ModuleSelection() {
-  const { selectModule, getModuleItemCount } = useModule();
+  const { selectModule, getModuleItemCount, getModuleVocab } = useModule();
+  const [averages, setAverages] = useState<Record<string, number>>({});
 
   const moduleMap = Object.fromEntries(moduleIndex.map((m) => [m.id, m]));
+
+  useEffect(() => {
+    const ids = LEVEL_GROUPS.flatMap((g) => g.moduleIds);
+    const result: Record<string, number> = {};
+    for (const id of ids) {
+      const m = moduleMap[id];
+      if (!m || (m.type !== "vocabulary" && m.type !== "phrases")) continue;
+      const counts = getModulePlayCounts(id);
+      const vocabIds = getModuleVocab(id).map((v) => v.id);
+      result[id] = calcModuleAverage(counts, vocabIds);
+    }
+    setAverages(result);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="min-h-screen relative overflow-x-hidden" style={{ background: "#0d1117" }}>
@@ -201,6 +218,9 @@ export default function ModuleSelection() {
                         <div className="mt-5 flex items-center justify-between">
                           <span className="text-[11px] tabular-nums text-gray-600">
                             {count} Vokabeln
+                            {averages[module.id] !== undefined && (
+                              <> · Ø {averages[module.id].toFixed(1)}×</>
+                            )}
                           </span>
                           <span
                             className="text-xs font-semibold flex items-center gap-1 transition-all duration-200 group-hover:gap-2"
