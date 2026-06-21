@@ -10,7 +10,7 @@
   {
     "id": "vokabeln-2",
     "name": "Vokabeln 2 – Alltag I",
-    "description": "Alltag: Essen & Trinken, Körper, Wohnen, Transport",
+    "description": "Alltag: Körper, Wohnen, Transport",
     "icon": "📗",
     "type": "vocabulary",
     "file": "vokabeln-2.json"
@@ -97,9 +97,9 @@
   },
   {
     "id": "zahlen",
-    "name": "Zahlen",
-    "description": "Zahlen 0-1000 auf Spanisch",
-    "icon": "🔢",
+    "name": "Zahlen & Uhrzeiten",
+    "description": "Zahlen 0-1000 + Uhrzeit auf Spanisch",
+    "icon": "🕐",
     "type": "numbers",
     "file": "zahlen.json"
   },

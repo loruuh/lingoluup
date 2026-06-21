@@ -1,7 +1,7 @@
 {
   "id": "vokabeln-2",
   "name": "Vokabeln 2 – Alltag I",
-  "description": "Alltag: Essen & Trinken, Körper, Wohnen, Transport",
+  "description": "Alltag: Körper, Wohnen, Transport",
   "icon": "📗",
   "type": "vocabulary",
   "vocabIds": [
@@ -120,7 +120,6 @@
     "301",
     "309",
     "310",
-    "314",
     "315",
     "316",
     "317",
@@ -253,6 +252,8 @@
     "610",
     "612",
     "616",
-    "617"
+    "617",
+    "3333",
+    "3334"
   ]
 }

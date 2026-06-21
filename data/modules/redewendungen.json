@@ -1088,6 +1088,274 @@
         "qué": "was für ein/e",
         "faena": "Mist / Pech (umgangssprachlich)"
       }
+    },
+    {
+      "id": "r79",
+      "spanish": "dando vueltas",
+      "german": "sich im Kreis drehen / herumirren",
+      "literal": "Runden drehend",
+      "sentence_es": "Llevo horas dando vueltas por el barrio y no encuentro la calle.",
+      "sentence_de": "Ich irre seit Stunden durch das Viertel und finde die Straße nicht.",
+      "audio": "",
+      "word_translations": {
+        "dando": "drehend / gebend",
+        "vueltas": "Runden / Umdrehungen"
+      }
+    },
+    {
+      "id": "r80",
+      "spanish": "ni siquiera",
+      "german": "nicht einmal",
+      "literal": "nicht wenigstens / nicht einmal",
+      "sentence_es": "Ni siquiera me llamó para disculparse.",
+      "sentence_de": "Er rief mich nicht einmal an, um sich zu entschuldigen.",
+      "audio": "",
+      "word_translations": {
+        "ni": "nicht mal",
+        "siquiera": "wenigstens / einmal"
+      }
+    },
+    {
+      "id": "r81",
+      "spanish": "por su cuenta",
+      "german": "auf eigene Faust / selbstständig",
+      "literal": "auf seine/ihre Rechnung",
+      "sentence_es": "Decidió montar el negocio por su cuenta.",
+      "sentence_de": "Er entschied sich, das Geschäft auf eigene Faust aufzubauen.",
+      "audio": "",
+      "word_translations": {
+        "por": "auf / für",
+        "su": "seine/ihre",
+        "cuenta": "Rechnung / Konto"
+      }
+    },
+    {
+      "id": "r82",
+      "spanish": "sin importar",
+      "german": "ungeachtet / egal ob",
+      "literal": "ohne zu wichtig nehmen",
+      "sentence_es": "Sin importar el resultado, lo diste todo.",
+      "sentence_de": "Ungeachtet des Ergebnisses hast du alles gegeben.",
+      "audio": "",
+      "word_translations": {
+        "sin": "ohne",
+        "importar": "wichtig sein / stören"
+      }
+    },
+    {
+      "id": "r83",
+      "spanish": "a menos que",
+      "german": "es sei denn (+ Subjuntivo)",
+      "literal": "zu weniger als",
+      "sentence_es": "No voy a la fiesta, a menos que tú también vayas.",
+      "sentence_de": "Ich gehe nicht zur Party, es sei denn, du gehst auch hin.",
+      "audio": "",
+      "word_translations": {
+        "a": "zu / an",
+        "menos": "weniger",
+        "que": "als / dass"
+      }
+    },
+    {
+      "id": "r84",
+      "spanish": "para ser sincero",
+      "german": "um ehrlich zu sein",
+      "literal": "um ehrlich zu sein",
+      "sentence_es": "Para ser sincero, no me gustó nada la película.",
+      "sentence_de": "Um ehrlich zu sein, der Film hat mir überhaupt nicht gefallen.",
+      "audio": "",
+      "word_translations": {
+        "para": "um zu",
+        "ser": "sein",
+        "sincero": "ehrlich"
+      }
+    },
+    {
+      "id": "r85",
+      "spanish": "cómo demonios",
+      "german": "wie zum Teufel",
+      "literal": "wie Teufel",
+      "sentence_es": "¿Cómo demonios lo hiciste en tan poco tiempo?",
+      "sentence_de": "Wie zum Teufel hast du das in so kurzer Zeit geschafft?",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "demonios": "Teufel / Dämonen"
+      }
+    },
+    {
+      "id": "r86",
+      "spanish": "ponerse en contacto",
+      "german": "Kontakt aufnehmen",
+      "literal": "sich in Kontakt setzen",
+      "sentence_es": "Me pondré en contacto contigo esta tarde.",
+      "sentence_de": "Ich nehme heute Nachmittag Kontakt mit dir auf.",
+      "audio": "",
+      "word_translations": {
+        "ponerse": "sich begeben / sich setzen",
+        "en": "in",
+        "contacto": "Kontakt"
+      }
+    },
+    {
+      "id": "r87",
+      "spanish": "dejar de",
+      "german": "aufhören mit (+ Infinitiv)",
+      "literal": "lassen von",
+      "sentence_es": "¡Deja de hacer eso, me está poniendo nervioso!",
+      "sentence_de": "Hör damit auf, das macht mich nervös!",
+      "audio": "",
+      "word_translations": {
+        "dejar": "lassen / aufhören",
+        "de": "von / mit"
+      }
+    },
+    {
+      "id": "r88",
+      "spanish": "cualquier cosa",
+      "german": "irgendetwas / was auch immer",
+      "literal": "irgendeine Sache",
+      "sentence_es": "Puedes pedirme cualquier cosa, estoy aquí para ayudarte.",
+      "sentence_de": "Du kannst mich irgendetwas fragen, ich bin hier, um dir zu helfen.",
+      "audio": "",
+      "word_translations": {
+        "cualquier": "irgendein/e",
+        "cosa": "Sache / Ding"
+      }
+    },
+    {
+      "id": "r89",
+      "spanish": "es lo máximo",
+      "german": "das ist der Hammer / das Größte",
+      "literal": "das ist das Maximum",
+      "sentence_es": "¿Has probado esa pizza? ¡Es lo máximo!",
+      "sentence_de": "Hast du diese Pizza probiert? Das ist der Hammer!",
+      "audio": "",
+      "word_translations": {
+        "lo": "das",
+        "máximo": "Maximum / das Größte"
+      }
+    },
+    {
+      "id": "r90",
+      "spanish": "tomar el pelo",
+      "german": "jemanden auf den Arm nehmen / veräppeln",
+      "literal": "das Haar nehmen",
+      "sentence_es": "¿Me estás tomando el pelo? Eso no puede ser verdad.",
+      "sentence_de": "Willst du mich veräppeln? Das kann nicht wahr sein.",
+      "audio": "",
+      "word_translations": {
+        "tomar": "nehmen",
+        "el": "das",
+        "pelo": "Haar"
+      }
+    },
+    {
+      "id": "r91",
+      "spanish": "jugar una mala pasada",
+      "german": "jemandem einen Streich spielen / übel mitspielen",
+      "literal": "einen schlechten Zug spielen",
+      "sentence_es": "La memoria me jugó una mala pasada y olvidé su cumpleaños.",
+      "sentence_de": "Das Gedächtnis hat mir einen Streich gespielt und ich vergaß seinen Geburtstag.",
+      "audio": "",
+      "word_translations": {
+        "jugar": "spielen",
+        "mala": "schlechte / üble",
+        "pasada": "Zug / Streich"
+      }
+    },
+    {
+      "id": "r92",
+      "spanish": "cortes y cardenales",
+      "german": "Schrammen und Beulen / verprügelt",
+      "literal": "Schnitte und Blutergüsse (cardenales = blaue Flecken, NICHT cardinales)",
+      "sentence_es": "Después de la caída de la bici, tenía cortes y cardenales en las rodillas.",
+      "sentence_de": "Nach dem Fahrradsturz hatte er Schrammen und Beulen an den Knien.",
+      "audio": "",
+      "word_translations": {
+        "cortes": "Schnitte / Schrammen",
+        "cardenales": "blaue Flecken / Blutergüsse"
+      }
+    },
+    {
+      "id": "r93",
+      "spanish": "un don nadie",
+      "german": "ein Niemand / eine unbedeutende Person",
+      "literal": "ein Herr Niemand",
+      "sentence_es": "Antes era un don nadie, ahora es famoso en todo el país.",
+      "sentence_de": "Früher war er ein Niemand, jetzt ist er im ganzen Land bekannt.",
+      "audio": "",
+      "word_translations": {
+        "don": "Herr (Titel / Anrede)",
+        "nadie": "niemand"
+      }
+    },
+    {
+      "id": "r94",
+      "spanish": "volver loco a alguien",
+      "german": "jemanden verrückt machen",
+      "literal": "jemanden verrückt werden lassen",
+      "sentence_es": "El ruido de los vecinos me vuelve loco.",
+      "sentence_de": "Der Lärm der Nachbarn macht mich verrückt.",
+      "audio": "",
+      "word_translations": {
+        "volver": "zurückkehren / machen (kausativ)",
+        "loco": "verrückt",
+        "a": "jemanden (persönliches a)"
+      }
+    },
+    {
+      "id": "r95",
+      "spanish": "tocar fondo",
+      "german": "den Tiefpunkt erreichen",
+      "literal": "den Boden berühren",
+      "sentence_es": "Tocó fondo cuando perdió el trabajo y la familia al mismo tiempo.",
+      "sentence_de": "Er erreichte seinen Tiefpunkt, als er gleichzeitig Arbeit und Familie verlor.",
+      "audio": "",
+      "word_translations": {
+        "tocar": "berühren",
+        "fondo": "Boden / Tiefpunkt"
+      }
+    },
+    {
+      "id": "r96",
+      "spanish": "me pone (nervioso/triste/contento)",
+      "german": "das macht mich (nervös/traurig/froh)",
+      "literal": "das versetzt mich in einen Zustand",
+      "sentence_es": "Esa película me pone triste cada vez que la veo.",
+      "sentence_de": "Dieser Film macht mich jedes Mal traurig, wenn ich ihn sehe.",
+      "audio": "",
+      "word_translations": {
+        "me": "mich",
+        "pone": "macht / versetzt",
+        "triste": "traurig"
+      }
+    },
+    {
+      "id": "r97",
+      "spanish": "¿qué pasa?",
+      "german": "was geht? / was ist los?",
+      "literal": "was passiert?",
+      "sentence_es": "¿Qué pasa? Parece que algo va mal.",
+      "sentence_de": "Was ist los? Es scheint, als ob etwas nicht stimmt.",
+      "audio": "",
+      "word_translations": {
+        "qué": "was",
+        "pasa": "passiert / geht"
+      }
+    },
+    {
+      "id": "r98",
+      "spanish": "¿cómo estás?",
+      "german": "wie geht's dir?",
+      "literal": "wie bist du?",
+      "sentence_es": "Hola, ¿cómo estás? Hace tiempo que no te veo.",
+      "sentence_de": "Hallo, wie geht's dir? Ich habe dich lange nicht gesehen.",
+      "audio": "",
+      "word_translations": {
+        "cómo": "wie",
+        "estás": "bist du / geht es dir"
+      }
     }
   ]
 }

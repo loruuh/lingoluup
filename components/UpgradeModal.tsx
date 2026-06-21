@@ -58,7 +58,7 @@ export function UpgradeModal({ isOpen, onClose }: Props) {
               </div>
               <div>
                 <div className="font-semibold text-white text-sm">Alle Module freischalten</div>
-                <div className="text-xs text-gray-400">Module 2-5, Redewendungen, Zahlen, Tipps</div>
+                <div className="text-xs text-gray-400">Module 2-5, Redewendungen, Zahlen & Uhrzeiten, Tipps</div>
               </div>
             </div>
 

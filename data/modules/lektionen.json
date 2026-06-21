@@ -850,6 +850,77 @@
           "explanation": "lo: \"el número\" ist maskulin → direktes Objekt maskulin = lo. La wäre feminin, le wäre indirektes Objekt."
         }
       ]
+    },
+    {
+      "id": "leccion-13",
+      "title": "Lección 13 – Baukasten: -ito, -ísimo & Co.",
+      "category": "Wortbildung",
+      "difficulty": "intermediate",
+      "explanation_de": "Spanische Suffixe machen aus bekannten Wörtern neue Formen — Verkleinerung, Steigerung, Vergrößerung. Wer das System kennt, versteht und bildet Hunderte Wörter automatisch.\n\n---\n\n## -ito / -ita — Verkleinerung & Niedlichkeit\n\nDer produktivste Alltagssuffix. Drückt Kleinheit, Zuneigung oder Bescheidenheit aus.\n\n**Regel:** letzten Vokal weg + -ito/-ita. Bei Endung auf -e / -n / -r → oft **-cito**.\n\n| Basiswort | Deutsch | -ito Form | Deutsch |\n|-----------|---------|-----------|--------|\n| beso | Kuss | besito | Küsschen |\n| perro | Hund | perrito | Hündchen |\n| poco | wenig | poquito | ein bisschen |\n| café | Kaffee | cafecito | kleiner Kaffee |\n| ahora | jetzt | ahorita | gleich (LATAM) |\n\n**Rechtschreibung:** poco→poquito (c→qu, damit der k-Laut bleibt).\n\n---\n\n## -ísimo / -ísima — Steigerung: sehr / extrem\n\nMaximale Intensität — kein Vergleich nötig.\n\n**Regel:** letzten Vokal weg + -ísimo/-ísima.\n\n| Basiswort | -ísimo Form | Deutsch |\n|-----------|-------------|---------|\n| bueno | buenísimo | super gut |\n| mucho | muchísimo | sehr viel |\n| grande | grandísimo | riesig groß |\n| fácil | facilísimo | kinderleicht |\n\n---\n\n## -ón / -ona — Vergrößerung\n\nWeniger produktiv, aber im Wortschatz häufig. Bedeutung oft leicht verschoben.\n\n| Basiswort | -ón Form | Deutsch |\n|-----------|----------|---------|\n| silla (Stuhl) | sillón | Sessel |\n| puerta (Tür) | portón | großes Tor |\n| golpe (Schlag) | golpón | harter Schlag |\n\n---\n\n## ⚠️ Eingefrorene Wörter — nicht blind ableiten!\n\nManche Wörter sehen wie Diminutive aus, haben aber eine eigene Bedeutung angenommen:\n\n> **bolsillo** = Hosentasche — NICHT 'kleine Tasche' (bolso = Handtasche)\n> **manzanilla** = Kamille — NICHT 'kleiner Apfel' (manzana = Apfel)\n> **cuchillo** = Messer — NICHT 'kleines Messer' (cuchilla = Klinge)\n\n**Fazit:** Das System ist produktiv und nützlich — aber bei häufigen Wörtern immer prüfen, ob eine eigene Bedeutung existiert.",
+      "examples": [
+        {
+          "spanish": "Dame un besito.",
+          "german": "Gib mir ein Küsschen.",
+          "explanation": "-ito: beso → besito. Verkleinerung + Zuneigung — typisch im Alltag."
+        },
+        {
+          "spanish": "Espera un poquito.",
+          "german": "Warte ein kleines bisschen.",
+          "explanation": "poco → poquito: c→qu, damit der k-Laut vor -i erhalten bleibt."
+        },
+        {
+          "spanish": "Ahorita vengo.",
+          "german": "Ich komme gleich.",
+          "explanation": "ahora → ahorita: LATAM-Ausdruck für 'gleich/sofort'. Bedeutung variiert je nach Land!"
+        },
+        {
+          "spanish": "¡La película estuvo buenísima!",
+          "german": "Der Film war unglaublich gut!",
+          "explanation": "bueno → buenísima: letzten Vokal (-o) weg + -ísima (feminin, wegen la película)."
+        },
+        {
+          "spanish": "Me senté en el sillón.",
+          "german": "Ich setzte mich in den Sessel.",
+          "explanation": "silla → sillón: Vergrößerung mit Bedeutungsverschiebung (Stuhl → Sessel)."
+        },
+        {
+          "spanish": "Tengo el móvil en el bolsillo.",
+          "german": "Ich habe das Handy in der Hosentasche.",
+          "explanation": "bolsillo = Hosentasche — NICHT 'kleine Tasche'. Eingefrorenes Wort mit eigener Bedeutung."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "poco → Diminutiv? (Rechtschreibregel beachten!)",
+          "options": [
+            "poquito",
+            "pocito",
+            "pocoito"
+          ],
+          "correct": 0,
+          "explanation": "poco → poquito: c wird zu qu, damit der k-Laut vor -i bleibt (Spanisch: ca/co/cu vs. que/qui)."
+        },
+        {
+          "question": "Was bedeutet 'bolsillo'?",
+          "options": [
+            "kleine Tasche (Diminutiv von bolso)",
+            "Hosentasche (eigene Bedeutung)",
+            "Handtasche"
+          ],
+          "correct": 1,
+          "explanation": "bolsillo ist ein eingefrorenes Wort — es bedeutet Hosentasche, nicht 'kleine Tasche'. bolso = Handtasche/Tasche. Klassische Falle bei Diminutiven!"
+        },
+        {
+          "question": "bueno → -ísimo Form?",
+          "options": [
+            "buenísimo",
+            "buenoísimo",
+            "bienísimo"
+          ],
+          "correct": 0,
+          "explanation": "Regel: letzten Vokal (-o) entfernen + -ísimo → buenísimo. buenoísimo behält den Vokal (falsch), bienísimo nimmt die falsche Basis."
+        }
+      ]
     }
   ]
 }
