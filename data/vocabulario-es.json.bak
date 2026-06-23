@@ -7442,7 +7442,7 @@
   {
     "id": "424",
     "spanish": "rico",
-    "german": "lecker / köstlich (auch: reich)",
+    "german": "reich/lecker",
     "type": "adjective",
     "sentence_es": "Este pastel de chocolate está muy rico.",
     "sentence_de": "Dieser Schokoladenkuchen ist sehr lecker.",
@@ -7858,7 +7858,7 @@
   {
     "id": "447",
     "spanish": "caluroso",
-    "german": "heiß / sehr warm",
+    "german": "warm",
     "type": "adjective",
     "sentence_es": "El verano en España es muy caluroso.",
     "sentence_de": "Der Sommer in Spanien ist sehr heiß.",
@@ -11170,7 +11170,7 @@
   {
     "id": "634",
     "spanish": "la mujer",
-    "german": "die Frau / die Ehefrau",
+    "german": "die Ehefrau",
     "type": "noun",
     "sentence_es": "La mujer compra verduras en el mercado.",
     "sentence_de": "Die Frau kauft Gemüse auf dem Markt.",
@@ -13531,16 +13531,15 @@
     "spanish": "contar",
     "german": "erzählen",
     "type": "verb",
-    "sentence_es": "A mi abuela le gusta contarme historias interesantes.",
+    "sentence_es": "Mi abuela me gusta contar historias interesantes.",
     "sentence_de": "Meine Großmutter erzählt mir gerne interessante Geschichten.",
     "audio": "/audio/773.mp3",
     "word_translations": {
-      "a": "zu/für",
       "mi": "meine",
       "abuela": "Großmutter",
-      "le": "ihr",
+      "me": "mir",
       "gusta": "gefällt/mag",
-      "contarme": "mir erzählen",
+      "contar": "erzählen",
       "historias": "Geschichten",
       "interesantes": "interessante"
     }
@@ -14508,16 +14507,15 @@
     "spanish": "abrazar",
     "german": "umarmen",
     "type": "verb",
-    "sentence_es": "A mi madre le gusta abrazarme cuando llego.",
+    "sentence_es": "Mi madre me gusta abrazar cuando llego.",
     "sentence_de": "Meine Mutter umarmt mich gerne, wenn ich ankomme.",
     "audio": "/audio/832.mp3",
     "word_translations": {
-      "a": "zu/für",
       "mi": "meine",
       "madre": "Mutter",
-      "le": "ihr",
+      "me": "mich",
       "gusta": "gefällt/mag",
-      "abrazarme": "mich umarmen",
+      "abrazar": "umarmen",
       "cuando": "wenn",
       "llego": "ich komme an"
     }
@@ -14527,16 +14525,15 @@
     "spanish": "besar",
     "german": "küssen",
     "type": "verb",
-    "sentence_es": "A mi madre le gusta besarme antes de dormir.",
+    "sentence_es": "Mi madre me gusta besar antes de dormir.",
     "sentence_de": "Meine Mutter küsst mich gerne vor dem Schlafen.",
     "audio": "/audio/833.mp3",
     "word_translations": {
-      "a": "zu/für",
       "mi": "meine",
       "madre": "Mutter",
-      "le": "ihr",
+      "me": "mich",
       "gusta": "gefällt/mag",
-      "besarme": "mich küssen",
+      "besar": "küssen",
       "antes": "vor",
       "de": "von/vor",
       "dormir": "schlafen"
@@ -14877,16 +14874,17 @@
     "spanish": "naranja",
     "german": "orange",
     "type": "adjective",
-    "sentence_es": "El cielo está naranja al atardecer.",
-    "sentence_de": "Der Himmel ist beim Sonnenuntergang orange.",
+    "sentence_es": "Compré una naranja fresca en el mercado.",
+    "sentence_de": "Ich kaufte eine frische Orange auf dem Markt.",
     "audio": "/audio/855.mp3",
     "word_translations": {
-      "el": "der",
-      "cielo": "Himmel",
-      "está": "ist",
-      "naranja": "orange",
-      "al": "beim",
-      "atardecer": "Sonnenuntergang"
+      "compré": "ich kaufte",
+      "una": "eine",
+      "naranja": "Orange",
+      "fresca": "frische",
+      "en": "in/auf",
+      "el": "der/dem",
+      "mercado": "Markt"
     }
   },
   {
@@ -15891,7 +15889,7 @@
     "spanish": "verdadero",
     "german": "wahr",
     "type": "adjective",
-    "sentence_es": "Esa historia no es verdadera, es mentira.",
+    "sentence_es": "Esa historia no es verdadero, es mentira.",
     "sentence_de": "Diese Geschichte ist nicht wahr, sie ist gelogen.",
     "audio": "/audio/913.mp3",
     "word_translations": {
@@ -15899,8 +15897,8 @@
       "historia": "Geschichte",
       "no": "nicht",
       "es": "ist",
-      "mentira": "Lüge/gelogen",
-      "verdadera": "wahr"
+      "verdadero": "wahr",
+      "mentira": "Lüge/gelogen"
     }
   },
   {
@@ -16011,7 +16009,7 @@
   {
     "id": "920",
     "spanish": "vago",
-    "german": "faul / träge / arbeitsscheu",
+    "german": "vage",
     "type": "adjective",
     "sentence_es": "Mi hermano es muy vago para estudiar.",
     "sentence_de": "Mein Bruder ist sehr faul zum Lernen.",
@@ -16029,7 +16027,7 @@
   {
     "id": "922",
     "spanish": "confuso",
-    "german": "verwirrt / durcheinander",
+    "german": "verwirrend",
     "type": "adjective",
     "sentence_es": "Estoy confuso con las instrucciones del ejercicio.",
     "sentence_de": "Ich bin verwirrt wegen der Anweisungen der Übung.",
@@ -16346,7 +16344,7 @@
   {
     "id": "940",
     "spanish": "personal",
-    "german": "das Personal / die Belegschaft",
+    "german": "persönlich",
     "type": "adjective",
     "sentence_es": "El personal del hospital es muy amable.",
     "sentence_de": "Das Personal des Krankenhauses ist sehr freundlich.",
@@ -16379,7 +16377,7 @@
   {
     "id": "942",
     "spanish": "oficial",
-    "german": "offiziell; (als Substantiv) der Beamte / der Offizier",
+    "german": "offiziell",
     "type": "adjective",
     "sentence_es": "El oficial de policía habla con los ciudadanos.",
     "sentence_de": "Der Polizeibeamte spricht mit den Bürgern.",
@@ -17139,14 +17137,18 @@
     "spanish": "como",
     "german": "wie",
     "type": "other",
-    "sentence_es": "Canta como un ángel.",
-    "sentence_de": "Sie singt wie ein Engel.",
+    "sentence_es": "Como chocolate todos los días después del almuerzo.",
+    "sentence_de": "Ich esse jeden Tag nach dem Mittagessen Schokolade.",
     "audio": "/audio/986.mp3",
     "word_translations": {
-      "canta": "sie singt",
-      "como": "wie",
-      "un": "ein",
-      "ángel": "Engel"
+      "como": "ich esse",
+      "chocolate": "Schokolade",
+      "todos": "alle",
+      "los": "die",
+      "días": "Tage",
+      "después": "nach",
+      "del": "dem",
+      "almuerzo": "Mittagessen"
     }
   },
   {
@@ -17360,16 +17362,18 @@
     "spanish": "bajo",
     "german": "unter",
     "type": "other",
-    "sentence_es": "El gato duerme bajo la mesa.",
-    "sentence_de": "Die Katze schläft unter dem Tisch.",
+    "sentence_es": "El precio de la gasolina está muy bajo.",
+    "sentence_de": "Der Preis für Benzin ist sehr niedrig.",
     "audio": "/audio/999.mp3",
     "word_translations": {
-      "el": "die",
-      "gato": "Katze",
-      "duerme": "schläft",
-      "bajo": "unter",
-      "la": "dem",
-      "mesa": "Tisch"
+      "el": "der",
+      "precio": "Preis",
+      "de": "von/für",
+      "la": "die",
+      "gasolina": "Benzin",
+      "está": "ist",
+      "muy": "sehr",
+      "bajo": "niedrig"
     }
   },
   {
@@ -17639,13 +17643,13 @@
   {
     "id": "1015",
     "spanish": "el caimán",
-    "german": "der Kaiman",
+    "german": "Alligator",
     "type": "noun",
     "sentence_es": "El caimán nada en el río tranquilamente.",
-    "sentence_de": "Der Kaiman schwimmt ruhig im Fluss.",
+    "sentence_de": "Das Krokodil schwimmt ruhig im Fluss.",
     "audio": "/audio/1015.mp3",
     "word_translations": {
-      "el caimán": "der Kaiman",
+      "el caimán": "das Krokodil",
       "nada": "schwimmt",
       "en": "in",
       "el río": "der Fluss",
@@ -17922,7 +17926,7 @@
   {
     "id": "1031",
     "spanish": "el rico",
-    "german": "der Reiche / reich",
+    "german": "reich / lecker",
     "type": "noun",
     "sentence_es": "El rico compró una casa muy grande.",
     "sentence_de": "Der Reiche kaufte ein sehr großes Haus.",
@@ -18134,7 +18138,7 @@
   },
   {
     "id": "1047",
-    "spanish": "todos",
+    "spanish": "los todos",
     "german": "Alle",
     "type": "noun",
     "sentence_es": "Todos los estudiantes llegaron temprano a clase.",
@@ -18326,7 +18330,7 @@
   {
     "id": "1059",
     "spanish": "el claro",
-    "german": "die Lichtung",
+    "german": "hell",
     "type": "noun",
     "sentence_es": "Me gusta caminar por el claro del bosque.",
     "sentence_de": "Ich gehe gerne durch die Lichtung des Waldes spazieren.",
@@ -18361,7 +18365,7 @@
   },
   {
     "id": "1063",
-    "spanish": "algo",
+    "spanish": "el algo",
     "german": "(irgend-) etwas",
     "type": "noun",
     "sentence_es": "Necesito algo dulce para el postre.",
@@ -18784,7 +18788,7 @@
   {
     "id": "1090",
     "spanish": "la cerca",
-    "german": "der Zaun / die Einzäunung",
+    "german": "nahe",
     "type": "noun",
     "sentence_es": "El gato saltó por encima de la cerca.",
     "sentence_de": "Die Katze sprang über den Zaun.",
@@ -18838,8 +18842,8 @@
   },
   {
     "id": "1093",
-    "spanish": "soleado",
-    "german": "sonnig",
+    "spanish": "el soleado",
+    "german": "Sonnig",
     "type": "noun",
     "sentence_es": "Me gusta pasear por el parque soleado.",
     "sentence_de": "Ich gehe gerne im sonnigen Park spazieren.",
@@ -21161,14 +21165,14 @@
     "spanish": "aclimatarse",
     "german": "sich akklimatisieren",
     "type": "verb",
-    "sentence_es": "Necesito tiempo para aclimatarme al nuevo trabajo.",
+    "sentence_es": "Necesito tiempo para aclimartarme al nuevo trabajo.",
     "sentence_de": "Ich brauche Zeit, um mich an die neue Arbeit zu gewöhnen.",
     "audio": "/audio/1345.mp3",
     "word_translations": {
       "necesito": "ich brauche",
       "tiempo": "Zeit",
       "para": "um zu",
-      "aclimatarme": "mich gewöhnen",
+      "aclimartarme": "mich gewöhnen",
       "al": "an den/die",
       "nuevo": "neue",
       "trabajo": "Arbeit"
@@ -21715,7 +21719,7 @@
   {
     "id": "1377",
     "spanish": "pechosa",
-    "german": "vom Pech verfolgt / Pechvogel (weiblich)",
+    "german": "aufgeblasen",
     "type": "adjective",
     "sentence_es": "Mi hermana es muy pechosa en los exámenes.",
     "sentence_de": "Meine Schwester hat sehr viel Pech bei Prüfungen.",
@@ -21734,9 +21738,9 @@
   {
     "id": "1378",
     "spanish": "virgazo",
-    "german": "der Peitschenhieb / der Rutenhieb",
-    "note": "Schlag mit einer Rute oder Peitsche; kann in manchen Regionen auch als Schimpfwort verwendet werden",
-    "type": "noun",
+    "german": "die Scheiße / der Mist (Mexiko, vulgär)",
+    "note": "Mexikanisches Schimpfwort, sehr vulgär",
+    "type": "other",
     "sentence_es": "El virgazo del látigo asustó al caballo.",
     "sentence_de": "Der Peitschenhieb erschreckte das Pferd.",
     "audio": "/audio/1378.mp3",
@@ -22081,8 +22085,8 @@
   {
     "id": "1398",
     "spanish": "siniestro",
-    "german": "unheimlich / düster / unheilvoll",
-    "type": "adjective",
+    "german": "linkshändig",
+    "type": "other",
     "sentence_es": "El ruido siniestro me despertó anoche.",
     "sentence_de": "Das unheimliche Geräusch weckte mich letzte Nacht auf.",
     "audio": "/audio/1398.mp3",
@@ -24633,7 +24637,7 @@
   {
     "id": "1543",
     "spanish": "el ritmo",
-    "german": "der Rhythmus",
+    "german": "das Tempo",
     "type": "noun",
     "sentence_es": "Me gusta bailar al ritmo de la música.",
     "sentence_de": "Ich tanze gerne im Rhythmus der Musik.",
@@ -25917,7 +25921,7 @@
   {
     "id": "1614",
     "spanish": "el juicio",
-    "german": "das Urteil / der Prozess / das Gerichtsverfahren",
+    "german": "das Urteil",
     "type": "noun",
     "sentence_es": "El juicio comenzará la próxima semana.",
     "sentence_de": "Der Prozess wird nächste Woche beginnen.",
@@ -26920,7 +26924,7 @@
   {
     "id": "1670",
     "spanish": "la cualidad",
-    "german": "die Eigenschaft / der Charakterzug",
+    "german": "die Qualität",
     "type": "noun",
     "sentence_es": "La paciencia es una cualidad muy importante.",
     "sentence_de": "Geduld ist eine sehr wichtige Eigenschaft.",
@@ -30503,7 +30507,7 @@
   {
     "id": "1871",
     "spanish": "la entrada",
-    "german": "der Eintritt / die Eintrittskarte",
+    "german": "die Anzahlung",
     "type": "noun",
     "sentence_es": "La entrada al museo cuesta diez euros.",
     "sentence_de": "Der Eintritt ins Museum kostet zehn Euro.",
@@ -33729,7 +33733,7 @@
   {
     "id": "2053",
     "spanish": "el rodeo",
-    "german": "das Rodeo / der Umweg",
+    "german": "der Umweg",
     "type": "noun",
     "sentence_es": "El rodeo americano es muy popular aquí.",
     "sentence_de": "Das amerikanische Rodeo ist hier sehr beliebt.",
@@ -37083,14 +37087,14 @@
   },
   {
     "id": "2244",
-    "spanish": "la capital",
-    "german": "die Hauptstadt",
+    "spanish": "el capital",
+    "german": "das Kapital",
     "type": "noun",
-    "sentence_es": "La capital de España es Madrid.",
+    "sentence_es": "El capital de España es Madrid.",
     "sentence_de": "Die Hauptstadt von Spanien ist Madrid.",
     "audio": "/audio/2244.mp3",
     "word_translations": {
-      "la": "die",
+      "el": "die",
       "capital": "Hauptstadt",
       "de": "von",
       "España": "Spanien",
@@ -41534,7 +41538,7 @@
     "spanish": "la rodilla",
     "german": "das Knie",
     "type": "noun",
-    "sentence_es": "Me lastimé la rodilla jugando al fútbol.",
+    "sentence_es": "Me lastimué la rodilla jugando fútbol.",
     "sentence_de": "Ich habe mir beim Fußballspielen das Knie verletzt.",
     "audio": "",
     "word_translations": {
@@ -46955,7 +46959,7 @@
   {
     "id": "2911",
     "spanish": "la torta",
-    "german": "die Torte / der Kuchen; (Mexiko) das belegte Sandwich",
+    "german": "der Kuchen / die Torte (Lateinamerika)",
     "type": "noun",
     "sentence_es": "Mamá hizo una torta de chocolate para mi cumpleaños.",
     "sentence_de": "Mama hat eine Schokoladentorte zu meinem Geburtstag gemacht.",
@@ -53339,17 +53343,17 @@
   },
   {
     "id": "3448",
-    "spanish": "glacial",
-    "german": "eiskalt / eisig",
+    "spanish": "congelante",
+    "german": "eiskalt / eisend kalt / gefrierend",
     "type": "adjective",
-    "sentence_es": "Hace un frío glacial ahí fuera.",
+    "sentence_es": "Hace un frío congelante ahí fuera.",
     "sentence_de": "Draußen ist es eiskalt.",
     "audio": "",
     "word_translations": {
       "hace": "ist/macht",
       "un": "eine",
       "frío": "Kälte",
-      "glacial": "eiskalt/eisig",
+      "congelante": "eiskalt/gefrierend",
       "ahí": "dort",
       "fuera": "draußen"
     }

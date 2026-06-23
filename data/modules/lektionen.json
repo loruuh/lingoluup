@@ -213,33 +213,33 @@
         {
           "question": "Welche Form ist FALSCH?",
           "options": [
-            "A) ¿Te puedo ayudar?",
-            "B) ¿Puedo ayudarte?",
-            "C) ¿Puedo te ayudar?"
+            "¿Te puedo ayudar?",
+            "¿Puedo ayudarte?",
+            "¿Puedo te ayudar?"
           ],
-          "correct": "C",
+          "correct": 2,
           "explanation": "'¿Puedo te ayudar?' ist falsch — das Pronomen darf nicht zwischen das konjugierte Verb und den Infinitiv. Korrekt ist: entweder davor ('Te puedo ayudar') oder angehängt ('Puedo ayudarte')."
         },
         {
           "question": "'Ruf mich an!' auf Spanisch — welche Form ist korrekt?",
           "options": [
-            "A) ¡Me llama!",
-            "B) ¡Llámame!",
-            "C) ¡No me llames!",
-            "D) ¡Me llame!"
+            "¡Me llama!",
+            "¡Llámame!",
+            "¡No me llames!",
+            "¡Me llame!"
           ],
-          "correct": "B",
+          "correct": 1,
           "explanation": "Beim positiven Imperativ steht das Pronomen IMMER angehängt: ¡Llámame! Option A nutzt die normale Verbform statt Imperativ. Option C ist der negative Imperativ (Ruf mich nicht an!). Option D hat die falsche Imperativform."
         },
         {
           "question": "'Ich mag Musik.' auf Spanisch:",
           "options": [
-            "A) Gusto la música.",
-            "B) Estoy gustando la música.",
-            "C) Me gusta la música.",
-            "D) Te gusta la música."
+            "Gusto la música.",
+            "Estoy gustando la música.",
+            "Me gusta la música.",
+            "Te gusta la música."
           ],
-          "correct": "C",
+          "correct": 2,
           "explanation": "Bei 'gustar' dreht sich die Konstruktion um: Das Verb richtet sich nach dem, was gefällt (la música = Singular → gusta). Me = mir. Also: 'Mir gefällt die Musik.' Option D wäre 'Dir gefällt die Musik.'"
         }
       ]
@@ -295,11 +295,11 @@
         {
           "question": "Es un ___ momento para hablar. (Es ist ein guter Moment zum Reden.)",
           "options": [
-            "A) bien",
-            "B) bueno",
-            "C) buen"
+            "bien",
+            "bueno",
+            "buen"
           ],
-          "correct": "C",
+          "correct": 2,
           "explanation": "BUN: Vor einem maskulinen Substantiv im Singular (momento = maskulin) wird 'bueno' zu 'buen' verkürzt. Das ist eine feste Regel!"
         },
         {
@@ -365,34 +365,34 @@
         {
           "question": "Welche Aussage über PONER ist FALSCH?",
           "options": [
-            "A) ponerse + Adjektiv beschreibt eine emotionale Zustandsänderung",
-            "B) poner la mesa bedeutet 'den Tisch abräumen'",
-            "C) ponerse + Kleidung bedeutet 'anziehen'",
-            "D) poner la tele bedeutet 'den Fernseher anmachen'"
+            "ponerse + Adjektiv beschreibt eine emotionale Zustandsänderung",
+            "poner la mesa bedeutet 'den Tisch abräumen'",
+            "ponerse + Kleidung bedeutet 'anziehen'",
+            "poner la tele bedeutet 'den Fernseher anmachen'"
           ],
-          "correct": "B",
+          "correct": 1,
           "explanation": "FALSCH ist B! 'Poner la mesa' heißt 'den Tisch DECKEN' — abräumen wäre 'quitar la mesa'."
         },
         {
           "question": "Wie sagt man auf Spanisch 'Sie wurde nervös'?",
           "options": [
-            "A) Se puso nerviosa.",
-            "B) Se hizo nerviosa.",
-            "C) Fue nerviosa.",
-            "D) Estuvo nerviosa."
+            "Se puso nerviosa.",
+            "Se hizo nerviosa.",
+            "Fue nerviosa.",
+            "Estuvo nerviosa."
           ],
-          "correct": "A",
+          "correct": 0,
           "explanation": "PONERSE + Adjektiv = kurzfristige Zustandsänderung (Gefühl). Im Pretérito: se puso. Hacerse/Volverse wären für dauerhafte Verwandlungen."
         },
         {
           "question": "Was bedeutet '¿Qué pone en el letrero?'",
           "options": [
-            "A) Was stellt er auf das Schild?",
-            "B) Was steht auf dem Schild?",
-            "C) Warum hängt er ein Schild auf?",
-            "D) Wann kommt das Schild an?"
+            "Was stellt er auf das Schild?",
+            "Was steht auf dem Schild?",
+            "Warum hängt er ein Schild auf?",
+            "Wann kommt das Schild an?"
           ],
-          "correct": "B",
+          "correct": 1,
           "explanation": "Poner kann auch bedeuten, dass etwas 'steht' (Text/Aufschrift). '¿Qué pone?' = Was steht da? — ein typischer Alltagssatz beim Lesen von Schildern oder Nachrichten."
         }
       ]
@@ -497,25 +497,25 @@
       ],
       "quiz": [
         {
-          "question": "Welcher Satz ist KORREKT geschrieben?",
+          "question": "Welcher Ausruf ist KORREKT geschrieben?",
           "options": [
-            "A) Hola, ¿cómo estás?",
-            "B) ¿Hola, cómo estás?",
-            "C) Hola ¿cómo estás?",
-            "D) ¿Cómo estás? Hola."
+            "¡Qué bonito es el día!",
+            "¿Qué bonito es el día!",
+            "Qué bonito es el día!",
+            "¡Qué bonito es el día?"
           ],
-          "correct": "D",
-          "explanation": "Nur Option D ist vollständig korrekt. Die Begrüßung \"Hola\" ist kein Ausruf in diesem Kontext (kein ¡), und die Frage ist korrekt mit doppeltem Fragezeichen geschrieben."
+          "correct": 0,
+          "explanation": "Ausrufe brauchen doppelte Zeichen: öffnendes ¡ am Anfang und schließendes ! am Ende. Option 2 öffnet falsch mit ¿, Option 3 fehlt das öffnende ¡, Option 4 schließt falsch mit ?."
         },
         {
           "question": "Welche Aussage ist RICHTIG?",
           "options": [
-            "A) Im Spanischen werden Fragezeichen nur am ENDE eines Satzes gesetzt",
-            "B) Im Spanischen werden Fragezeichen und Ausrufezeichen DOPPELT gesetzt (am Anfang und am Ende)",
-            "C) Ausrufezeichen und Fragezeichen sind im Spanischen optional",
-            "D) Fragezeichen im Spanischen funktionieren genauso wie im Deutschen"
+            "Im Spanischen werden Fragezeichen nur am ENDE eines Satzes gesetzt",
+            "Im Spanischen werden Fragezeichen und Ausrufezeichen DOPPELT gesetzt (am Anfang und am Ende)",
+            "Ausrufezeichen und Fragezeichen sind im Spanischen optional",
+            "Fragezeichen im Spanischen funktionieren genauso wie im Deutschen"
           ],
-          "correct": "B",
+          "correct": 1,
           "explanation": "Korrekt! Das ist die Hauptregel des Spanischen. Fragezeichen (¿ ?) und Ausrufezeichen (¡ !) werden IMMER doppelt gesetzt — am Anfang und am Ende."
         }
       ]

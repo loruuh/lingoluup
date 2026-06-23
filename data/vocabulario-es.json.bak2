@@ -7442,7 +7442,7 @@
   {
     "id": "424",
     "spanish": "rico",
-    "german": "lecker / köstlich (auch: reich)",
+    "german": "reich/lecker",
     "type": "adjective",
     "sentence_es": "Este pastel de chocolate está muy rico.",
     "sentence_de": "Dieser Schokoladenkuchen ist sehr lecker.",
@@ -16379,7 +16379,7 @@
   {
     "id": "942",
     "spanish": "oficial",
-    "german": "offiziell; (als Substantiv) der Beamte / der Offizier",
+    "german": "offiziell",
     "type": "adjective",
     "sentence_es": "El oficial de policía habla con los ciudadanos.",
     "sentence_de": "Der Polizeibeamte spricht mit den Bürgern.",
@@ -17639,13 +17639,13 @@
   {
     "id": "1015",
     "spanish": "el caimán",
-    "german": "der Kaiman",
+    "german": "Alligator",
     "type": "noun",
     "sentence_es": "El caimán nada en el río tranquilamente.",
-    "sentence_de": "Der Kaiman schwimmt ruhig im Fluss.",
+    "sentence_de": "Das Krokodil schwimmt ruhig im Fluss.",
     "audio": "/audio/1015.mp3",
     "word_translations": {
-      "el caimán": "der Kaiman",
+      "el caimán": "das Krokodil",
       "nada": "schwimmt",
       "en": "in",
       "el río": "der Fluss",
@@ -18784,7 +18784,7 @@
   {
     "id": "1090",
     "spanish": "la cerca",
-    "german": "der Zaun / die Einzäunung",
+    "german": "nahe",
     "type": "noun",
     "sentence_es": "El gato saltó por encima de la cerca.",
     "sentence_de": "Die Katze sprang über den Zaun.",
@@ -21161,14 +21161,14 @@
     "spanish": "aclimatarse",
     "german": "sich akklimatisieren",
     "type": "verb",
-    "sentence_es": "Necesito tiempo para aclimatarme al nuevo trabajo.",
+    "sentence_es": "Necesito tiempo para aclimartarme al nuevo trabajo.",
     "sentence_de": "Ich brauche Zeit, um mich an die neue Arbeit zu gewöhnen.",
     "audio": "/audio/1345.mp3",
     "word_translations": {
       "necesito": "ich brauche",
       "tiempo": "Zeit",
       "para": "um zu",
-      "aclimatarme": "mich gewöhnen",
+      "aclimartarme": "mich gewöhnen",
       "al": "an den/die",
       "nuevo": "neue",
       "trabajo": "Arbeit"
@@ -21734,9 +21734,9 @@
   {
     "id": "1378",
     "spanish": "virgazo",
-    "german": "der Peitschenhieb / der Rutenhieb",
-    "note": "Schlag mit einer Rute oder Peitsche; kann in manchen Regionen auch als Schimpfwort verwendet werden",
-    "type": "noun",
+    "german": "die Scheiße / der Mist (Mexiko, vulgär)",
+    "note": "Mexikanisches Schimpfwort, sehr vulgär",
+    "type": "other",
     "sentence_es": "El virgazo del látigo asustó al caballo.",
     "sentence_de": "Der Peitschenhieb erschreckte das Pferd.",
     "audio": "/audio/1378.mp3",
@@ -22081,8 +22081,8 @@
   {
     "id": "1398",
     "spanish": "siniestro",
-    "german": "unheimlich / düster / unheilvoll",
-    "type": "adjective",
+    "german": "linkshändig",
+    "type": "other",
     "sentence_es": "El ruido siniestro me despertó anoche.",
     "sentence_de": "Das unheimliche Geräusch weckte mich letzte Nacht auf.",
     "audio": "/audio/1398.mp3",
@@ -24633,7 +24633,7 @@
   {
     "id": "1543",
     "spanish": "el ritmo",
-    "german": "der Rhythmus",
+    "german": "das Tempo",
     "type": "noun",
     "sentence_es": "Me gusta bailar al ritmo de la música.",
     "sentence_de": "Ich tanze gerne im Rhythmus der Musik.",
@@ -25917,7 +25917,7 @@
   {
     "id": "1614",
     "spanish": "el juicio",
-    "german": "das Urteil / der Prozess / das Gerichtsverfahren",
+    "german": "das Urteil",
     "type": "noun",
     "sentence_es": "El juicio comenzará la próxima semana.",
     "sentence_de": "Der Prozess wird nächste Woche beginnen.",
@@ -26920,7 +26920,7 @@
   {
     "id": "1670",
     "spanish": "la cualidad",
-    "german": "die Eigenschaft / der Charakterzug",
+    "german": "die Qualität",
     "type": "noun",
     "sentence_es": "La paciencia es una cualidad muy importante.",
     "sentence_de": "Geduld ist eine sehr wichtige Eigenschaft.",
@@ -33729,7 +33729,7 @@
   {
     "id": "2053",
     "spanish": "el rodeo",
-    "german": "das Rodeo / der Umweg",
+    "german": "der Umweg",
     "type": "noun",
     "sentence_es": "El rodeo americano es muy popular aquí.",
     "sentence_de": "Das amerikanische Rodeo ist hier sehr beliebt.",
@@ -37083,14 +37083,14 @@
   },
   {
     "id": "2244",
-    "spanish": "la capital",
-    "german": "die Hauptstadt",
+    "spanish": "el capital",
+    "german": "das Kapital",
     "type": "noun",
-    "sentence_es": "La capital de España es Madrid.",
+    "sentence_es": "El capital de España es Madrid.",
     "sentence_de": "Die Hauptstadt von Spanien ist Madrid.",
     "audio": "/audio/2244.mp3",
     "word_translations": {
-      "la": "die",
+      "el": "die",
       "capital": "Hauptstadt",
       "de": "von",
       "España": "Spanien",
@@ -46955,7 +46955,7 @@
   {
     "id": "2911",
     "spanish": "la torta",
-    "german": "die Torte / der Kuchen; (Mexiko) das belegte Sandwich",
+    "german": "der Kuchen / die Torte (Lateinamerika)",
     "type": "noun",
     "sentence_es": "Mamá hizo una torta de chocolate para mi cumpleaños.",
     "sentence_de": "Mama hat eine Schokoladentorte zu meinem Geburtstag gemacht.",
@@ -53339,17 +53339,17 @@
   },
   {
     "id": "3448",
-    "spanish": "glacial",
-    "german": "eiskalt / eisig",
+    "spanish": "congelante",
+    "german": "eiskalt / eisend kalt / gefrierend",
     "type": "adjective",
-    "sentence_es": "Hace un frío glacial ahí fuera.",
+    "sentence_es": "Hace un frío congelante ahí fuera.",
     "sentence_de": "Draußen ist es eiskalt.",
     "audio": "",
     "word_translations": {
       "hace": "ist/macht",
       "un": "eine",
       "frío": "Kälte",
-      "glacial": "eiskalt/eisig",
+      "congelante": "eiskalt/gefrierend",
       "ahí": "dort",
       "fuera": "draußen"
     }
