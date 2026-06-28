@@ -18221,9 +18221,9 @@
   },
   {
     "id": "1052",
-    "spanish": "el mucho gusto",
+    "spanish": "mucho gusto",
     "german": "freut mich",
-    "type": "noun",
+    "type": "phrase",
     "sentence_es": "Mucho gusto en conocerte, me llamo Ana.",
     "sentence_de": "Freut mich, dich kennenzulernen, ich heiße Ana.",
     "audio": "/audio/1052.mp3",

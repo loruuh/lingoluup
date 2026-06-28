@@ -6,7 +6,12 @@ import { NavIcon } from "./NavIcon";
 import VokabelheftBadge from "./VokabelheftBadge";
 import { useModule } from "@/lib/ModuleContext";
 
-export default function Header() {
+interface HeaderProps {
+  voiceModus?: boolean;
+  onToggleModus?: () => void;
+}
+
+export default function Header({ voiceModus, onToggleModus }: HeaderProps = {}) {
   const { clearModule } = useModule();
 
   return (
@@ -21,9 +26,65 @@ export default function Header() {
           <span className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 inline-block">
             🌟
           </span>
-          {/* Animated underline */}
           <div className="absolute -bottom-0.5 left-0 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-primary to-purple-400 transition-all duration-300 rounded-full" />
         </Link>
+
+        {/* Mode toggle — shown only on the learning page (when onToggleModus is provided) */}
+        {onToggleModus && (
+          <div
+            role="group"
+            aria-label="Lernmodus wählen"
+            className="relative inline-flex items-stretch bg-white/[0.04] border border-white/[0.09] rounded-xl p-0.5"
+          >
+            {/* Spring-animated pill — yellow for Text, red for Voice (España flag) */}
+            <div
+              aria-hidden="true"
+              className="absolute top-0.5 bottom-0.5 rounded-[10px] pointer-events-none"
+              style={{
+                left: "2px",
+                width: "calc(50% - 2px)",
+                transform: voiceModus ? "translateX(100%)" : "translateX(0)",
+                transition: "transform 240ms cubic-bezier(0.34,1.12,0.64,1), background 200ms ease, border-color 200ms ease, box-shadow 200ms ease",
+                background: voiceModus ? "rgba(198,11,30,0.18)" : "rgba(255,196,0,0.18)",
+                border: `1px solid ${voiceModus ? "rgba(198,11,30,0.55)" : "rgba(255,196,0,0.55)"}`,
+                boxShadow: voiceModus ? "0 0 14px rgba(198,11,30,0.28)" : "0 0 14px rgba(255,196,0,0.28)",
+              }}
+            />
+            {/* Text-Modus */}
+            <button
+              onClick={onToggleModus}
+              aria-pressed={!voiceModus}
+              className={`relative z-10 inline-flex items-center gap-1.5 px-3 py-[5px] rounded-[10px] text-[11px] font-semibold tracking-wide whitespace-nowrap transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-offset-background ${
+                !voiceModus
+                  ? "text-yellow-400 focus-visible:ring-yellow-400"
+                  : "text-gray-500 hover:text-gray-300 focus-visible:ring-gray-400"
+              }`}
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polyline points="4 7 4 4 20 4 20 7" />
+                <line x1="9" y1="20" x2="15" y2="20" />
+                <line x1="12" y1="4" x2="12" y2="20" />
+              </svg>
+              Text<span className="hidden sm:inline">-Modus</span>
+            </button>
+            {/* Voice-Modus */}
+            <button
+              onClick={onToggleModus}
+              aria-pressed={!!voiceModus}
+              className={`relative z-10 inline-flex items-center gap-1.5 px-3 py-[5px] rounded-[10px] text-[11px] font-semibold tracking-wide whitespace-nowrap transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-offset-background ${
+                voiceModus
+                  ? "text-red-500 focus-visible:ring-red-500"
+                  : "text-gray-500 hover:text-gray-300 focus-visible:ring-gray-400"
+              }`}
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+              </svg>
+              Voice<span className="hidden sm:inline">-Modus</span>
+            </button>
+          </div>
+        )}
 
         {/* Navigation */}
         <div className="flex items-center gap-2">

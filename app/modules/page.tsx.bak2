@@ -18,7 +18,6 @@ import ConfettiAnimation from "@/components/ConfettiAnimation";
 import VocabListModal from "@/components/VocabListModal";
 import { useStreak } from "@/components/StreakCounter";
 import { playSound } from "@/lib/sounds";
-import { useVoice } from "@/lib/useVoice";
 import {
   selectNextVocab,
   markVocabAsSeen,
@@ -66,25 +65,6 @@ export default function Home() {
   const [rrRound, setRrRound] = useState(1);
   const [playCounts, setPlayCounts] = useState<Record<string, number>>({});
 
-  // Voice-Modus toggle (persisted, separate from lingo_rr_* keys)
-  const [voiceModus, setVoiceModus] = useState<boolean>(() => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("lingo_voice_mode") === "true";
-    }
-    return false;
-  });
-  type VoicePhase = "question" | "speaking" | "word" | "sentence-es" | "sentence-de";
-  const [voicePhase, setVoicePhase] = useState<VoicePhase>("question");
-  const { speak, isSpeaking, hasSpanishVoice } = useVoice();
-
-  // One-time dismissible hint for missing Spanish voice
-  const [voiceHintDismissed, setVoiceHintDismissed] = useState<boolean>(() => {
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("lingo_voice_hint_dismissed") === "true";
-    }
-    return false;
-  });
-
   // Ensure anon Supabase session once on mount (fails gracefully → localStorage)
   useEffect(() => {
     ensureAnonSession();
@@ -107,7 +87,6 @@ export default function Home() {
     setShowNextButton(false);
     setSpanishSentence("");
     setGermanSentence("");
-    setVoicePhase("question");
   };
 
   // ── Round-robin initial loader (module mode) ──────────────────────────────
@@ -205,28 +184,6 @@ export default function Home() {
 
   const handleTranslationRevealed = () => {
     setShowNextButton(true);
-  };
-
-  // Voice-Modus: speaks Spanish word first, then reveals text on speech end
-  const handleVoiceReveal = () => {
-    if (!currentVocab || isSpeaking) return;
-    setSpanishSentence(currentVocab.sentence_es);
-    setGermanSentence(currentVocab.sentence_de);
-    addToHistory({
-      vocabId: currentVocab.id,
-      sentence: currentVocab.sentence_es,
-      timestamp: new Date().toISOString(),
-    });
-    setVoicePhase("speaking");
-    speak(currentVocab.spanish, () => setVoicePhase("word"));
-  };
-
-  const toggleVoiceModus = () => {
-    const next = !voiceModus;
-    if (typeof window !== "undefined") window.speechSynthesis?.cancel();
-    resetCardState();
-    setVoiceModus(next);
-    localStorage.setItem("lingo_voice_mode", String(next));
   };
 
   // ── "Nächster Satz" handler ───────────────────────────────────────────────
@@ -397,7 +354,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header voiceModus={voiceModus} onToggleModus={toggleVoiceModus} />
+      <Header />
 
       {/* Confetti bei Tagesziel */}
       {showConfetti && <ConfettiAnimation />}
@@ -411,10 +368,9 @@ export default function Home() {
         </div>
       )}
 
-      {/* Top Bar: Zurück + Wortliste | Modul-Name | Coverage Counter + Streak */}
-      <div className="px-4 pt-3 flex items-center gap-2">
-        {/* Left: Back + Vocab list */}
-        <div className="flex items-center gap-2 shrink-0">
+      {/* Top Bar: Zurück + Wortliste + Coverage Counter + Streak */}
+      <div className="px-4 pt-3 flex items-center justify-between">
+        <div className="flex items-center gap-2">
           <button
             onClick={handleBackToModules}
             aria-label="Zurück zu Modulen"
@@ -435,21 +391,8 @@ export default function Home() {
           )}
         </div>
 
-        {/* Center: Active module name */}
-        <div className="flex-1 flex justify-center min-w-0">
-          <div
-            title={selectedModule.name}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/8 border border-primary/20 max-w-[200px] overflow-hidden"
-          >
-            <span className="text-sm shrink-0 leading-none">{selectedModule.icon}</span>
-            <span className="text-xs font-semibold text-primary/80 truncate tracking-wide">
-              {selectedModule.name.replace(/ –.*$/, "")}
-            </span>
-          </div>
-        </div>
-
-        {/* Right: Coverage counter + Streak */}
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-2">
+          {/* Coverage Counter: "seen / total ↺round" */}
           {rrTotal > 0 && (
             <span className="text-xs font-medium tabular-nums text-gray-400 bg-white/5 border border-white/10 px-3 py-1.5 rounded-full">
               {rrSeenCount}&nbsp;/&nbsp;{rrTotal}&nbsp;↺{rrRound}
@@ -502,176 +445,59 @@ export default function Home() {
       )}
 
       <main
-        className="flex-1 flex items-start justify-center px-4 py-6"
+        className="flex-1 flex items-center justify-center px-4 py-6"
       >
-        {/* ── Classic Mode ─────────────────────────────────────────────────── */}
-        {!voiceModus && (
-          <div className="w-full max-w-3xl space-y-8">
-            {/* Flashcard */}
-            <Flashcard
-              key={currentVocab.id}
-              german={currentVocab.german}
-              spanish={currentVocab.spanish}
-              onReveal={handleMainClick}
-              isRevealed={isRevealed}
-            />
+        <div className="w-full max-w-3xl space-y-8">
+          {/* Flashcard */}
+          <Flashcard
+            key={currentVocab.id}
+            german={currentVocab.german}
+            spanish={currentVocab.spanish}
+            onReveal={handleMainClick}
+            isRevealed={isRevealed}
+          />
 
-            {/* Favorite Button */}
-            <div className={`flex justify-center transition-all duration-300 min-h-[2.5rem] items-center ${isRevealed ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-              <FavoriteButton vocabId={currentVocab.id} />
-            </div>
+          {/* Favorite Button */}
+          <div className={`flex justify-center transition-all duration-300 min-h-[2.5rem] items-center ${isRevealed ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+            <FavoriteButton vocabId={currentVocab.id} />
+          </div>
 
-            {/* Beispielsatz mit Speaker */}
-            <div className={`transition-all duration-300 ${showSentence ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-              <div className="flex items-start gap-3 justify-center">
-                <div className="flex-1 max-w-2xl">
-                  <Sentence
-                    spanishSentence={spanishSentence || "..."}
-                    germanSentence={germanSentence || "..."}
-                    isVisible={showSentence}
-                    onTranslationRevealed={handleTranslationRevealed}
-                    germanRevealed={showNextButton}
-                  />
-                </div>
-                <div className="pt-1 shrink-0">
-                  <SpeakButton
-                    text={spanishSentence || ""}
-                    audioUrl={currentVocab?.audio}
-                  />
-                </div>
+          {/* Beispielsatz mit Speaker */}
+          <div className={`transition-all duration-300 ${showSentence ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+            <div className="flex items-start gap-3 justify-center">
+              <div className="flex-1 max-w-2xl">
+                <Sentence
+                  spanishSentence={spanishSentence || "..."}
+                  germanSentence={germanSentence || "..."}
+                  isVisible={showSentence}
+                  onTranslationRevealed={handleTranslationRevealed}
+                  germanRevealed={showNextButton}
+                />
               </div>
-            </div>
-
-            {/* LATAM Note */}
-            {currentVocab.note && showSentence && (
-              <div className="flex justify-center">
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
-                  <span className="text-amber-400 text-xs">🇪🇸</span>
-                  <span className="text-amber-300/80 text-xs">{currentVocab.note}</span>
-                </div>
+              <div className="pt-1 shrink-0">
+                <SpeakButton
+                  text={spanishSentence || ""}
+                  audioUrl={currentVocab?.audio}
+                />
               </div>
-            )}
-
-            {/* Next Button */}
-            <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-              <NextButton onClick={handleNext} loading={isLoading} />
             </div>
           </div>
-        )}
 
-        {/* ── Voice-Modus ───────────────────────────────────────────────────── */}
-        {voiceModus && (
-          <div className="w-full max-w-3xl space-y-8">
-            {/* Flashcard — standalone, same width as Text-Modus (no flex wrapper) */}
-            <Flashcard
-              key={currentVocab.id}
-              german={currentVocab.german}
-              spanish={currentVocab.spanish}
-              isRevealed={voicePhase === "word" || voicePhase === "sentence-es" || voicePhase === "sentence-de"}
-              onReveal={
-                voicePhase === "question" || voicePhase === "speaking"
-                  ? handleVoiceReveal
-                  : voicePhase === "word"
-                  ? () => setVoicePhase("sentence-es")
-                  : voicePhase === "sentence-es"
-                  ? () => setVoicePhase("sentence-de")
-                  : undefined
-              }
-            />
-
-            {/* Favorite + Replay — grouped controls, visible once word is revealed */}
-            <div className={`flex justify-center items-center gap-3 transition-all duration-300 min-h-[2.5rem] ${
-              voicePhase === "word" || voicePhase === "sentence-es" || voicePhase === "sentence-de"
-                ? "opacity-100"
-                : "opacity-0 pointer-events-none"
-            }`}>
-              <FavoriteButton vocabId={currentVocab.id} />
-              <button
-                onClick={() => speak(currentVocab.spanish)}
-                disabled={isSpeaking}
-                aria-label="Nochmal hören"
-                className="w-12 h-12 flex items-center justify-center rounded-full border-2 border-white/15 bg-white/5 hover:bg-primary/15 hover:border-primary/50 text-gray-400 hover:text-primary transition-all duration-200 active:scale-90 disabled:opacity-40 disabled:cursor-not-allowed focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-              >
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M11 5 6 9H2v6h4l5 4V5z" />
-                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
-                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
-                </svg>
-              </button>
+          {/* LATAM Note */}
+          {currentVocab.note && showSentence && (
+            <div className="flex justify-center">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
+                <span className="text-amber-400 text-xs">🇪🇸</span>
+                <span className="text-amber-300/80 text-xs">{currentVocab.note}</span>
+              </div>
             </div>
+          )}
 
-            {/* Phase: speaking — animated indicator */}
-            {voicePhase === "speaking" && (
-              <div className="flex justify-center items-center gap-3">
-                <span className="text-2xl animate-pulse">🔊</span>
-                <span className="text-gray-400 text-sm">Spanisch wird gesprochen…</span>
-              </div>
-            )}
-
-            {/* Phase: word — tap-hint (card tap advances to sentence-es) */}
-            {voicePhase === "word" && (
-              <div className="flex justify-center">
-                <p className="text-xs text-gray-500 animate-pulse flex items-center gap-1.5">
-                  <span>👆</span> Tippe auf die Karte für den Beispielsatz
-                </p>
-              </div>
-            )}
-
-            {/* Phase: sentence-es — Spanish sentence only; tap card for German */}
-            {(voicePhase === "sentence-es" || voicePhase === "sentence-de") && (
-              <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <div className="flex-1 min-w-0">
-                    <div
-                      className="text-white px-5 py-4 rounded-2xl text-center text-base md:text-lg font-semibold min-h-[4.5rem] flex items-center justify-center leading-relaxed shadow-lg"
-                      style={{ backgroundColor: "var(--sentence-spanish)" }}
-                    >
-                      {spanishSentence}
-                    </div>
-                  </div>
-                  <div className="pt-1 shrink-0">
-                    <SpeakButton text={spanishSentence} audioUrl={currentVocab?.audio} />
-                  </div>
-                </div>
-
-                {/* Tap-hint shown only in sentence-es; German sentence shown in sentence-de */}
-                {voicePhase === "sentence-es" && (
-                  <p className="text-xs text-gray-500 animate-pulse text-center flex items-center justify-center gap-1.5 py-1">
-                    <span>👆</span> Tippe auf die Karte für die Übersetzung
-                  </p>
-                )}
-                {voicePhase === "sentence-de" && (
-                  <div className="flex items-start gap-3">
-                    <div className="flex-1 min-w-0">
-                      <div
-                        className="text-white px-5 py-4 rounded-2xl text-center text-base md:text-lg font-medium min-h-[4.5rem] flex items-center justify-center leading-relaxed"
-                        style={{ backgroundColor: "var(--sentence-german)" }}
-                      >
-                        {germanSentence}
-                      </div>
-                    </div>
-                    <div className="w-12 shrink-0" aria-hidden="true" />
-                  </div>
-                )}
-              </div>
-            )}
-
-            {/* LATAM Note */}
-            {currentVocab.note && (voicePhase === "word" || voicePhase === "sentence-es" || voicePhase === "sentence-de") && (
-              <div className="flex justify-center">
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-amber-500/10 border border-amber-500/20 rounded-full">
-                  <span className="text-amber-400 text-xs">🇪🇸</span>
-                  <span className="text-amber-300/80 text-xs">{currentVocab.note}</span>
-                </div>
-              </div>
-            )}
-
-            {/* Weiter — only after German sentence is revealed */}
-            <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${voicePhase === "sentence-de" ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
-              <NextButton onClick={handleNext} loading={isLoading} />
-            </div>
+          {/* Next Button */}
+          <div className={`flex justify-center transition-all duration-300 min-h-[3.5rem] items-center ${showNextButton ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+            <NextButton onClick={handleNext} loading={isLoading} />
           </div>
-        )}
+        </div>
       </main>
 
       <Footer />
