@@ -5447,36 +5447,21 @@
     }
   },
   {
-    "id": "309",
-    "spanish": "enviar",
-    "german": "schicken",
-    "type": "verb",
-    "sentence_es": "Voy a enviar un email a mi hermana.",
-    "sentence_de": "Ich werde meiner Schwester eine E-Mail schicken.",
-    "audio": "/audio/309.mp3",
-    "word_translations": {
-      "voy": "gehe/werde",
-      "enviar": "schicken/senden",
-      "email": "E-Mail",
-      "hermana": "Schwester"
-    }
-  },
-  {
     "id": "310",
-    "spanish": "mandar",
-    "german": "senden",
+    "spanish": "enviar / mandar",
+    "german": "senden / schicken",
     "type": "verb",
-    "sentence_es": "Mi madre me manda a comprar pan.",
-    "sentence_de": "Meine Mutter schickt mich Brot kaufen.",
+    "sentence_es": "Voy a enviar un mensaje a mi hermana.",
+    "sentence_de": "Ich werde meiner Schwester eine Nachricht schicken.",
     "audio": "/audio/310.mp3",
     "word_translations": {
+      "voy": "ich werde",
+      "enviar": "schicken/senden",
+      "un": "eine",
+      "mensaje": "Nachricht",
+      "a": "an",
       "mi": "meine",
-      "madre": "Mutter",
-      "me": "mich",
-      "manda": "schickt",
-      "a": "zu",
-      "comprar": "kaufen",
-      "pan": "Brot"
+      "hermana": "Schwester"
     }
   },
   {
@@ -7297,7 +7282,7 @@
   {
     "id": "416",
     "spanish": "gordo",
-    "german": "dick",
+    "german": "dick (Lebewesen) / fett",
     "type": "adjective",
     "sentence_es": "Mi gato gordo duerme en el sofá.",
     "sentence_de": "Meine dicke Katze schläft auf dem Sofa.",
@@ -15248,7 +15233,7 @@
   {
     "id": "876",
     "spanish": "grueso",
-    "german": "dick",
+    "german": "dick (Gegenstände) / dickflüssig",
     "type": "adjective",
     "sentence_es": "Este libro es muy grueso para leer.",
     "sentence_de": "Dieses Buch ist sehr dick zum Lesen.",
@@ -46598,7 +46583,7 @@
   {
     "id": "2890",
     "spanish": "tratar",
-    "german": "behandeln / versuchen (tratar de)",
+    "german": "versuchen / behandeln",
     "pronunciation": "tra-TAR",
     "category": "Verben",
     "sentence_es": "Debes tratar a todos con respeto.",
@@ -53447,6 +53432,247 @@
       "plan": "Plan",
       "estamos": "wir sind",
       "a rulay": "am Chillen/entspannt"
+    }
+  },
+  {
+    "id": "3454",
+    "spanish": "jamás",
+    "german": "nie / niemals",
+    "type": "adverb",
+    "note": "Negation: 'jamás' ist stärker als 'nunca'. Vor dem Verb auch mit 'no': 'No lo haré jamás.' Bedeutet NICHT 'jemals' (= alguna vez).",
+    "sentence_es": "Jamás olvidaré lo que hiciste por mí.",
+    "sentence_de": "Ich werde niemals vergessen, was du für mich getan hast.",
+    "audio": "",
+    "word_translations": {
+      "jamás": "niemals/nie",
+      "olvidaré": "ich werde vergessen",
+      "lo": "es/das",
+      "que": "was",
+      "hiciste": "du getan hast",
+      "por": "für",
+      "mí": "mich"
+    }
+  },
+  {
+    "id": "3455",
+    "spanish": "equivocado / equivocada",
+    "german": "falsch / irrtümlich",
+    "type": "adjective",
+    "sentence_es": "Creo que estás equivocado con esa información.",
+    "sentence_de": "Ich glaube, du liegst mit dieser Information falsch.",
+    "audio": "",
+    "word_translations": {
+      "creo": "ich glaube",
+      "que": "dass",
+      "estás": "du bist/liegst",
+      "equivocado": "falsch/im Irrtum",
+      "con": "mit",
+      "esa": "diese",
+      "información": "Information"
+    }
+  },
+  {
+    "id": "3456",
+    "spanish": "el equipaje",
+    "german": "das Gepäck",
+    "type": "noun",
+    "sentence_es": "Mi equipaje llegó tarde al aeropuerto.",
+    "sentence_de": "Mein Gepäck kam zu spät am Flughafen an.",
+    "audio": "",
+    "word_translations": {
+      "mi": "mein",
+      "equipaje": "Gepäck",
+      "llegó": "kam an",
+      "tarde": "zu spät",
+      "al": "am/zum",
+      "aeropuerto": "Flughafen"
+    }
+  },
+  {
+    "id": "3457",
+    "spanish": "el municipio",
+    "german": "die Gemeinde / die Stadtverwaltung",
+    "type": "noun",
+    "sentence_es": "El municipio invertirá en nuevas escuelas este año.",
+    "sentence_de": "Die Gemeinde wird dieses Jahr in neue Schulen investieren.",
+    "audio": "",
+    "word_translations": {
+      "el municipio": "die Gemeinde",
+      "invertirá": "wird investieren",
+      "en": "in",
+      "nuevas": "neue",
+      "escuelas": "Schulen",
+      "este": "dieses",
+      "año": "Jahr"
+    }
+  },
+  {
+    "id": "3458",
+    "spanish": "impedir",
+    "german": "verhindern",
+    "type": "verb",
+    "sentence_es": "La policía intentó impedir el acceso al edificio.",
+    "sentence_de": "Die Polizei versuchte, den Zugang zum Gebäude zu verhindern.",
+    "audio": "",
+    "word_translations": {
+      "la policía": "die Polizei",
+      "intentó": "versuchte",
+      "impedir": "verhindern",
+      "el acceso": "den Zugang",
+      "al": "zum",
+      "edificio": "Gebäude"
+    }
+  },
+  {
+    "id": "3459",
+    "spanish": "donar",
+    "german": "spenden",
+    "type": "verb",
+    "sentence_es": "Quiero donar ropa a las familias necesitadas.",
+    "sentence_de": "Ich möchte Kleidung an bedürftige Familien spenden.",
+    "audio": "",
+    "word_translations": {
+      "quiero": "ich möchte",
+      "donar": "spenden",
+      "ropa": "Kleidung",
+      "a": "an",
+      "las": "die",
+      "familias": "Familien",
+      "necesitadas": "bedürftige"
+    }
+  },
+  {
+    "id": "3460",
+    "spanish": "retrasar",
+    "german": "verzögern / verschieben",
+    "type": "verb",
+    "sentence_es": "El mal tiempo puede retrasar el vuelo varias horas.",
+    "sentence_de": "Das schlechte Wetter kann den Flug um mehrere Stunden verzögern.",
+    "audio": "",
+    "word_translations": {
+      "el mal tiempo": "das schlechte Wetter",
+      "puede": "kann",
+      "retrasar": "verzögern/verschieben",
+      "el vuelo": "den Flug",
+      "varias": "mehrere",
+      "horas": "Stunden"
+    }
+  },
+  {
+    "id": "3461",
+    "spanish": "burlar / burlarse de",
+    "german": "austricksen / sich lustig machen über",
+    "type": "verb",
+    "sentence_es": "Los niños se burlaban de él por su acento.",
+    "sentence_de": "Die Kinder machten sich über ihn wegen seines Akzents lustig.",
+    "audio": "",
+    "word_translations": {
+      "los niños": "die Kinder",
+      "se burlaban": "machten sich lustig",
+      "de": "über",
+      "él": "ihn",
+      "por": "wegen",
+      "su": "sein",
+      "acento": "Akzent"
+    }
+  },
+  {
+    "id": "3462",
+    "spanish": "clandestino / clandestina",
+    "german": "heimlich / illegal / Untergrund-",
+    "type": "adjective",
+    "sentence_es": "La organización celebraba reuniones clandestinas.",
+    "sentence_de": "Die Organisation hielt geheime Treffen ab.",
+    "audio": "",
+    "word_translations": {
+      "la organización": "die Organisation",
+      "celebraba": "hielt ab",
+      "reuniones": "Treffen",
+      "clandestinas": "geheime/illegale"
+    }
+  },
+  {
+    "id": "3463",
+    "spanish": "entonar",
+    "german": "anstimmen / singen",
+    "type": "verb",
+    "sentence_es": "El coro entonó un himno al comienzo del acto.",
+    "sentence_de": "Der Chor stimmte zu Beginn der Veranstaltung eine Hymne an.",
+    "audio": "",
+    "word_translations": {
+      "el coro": "der Chor",
+      "entonó": "stimmte an",
+      "un himno": "eine Hymne",
+      "al comienzo": "zu Beginn",
+      "del": "der",
+      "acto": "Veranstaltung"
+    }
+  },
+  {
+    "id": "3464",
+    "spanish": "la pertenencia / las pertenencias",
+    "german": "der Besitz / die Habseligkeiten",
+    "type": "noun",
+    "sentence_es": "Recogió todas sus pertenencias y se marchó.",
+    "sentence_de": "Er sammelte all seine Habseligkeiten ein und ging.",
+    "audio": "",
+    "word_translations": {
+      "recogió": "sammelte ein",
+      "todas": "alle",
+      "sus": "seine",
+      "pertenencias": "Habseligkeiten/Sachen",
+      "y": "und",
+      "se marchó": "ging/verließ"
+    }
+  },
+  {
+    "id": "3465",
+    "spanish": "argelino / argelina",
+    "german": "algerisch / der Algerier / die Algerierin",
+    "type": "adjective",
+    "sentence_es": "Mi compañero de trabajo es argelino y habla francés.",
+    "sentence_de": "Mein Arbeitskollege ist Algerier und spricht Französisch.",
+    "audio": "",
+    "word_translations": {
+      "mi": "mein",
+      "compañero de trabajo": "Arbeitskollege",
+      "es": "ist",
+      "argelino": "Algerier/algerisch",
+      "y": "und",
+      "habla": "spricht",
+      "francés": "Französisch"
+    }
+  },
+  {
+    "id": "3466",
+    "spanish": "la escoria",
+    "german": "der Abschaum / die Schlacke",
+    "type": "noun",
+    "sentence_es": "La escoria de la sociedad no merece compasión, según él.",
+    "sentence_de": "Der Abschaum der Gesellschaft verdiene kein Mitleid, so er.",
+    "audio": "",
+    "word_translations": {
+      "la escoria": "der Abschaum/die Schlacke",
+      "de": "der",
+      "la sociedad": "die Gesellschaft",
+      "no": "kein",
+      "merece": "verdient",
+      "compasión": "Mitleid"
+    }
+  },
+  {
+    "id": "3467",
+    "spanish": "el quebrantador de la ley",
+    "german": "der Gesetzesbrecher",
+    "type": "noun",
+    "sentence_es": "El quebrantador de la ley fue detenido por la policía.",
+    "sentence_de": "Der Gesetzesbrecher wurde von der Polizei festgenommen.",
+    "audio": "",
+    "word_translations": {
+      "el quebrantador": "der Übertreter/Brecher",
+      "de la ley": "des Gesetzes",
+      "fue detenido": "wurde festgenommen",
+      "por la policía": "von der Polizei"
     }
   }
 ]

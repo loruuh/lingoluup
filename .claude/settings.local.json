@@ -119,7 +119,9 @@
       "Bash(npx playwright *)",
       "Bash(npm list *)",
       "Bash(npm root *)",
-      "Bash(npx next *)"
+      "Bash(npx next *)",
+      "Bash(powershell -Command \"Select-String -Path 'C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json' -Pattern '\\\\\"id\\\\\": \\\\\"leccion-' | Select-Object -Last 5\")",
+      "Bash(powershell -Command \"\\(Get-Content 'C:\\\\Users\\\\svenb\\\\Desktop\\\\loruuh\\\\02 Spanish Generator\\\\CapturCherry\\\\data\\\\modules\\\\lektionen.json' | Measure-Object -Line\\).Lines\")"
     ]
   }
 }

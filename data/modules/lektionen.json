@@ -921,6 +921,67 @@
           "explanation": "Regel: letzten Vokal (-o) entfernen + -ísimo → buenísimo. buenoísimo behält den Vokal (falsch), bienísimo nimmt die falsche Basis."
         }
       ]
+    },
+    {
+      "id": "leccion-14",
+      "title": "Lección 14 – Regelmäßige Verben: das -ar / -er / -ir System",
+      "category": "Verben",
+      "difficulty": "beginner",
+      "explanation_de": "Spanisch hat drei Gruppen regelmäßiger Verben — erkennbar an der Infinitivendung. Regel: Endung abschneiden, Personalendung anhängen. Das gilt für Tausende Verben.\n\n---\n\n## Die drei Gruppen\n\n- **-ar** (hablar – sprechen) → die mit Abstand größte Gruppe\n- **-er** (comer – essen)\n- **-ir** (vivir – leben)\n\n---\n\n## Präsens (Presente)\n\nStamm: **habl-** / **com-** / **viv-** (Infinitivendung abschneiden)\n\n| Person | -ar (hablar) | -er (comer) | -ir (vivir) |\n|--------|-------------|------------|------------|\n| yo | hablo | como | vivo |\n| tú | hablas | comes | vives |\n| él/ella | habla | come | vive |\n| nosotros | hablamos | comemos | vivimos |\n| vosotros | habláis | coméis | vivís |\n| ellos | hablan | comen | viven |\n\n> **Merke:** -er und -ir teilen fast alle Präsens-Endungen — nur nosotros/vosotros unterscheiden sich.\n\n---\n\n## Vergangenheit (Pretérito indefinido)\n\n- **-ar:** hablé, hablaste, habló, hablamos, hablasteis, hablaron\n- **-er/-ir** (gleiche Endungen!): comí, comiste, comió, comimos, comisteis, comieron / viví, viviste, vivió…\n\n---\n\n## Zukunft (Futuro simple)\n\nBesonderheit: Endung an den **ganzen Infinitiv** anhängen — für alle drei Gruppen identisch:\n\n- hablar**é**, hablar**ás**, hablar**á**, hablar**emos**, hablar**éis**, hablar**án**\n- comer**é**, comer**ás**… / vivir**é**, vivir**ás**…\n\n---\n\n## Konditional (Condicional simple)\n\nEbenfalls an den **ganzen Infinitiv** — wieder für alle drei gleich:\n\n- hablar**ía**, hablar**ías**, hablar**ía**, hablar**íamos**, hablar**íais**, hablar**ían**\n- comer**ía**… / vivir**ía**…\n\n---\n\n## Merkregel\n\n> Präsens & Vergangenheit: Endung abschneiden, Personalendung anhängen (-ar anders als -er/-ir).\n> Zukunft & Konditional: an den GANZEN Infinitiv anhängen — für alle drei Gruppen gleich.",
+      "examples": [
+        {
+          "spanish": "Ella habla español muy bien.",
+          "german": "Sie spricht sehr gut Spanisch.",
+          "explanation": "hablar (-ar): Stamm habl- + Endung -a für él/ella im Präsens"
+        },
+        {
+          "spanish": "Nosotros comemos a las dos.",
+          "german": "Wir essen um zwei Uhr.",
+          "explanation": "comer (-er): Stamm com- + Endung -emos für nosotros im Präsens"
+        },
+        {
+          "spanish": "Ayer hablé con mi profesora.",
+          "german": "Gestern sprach ich mit meiner Lehrerin.",
+          "explanation": "hablar im Pretérito indefinido: hablé (yo) — Akzent auf der Endung!"
+        },
+        {
+          "spanish": "El año que viene viviremos en Madrid.",
+          "german": "Nächstes Jahr werden wir in Madrid leben.",
+          "explanation": "vivir im Futuro: ganzer Infinitiv vivir + Endung -emos (kein Stammwechsel)"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "tú + hablar im Präsens — welche Form ist richtig?",
+          "options": [
+            "hablas",
+            "hables",
+            "habléis"
+          ],
+          "correct": 0,
+          "explanation": "Stamm habl- + Endung -as für tú bei -ar-Verben im Präsens. -es wäre die -er/-ir-Endung; -éis ist vosotros."
+        },
+        {
+          "question": "Welche Aussage über -er und -ir im Präsens stimmt?",
+          "options": [
+            "Sie haben komplett unterschiedliche Endungen",
+            "Sie teilen alle Endungen außer nosotros und vosotros",
+            "Sie sind identisch mit -ar-Verben"
+          ],
+          "correct": 1,
+          "explanation": "-er und -ir unterscheiden sich im Präsens nur bei nosotros (-emos vs. -imos) und vosotros (-éis vs. -ís). Alle anderen Formen sind identisch."
+        },
+        {
+          "question": "Wie bildet man das Futuro von 'comer' für 'yo'?",
+          "options": [
+            "com + -é → comé",
+            "comer + -é → comeré",
+            "come + -aré → comearé"
+          ],
+          "correct": 1,
+          "explanation": "Futuro: ganzer Infinitiv (comer) + Endung -é → comeré. Niemals den Stamm abschneiden — das ist der häufigste Fehler!"
+        }
+      ]
     }
   ]
 }

@@ -1356,6 +1356,41 @@
         "cómo": "wie",
         "estás": "bist du / geht es dir"
       }
+    },
+    {
+      "id": "r99",
+      "spanish": "miren / nada más",
+      "german": "schaut nur / schaut euch das an",
+      "literal": "schaut / nichts mehr",
+      "sentence_es": "Miren nada más qué bonito está el jardín hoy.",
+      "sentence_de": "Schaut euch das nur an, wie schön der Garten heute ist.",
+      "audio": "",
+      "word_translations": {
+        "miren": "schaut (Imperativ Plural)",
+        "nada más": "nur / nichts weiter",
+        "qué": "wie/was",
+        "bonito": "schön",
+        "está": "ist",
+        "el jardín": "der Garten",
+        "hoy": "heute"
+      }
+    },
+    {
+      "id": "r100",
+      "spanish": "tener calor",
+      "german": "mir ist warm / heiß",
+      "literal": "Hitze haben",
+      "note": "KORREKTE Wendung: 'tener calor'. NICHT 'tener caliente' — das hat eine sexuelle Konnotation.",
+      "sentence_es": "Tengo calor, ¿puedes abrir la ventana?",
+      "sentence_de": "Mir ist heiß, kannst du das Fenster öffnen?",
+      "audio": "",
+      "word_translations": {
+        "tengo": "ich habe",
+        "calor": "Hitze/Wärme",
+        "puedes": "kannst du",
+        "abrir": "öffnen",
+        "la ventana": "das Fenster"
+      }
     }
   ]
 }
