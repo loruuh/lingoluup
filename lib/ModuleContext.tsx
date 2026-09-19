@@ -17,6 +17,7 @@ import vokabeln9 from "@/data/modules/vokabeln-9.json";
 import vokabeln10 from "@/data/modules/vokabeln-10.json";
 import vokabeln11 from "@/data/modules/vokabeln-11.json";
 import vokabelnNew from "@/data/modules/vokabeln-new.json";
+import phrasenModule from "@/data/modules/phrasen.json";
 import zahlenModule from "@/data/modules/zahlen.json";
 import ausspracheTipps from "@/data/modules/aussprache-tipps.json";
 import redewendungen from "@/data/modules/redewendungen.json";
@@ -168,6 +169,7 @@ const moduleDataMap: Record<string, Module> = {
   "vokabeln-10": vokabeln10 as unknown as VocabModule,
   "vokabeln-11": vokabeln11 as unknown as VocabModule,
   "vokabeln-new": vokabelnNew as unknown as VocabModule,
+  "phrasen": phrasenModule as unknown as PhrasesModule,
   "zahlen": zahlenModule as unknown as NumbersModule,
   "aussprache-tipps": ausspracheTipps as unknown as TipsModule,
   "redewendungen": redewendungen as unknown as PhrasesModule,

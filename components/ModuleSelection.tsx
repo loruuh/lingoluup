@@ -51,6 +51,14 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     moduleIds: ["vokabeln-new"],
   },
   {
+    id: "phrasen",
+    label: "Phrasen",
+    sublabel: "Eigene Sätze & Wendungen",
+    emoji: "✨",
+    color: { accent: "#2dd4bf", bg: "rgba(45,212,191,0.07)", border: "rgba(45,212,191,0.22)", glow: "rgba(45,212,191,0.14)", badge: "rgba(45,212,191,0.12)" },
+    moduleIds: ["phrasen"],
+  },
+  {
     id: "thematisch",
     label: "Thematisch",
     sublabel: "Alle Level",

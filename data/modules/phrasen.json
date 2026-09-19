@@ -1,0 +1,219 @@
+{
+  "id": "phrasen",
+  "name": "Phrasen",
+  "description": "Meine eigene Sammlung nützlicher Sätze & Wendungen",
+  "icon": "✨",
+  "type": "phrases",
+  "phrases": [
+    {
+      "id": "p1",
+      "spanish": "pero ojo",
+      "german": "aber Achtung!",
+      "literal": "",
+      "sentence_es": "Puedes venir, pero ojo, hay que salir temprano.",
+      "sentence_de": "Du kannst kommen, aber Achtung, wir müssen früh losgehen.",
+      "audio": "",
+      "word_translations": {
+        "puedes venir": "du kannst kommen",
+        "pero ojo": "aber Achtung",
+        "hay que salir temprano": "wir müssen früh losgehen"
+      }
+    },
+    {
+      "id": "p2",
+      "spanish": "Dije que vendría.",
+      "german": "Ich sagte, ich würde kommen.",
+      "literal": "dije = Indefinido von decir",
+      "sentence_es": "Dije que vendría.",
+      "sentence_de": "Ich sagte, ich würde kommen.",
+      "audio": "",
+      "word_translations": {
+        "dije": "ich sagte",
+        "que vendría": "ich würde kommen"
+      }
+    },
+    {
+      "id": "p3",
+      "spanish": "sobre todo por la mañana",
+      "german": "vor allem morgens",
+      "literal": "",
+      "sentence_es": "Sobre todo por la mañana, hace mucho frío.",
+      "sentence_de": "Vor allem morgens ist es sehr kalt.",
+      "audio": "",
+      "word_translations": {
+        "sobre todo por la mañana": "vor allem morgens",
+        "hace mucho frío": "ist es sehr kalt"
+      }
+    },
+    {
+      "id": "p4",
+      "spanish": "un dato curioso",
+      "german": "eine kuriose Tatsache / eine interessante Information",
+      "literal": "",
+      "sentence_es": "Un dato curioso: esta ciudad tiene más bicicletas que habitantes.",
+      "sentence_de": "Eine kuriose Tatsache: Diese Stadt hat mehr Fahrräder als Einwohner.",
+      "audio": "",
+      "word_translations": {
+        "un dato curioso": "eine kuriose Tatsache",
+        "esta ciudad tiene más bicicletas": "diese Stadt hat mehr Fahrräder",
+        "que habitantes": "als Einwohner"
+      }
+    },
+    {
+      "id": "p5",
+      "spanish": "sí o sí",
+      "german": "unbedingt / auf jeden Fall / koste es was es wolle",
+      "literal": "",
+      "sentence_es": "Tienes que venir sí o sí.",
+      "sentence_de": "Du musst unbedingt kommen.",
+      "audio": "",
+      "word_translations": {
+        "tienes que venir": "du musst kommen",
+        "sí o sí": "unbedingt / auf jeden Fall"
+      }
+    },
+    {
+      "id": "p6",
+      "spanish": "Si viene de Latinoamérica, lo compro.",
+      "german": "Wenn es aus Lateinamerika kommt, kaufe ich es.",
+      "literal": "",
+      "sentence_es": "Si viene de Latinoamérica, lo compro.",
+      "sentence_de": "Wenn es aus Lateinamerika kommt, kaufe ich es.",
+      "audio": "",
+      "word_translations": {
+        "si viene de Latinoamérica": "wenn es aus Lateinamerika kommt",
+        "lo compro": "kaufe ich es"
+      }
+    },
+    {
+      "id": "p7",
+      "spanish": "me lo pienso dos veces",
+      "german": "ich überlege es mir zweimal",
+      "literal": "",
+      "sentence_es": "Antes de aceptar, me lo pienso dos veces.",
+      "sentence_de": "Bevor ich zusage, überlege ich es mir zweimal.",
+      "audio": "",
+      "word_translations": {
+        "antes de aceptar": "bevor ich zusage",
+        "me lo pienso dos veces": "überlege ich es mir zweimal"
+      }
+    },
+    {
+      "id": "p8",
+      "spanish": "Nos vemos.",
+      "german": "Wir sehen uns.",
+      "literal": "",
+      "sentence_es": "Nos vemos mañana.",
+      "sentence_de": "Wir sehen uns morgen.",
+      "audio": "",
+      "word_translations": {
+        "nos vemos": "wir sehen uns",
+        "mañana": "morgen"
+      }
+    },
+    {
+      "id": "p9",
+      "spanish": "Yo diría que sí.",
+      "german": "Ich würde sagen, ja.",
+      "literal": "",
+      "sentence_es": "Yo diría que sí.",
+      "sentence_de": "Ich würde sagen, ja.",
+      "audio": "",
+      "word_translations": {
+        "yo diría": "ich würde sagen",
+        "que sí": "ja"
+      }
+    },
+    {
+      "id": "p10",
+      "spanish": "Esperamos que sí.",
+      "german": "Wir hoffen, dass ja.",
+      "literal": "",
+      "sentence_es": "Esperamos que sí.",
+      "sentence_de": "Wir hoffen, dass ja.",
+      "audio": "",
+      "word_translations": {
+        "esperamos": "wir hoffen",
+        "que sí": "dass ja"
+      }
+    },
+    {
+      "id": "p11",
+      "spanish": "amigos de verdad",
+      "german": "wahre Freunde",
+      "literal": "",
+      "sentence_es": "En momentos difíciles reconoces a los amigos de verdad.",
+      "sentence_de": "In schwierigen Momenten erkennst du die wahren Freunde.",
+      "audio": "",
+      "word_translations": {
+        "en momentos difíciles": "in schwierigen Momenten",
+        "reconoces a": "erkennst du",
+        "los amigos de verdad": "die wahren Freunde"
+      }
+    },
+    {
+      "id": "p12",
+      "spanish": "Ya verán.",
+      "german": "Ihr werdet schon sehen.",
+      "literal": "",
+      "sentence_es": "Ya verán, todo va a salir bien.",
+      "sentence_de": "Ihr werdet schon sehen, alles wird gut.",
+      "audio": "",
+      "word_translations": {
+        "ya verán": "ihr werdet schon sehen",
+        "todo va a salir bien": "alles wird gut"
+      }
+    },
+    {
+      "id": "p13",
+      "spanish": "El camino termina allá.",
+      "german": "Der Weg endet dort.",
+      "literal": "",
+      "sentence_es": "El camino termina allá.",
+      "sentence_de": "Der Weg endet dort.",
+      "audio": "",
+      "word_translations": {
+        "el camino": "der Weg",
+        "termina allá": "endet dort"
+      }
+    },
+    {
+      "id": "p14",
+      "spanish": "De por sí, no tengo hambre.",
+      "german": "Ich habe sowieso keinen Hunger.",
+      "literal": "",
+      "sentence_es": "De por sí, no tengo hambre.",
+      "sentence_de": "Ich habe sowieso keinen Hunger.",
+      "audio": "",
+      "word_translations": {
+        "de por sí": "sowieso",
+        "no tengo hambre": "habe ich keinen Hunger"
+      }
+    },
+    {
+      "id": "p15",
+      "spanish": "El café de África pica mucho.",
+      "german": "Der Kaffee aus Afrika beißt/kratzt sehr.",
+      "literal": "",
+      "sentence_es": "El café de África pica mucho.",
+      "sentence_de": "Der Kaffee aus Afrika beißt/kratzt sehr.",
+      "audio": "",
+      "word_translations": {
+        "el café de África": "der Kaffee aus Afrika",
+        "pica mucho": "beißt/kratzt sehr"
+      }
+    },
+    {
+      "id": "p16",
+      "spanish": "Si les soy sincera...",
+      "german": "Wenn ich ehrlich zu euch bin...",
+      "literal": "",
+      "sentence_es": "Si les soy sincera...",
+      "sentence_de": "Wenn ich ehrlich zu euch bin...",
+      "audio": "",
+      "word_translations": {
+        "si les soy sincera": "wenn ich ehrlich zu euch bin"
+      }
+    }
+  ]
+}

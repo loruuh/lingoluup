@@ -96,6 +96,14 @@
     "file": "vokabeln-new.json"
   },
   {
+    "id": "phrasen",
+    "name": "Phrasen",
+    "description": "Meine eigene Sammlung nützlicher Sätze & Wendungen",
+    "icon": "✨",
+    "type": "phrases",
+    "file": "phrasen.json"
+  },
+  {
     "id": "redewendungen",
     "name": "Redewendungen",
     "description": "Spanische Redewendungen & Idioms",
