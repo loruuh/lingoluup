@@ -15,12 +15,16 @@ interface VocabListModalProps {
 export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }: VocabListModalProps) {
   const { selectedModule, getModuleVocab } = useModule();
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
+  const [showAllDe, setShowAllDe] = useState(true);
+  const [showAllEs, setShowAllEs] = useState(false);
   const [search, setSearch] = useState("");
   const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (!isOpen) {
       setRevealedIds(new Set());
+      setShowAllDe(true);
+      setShowAllEs(false);
       setSearch("");
     } else {
       setFavoritedIds(new Set(getFavorites()));
@@ -58,8 +62,6 @@ export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }:
     );
   }, [vocab, search]);
 
-  const allRevealed = vocab.length > 0 && revealedIds.size >= vocab.length;
-
   const toggleReveal = (id: string) => {
     setRevealedIds((prev) => {
       const next = new Set(prev);
@@ -72,12 +74,15 @@ export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }:
     });
   };
 
-  const handleRevealAll = () => {
-    if (allRevealed) {
-      setRevealedIds(new Set());
-    } else {
-      setRevealedIds(new Set(vocab.map((v) => v.id)));
-    }
+  // Global toggles per language; individually revealed rows are reset so the new mode applies cleanly
+  const handleToggleAllDe = () => {
+    setShowAllDe((prev) => !prev);
+    setRevealedIds(new Set());
+  };
+
+  const handleToggleAllEs = () => {
+    setShowAllEs((prev) => !prev);
+    setRevealedIds(new Set());
   };
 
   if (!isOpen || !selectedModule) return null;
@@ -99,10 +104,16 @@ export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }:
           </div>
           <div className="flex items-center gap-2">
             <button
-              onClick={handleRevealAll}
+              onClick={handleToggleAllDe}
               className="px-3 py-1.5 text-xs font-semibold rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors whitespace-nowrap"
             >
-              {allRevealed ? "Alle verbergen" : "Alle anzeigen"}
+              {showAllDe ? "DE verbergen" : "Alle DE anzeigen"}
+            </button>
+            <button
+              onClick={handleToggleAllEs}
+              className="px-3 py-1.5 text-xs font-semibold rounded-lg border border-primary/30 text-primary hover:bg-primary/10 transition-colors whitespace-nowrap"
+            >
+              {showAllEs ? "Ocultar ES" : "Mostrar todo ES"}
             </button>
             <button
               onClick={onClose}
@@ -159,6 +170,8 @@ export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }:
             <div className="divide-y divide-white/[0.05] px-2 pb-2">
               {filtered.map((v, i) => {
                 const revealed = revealedIds.has(v.id);
+                const showDe = showAllDe || revealed;
+                const showEs = showAllEs || revealed;
                 const seen = seenIds?.has(v.id) ?? false;
                 return (
                   <div
@@ -174,17 +187,17 @@ export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }:
                     )}
 
                     {/* German: dimmed when seen */}
-                    <span className={`text-sm ${seen ? "text-gray-400" : "text-white"}`}>
-                      {v.german}
+                    <span className={`text-sm transition-colors ${!showDe ? "text-gray-700" : seen ? "text-gray-400" : "text-white"}`}>
+                      {showDe ? v.german : "· · · · ·"}
                     </span>
 
                     <span className={`text-xs select-none transition-colors text-center ${revealed ? "text-primary" : "text-gray-600 group-hover:text-gray-400"}`}>
                       👁
                     </span>
 
-                    {/* Spanish: reveal logic untouched */}
-                    <span className={`text-sm font-medium transition-colors ${revealed ? "text-primary" : "text-gray-700"}`}>
-                      {revealed ? v.spanish : "· · · · ·"}
+                    {/* Spanish */}
+                    <span className={`text-sm font-medium transition-colors ${showEs ? "text-primary" : "text-gray-700"}`}>
+                      {showEs ? v.spanish : "· · · · ·"}
                     </span>
 
                     {/* Lifetime play count */}
