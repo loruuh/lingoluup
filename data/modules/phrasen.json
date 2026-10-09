@@ -214,6 +214,329 @@
       "word_translations": {
         "si les soy sincera": "wenn ich ehrlich zu euch bin"
       }
+    },
+    {
+      "id": "p17",
+      "spanish": "¡No me lo digas!",
+      "german": "Sag bloß! / Erzähl mir nichts!",
+      "literal": "",
+      "sentence_es": "¡No me lo digas! ¿Te vas a casar?",
+      "sentence_de": "Sag bloß! Du wirst heiraten?",
+      "audio": "",
+      "word_translations": {
+        "no me lo digas": "sag bloß",
+        "te vas a casar": "du wirst heiraten"
+      }
+    },
+    {
+      "id": "p18",
+      "spanish": "Ya lo tengo.",
+      "german": "Ich hab's.",
+      "literal": "",
+      "sentence_es": "Ya lo tengo.",
+      "sentence_de": "Ich hab's.",
+      "audio": "",
+      "word_translations": {
+        "ya lo tengo": "ich hab's"
+      }
+    },
+    {
+      "id": "p19",
+      "spanish": "Eso es.",
+      "german": "Genau. / So ist es.",
+      "literal": "",
+      "sentence_es": "Eso es.",
+      "sentence_de": "Genau.",
+      "audio": "",
+      "word_translations": {
+        "eso es": "genau"
+      }
+    },
+    {
+      "id": "p20",
+      "spanish": "Dios mío.",
+      "german": "Mein Gott.",
+      "literal": "",
+      "sentence_es": "Dios mío.",
+      "sentence_de": "Mein Gott.",
+      "audio": "",
+      "word_translations": {
+        "dios mío": "mein Gott"
+      }
+    },
+    {
+      "id": "p21",
+      "spanish": "Os va a encantar.",
+      "german": "Ihr werdet es lieben.",
+      "literal": "Spanien (os = euch)",
+      "sentence_es": "Os va a encantar.",
+      "sentence_de": "Ihr werdet es lieben.",
+      "audio": "",
+      "word_translations": {
+        "os va a encantar": "ihr werdet es lieben"
+      }
+    },
+    {
+      "id": "p22",
+      "spanish": "No consigo dar en el clavo.",
+      "german": "Ich treffe nicht den Nagel auf den Kopf.",
+      "literal": "",
+      "sentence_es": "No consigo dar en el clavo.",
+      "sentence_de": "Ich treffe nicht den Nagel auf den Kopf.",
+      "audio": "",
+      "word_translations": {
+        "no consigo": "ich schaffe es nicht",
+        "dar en el clavo": "den Nagel auf den Kopf treffen"
+      }
+    },
+    {
+      "id": "p23",
+      "spanish": "Ya lo sabía.",
+      "german": "Ich wusste es schon.",
+      "literal": "",
+      "sentence_es": "Ya lo sabía.",
+      "sentence_de": "Ich wusste es schon.",
+      "audio": "",
+      "word_translations": {
+        "ya lo sabía": "ich wusste es schon"
+      }
+    },
+    {
+      "id": "p24",
+      "spanish": "Ya ves, eres infantil.",
+      "german": "Siehst du, du bist kindisch.",
+      "literal": "",
+      "sentence_es": "Ya ves, eres infantil.",
+      "sentence_de": "Siehst du, du bist kindisch.",
+      "audio": "",
+      "word_translations": {
+        "ya ves": "siehst du",
+        "eres infantil": "du bist kindisch"
+      }
+    },
+    {
+      "id": "p25",
+      "spanish": "de vez en cuando",
+      "german": "ab und zu",
+      "literal": "",
+      "sentence_es": "De vez en cuando voy al cine.",
+      "sentence_de": "Ab und zu gehe ich ins Kino.",
+      "audio": "",
+      "word_translations": {
+        "de vez en cuando": "ab und zu",
+        "voy al cine": "gehe ich ins Kino"
+      }
+    },
+    {
+      "id": "p26",
+      "spanish": "¡Lo juro!",
+      "german": "Ich schwöre!",
+      "literal": "",
+      "sentence_es": "¡Lo juro!",
+      "sentence_de": "Ich schwöre!",
+      "audio": "",
+      "word_translations": {
+        "lo juro": "ich schwöre"
+      }
+    },
+    {
+      "id": "p27",
+      "spanish": "La capitana que manda.",
+      "german": "Die Kapitänin, die das Sagen hat.",
+      "literal": "",
+      "sentence_es": "La capitana que manda.",
+      "sentence_de": "Die Kapitänin, die das Sagen hat.",
+      "audio": "",
+      "word_translations": {
+        "la capitana": "die Kapitänin",
+        "que manda": "die das Sagen hat"
+      }
+    },
+    {
+      "id": "p28",
+      "spanish": "¿Qué está sucediendo?",
+      "german": "Was geht hier vor sich?",
+      "literal": "",
+      "sentence_es": "¿Qué está sucediendo?",
+      "sentence_de": "Was geht hier vor sich?",
+      "audio": "",
+      "word_translations": {
+        "qué está sucediendo": "was geht hier vor sich"
+      }
+    },
+    {
+      "id": "p29",
+      "spanish": "¿Qué sucede?",
+      "german": "Was ist los?",
+      "literal": "",
+      "sentence_es": "¿Qué sucede?",
+      "sentence_de": "Was ist los?",
+      "audio": "",
+      "word_translations": {
+        "qué sucede": "was ist los"
+      }
+    },
+    {
+      "id": "p30",
+      "spanish": "Tómate tu tiempo.",
+      "german": "Lass dir Zeit.",
+      "literal": "",
+      "sentence_es": "Tómate tu tiempo.",
+      "sentence_de": "Lass dir Zeit.",
+      "audio": "",
+      "word_translations": {
+        "tómate tu tiempo": "lass dir Zeit"
+      }
+    },
+    {
+      "id": "p31",
+      "spanish": "Me caes bien / mal.",
+      "german": "Ich finde dich sympathisch / unsympathisch.",
+      "literal": "",
+      "sentence_es": "Me caes bien.",
+      "sentence_de": "Ich finde dich sympathisch.",
+      "audio": "",
+      "word_translations": {
+        "me caes bien": "ich finde dich sympathisch",
+        "me caes mal": "ich finde dich unsympathisch"
+      }
+    },
+    {
+      "id": "p32",
+      "spanish": "Vaya, vaya.",
+      "german": "Na sowas. / Sieh mal einer an.",
+      "literal": "",
+      "sentence_es": "Vaya, vaya.",
+      "sentence_de": "Na sowas.",
+      "audio": "",
+      "word_translations": {
+        "vaya, vaya": "na sowas"
+      }
+    },
+    {
+      "id": "p33",
+      "spanish": "¡Órale!",
+      "german": "Los geht's! / Na los! / Cool!",
+      "literal": "Mexiko",
+      "sentence_es": "¡Órale!",
+      "sentence_de": "Los geht's!",
+      "audio": "",
+      "word_translations": {
+        "órale": "los geht's"
+      }
+    },
+    {
+      "id": "p34",
+      "spanish": "¡No manches!",
+      "german": "Echt jetzt? / Mach keine Witze!",
+      "literal": "Mexiko",
+      "sentence_es": "¡No manches!",
+      "sentence_de": "Echt jetzt?",
+      "audio": "",
+      "word_translations": {
+        "no manches": "echt jetzt"
+      }
+    },
+    {
+      "id": "p35",
+      "spanish": "Háblame sobre ti.",
+      "german": "Erzähl mir von dir.",
+      "literal": "",
+      "sentence_es": "Háblame sobre ti.",
+      "sentence_de": "Erzähl mir von dir.",
+      "audio": "",
+      "word_translations": {
+        "háblame": "erzähl mir",
+        "sobre ti": "von dir"
+      }
+    },
+    {
+      "id": "p36",
+      "spanish": "Ya vuelvo.",
+      "german": "Ich bin gleich zurück.",
+      "literal": "",
+      "sentence_es": "Ya vuelvo.",
+      "sentence_de": "Ich bin gleich zurück.",
+      "audio": "",
+      "word_translations": {
+        "ya vuelvo": "ich bin gleich zurück"
+      }
+    },
+    {
+      "id": "p37",
+      "spanish": "Los salvavidas están debajo de los asientos.",
+      "german": "Die Rettungswesten sind unter den Sitzen.",
+      "literal": "",
+      "sentence_es": "Los salvavidas están debajo de los asientos.",
+      "sentence_de": "Die Rettungswesten sind unter den Sitzen.",
+      "audio": "",
+      "word_translations": {
+        "los salvavidas": "die Rettungswesten",
+        "están debajo de los asientos": "sind unter den Sitzen"
+      }
+    },
+    {
+      "id": "p38",
+      "spanish": "No olvide su pasaporte.",
+      "german": "Vergessen Sie Ihren Pass nicht.",
+      "literal": "",
+      "sentence_es": "No olvide su pasaporte.",
+      "sentence_de": "Vergessen Sie Ihren Pass nicht.",
+      "audio": "",
+      "word_translations": {
+        "no olvide": "vergessen Sie nicht",
+        "su pasaporte": "Ihren Pass"
+      }
+    },
+    {
+      "id": "p39",
+      "spanish": "Lo que sean ustedes, sean lo que sean.",
+      "german": "Was auch immer Sie sind.",
+      "literal": "Subjuntivo: sean",
+      "sentence_es": "Lo que sean ustedes, sean lo que sean.",
+      "sentence_de": "Was auch immer Sie sind.",
+      "audio": "",
+      "word_translations": {
+        "lo que sean ustedes": "was Sie auch sind",
+        "sean lo que sean": "was auch immer Sie sind"
+      }
+    },
+    {
+      "id": "p40",
+      "spanish": "¡A bailar!",
+      "german": "Auf zum Tanzen! / Lasst uns tanzen!",
+      "literal": "",
+      "sentence_es": "¡A bailar!",
+      "sentence_de": "Lasst uns tanzen!",
+      "audio": "",
+      "word_translations": {
+        "a bailar": "auf zum Tanzen"
+      }
+    },
+    {
+      "id": "p41",
+      "spanish": "Será mía.",
+      "german": "Sie/es wird mein sein.",
+      "literal": "",
+      "sentence_es": "Será mía.",
+      "sentence_de": "Sie wird mein sein.",
+      "audio": "",
+      "word_translations": {
+        "será mía": "sie wird mein sein"
+      }
+    },
+    {
+      "id": "p42",
+      "spanish": "¿Y si...?",
+      "german": "Und wenn...? / Was wäre, wenn...?",
+      "literal": "",
+      "sentence_es": "¿Y si llueve mañana?",
+      "sentence_de": "Und wenn es morgen regnet?",
+      "audio": "",
+      "word_translations": {
+        "y si": "und wenn",
+        "llueve mañana": "es morgen regnet"
+      }
     }
   ]
 }

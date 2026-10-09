@@ -32312,7 +32312,7 @@
   {
     "id": "1975",
     "spanish": "la asignatura",
-    "german": "das Fach",
+    "german": "das Schulfach / das Lehrfach",
     "type": "noun",
     "sentence_es": "Mi asignatura favorita en el colegio es matemáticas.",
     "sentence_de": "Mein Lieblingsfach in der Schule ist Mathematik.",
@@ -58696,7 +58696,7 @@
     "spanish": "el sostén",
     "german": "der BH; auch: die Stütze",
     "type": "noun",
-    "note": "sostén ist auch Imperativ von sostener (halt fest!)",
+    "note": "Spanien: el sujetador. sostén ist auch Imperativ von sostener (halt fest!)",
     "sentence_es": "Compró un sostén nuevo en la tienda de ropa interior.",
     "sentence_de": "Sie kaufte einen neuen BH im Wäschegeschäft.",
     "audio": "",
@@ -60367,18 +60367,6 @@
     "note": "retiro budista = buddhistisches Retreat"
   },
   {
-    "id": "3908",
-    "spanish": "birmano",
-    "german": "birmanisch / aus Myanmar",
-    "type": "adjective",
-    "sentence_es": "Es un monje birmano.",
-    "sentence_de": "Er ist ein birmanischer Mönch.",
-    "audio": "",
-    "word_translations": {
-      "es un monje birmano": "er ist ein birmanischer Mönch"
-    }
-  },
-  {
     "id": "3909",
     "spanish": "el monasterio",
     "german": "das Kloster",
@@ -61450,6 +61438,414 @@
       "el precio de la luz": "der Strompreis",
       "subió otra vez": "ist wieder gestiegen",
       "este mes": "diesen Monat"
+    }
+  },
+  {
+    "id": "3989",
+    "spanish": "embrujado",
+    "german": "verhext / spukend",
+    "type": "adjective",
+    "sentence_es": "La casa vieja está embrujada.",
+    "sentence_de": "Das alte Haus spukt.",
+    "audio": "",
+    "word_translations": {
+      "la casa vieja": "das alte Haus",
+      "está embrujada": "spukt"
+    }
+  },
+  {
+    "id": "3990",
+    "spanish": "sano",
+    "german": "gesund",
+    "type": "adjective",
+    "sentence_es": "Mi abuelo está muy sano.",
+    "sentence_de": "Mein Opa ist sehr gesund.",
+    "audio": "",
+    "word_translations": {
+      "mi abuelo": "mein Opa",
+      "está muy sano": "ist sehr gesund"
+    }
+  },
+  {
+    "id": "3991",
+    "spanish": "la rendija",
+    "german": "der Spalt",
+    "type": "noun",
+    "sentence_es": "Entra luz por la rendija.",
+    "sentence_de": "Durch den Spalt kommt Licht herein.",
+    "audio": "",
+    "word_translations": {
+      "entra luz": "kommt Licht herein",
+      "por la rendija": "durch den Spalt"
+    }
+  },
+  {
+    "id": "3992",
+    "spanish": "la cueva",
+    "german": "die Höhle",
+    "type": "noun",
+    "sentence_es": "Los niños exploran la cueva.",
+    "sentence_de": "Die Kinder erkunden die Höhle.",
+    "audio": "",
+    "word_translations": {
+      "los niños": "die Kinder",
+      "exploran la cueva": "erkunden die Höhle"
+    }
+  },
+  {
+    "id": "3993",
+    "spanish": "las manecillas del reloj",
+    "german": "die Uhrzeiger",
+    "type": "noun",
+    "sentence_es": "Las manecillas del reloj no se mueven.",
+    "sentence_de": "Die Uhrzeiger bewegen sich nicht.",
+    "audio": "",
+    "word_translations": {
+      "las manecillas del reloj": "die Uhrzeiger",
+      "no se mueven": "bewegen sich nicht"
+    }
+  },
+  {
+    "id": "3994",
+    "spanish": "entreabierto",
+    "german": "halb offen",
+    "type": "adjective",
+    "sentence_es": "La puerta está entreabierta.",
+    "sentence_de": "Die Tür ist halb offen.",
+    "audio": "",
+    "word_translations": {
+      "la puerta": "die Tür",
+      "está entreabierta": "ist halb offen"
+    }
+  },
+  {
+    "id": "3995",
+    "spanish": "la penumbra",
+    "german": "das Halbdunkel",
+    "type": "noun",
+    "sentence_es": "Leemos en la penumbra.",
+    "sentence_de": "Wir lesen im Halbdunkel.",
+    "audio": "",
+    "word_translations": {
+      "leemos": "wir lesen",
+      "en la penumbra": "im Halbdunkel"
+    }
+  },
+  {
+    "id": "3996",
+    "spanish": "el farol",
+    "german": "die Laterne",
+    "type": "noun",
+    "sentence_es": "El farol ilumina la calle.",
+    "sentence_de": "Die Laterne beleuchtet die Straße.",
+    "audio": "",
+    "word_translations": {
+      "el farol": "die Laterne",
+      "ilumina la calle": "beleuchtet die Straße"
+    }
+  },
+  {
+    "id": "3997",
+    "spanish": "fracasado",
+    "german": "gescheitert / der Versager",
+    "type": "adjective",
+    "sentence_es": "No eres un fracasado.",
+    "sentence_de": "Du bist kein Versager.",
+    "audio": "",
+    "word_translations": {
+      "no eres": "du bist kein",
+      "un fracasado": "Versager"
+    }
+  },
+  {
+    "id": "3998",
+    "spanish": "la mecedora",
+    "german": "der Schaukelstuhl",
+    "type": "noun",
+    "sentence_es": "La abuela se sienta en la mecedora.",
+    "sentence_de": "Die Oma sitzt im Schaukelstuhl.",
+    "audio": "",
+    "word_translations": {
+      "la abuela": "die Oma",
+      "se sienta": "sitzt",
+      "en la mecedora": "im Schaukelstuhl"
+    }
+  },
+  {
+    "id": "3999",
+    "spanish": "la prenda",
+    "german": "das Kleidungsstück; auch: das Pfand",
+    "type": "noun",
+    "sentence_es": "Esta prenda es de algodón.",
+    "sentence_de": "Dieses Kleidungsstück ist aus Baumwolle.",
+    "audio": "",
+    "word_translations": {
+      "esta prenda": "dieses Kleidungsstück",
+      "es de algodón": "ist aus Baumwolle"
+    }
+  },
+  {
+    "id": "4000",
+    "spanish": "el pomo",
+    "german": "der Türknauf",
+    "type": "noun",
+    "sentence_es": "El pomo de la puerta está roto.",
+    "sentence_de": "Der Türknauf ist kaputt.",
+    "audio": "",
+    "word_translations": {
+      "el pomo de la puerta": "der Türknauf",
+      "está roto": "ist kaputt"
+    }
+  },
+  {
+    "id": "4001",
+    "spanish": "la bala",
+    "german": "die Kugel",
+    "type": "noun",
+    "sentence_es": "La bala no le tocó.",
+    "sentence_de": "Die Kugel hat ihn nicht getroffen.",
+    "audio": "",
+    "word_translations": {
+      "la bala": "die Kugel",
+      "no le tocó": "hat ihn nicht getroffen"
+    }
+  },
+  {
+    "id": "4002",
+    "spanish": "desafinado",
+    "german": "verstimmt / schief",
+    "type": "adjective",
+    "sentence_es": "El piano está desafinado.",
+    "sentence_de": "Das Klavier ist verstimmt.",
+    "audio": "",
+    "word_translations": {
+      "el piano": "das Klavier",
+      "está desafinado": "ist verstimmt"
+    }
+  },
+  {
+    "id": "4003",
+    "spanish": "precipitado",
+    "german": "voreilig / überstürzt",
+    "type": "adjective",
+    "sentence_es": "Fue una decisión precipitada.",
+    "sentence_de": "Es war eine voreilige Entscheidung.",
+    "audio": "",
+    "word_translations": {
+      "fue": "es war",
+      "una decisión precipitada": "eine voreilige Entscheidung"
+    }
+  },
+  {
+    "id": "4004",
+    "spanish": "el peinado",
+    "german": "die Frisur",
+    "type": "noun",
+    "sentence_es": "Me gusta tu nuevo peinado.",
+    "sentence_de": "Mir gefällt deine neue Frisur.",
+    "audio": "",
+    "word_translations": {
+      "me gusta": "mir gefällt",
+      "tu nuevo peinado": "deine neue Frisur"
+    }
+  },
+  {
+    "id": "4005",
+    "spanish": "el artilugio",
+    "german": "die Vorrichtung / das Gerät",
+    "type": "noun",
+    "sentence_es": "¿Para qué sirve este artilugio?",
+    "sentence_de": "Wozu dient dieses Gerät?",
+    "audio": "",
+    "word_translations": {
+      "para qué sirve": "wozu dient",
+      "este artilugio": "dieses Gerät"
+    }
+  },
+  {
+    "id": "4006",
+    "spanish": "el tiburón",
+    "german": "der Hai",
+    "type": "noun",
+    "sentence_es": "Vimos un tiburón en el mar.",
+    "sentence_de": "Wir haben einen Hai im Meer gesehen.",
+    "audio": "",
+    "word_translations": {
+      "vimos": "wir haben gesehen",
+      "un tiburón": "einen Hai",
+      "en el mar": "im Meer"
+    }
+  },
+  {
+    "id": "4007",
+    "spanish": "el sujetador",
+    "german": "der BH",
+    "type": "noun",
+    "sentence_es": "Compré un sujetador nuevo.",
+    "sentence_de": "Ich habe einen neuen BH gekauft.",
+    "audio": "",
+    "word_translations": {
+      "compré": "ich habe gekauft",
+      "un sujetador nuevo": "einen neuen BH"
+    },
+    "note": "Spanien. LatAm: el sostén"
+  },
+  {
+    "id": "4008",
+    "spanish": "el merluzo",
+    "german": "der Tölpel (ugs.)",
+    "type": "noun",
+    "sentence_es": "¡No seas merluzo!",
+    "sentence_de": "Sei kein Tölpel!",
+    "audio": "",
+    "word_translations": {
+      "no seas": "sei kein",
+      "merluzo": "Tölpel"
+    },
+    "note": "eigentlich: Seehecht (Fisch)"
+  },
+  {
+    "id": "4009",
+    "spanish": "el besugo",
+    "german": "die Meerbrasse; ugs.: der Dummkopf",
+    "type": "noun",
+    "sentence_es": "Hoy comemos besugo al horno.",
+    "sentence_de": "Heute essen wir Meerbrasse aus dem Ofen.",
+    "audio": "",
+    "word_translations": {
+      "hoy comemos": "heute essen wir",
+      "besugo al horno": "Meerbrasse aus dem Ofen"
+    }
+  },
+  {
+    "id": "4010",
+    "spanish": "cobarde",
+    "german": "feige / der Feigling",
+    "type": "adjective",
+    "sentence_es": "No seas cobarde.",
+    "sentence_de": "Sei nicht feige.",
+    "audio": "",
+    "word_translations": {
+      "no seas": "sei nicht",
+      "cobarde": "feige"
+    }
+  },
+  {
+    "id": "4011",
+    "spanish": "el obsequio",
+    "german": "das Geschenk (formell)",
+    "type": "noun",
+    "sentence_es": "Este libro es un obsequio de la empresa.",
+    "sentence_de": "Dieses Buch ist ein Geschenk der Firma.",
+    "audio": "",
+    "word_translations": {
+      "este libro": "dieses Buch",
+      "es un obsequio": "ist ein Geschenk",
+      "de la empresa": "der Firma"
+    }
+  },
+  {
+    "id": "4012",
+    "spanish": "la ponchera",
+    "german": "die Bowleschüssel",
+    "type": "noun",
+    "sentence_es": "La ponchera está en la mesa.",
+    "sentence_de": "Die Bowleschüssel steht auf dem Tisch.",
+    "audio": "",
+    "word_translations": {
+      "la ponchera": "die Bowleschüssel",
+      "está en la mesa": "steht auf dem Tisch"
+    },
+    "note": "Lateinamerika"
+  },
+  {
+    "id": "4013",
+    "spanish": "el embrollo",
+    "german": "das Durcheinander",
+    "type": "noun",
+    "sentence_es": "¡Qué embrollo!",
+    "sentence_de": "Was für ein Durcheinander!",
+    "audio": "",
+    "word_translations": {
+      "qué embrollo": "was für ein Durcheinander"
+    }
+  },
+  {
+    "id": "4014",
+    "spanish": "acampar",
+    "german": "zelten",
+    "type": "verb",
+    "sentence_es": "Este verano vamos a acampar.",
+    "sentence_de": "Diesen Sommer gehen wir zelten.",
+    "audio": "",
+    "word_translations": {
+      "este verano": "diesen Sommer",
+      "vamos a acampar": "gehen wir zelten"
+    }
+  },
+  {
+    "id": "4015",
+    "spanish": "el dormilón / la dormilona",
+    "german": "die Schlafmütze",
+    "type": "noun",
+    "sentence_es": "Mi hermano es un dormilón.",
+    "sentence_de": "Mein Bruder ist eine Schlafmütze.",
+    "audio": "",
+    "word_translations": {
+      "mi hermano": "mein Bruder",
+      "es un dormilón": "ist eine Schlafmütze"
+    }
+  },
+  {
+    "id": "4016",
+    "spanish": "el salvavidas",
+    "german": "der Rettungsring / die Rettungsweste",
+    "type": "noun",
+    "sentence_es": "Ponte el salvavidas.",
+    "sentence_de": "Zieh die Rettungsweste an.",
+    "audio": "",
+    "word_translations": {
+      "ponte": "zieh an",
+      "el salvavidas": "die Rettungsweste"
+    }
+  },
+  {
+    "id": "4017",
+    "spanish": "el cuento de hadas",
+    "german": "das Märchen",
+    "type": "noun",
+    "sentence_es": "Mi hija quiere un cuento de hadas.",
+    "sentence_de": "Meine Tochter will ein Märchen.",
+    "audio": "",
+    "word_translations": {
+      "mi hija quiere": "meine Tochter will",
+      "un cuento de hadas": "ein Märchen"
+    }
+  },
+  {
+    "id": "4018",
+    "spanish": "rendirse",
+    "german": "aufgeben",
+    "type": "verb",
+    "sentence_es": "¡No te rindas!",
+    "sentence_de": "Gib nicht auf!",
+    "audio": "",
+    "word_translations": {
+      "no te rindas": "gib nicht auf"
+    },
+    "note": "reflexiv"
+  },
+  {
+    "id": "4019",
+    "spanish": "el veterinario / la veterinaria",
+    "german": "der Tierarzt / die Tierärztin",
+    "type": "noun",
+    "sentence_es": "Llevo al perro al veterinario.",
+    "sentence_de": "Ich bringe den Hund zum Tierarzt.",
+    "audio": "",
+    "word_translations": {
+      "llevo al perro": "ich bringe den Hund",
+      "al veterinario": "zum Tierarzt"
     }
   }
 ]
