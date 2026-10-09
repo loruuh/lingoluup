@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,6 +8,7 @@ import VokabelheftList from "@/components/VokabelheftList";
 import VokabelheftToggle from "@/components/VokabelheftToggle";
 import { getFavorites, getHistory, type HistoryEntry } from "@/lib/local-storage";
 import { getVocabById } from "@/lib/spaced-repetition";
+import { splitFavorites, removeUnresolvedFavorites } from "@/lib/favorites";
 import { VocabTimer } from "@/components/VocabTimer";
 
 export default function VokabelheftPage() {
@@ -24,6 +25,20 @@ export default function VokabelheftPage() {
   useEffect(() => {
     loadFavorites();
   }, []);
+
+  const { resolved, unresolvedIds } = useMemo(() => splitFavorites(favorites), [favorites]);
+  const resolvedCount = resolved.length;
+  const unresolvedCount = unresolvedIds.length;
+
+  const handlePurgeUnresolved = () => {
+    const ok = window.confirm(
+      `${unresolvedCount} entfernte ${unresolvedCount === 1 ? "Eintrag" : "Einträge"} aus dem Vokabelheft löschen? Gespeicherte Vokabeln bleiben erhalten.`
+    );
+    if (!ok) return;
+    removeUnresolvedFavorites();
+    loadFavorites();
+    window.dispatchEvent(new CustomEvent("favoritesChanged"));
+  };
 
   const handleShowHistory = () => {
     setHistory(getHistory());
@@ -53,8 +68,21 @@ export default function VokabelheftPage() {
                 <p className="text-gray-500 text-xs mt-0.5">
                   {showHistory
                     ? "Deine zuletzt gelernten Sätze"
-                    : `${favorites.length} ${favorites.length === 1 ? "Vokabel" : "Vokabeln"} gespeichert`}
+                    : `${resolvedCount} ${resolvedCount === 1 ? "Vokabel" : "Vokabeln"} gespeichert`}
                 </p>
+                {!showHistory && unresolvedCount > 0 && (
+                  <div className="flex flex-wrap items-center gap-2 mt-1">
+                    <p className="text-amber-400/80 text-xs">
+                      {resolvedCount} {resolvedCount === 1 ? "Eintrag" : "Einträge"}, {unresolvedCount} entfernt
+                    </p>
+                    <button
+                      onClick={handlePurgeUnresolved}
+                      className="text-xs font-semibold text-red-400 hover:text-red-300 underline underline-offset-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-400 rounded"
+                    >
+                      Entfernte Einträge löschen
+                    </button>
+                  </div>
+                )}
               </div>
 
               {/* Controls row */}
@@ -104,6 +132,7 @@ export default function VokabelheftPage() {
           {!showHistory && (
             <VokabelheftList
               favorites={favorites}
+              resolvedCount={resolvedCount}
               onUpdate={loadFavorites}
               hideGerman={hideGerman}
               hideSpanish={hideSpanish}

@@ -80,7 +80,12 @@ export function getAllVocabProgress(): Record<string, VocabProgress> {
 
 // ===== FAVORITES =====
 export function getFavorites(): string[] {
-  return getFromStorage<string[]>(KEYS.FAVORITES, []);
+  const stored = getFromStorage<unknown>(KEYS.FAVORITES, []);
+  return Array.isArray(stored) ? stored.map(String) : [];
+}
+
+export function setFavorites(ids: string[]): void {
+  setToStorage(KEYS.FAVORITES, ids);
 }
 
 export function addFavorite(vocabId: string): void {

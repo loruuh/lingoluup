@@ -2,16 +2,18 @@
 
 import { useEffect, useState } from 'react';
 import { getFavorites } from '@/lib/local-storage';
+import { splitFavorites } from '@/lib/favorites';
 
 export default function VokabelheftBadge() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    // Initial count
-    setCount(getFavorites().length);
+    // Nur auflösbare Favoriten zählen (entfernte IDs nicht mitzählen)
+    const countResolvable = () => setCount(splitFavorites(getFavorites()).resolved.length);
+    countResolvable();
 
     // Update when FavoriteButton dispatches the custom event
-    const handleChange = () => setCount(getFavorites().length);
+    const handleChange = countResolvable;
     window.addEventListener('favoritesChanged', handleChange);
     return () => window.removeEventListener('favoritesChanged', handleChange);
   }, []);

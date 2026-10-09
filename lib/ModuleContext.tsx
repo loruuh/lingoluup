@@ -156,7 +156,7 @@ export interface LessonsModule {
 export type Module = VocabModule | NumbersModule | TipsModule | PhrasesModule | LessonsModule;
 
 // Map module files to imported data
-const moduleDataMap: Record<string, Module> = {
+export const moduleDataMap: Record<string, Module> = {
   "vokabeln-1":  vokabeln1  as unknown as VocabModule,
   "vokabeln-2":  vokabeln2  as unknown as VocabModule,
   "vokabeln-3":  vokabeln3  as unknown as VocabModule,
