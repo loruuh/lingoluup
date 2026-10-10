@@ -99,7 +99,7 @@ export default function VokabelheftList({
                 style={{ minHeight: "56px" }}
               >
                 <div className="flex items-center justify-between px-5 py-3.5 min-h-[56px]">
-                  <span className="text-gray-400 text-sm italic leading-snug">
+                  <span className="min-w-0 break-words text-gray-400 text-sm italic leading-snug">
                     Entfernter Eintrag ({vocabId})
                   </span>
                   <DeleteButton onClick={() => handleDelete(vocabId)} label="Entfernten Eintrag löschen" />
@@ -115,7 +115,7 @@ export default function VokabelheftList({
               style={{
                 minHeight: "56px",
                 backgroundImage:
-                  "linear-gradient(to bottom, transparent 55px, #bfdbfe 55px, #bfdbfe 56px, transparent 56px)",
+                  "linear-gradient(to top, #bfdbfe 0, #bfdbfe 1px, transparent 1px)",
               }}
             >
               {/* Red vertical divider */}
@@ -123,9 +123,9 @@ export default function VokabelheftList({
 
               <div className="grid grid-cols-2">
                 {/* German column */}
-                <div className="flex items-center px-5 py-3.5 min-h-[56px]">
+                <div className="flex items-center min-w-0 px-5 py-3.5 min-h-[56px]">
                   {!hideGerman ? (
-                    <span className="text-gray-800 text-sm font-medium leading-snug">
+                    <span className="min-w-0 break-words text-gray-800 text-sm font-medium leading-snug">
                       {vocab.german}
                       {vocab.source === "phrase" && vocab.note && (
                         <span className="block text-gray-500 text-xs font-normal mt-0.5">{vocab.note}</span>
@@ -137,9 +137,9 @@ export default function VokabelheftList({
                 </div>
 
                 {/* Spanish column + delete */}
-                <div className="flex items-center justify-between px-5 py-3.5 min-h-[56px]">
+                <div className="flex items-center justify-between min-w-0 px-5 py-3.5 min-h-[56px]">
                   {!hideSpanish ? (
-                    <span className="text-gray-800 text-sm font-medium leading-snug flex-1">
+                    <span className="min-w-0 break-words text-gray-800 text-sm font-medium leading-snug flex-1">
                       {vocab.spanish}
                     </span>
                   ) : (
