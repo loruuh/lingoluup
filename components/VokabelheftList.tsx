@@ -125,7 +125,12 @@ export default function VokabelheftList({
                 {/* German column */}
                 <div className="flex items-center px-5 py-3.5 min-h-[56px]">
                   {!hideGerman ? (
-                    <span className="text-gray-800 text-sm font-medium leading-snug">{vocab.german}</span>
+                    <span className="text-gray-800 text-sm font-medium leading-snug">
+                      {vocab.german}
+                      {vocab.source === "phrase" && vocab.note && (
+                        <span className="block text-gray-500 text-xs font-normal mt-0.5">{vocab.note}</span>
+                      )}
+                    </span>
                   ) : (
                     <div className="h-3 w-20 bg-gray-300/60 rounded-full" />
                   )}
@@ -136,9 +141,6 @@ export default function VokabelheftList({
                   {!hideSpanish ? (
                     <span className="text-gray-800 text-sm font-medium leading-snug flex-1">
                       {vocab.spanish}
-                      {vocab.source === "phrase" && vocab.note && (
-                        <span className="block text-gray-500 text-xs font-normal mt-0.5">{vocab.note}</span>
-                      )}
                     </span>
                   ) : (
                     <div className="h-3 w-20 bg-gray-300/60 rounded-full flex-1" />
