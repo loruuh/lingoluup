@@ -24,7 +24,7 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     sublabel: "Anfänger · A1 – A2",
     emoji: "🌱",
     color: { accent: "#84cc16", bg: "rgba(132,204,22,0.07)", border: "rgba(132,204,22,0.22)", glow: "rgba(132,204,22,0.14)", badge: "rgba(132,204,22,0.12)" },
-    moduleIds: ["vokabeln-1", "vokabeln-2", "vokabeln-3"],
+    moduleIds: ["vokabeln-1", "vokabeln-2", "vokabeln-3", "vokabeln-4"],
   },
   {
     id: "aufbau",
@@ -32,7 +32,7 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     sublabel: "Mittelstufe · A2 – B1",
     emoji: "🔥",
     color: { accent: "#fbbf24", bg: "rgba(251,191,36,0.07)", border: "rgba(251,191,36,0.22)", glow: "rgba(251,191,36,0.14)", badge: "rgba(251,191,36,0.12)" },
-    moduleIds: ["vokabeln-4", "vokabeln-5", "vokabeln-6", "vokabeln-7"],
+    moduleIds: ["vokabeln-5", "vokabeln-6", "vokabeln-7", "vokabeln-8", "vokabeln-9", "vokabeln-10"],
   },
   {
     id: "fortgeschritten",
@@ -40,15 +40,7 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     sublabel: "Oberstufe · B1 – C1",
     emoji: "🚀",
     color: { accent: "#f97316", bg: "rgba(249,115,22,0.07)", border: "rgba(249,115,22,0.22)", glow: "rgba(249,115,22,0.14)", badge: "rgba(249,115,22,0.12)" },
-    moduleIds: ["vokabeln-8", "vokabeln-9", "vokabeln-10", "vokabeln-11"],
-  },
-  {
-    id: "sammlung",
-    label: "Meine Sammlung",
-    sublabel: "Eigene Wörter · Filme & Serien",
-    emoji: "🆕",
-    color: { accent: "#f472b6", bg: "rgba(244,114,182,0.07)", border: "rgba(244,114,182,0.22)", glow: "rgba(244,114,182,0.14)", badge: "rgba(244,114,182,0.12)" },
-    moduleIds: ["vokabeln-new"],
+    moduleIds: ["vokabeln-11", "vokabeln-12", "vokabeln-13", "vokabeln-14", "vokabeln-15", "vokabeln-16", "vokabeln-17"],
   },
   {
     id: "phrasen",
@@ -137,6 +129,11 @@ export default function ModuleSelection() {
             <NavIcon href="/statistik" label="Statistik">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </NavIcon>
+            <NavIcon href="/lernstrategie" label="Lernstrategie">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
               </svg>
             </NavIcon>
           </div>

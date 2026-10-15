@@ -537,6 +537,98 @@
         "y si": "und wenn",
         "llueve mañana": "es morgen regnet"
       }
+    },
+    {
+      "id": "p43",
+      "spanish": "cada uno",
+      "german": "jeder Einzelne",
+      "literal": "",
+      "sentence_es": "Cada uno tiene su opinión.",
+      "sentence_de": "Jeder Einzelne hat seine Meinung.",
+      "audio": "",
+      "word_translations": {
+        "cada uno": "jeder Einzelne",
+        "tiene su opinión": "hat seine Meinung"
+      }
+    },
+    {
+      "id": "p44",
+      "spanish": "Me di cuenta...",
+      "german": "Ich merkte... / Mir wurde klar...",
+      "literal": "",
+      "sentence_es": "Me di cuenta de que era tarde.",
+      "sentence_de": "Ich merkte, dass es spät war.",
+      "audio": "",
+      "word_translations": {
+        "me di cuenta": "ich merkte",
+        "de que era tarde": "dass es spät war"
+      }
+    },
+    {
+      "id": "p45",
+      "spanish": "desde niños",
+      "german": "seit ihrer Kindheit",
+      "literal": "",
+      "sentence_es": "Se conocen desde niños.",
+      "sentence_de": "Sie kennen sich seit ihrer Kindheit.",
+      "audio": "",
+      "word_translations": {
+        "se conocen": "sie kennen sich",
+        "desde niños": "seit ihrer Kindheit"
+      }
+    },
+    {
+      "id": "p46",
+      "spanish": "estar colado por alguien",
+      "german": "in jemanden verknallt sein",
+      "literal": "",
+      "sentence_es": "Está colado por su vecina.",
+      "sentence_de": "Er ist in seine Nachbarin verknallt.",
+      "audio": "",
+      "word_translations": {
+        "está colado": "er ist verknallt",
+        "por su vecina": "in seine Nachbarin"
+      }
+    },
+    {
+      "id": "p47",
+      "spanish": "tener un flechazo por alguien",
+      "german": "Liebe auf den ersten Blick",
+      "literal": "",
+      "sentence_es": "Tuve un flechazo por ella.",
+      "sentence_de": "Bei ihr war es Liebe auf den ersten Blick.",
+      "audio": "",
+      "word_translations": {
+        "tuve un flechazo": "ich hatte Liebe auf den ersten Blick",
+        "por ella": "für sie"
+      }
+    },
+    {
+      "id": "p48",
+      "spanish": "estar enamorado de alguien",
+      "german": "in jemanden verliebt sein",
+      "literal": "",
+      "sentence_es": "Estoy enamorado de ti.",
+      "sentence_de": "Ich bin in dich verliebt.",
+      "audio": "",
+      "word_translations": {
+        "estoy enamorado": "ich bin verliebt",
+        "de ti": "in dich"
+      }
+    },
+    {
+      "id": "p49",
+      "spanish": "cortarse las venas",
+      "german": "sich die Pulsadern aufschneiden",
+      "literal": "",
+      "sentence_es": "En la película, él intenta cortarse las venas.",
+      "sentence_de": "Im Film versucht er, sich die Pulsadern aufzuschneiden.",
+      "audio": "",
+      "word_translations": {
+        "en la película": "im Film",
+        "él intenta": "er versucht",
+        "cortarse las venas": "sich die Pulsadern aufzuschneiden"
+      }
     }
   ]
 }

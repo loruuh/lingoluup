@@ -16,7 +16,12 @@ import vokabeln8 from "@/data/modules/vokabeln-8.json";
 import vokabeln9 from "@/data/modules/vokabeln-9.json";
 import vokabeln10 from "@/data/modules/vokabeln-10.json";
 import vokabeln11 from "@/data/modules/vokabeln-11.json";
-import vokabelnNew from "@/data/modules/vokabeln-new.json";
+import vokabeln12 from "@/data/modules/vokabeln-12.json";
+import vokabeln13 from "@/data/modules/vokabeln-13.json";
+import vokabeln14 from "@/data/modules/vokabeln-14.json";
+import vokabeln15 from "@/data/modules/vokabeln-15.json";
+import vokabeln16 from "@/data/modules/vokabeln-16.json";
+import vokabeln17 from "@/data/modules/vokabeln-17.json";
 import phrasenModule from "@/data/modules/phrasen.json";
 import zahlenModule from "@/data/modules/zahlen.json";
 import ausspracheTipps from "@/data/modules/aussprache-tipps.json";
@@ -168,7 +173,12 @@ export const moduleDataMap: Record<string, Module> = {
   "vokabeln-9":  vokabeln9  as unknown as VocabModule,
   "vokabeln-10": vokabeln10 as unknown as VocabModule,
   "vokabeln-11": vokabeln11 as unknown as VocabModule,
-  "vokabeln-new": vokabelnNew as unknown as VocabModule,
+  "vokabeln-12": vokabeln12 as unknown as VocabModule,
+  "vokabeln-13": vokabeln13 as unknown as VocabModule,
+  "vokabeln-14": vokabeln14 as unknown as VocabModule,
+  "vokabeln-15": vokabeln15 as unknown as VocabModule,
+  "vokabeln-16": vokabeln16 as unknown as VocabModule,
+  "vokabeln-17": vokabeln17 as unknown as VocabModule,
   "phrasen": phrasenModule as unknown as PhrasesModule,
   "zahlen": zahlenModule as unknown as NumbersModule,
   "aussprache-tipps": ausspracheTipps as unknown as TipsModule,

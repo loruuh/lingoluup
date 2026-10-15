@@ -37376,7 +37376,7 @@
   {
     "id": "2262",
     "spanish": "la deuda",
-    "german": "die Schuld",
+    "german": "die Schuld / die Schulden",
     "type": "noun",
     "sentence_es": "Tengo que pagar la deuda del banco.",
     "sentence_de": "Ich muss die Schulden bei der Bank bezahlen.",
@@ -53497,7 +53497,7 @@
   {
     "id": "3458",
     "spanish": "impedir",
-    "german": "verhindern",
+    "german": "verhindern / hindern / blockieren",
     "type": "verb",
     "sentence_es": "La policía intentó impedir el acceso al edificio.",
     "sentence_de": "Die Polizei versuchte, den Zugang zum Gebäude zu verhindern.",
@@ -61847,5 +61847,239 @@
       "llevo al perro": "ich bringe den Hund",
       "al veterinario": "zum Tierarzt"
     }
+  },
+  {
+    "id": "4020",
+    "spanish": "mentir",
+    "german": "lügen",
+    "type": "verb",
+    "sentence_es": "No me gusta mentir.",
+    "sentence_de": "Ich lüge nicht gern.",
+    "audio": "",
+    "word_translations": {
+      "no me gusta": "ich mag nicht",
+      "mentir": "lügen"
+    }
+  },
+  {
+    "id": "4021",
+    "spanish": "lamentar algo",
+    "german": "etwas bedauern",
+    "type": "verb",
+    "sentence_es": "Lamento mucho lo que pasó.",
+    "sentence_de": "Ich bedauere sehr, was passiert ist.",
+    "audio": "",
+    "word_translations": {
+      "lamento mucho": "ich bedauere sehr",
+      "lo que pasó": "was passiert ist"
+    }
+  },
+  {
+    "id": "4022",
+    "spanish": "sentir algo",
+    "german": "etwas bedauern",
+    "type": "verb",
+    "sentence_es": "Siento mucho tu pérdida.",
+    "sentence_de": "Ich bedauere deinen Verlust sehr.",
+    "audio": "",
+    "word_translations": {
+      "siento mucho": "ich bedauere sehr",
+      "tu pérdida": "deinen Verlust"
+    },
+    "note": "in dieser Bedeutung: bedauern (lo siento = es tut mir leid)"
+  },
+  {
+    "id": "4023",
+    "spanish": "el humo",
+    "german": "der Rauch",
+    "type": "noun",
+    "sentence_es": "Hay mucho humo en la cocina.",
+    "sentence_de": "In der Küche ist viel Rauch.",
+    "audio": "",
+    "word_translations": {
+      "hay mucho humo": "es gibt viel Rauch",
+      "en la cocina": "in der Küche"
+    }
+  },
+  {
+    "id": "4024",
+    "spanish": "salarial",
+    "german": "Lohn- / Gehalts- / Vergütungs-",
+    "type": "adjective",
+    "sentence_es": "Los trabajadores piden una subida salarial.",
+    "sentence_de": "Die Arbeiter fordern eine Gehaltserhöhung.",
+    "audio": "",
+    "word_translations": {
+      "los trabajadores": "die Arbeiter",
+      "piden": "fordern",
+      "una subida salarial": "eine Gehaltserhöhung"
+    }
+  },
+  {
+    "id": "4025",
+    "spanish": "el sindicato",
+    "german": "die Gewerkschaft",
+    "type": "noun",
+    "sentence_es": "El sindicato convoca una huelga.",
+    "sentence_de": "Die Gewerkschaft ruft zu einem Streik auf.",
+    "audio": "",
+    "word_translations": {
+      "el sindicato": "die Gewerkschaft",
+      "convoca": "ruft auf zu",
+      "una huelga": "einem Streik"
+    }
+  },
+  {
+    "id": "4026",
+    "spanish": "Comisiones Obreras (CCOO)",
+    "german": "die größte Gewerkschaft Spaniens",
+    "type": "noun",
+    "sentence_es": "Comisiones Obreras es el sindicato más grande de España.",
+    "sentence_de": "Comisiones Obreras ist die größte Gewerkschaft Spaniens.",
+    "audio": "",
+    "word_translations": {
+      "comisiones obreras": "Comisiones Obreras",
+      "es el sindicato más grande": "ist die größte Gewerkschaft",
+      "de españa": "Spaniens"
+    }
+  },
+  {
+    "id": "4027",
+    "spanish": "el arañazo",
+    "german": "der Kratzer",
+    "type": "noun",
+    "sentence_es": "El gato me hizo un arañazo.",
+    "sentence_de": "Die Katze hat mir einen Kratzer gemacht.",
+    "audio": "",
+    "word_translations": {
+      "el gato": "die Katze",
+      "me hizo": "hat mir gemacht",
+      "un arañazo": "einen Kratzer"
+    }
+  },
+  {
+    "id": "4028",
+    "spanish": "el osito de peluche",
+    "german": "der Teddybär",
+    "type": "noun",
+    "sentence_es": "El niño duerme con su osito de peluche.",
+    "sentence_de": "Das Kind schläft mit seinem Teddybären.",
+    "audio": "",
+    "word_translations": {
+      "el niño duerme": "das Kind schläft",
+      "con su osito de peluche": "mit seinem Teddybären"
+    }
+  },
+  {
+    "id": "4029",
+    "spanish": "la chimenea",
+    "german": "der Kamin",
+    "type": "noun",
+    "sentence_es": "Encendemos la chimenea en invierno.",
+    "sentence_de": "Im Winter zünden wir den Kamin an.",
+    "audio": "",
+    "word_translations": {
+      "encendemos": "wir zünden an",
+      "la chimenea": "den Kamin",
+      "en invierno": "im Winter"
+    }
+  },
+  {
+    "id": "4030",
+    "spanish": "la multitud / la muchedumbre",
+    "german": "die Menschenmenge",
+    "type": "noun",
+    "sentence_es": "Una multitud esperaba en la plaza.",
+    "sentence_de": "Eine Menschenmenge wartete auf dem Platz.",
+    "audio": "",
+    "word_translations": {
+      "una multitud": "eine Menschenmenge",
+      "esperaba": "wartete",
+      "en la plaza": "auf dem Platz"
+    }
+  },
+  {
+    "id": "4031",
+    "spanish": "enfurecido / enfurecida",
+    "german": "wütend / aufgebracht",
+    "type": "adjective",
+    "sentence_es": "La multitud enfurecida gritaba en la calle.",
+    "sentence_de": "Die aufgebrachte Menge schrie auf der Straße.",
+    "audio": "",
+    "word_translations": {
+      "la multitud enfurecida": "die aufgebrachte Menge",
+      "gritaba": "schrie",
+      "en la calle": "auf der Straße"
+    }
+  },
+  {
+    "id": "4032",
+    "spanish": "desposar",
+    "german": "heiraten",
+    "type": "verb",
+    "sentence_es": "El príncipe va a desposar a la princesa.",
+    "sentence_de": "Der Prinz wird die Prinzessin heiraten.",
+    "audio": "",
+    "word_translations": {
+      "el príncipe": "der Prinz",
+      "va a desposar": "wird heiraten",
+      "a la princesa": "die Prinzessin"
+    },
+    "note": "gehoben"
+  },
+  {
+    "id": "4033",
+    "spanish": "la colcha",
+    "german": "die Bettdecke / die Tagesdecke",
+    "type": "noun",
+    "sentence_es": "Pon la colcha sobre la cama.",
+    "sentence_de": "Leg die Tagesdecke auf das Bett.",
+    "audio": "",
+    "word_translations": {
+      "pon": "leg",
+      "la colcha": "die Tagesdecke",
+      "sobre la cama": "auf das Bett"
+    }
+  },
+  {
+    "id": "4034",
+    "spanish": "la funda nórdica",
+    "german": "der Bettbezug",
+    "type": "noun",
+    "sentence_es": "Tengo que cambiar la funda nórdica.",
+    "sentence_de": "Ich muss den Bettbezug wechseln.",
+    "audio": "",
+    "word_translations": {
+      "tengo que cambiar": "ich muss wechseln",
+      "la funda nórdica": "den Bettbezug"
+    }
+  },
+  {
+    "id": "4035",
+    "spanish": "el edredón",
+    "german": "das Federbett / die Daunendecke",
+    "type": "noun",
+    "sentence_es": "En invierno uso un edredón grueso.",
+    "sentence_de": "Im Winter benutze ich ein dickes Federbett.",
+    "audio": "",
+    "word_translations": {
+      "en invierno": "im Winter",
+      "uso": "benutze ich",
+      "un edredón grueso": "ein dickes Federbett"
+    }
+  },
+  {
+    "id": "4036",
+    "spanish": "la dentadura",
+    "german": "das Gebiss / die Zähne (gesamt)",
+    "type": "noun",
+    "sentence_es": "Mi abuelo tiene una dentadura postiza.",
+    "sentence_de": "Mein Opa hat ein künstliches Gebiss.",
+    "audio": "",
+    "word_translations": {
+      "mi abuelo tiene": "mein Opa hat",
+      "una dentadura postiza": "ein künstliches Gebiss"
+    },
+    "note": "alle Zähne zusammen – ein einzelner Zahn ist el diente"
   }
 ]

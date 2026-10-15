@@ -15,16 +15,16 @@ interface VocabListModalProps {
 export default function VocabListModal({ isOpen, onClose, seenIds, playCounts }: VocabListModalProps) {
   const { selectedModule, getModuleVocab } = useModule();
   const [revealedIds, setRevealedIds] = useState<Set<string>>(new Set());
-  const [showAllDe, setShowAllDe] = useState(true);
-  const [showAllEs, setShowAllEs] = useState(false);
+  const [showAllDe, setShowAllDe] = useState(false);
+  const [showAllEs, setShowAllEs] = useState(true);
   const [search, setSearch] = useState("");
   const [favoritedIds, setFavoritedIds] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     if (!isOpen) {
       setRevealedIds(new Set());
-      setShowAllDe(true);
-      setShowAllEs(false);
+      setShowAllDe(false);
+      setShowAllEs(true);
       setSearch("");
     } else {
       setFavoritedIds(new Set(getFavorites()));

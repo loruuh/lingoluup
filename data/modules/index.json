@@ -1,99 +1,139 @@
 [
   {
     "id": "vokabeln-1",
-    "name": "Vokabeln 1 – Kern",
-    "description": "Absolut häufigste Wörter – Verben, Grundnomen, Kernvokabular",
+    "name": "Vokabeln 1",
+    "description": "Basis · Teil 1 von 17",
     "icon": "📘",
     "type": "vocabulary",
     "file": "vokabeln-1.json"
   },
   {
     "id": "vokabeln-2",
-    "name": "Vokabeln 2 – Alltag I",
-    "description": "Alltag: Körper, Wohnen, Transport",
+    "name": "Vokabeln 2",
+    "description": "Basis · Teil 2 von 17",
     "icon": "📗",
     "type": "vocabulary",
     "file": "vokabeln-2.json"
   },
   {
     "id": "vokabeln-3",
-    "name": "Vokabeln 3 – Alltag II",
-    "description": "Alltag: Kleidung, Familie, Orte, Tiere & Natur",
+    "name": "Vokabeln 3",
+    "description": "Basis · Teil 3 von 17",
     "icon": "📙",
     "type": "vocabulary",
     "file": "vokabeln-3.json"
   },
   {
     "id": "vokabeln-4",
-    "name": "Vokabeln 4 – Übergang",
-    "description": "Übergang: Ausdrücke, Natur, Gefühle, Konnektoren",
+    "name": "Vokabeln 4",
+    "description": "Basis · Teil 4 von 17",
     "icon": "📕",
     "type": "vocabulary",
     "file": "vokabeln-4.json"
   },
   {
     "id": "vokabeln-5",
-    "name": "Vokabeln 5 – Mittelstufe I",
-    "description": "Mittelstufe: Arbeit, Reisen, Bildung, Beziehungen",
+    "name": "Vokabeln 5",
+    "description": "Aufbau · Teil 5 von 17",
     "icon": "📓",
     "type": "vocabulary",
     "file": "vokabeln-5.json"
   },
   {
     "id": "vokabeln-6",
-    "name": "Vokabeln 6 – Mittelstufe II",
-    "description": "Mittelstufe: Konnektoren, Gefühle, Gesellschaft, Kultur",
+    "name": "Vokabeln 6",
+    "description": "Aufbau · Teil 6 von 17",
     "icon": "📔",
     "type": "vocabulary",
     "file": "vokabeln-6.json"
   },
   {
     "id": "vokabeln-7",
-    "name": "Vokabeln 7 – Fortgeschritten I",
-    "description": "Fortgeschritten: Konzepte, Wirtschaft, abstrakte Nomen",
+    "name": "Vokabeln 7",
+    "description": "Aufbau · Teil 7 von 17",
     "icon": "📒",
     "type": "vocabulary",
     "file": "vokabeln-7.json"
   },
   {
     "id": "vokabeln-8",
-    "name": "Vokabeln 8 – Fortgeschritten II",
-    "description": "Fortgeschritten: Tätigkeiten, Prozesse, Zusammenarbeit",
+    "name": "Vokabeln 8",
+    "description": "Aufbau · Teil 8 von 17",
     "icon": "📃",
     "type": "vocabulary",
     "file": "vokabeln-8.json"
   },
   {
     "id": "vokabeln-9",
-    "name": "Vokabeln 9 – Fortgeschritten III",
-    "description": "Fortgeschritten: Ereignisse, Themen, Situationen",
+    "name": "Vokabeln 9",
+    "description": "Aufbau · Teil 9 von 17",
     "icon": "📄",
     "type": "vocabulary",
     "file": "vokabeln-9.json"
   },
   {
     "id": "vokabeln-10",
-    "name": "Vokabeln 10 – Fortgeschritten IV",
-    "description": "Fortgeschritten: Charakter, Fähigkeiten, Spezialnomen",
+    "name": "Vokabeln 10",
+    "description": "Aufbau · Teil 10 von 17",
     "icon": "📑",
     "type": "vocabulary",
     "file": "vokabeln-10.json"
   },
   {
     "id": "vokabeln-11",
-    "name": "Vokabeln 11 – Spezial",
-    "description": "Spezial: Fachsprache, regionale Ausdrücke & Seltenes",
+    "name": "Vokabeln 11",
+    "description": "Fortgeschritten · Teil 11 von 17",
     "icon": "🔖",
     "type": "vocabulary",
     "file": "vokabeln-11.json"
   },
   {
-    "id": "vokabeln-new",
-    "name": "New",
-    "description": "Meine eigene Sammlung — Wörter aus Filmen und Serien",
-    "icon": "🆕",
+    "id": "vokabeln-12",
+    "name": "Vokabeln 12",
+    "description": "Fortgeschritten · Teil 12 von 17",
+    "icon": "📘",
     "type": "vocabulary",
-    "file": "vokabeln-new.json"
+    "file": "vokabeln-12.json"
+  },
+  {
+    "id": "vokabeln-13",
+    "name": "Vokabeln 13",
+    "description": "Fortgeschritten · Teil 13 von 17",
+    "icon": "📗",
+    "type": "vocabulary",
+    "file": "vokabeln-13.json"
+  },
+  {
+    "id": "vokabeln-14",
+    "name": "Vokabeln 14",
+    "description": "Fortgeschritten · Teil 14 von 17",
+    "icon": "📙",
+    "type": "vocabulary",
+    "file": "vokabeln-14.json"
+  },
+  {
+    "id": "vokabeln-15",
+    "name": "Vokabeln 15",
+    "description": "Fortgeschritten · Teil 15 von 17",
+    "icon": "📕",
+    "type": "vocabulary",
+    "file": "vokabeln-15.json"
+  },
+  {
+    "id": "vokabeln-16",
+    "name": "Vokabeln 16",
+    "description": "Fortgeschritten · Teil 16 von 17",
+    "icon": "📓",
+    "type": "vocabulary",
+    "file": "vokabeln-16.json"
+  },
+  {
+    "id": "vokabeln-17",
+    "name": "Vokabeln 17",
+    "description": "Fortgeschritten · Teil 17 von 17",
+    "icon": "📔",
+    "type": "vocabulary",
+    "file": "vokabeln-17.json"
   },
   {
     "id": "phrasen",
