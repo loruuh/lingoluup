@@ -47,10 +47,10 @@ export default function OnboardingOverlay({ onComplete }: OnboardingOverlayProps
         {/* Instructions */}
         <div className="space-y-4 mb-6 text-gray-300">
           <p className="leading-relaxed">
-            Du siehst ein <span className="text-white font-semibold">deutsches Wort</span> - überleg kurz!
+            Du siehst ein <span className="text-white font-semibold">spanisches Wort</span> - überleg kurz, was es heißt!
           </p>
           <p className="leading-relaxed">
-            <span className="text-white font-semibold">Drücke</span>, um die spanische Übersetzung zu sehen
+            <span className="text-white font-semibold">Drücke</span>, um die deutsche Übersetzung zu sehen
           </p>
           <p className="leading-relaxed">
             Ein <span className="text-white font-semibold">Beispielsatz</span> hilft dir, das Wort im Kontext zu verstehen

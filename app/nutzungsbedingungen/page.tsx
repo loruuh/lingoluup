@@ -78,7 +78,7 @@ export default function NutzungsbedingungenPage() {
           <p className="text-xs font-bold tracking-widest uppercase text-lime-500 mb-2">TL;DR — Kurzfassung</p>
           <ul className="text-sm text-gray-200 space-y-1">
             <li>✅ <strong>Kostenlos:</strong> Module 1–2 vollständig, ~800 Vokabeln, dauerhaft gratis.</li>
-            <li>✅ <strong>Premium:</strong> Alle 5 Module (2.600+ Vokabeln) ab 7,99&nbsp;€/Monat — jederzeit kündbar.</li>
+            <li>✅ <strong>Premium:</strong> Alle 5 Module (3.800+ Vokabeln) ab 7,99&nbsp;€/Monat — jederzeit kündbar.</li>
             <li>✅ <strong>Lernwerkzeug:</strong> HablaPalabra ersetzt keinen professionellen Sprachkurs oder Lehrer.</li>
             <li>✅ <strong>Kein Abo-Zwang:</strong> Kostenloser Plan bleibt immer kostenlos.</li>
           </ul>
@@ -161,7 +161,7 @@ export default function NutzungsbedingungenPage() {
                 <p>HablaPalabra übernimmt keine Gewähr für:</p>
                 <ul className="space-y-1.5 ml-2">
                   {[
-                    'Vollständigkeit der Vokabelsammlung (derzeit ~2.600 Einträge)',
+                    'Vollständigkeit der Vokabelsammlung (derzeit ~3.800 Einträge)',
                     'Korrektheit aller Übersetzungen und Beispielsätze',
                     'Eignung für spezifische Prüfungen (DELE, SIELE, telc Español etc.)',
                     'Garantierten Lernerfolg oder messbaren Sprachfortschritt',
@@ -215,7 +215,7 @@ export default function NutzungsbedingungenPage() {
                       style={{ background: 'rgba(132,204,22,0.06)', border: '1px solid rgba(132,204,22,0.25)' }}
                     >
                       <p className="font-bold text-white mb-1">Premium</p>
-                      <p className="text-gray-400 text-xs">Alle 5 Module, 2.600+ Vokabeln</p>
+                      <p className="text-gray-400 text-xs">Alle 5 Module, 3.800+ Vokabeln</p>
                       <p className="text-lime-400 font-bold mt-2">7,99&nbsp;€/Monat</p>
                       <p className="text-gray-500 text-xs">oder ~84&nbsp;€/Jahr (unter 7&nbsp;€/Monat)</p>
                     </div>

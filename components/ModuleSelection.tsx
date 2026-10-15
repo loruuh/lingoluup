@@ -40,7 +40,15 @@ const LEVEL_GROUPS: { id: string; label: string; sublabel: string; emoji: string
     sublabel: "Oberstufe · B1 – C1",
     emoji: "🚀",
     color: { accent: "#f97316", bg: "rgba(249,115,22,0.07)", border: "rgba(249,115,22,0.22)", glow: "rgba(249,115,22,0.14)", badge: "rgba(249,115,22,0.12)" },
-    moduleIds: ["vokabeln-11", "vokabeln-12", "vokabeln-13", "vokabeln-14", "vokabeln-15", "vokabeln-16", "vokabeln-17"],
+    moduleIds: ["vokabeln-11", "vokabeln-12", "vokabeln-13", "vokabeln-14", "vokabeln-15"],
+  },
+  {
+    id: "sammlung",
+    label: "Meine Sammlung",
+    sublabel: "Eigene Wörter · Filme & Serien",
+    emoji: "🆕",
+    color: { accent: "#f472b6", bg: "rgba(244,114,182,0.07)", border: "rgba(244,114,182,0.22)", glow: "rgba(244,114,182,0.14)", badge: "rgba(244,114,182,0.12)" },
+    moduleIds: ["vokabeln-16", "vokabeln-17"],
   },
   {
     id: "phrasen",

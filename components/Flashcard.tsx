@@ -35,28 +35,28 @@ export default function Flashcard({ german, spanish, onReveal, isRevealed: exter
         {/* Subtle gradient background shimmer */}
         <div className={`absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent transition-opacity duration-500 ${isRevealed ? 'opacity-100' : 'opacity-0'}`} />
 
-        {/* Deutsches Wort */}
+        {/* Spanisches Wort */}
         <div className="relative mb-8">
-          <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-3">Deutsch</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-white break-words hyphens-auto transition-all duration-500 ease-out leading-tight"
+          <p className="text-xs font-semibold uppercase tracking-widest text-primary/70 mb-3">Español</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-primary break-words hyphens-auto transition-all duration-500 ease-out leading-tight"
               style={{ transform: isRevealed ? 'translateY(-4px) scale(0.97)' : 'translateY(0) scale(1)' }}>
-            {german}
+            {spanish}
           </h2>
         </div>
 
         {/* Divider */}
         <div className={`relative w-16 h-px mx-auto mb-8 transition-all duration-500 ${isRevealed ? 'bg-primary/60 w-24' : 'bg-white/20'}`} />
 
-        {/* Spanisches Wort (wird aufgedeckt) */}
+        {/* Deutsches Wort (wird aufgedeckt) */}
         <div className="relative min-h-[4rem] flex flex-col items-center justify-center gap-2">
           <div
             className={`transition-all duration-500 ease-out ${
               isRevealed ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-4 scale-95"
             }`}
           >
-            <p className="text-xs font-semibold uppercase tracking-widest text-primary/70 mb-2">Español</p>
-            <p className="text-3xl md:text-4xl font-bold text-primary leading-tight">
-              {spanish}
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-500 mb-2">Deutsch</p>
+            <p className="text-3xl md:text-4xl font-bold text-white break-words hyphens-auto leading-tight">
+              {german}
             </p>
           </div>
         </div>
