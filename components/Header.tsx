@@ -16,14 +16,14 @@ export default function Header({ voiceModus, onToggleModus }: HeaderProps = {}) 
 
   return (
     <header className="w-full bg-background/80 backdrop-blur-lg border-b border-primary/20 sticky top-0 z-40">
-      <div className="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div className="max-w-4xl mx-auto px-3 sm:px-4 py-3 flex flex-wrap gap-y-2 justify-between items-center">
 
         {/* Logo */}
         <Link href="/modules" onClick={clearModule} className="group relative flex items-center gap-1.5">
-          <span className="text-xl font-bold bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent transition-all duration-300">
+          <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-primary via-primary-light to-primary bg-clip-text text-transparent transition-all duration-300">
             HablaPalabra
           </span>
-          <span className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 inline-block">
+          <span className="text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 hidden sm:inline-block">
             🌟
           </span>
           <div className="absolute -bottom-0.5 left-0 h-0.5 w-0 group-hover:w-full bg-gradient-to-r from-primary to-purple-400 transition-all duration-300 rounded-full" />
@@ -34,7 +34,7 @@ export default function Header({ voiceModus, onToggleModus }: HeaderProps = {}) 
           <div
             role="group"
             aria-label="Lernmodus wählen"
-            className="relative inline-flex items-stretch bg-white/[0.04] border border-white/[0.09] rounded-xl p-0.5"
+            className="relative order-last mx-auto sm:order-none sm:mx-0 inline-flex items-stretch bg-white/[0.04] border border-white/[0.09] rounded-xl p-0.5"
           >
             {/* Spring-animated pill — yellow for Text, red for Voice (España flag) */}
             <div
@@ -87,7 +87,7 @@ export default function Header({ voiceModus, onToggleModus }: HeaderProps = {}) 
         )}
 
         {/* Navigation */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 sm:gap-2">
           <HistoryButton />
 
           <NavIcon href="/vokabelheft" label="Vokabelheft" badge={<VokabelheftBadge />}>
