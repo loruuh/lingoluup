@@ -62753,5 +62753,19 @@
       "ganó": "er gewann",
       "por una mayoría abrumadora": "mit überwältigender Mehrheit"
     }
+  },
+  {
+    "id": "4086",
+    "spanish": "la tanda",
+    "german": "die Ladung / die Runde / der Durchgang",
+    "type": "noun",
+    "sentence_es": "Acabo de hornear la primera tanda de galletas.",
+    "sentence_de": "Ich habe gerade die erste Ladung Kekse gebacken.",
+    "audio": "",
+    "word_translations": {
+      "acabo de hornear": "ich habe gerade gebacken",
+      "la primera tanda de galletas": "die erste Ladung Kekse"
+    },
+    "note": "eine Portion/Menge, die auf einmal gemacht wird; auch: por tandas = in Etappen / schubweise"
   }
 ]
