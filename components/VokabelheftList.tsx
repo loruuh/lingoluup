@@ -15,7 +15,7 @@ function DeleteButton({ onClick, label }: { onClick: () => void; label: string }
   return (
     <button
       onClick={onClick}
-      className="ml-3 p-1.5 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-red-100 active:bg-red-200 rounded-lg transition-all duration-150 shrink-0 focus-visible:outline-none focus-visible:opacity-100 focus-visible:ring-2 focus-visible:ring-red-400"
+      className="ml-3 p-1.5 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-[var(--notebook-delete-hover)] active:bg-[var(--notebook-delete-hover)] rounded-lg transition-all duration-150 shrink-0 focus-visible:outline-none focus-visible:opacity-100 focus-visible:ring-2 focus-visible:ring-red-400"
       aria-label={label}
     >
       <svg
@@ -69,21 +69,21 @@ export default function VokabelheftList({
     <div className="w-full">
       {/* Schulheft container */}
       <div
-        className="rounded-2xl shadow-2xl overflow-hidden border border-gray-300/80"
-        style={{ backgroundColor: "#f8f7f0" }}
+        className="rounded-2xl overflow-hidden border border-[var(--notebook-border)]"
+        style={{ backgroundColor: "var(--notebook-bg)", boxShadow: "var(--notebook-shadow)" }}
       >
         {/* Column headers */}
         <div
-          className="grid grid-cols-2 border-b-2 border-blue-200 bg-[#f0efe8]"
-          style={{ borderBottomColor: "#93c5fd" }}
+          className="grid grid-cols-2 border-b-2 bg-[var(--notebook-header-bg)]"
+          style={{ borderBottomColor: "var(--notebook-header-line)" }}
         >
           <div className="px-5 py-2.5 flex items-center gap-2">
-            <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">🇩🇪 Deutsch</span>
+            <span className="text-xs font-bold text-[var(--notebook-text-muted)] uppercase tracking-widest">🇩🇪 Deutsch</span>
           </div>
           <div className="relative px-5 py-2.5 flex items-center gap-2">
             {/* Red divider */}
-            <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-red-400" />
-            <span className="text-xs font-bold text-gray-500 uppercase tracking-widest">🇪🇸 Español</span>
+            <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-[var(--notebook-margin)]" />
+            <span className="text-xs font-bold text-[var(--notebook-text-muted)] uppercase tracking-widest">🇪🇸 Español</span>
           </div>
         </div>
 
@@ -95,11 +95,11 @@ export default function VokabelheftList({
             return (
               <div
                 key={vocabId}
-                className="relative border-b border-blue-100 last:border-b-0 bg-gray-100/70 group"
+                className="relative border-b border-[var(--notebook-line)] last:border-b-0 bg-[var(--notebook-row-removed)] group"
                 style={{ minHeight: "56px" }}
               >
                 <div className="flex items-center justify-between px-5 py-3.5 min-h-[56px]">
-                  <span className="min-w-0 break-words text-gray-400 text-sm italic leading-snug">
+                  <span className="min-w-0 break-words text-[var(--notebook-text-muted)] text-sm italic leading-snug">
                     Entfernter Eintrag ({vocabId})
                   </span>
                   <DeleteButton onClick={() => handleDelete(vocabId)} label="Entfernten Eintrag löschen" />
@@ -111,39 +111,39 @@ export default function VokabelheftList({
           return (
             <div
               key={vocabId}
-              className="relative border-b border-blue-100 last:border-b-0 hover:bg-blue-50/50 transition-colors duration-150 group"
+              className="relative border-b border-[var(--notebook-line)] last:border-b-0 hover:bg-[var(--notebook-row-hover)] transition-colors duration-150 group"
               style={{
                 minHeight: "56px",
                 backgroundImage:
-                  "linear-gradient(to top, #bfdbfe 0, #bfdbfe 1px, transparent 1px)",
+                  "linear-gradient(to top, var(--notebook-line) 0, var(--notebook-line) 1px, transparent 1px)",
               }}
             >
               {/* Red vertical divider */}
-              <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-red-400/70" />
+              <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-[var(--notebook-margin)]" />
 
               <div className="grid grid-cols-2">
                 {/* German column */}
                 <div className="flex items-center min-w-0 px-5 py-3.5 min-h-[56px]">
                   {!hideGerman ? (
-                    <span className="min-w-0 break-words text-gray-800 text-sm font-medium leading-snug">
+                    <span className="min-w-0 break-words text-[var(--notebook-text)] text-sm font-medium leading-snug">
                       {vocab.german}
                       {vocab.source === "phrase" && vocab.note && (
-                        <span className="block text-gray-500 text-xs font-normal mt-0.5">{vocab.note}</span>
+                        <span className="block text-[var(--notebook-text-muted)] text-xs font-normal mt-0.5">{vocab.note}</span>
                       )}
                     </span>
                   ) : (
-                    <div className="h-3 w-20 bg-gray-300/60 rounded-full" />
+                    <div className="h-3 w-20 bg-[var(--notebook-placeholder)] rounded-full" />
                   )}
                 </div>
 
                 {/* Spanish column + delete */}
                 <div className="flex items-center justify-between min-w-0 px-5 py-3.5 min-h-[56px]">
                   {!hideSpanish ? (
-                    <span className="min-w-0 break-words text-gray-800 text-sm font-medium leading-snug flex-1">
+                    <span className="min-w-0 break-words text-[var(--notebook-text)] text-sm font-medium leading-snug flex-1">
                       {vocab.spanish}
                     </span>
                   ) : (
-                    <div className="h-3 w-20 bg-gray-300/60 rounded-full flex-1" />
+                    <div className="h-3 w-20 bg-[var(--notebook-placeholder)] rounded-full flex-1" />
                   )}
 
                   {/* Delete button — always visible on mobile, hover on desktop */}

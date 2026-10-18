@@ -21,6 +21,21 @@
   --border-primary: rgba(132,204,22,0.25);
   --shadow-glow: rgba(132,204,22,0.20);
   --radius: 12px;
+
+  /* Vokabelheft: Schulheft-Papier (für alle Themes außer Noche) */
+  --notebook-bg: #f8f7f0;
+  --notebook-header-bg: #f0efe8;
+  --notebook-border: rgba(209,213,219,0.8);
+  --notebook-header-line: #93c5fd;
+  --notebook-line: #bfdbfe;
+  --notebook-margin: rgba(248,113,113,0.7);
+  --notebook-text: #1f2937;
+  --notebook-text-muted: #6b7280;
+  --notebook-placeholder: rgba(209,213,219,0.6);
+  --notebook-row-hover: rgba(239,246,255,0.5);
+  --notebook-row-removed: rgba(243,244,246,0.7);
+  --notebook-delete-hover: #fee2e2;
+  --notebook-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
 }
 
 /* Ocean Theme */
@@ -75,6 +90,58 @@
   --border-primary: rgba(34,211,238,0.25);
   --shadow-glow: rgba(34,211,238,0.2);
   --radius: 12px;
+}
+
+/* Noche Theme — OLED-Schwarz, gedämpfter Kontrast, warmer Akzent (augenschonend) */
+:root[data-theme="black"] {
+  --background: #000000;
+  --background-card: rgba(255,255,255,0.03);
+  --background-card-hover: rgba(217,160,91,0.07);
+  --foreground: #e6e1d8;
+  --foreground-muted: #8a857c;
+  --primary: #d9a05b;
+  --primary-dark: #b8813f;
+  --primary-light: #e6b77e;
+  --sentence-spanish: #d9a05b;
+  --sentence-german: #b9b2a6;
+  --border: rgba(255,255,255,0.06);
+  --border-primary: rgba(217,160,91,0.22);
+  --shadow-glow: rgba(217,160,91,0.10);
+  --radius: 12px;
+
+  /* Vokabelheft: dunkles Heft statt weißem Papier */
+  --notebook-bg: #0b0b0b;
+  --notebook-header-bg: #121212;
+  --notebook-border: rgba(255,255,255,0.08);
+  --notebook-header-line: rgba(217,160,91,0.35);
+  --notebook-line: rgba(255,255,255,0.06);
+  --notebook-margin: rgba(220,90,90,0.35);
+  --notebook-text: #e6e1d8;
+  --notebook-text-muted: #8a857c;
+  --notebook-placeholder: rgba(255,255,255,0.08);
+  --notebook-row-hover: rgba(217,160,91,0.05);
+  --notebook-row-removed: rgba(255,255,255,0.02);
+  --notebook-delete-hover: rgba(248,113,113,0.12);
+  --notebook-shadow: none;
+}
+
+/* Grelles Reinweiß im Noche-Modus abmildern — weniger Blendung auf OLED-Displays */
+:root[data-theme="black"] .text-white {
+  color: var(--foreground);
+}
+
+/* Dunkle Schrift auf Bernstein-Flächen — besser lesbar als Hell auf Hell */
+:root[data-theme="black"] .bg-primary.text-white,
+:root[data-theme="black"] .btn-primary {
+  color: #0b0b0b;
+}
+
+/* Rahmen ohne gültige Farbe (z.B. border-primary/20) fallen sonst auf helles Grau zurück;
+   :where() hält die Spezifität bei 0, damit echte Border-Utilities weiterhin gewinnen */
+:where(:root[data-theme="black"]) *,
+:where(:root[data-theme="black"]) ::before,
+:where(:root[data-theme="black"]) ::after {
+  border-color: var(--border);
 }
 
 /* ─── Base ───────────────────────────────────────────────── */
