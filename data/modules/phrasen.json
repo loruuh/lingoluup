@@ -629,6 +629,19 @@
         "él intenta": "er versucht",
         "cortarse las venas": "sich die Pulsadern aufzuschneiden"
       }
+    },
+    {
+      "id": "p50",
+      "spanish": "¡Qué pasada!",
+      "german": "Wahnsinn! / Der Hammer! / Wie geil!",
+      "literal": "pasada = etwas Unglaubliches (Spanien, ugs.)",
+      "sentence_es": "¡Qué pasada de concierto! Ha sido increíble.",
+      "sentence_de": "Was für ein Hammer-Konzert! Es war unglaublich.",
+      "audio": "",
+      "word_translations": {
+        "qué pasada de concierto": "was für ein Hammer-Konzert",
+        "ha sido increíble": "es war unglaublich"
+      }
     }
   ]
 }

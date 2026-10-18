@@ -62081,5 +62081,677 @@
       "una dentadura postiza": "ein künstliches Gebiss"
     },
     "note": "alle Zähne zusammen – ein einzelner Zahn ist el diente"
+  },
+  {
+    "id": "4037",
+    "spanish": "cambiar de chip",
+    "german": "umdenken / die Einstellung ändern",
+    "type": "phrase",
+    "sentence_es": "Después del fracaso, tuve que cambiar de chip.",
+    "sentence_de": "Nach dem Misserfolg musste ich umdenken.",
+    "audio": "",
+    "word_translations": {
+      "después del fracaso": "nach dem Misserfolg",
+      "tuve que": "musste ich",
+      "cambiar de chip": "umdenken"
+    },
+    "note": "ugs., wörtl. den Chip wechseln"
+  },
+  {
+    "id": "4038",
+    "spanish": "idiomático",
+    "german": "idiomatisch / sprachüblich",
+    "type": "adjective",
+    "sentence_es": "Es una expresión idiomática muy común en España.",
+    "sentence_de": "Das ist eine sehr gängige idiomatische Wendung in Spanien.",
+    "audio": "",
+    "word_translations": {
+      "es una expresión idiomática": "das ist eine idiomatische Wendung",
+      "muy común": "sehr gängig",
+      "en españa": "in Spanien"
+    }
+  },
+  {
+    "id": "4039",
+    "spanish": "contado",
+    "german": "erzählt / gezählt; (Pl.) wenige, selten",
+    "type": "adjective",
+    "sentence_es": "Solo lo he visto en contadas ocasiones.",
+    "sentence_de": "Ich habe ihn nur sehr selten gesehen.",
+    "audio": "",
+    "word_translations": {
+      "solo lo he visto": "ich habe ihn nur gesehen",
+      "en contadas ocasiones": "sehr selten"
+    },
+    "note": "en contadas ocasiones = nur selten"
+  },
+  {
+    "id": "4040",
+    "spanish": "intercambiar",
+    "german": "austauschen / tauschen",
+    "type": "verb",
+    "sentence_es": "Los niños intercambian cromos en el recreo.",
+    "sentence_de": "Die Kinder tauschen in der Pause Sammelbilder.",
+    "audio": "",
+    "word_translations": {
+      "los niños intercambian": "die Kinder tauschen",
+      "cromos": "Sammelbilder",
+      "en el recreo": "in der Pause"
+    }
+  },
+  {
+    "id": "4041",
+    "spanish": "el estanque",
+    "german": "der Teich",
+    "type": "noun",
+    "sentence_es": "Hay peces de colores en el estanque.",
+    "sentence_de": "Im Teich gibt es Goldfische.",
+    "audio": "",
+    "word_translations": {
+      "hay peces de colores": "es gibt Goldfische",
+      "en el estanque": "im Teich"
+    }
+  },
+  {
+    "id": "4042",
+    "spanish": "a medida que",
+    "german": "in dem Maße wie / je mehr … desto / während",
+    "type": "conjunction",
+    "sentence_es": "A medida que pasa el tiempo, hablo mejor español.",
+    "sentence_de": "Je mehr Zeit vergeht, desto besser spreche ich Spanisch.",
+    "audio": "",
+    "word_translations": {
+      "a medida que pasa el tiempo": "je mehr Zeit vergeht",
+      "hablo mejor español": "desto besser spreche ich Spanisch"
+    }
+  },
+  {
+    "id": "4043",
+    "spanish": "contemplar",
+    "german": "betrachten / in Erwägung ziehen",
+    "type": "verb",
+    "sentence_es": "Nos sentamos a contemplar el atardecer.",
+    "sentence_de": "Wir setzten uns hin, um den Sonnenuntergang zu betrachten.",
+    "audio": "",
+    "word_translations": {
+      "nos sentamos": "wir setzten uns hin",
+      "a contemplar": "um zu betrachten",
+      "el atardecer": "den Sonnenuntergang"
+    }
+  },
+  {
+    "id": "4044",
+    "spanish": "la revelación",
+    "german": "die Enthüllung / die Offenbarung",
+    "type": "noun",
+    "sentence_es": "El final de la serie fue toda una revelación.",
+    "sentence_de": "Das Ende der Serie war eine echte Offenbarung.",
+    "audio": "",
+    "word_translations": {
+      "el final de la serie": "das Ende der Serie",
+      "fue toda una revelación": "war eine echte Offenbarung"
+    }
+  },
+  {
+    "id": "4045",
+    "spanish": "el bicho",
+    "german": "das Tierchen / das Krabbeltier / das Viech (ugs.)",
+    "type": "noun",
+    "sentence_es": "Hay un bicho raro en la pared.",
+    "sentence_de": "An der Wand ist ein komisches Krabbeltier.",
+    "audio": "",
+    "word_translations": {
+      "hay un bicho raro": "da ist ein komisches Krabbeltier",
+      "en la pared": "an der Wand"
+    }
+  },
+  {
+    "id": "4046",
+    "spanish": "decidido",
+    "german": "entschlossen",
+    "type": "adjective",
+    "sentence_es": "Estamos decididos a terminar el proyecto.",
+    "sentence_de": "Wir sind entschlossen, das Projekt zu beenden.",
+    "audio": "",
+    "word_translations": {
+      "estamos decididos": "wir sind entschlossen",
+      "a terminar el proyecto": "das Projekt zu beenden"
+    }
+  },
+  {
+    "id": "4047",
+    "spanish": "inmediato",
+    "german": "sofortig / unmittelbar",
+    "type": "adjective",
+    "sentence_es": "Necesito una respuesta inmediata.",
+    "sentence_de": "Ich brauche eine sofortige Antwort.",
+    "audio": "",
+    "word_translations": {
+      "necesito": "ich brauche",
+      "una respuesta inmediata": "eine sofortige Antwort"
+    },
+    "note": "de inmediato = sofort"
+  },
+  {
+    "id": "4048",
+    "spanish": "el calvario",
+    "german": "der Leidensweg / das Martyrium",
+    "type": "noun",
+    "sentence_es": "La mudanza fue un auténtico calvario.",
+    "sentence_de": "Der Umzug war ein echter Leidensweg.",
+    "audio": "",
+    "word_translations": {
+      "la mudanza": "der Umzug",
+      "fue un auténtico calvario": "war ein echter Leidensweg"
+    }
+  },
+  {
+    "id": "4049",
+    "spanish": "la quiebra",
+    "german": "der Bankrott / die Pleite",
+    "type": "noun",
+    "sentence_es": "La empresa se declaró en quiebra.",
+    "sentence_de": "Die Firma meldete Insolvenz an.",
+    "audio": "",
+    "word_translations": {
+      "la empresa": "die Firma",
+      "se declaró en quiebra": "meldete Insolvenz an"
+    },
+    "note": "ir a la quiebra = pleitegehen"
+  },
+  {
+    "id": "4050",
+    "spanish": "en varias ocasiones",
+    "german": "mehrmals / bei mehreren Gelegenheiten",
+    "type": "phrase",
+    "sentence_es": "Te lo he dicho en varias ocasiones.",
+    "sentence_de": "Ich habe es dir mehrmals gesagt.",
+    "audio": "",
+    "word_translations": {
+      "te lo he dicho": "ich habe es dir gesagt",
+      "en varias ocasiones": "mehrmals"
+    }
+  },
+  {
+    "id": "4051",
+    "spanish": "el cartucho",
+    "german": "die Patrone / die Kartusche / das Spielmodul",
+    "type": "noun",
+    "sentence_es": "Mi hermano todavía guarda los cartuchos de la Game Boy.",
+    "sentence_de": "Mein Bruder hebt die Game-Boy-Spielmodule immer noch auf.",
+    "audio": "",
+    "word_translations": {
+      "mi hermano": "mein Bruder",
+      "todavía guarda": "hebt immer noch auf",
+      "los cartuchos de la game boy": "die Game-Boy-Spielmodule"
+    }
+  },
+  {
+    "id": "4052",
+    "spanish": "arañar",
+    "german": "kratzen / zerkratzen",
+    "type": "verb",
+    "sentence_es": "El gato me arañó la mano.",
+    "sentence_de": "Die Katze hat mir die Hand zerkratzt.",
+    "audio": "",
+    "word_translations": {
+      "el gato": "die Katze",
+      "me arañó la mano": "hat mir die Hand zerkratzt"
+    }
+  },
+  {
+    "id": "4053",
+    "spanish": "disponible",
+    "german": "verfügbar / erhältlich",
+    "type": "adjective",
+    "sentence_es": "La película ya está disponible en Netflix.",
+    "sentence_de": "Der Film ist schon auf Netflix verfügbar.",
+    "audio": "",
+    "word_translations": {
+      "la película": "der Film",
+      "ya está disponible": "ist schon verfügbar",
+      "en netflix": "auf Netflix"
+    }
+  },
+  {
+    "id": "4054",
+    "spanish": "la venta",
+    "german": "der Verkauf",
+    "type": "noun",
+    "sentence_es": "Las ventas subieron un diez por ciento.",
+    "sentence_de": "Der Umsatz stieg um zehn Prozent.",
+    "audio": "",
+    "word_translations": {
+      "las ventas": "der Umsatz",
+      "subieron": "stieg",
+      "un diez por ciento": "um zehn Prozent"
+    },
+    "note": "las ventas = der Umsatz / die Verkaufszahlen; en venta = zu verkaufen"
+  },
+  {
+    "id": "4055",
+    "spanish": "inicial",
+    "german": "anfänglich / Anfangs-",
+    "type": "adjective",
+    "sentence_es": "Las dudas iniciales desaparecieron pronto.",
+    "sentence_de": "Die anfänglichen Zweifel verschwanden bald.",
+    "audio": "",
+    "word_translations": {
+      "las dudas iniciales": "die anfänglichen Zweifel",
+      "desaparecieron pronto": "verschwanden bald"
+    }
+  },
+  {
+    "id": "4056",
+    "spanish": "modesto",
+    "german": "bescheiden / mäßig",
+    "type": "adjective",
+    "sentence_es": "Las ganancias fueron modestas.",
+    "sentence_de": "Die Gewinne waren mäßig.",
+    "audio": "",
+    "word_translations": {
+      "las ganancias": "die Gewinne",
+      "fueron modestas": "waren mäßig"
+    }
+  },
+  {
+    "id": "4057",
+    "spanish": "el precedente",
+    "german": "der Präzedenzfall / (Adj.) vorhergehend",
+    "type": "noun",
+    "sentence_es": "Es una crisis sin precedentes.",
+    "sentence_de": "Das ist eine beispiellose Krise.",
+    "audio": "",
+    "word_translations": {
+      "es una crisis": "das ist eine Krise",
+      "sin precedentes": "beispiellos"
+    },
+    "note": "sin precedentes = beispiellos"
+  },
+  {
+    "id": "4058",
+    "spanish": "capturar",
+    "german": "fangen / einfangen / festhalten",
+    "type": "verb",
+    "sentence_es": "La foto captura el momento perfecto.",
+    "sentence_de": "Das Foto hält den perfekten Moment fest.",
+    "audio": "",
+    "word_translations": {
+      "la foto": "das Foto",
+      "captura": "hält fest",
+      "el momento perfecto": "den perfekten Moment"
+    }
+  },
+  {
+    "id": "4059",
+    "spanish": "el occidente",
+    "german": "der Westen / das Abendland",
+    "type": "noun",
+    "sentence_es": "Esa costumbre es rara en Occidente.",
+    "sentence_de": "Dieser Brauch ist im Westen selten.",
+    "audio": "",
+    "word_translations": {
+      "esa costumbre": "dieser Brauch",
+      "es rara": "ist selten",
+      "en occidente": "im Westen"
+    },
+    "note": "im Sinne von „westliche Welt“ meist großgeschrieben: Occidente"
+  },
+  {
+    "id": "4060",
+    "spanish": "hervir",
+    "german": "kochen / sieden",
+    "type": "verb",
+    "sentence_es": "Primero hay que hervir el agua.",
+    "sentence_de": "Zuerst muss man das Wasser kochen.",
+    "audio": "",
+    "word_translations": {
+      "primero": "zuerst",
+      "hay que hervir": "muss man kochen",
+      "el agua": "das Wasser"
+    },
+    "note": "unregelmäßig: hierve, hirvió"
+  },
+  {
+    "id": "4061",
+    "spanish": "colar",
+    "german": "abseihen / durchsieben",
+    "type": "verb",
+    "sentence_es": "Cuela la pasta y añade la salsa.",
+    "sentence_de": "Gieß die Nudeln ab und gib die Soße dazu.",
+    "audio": "",
+    "word_translations": {
+      "cuela la pasta": "gieß die Nudeln ab",
+      "y añade la salsa": "und gib die Soße dazu"
+    },
+    "note": "unregelmäßig: cuela; colarse = sich vordrängeln / sich hineinschleichen"
+  },
+  {
+    "id": "4062",
+    "spanish": "sobrante",
+    "german": "übrig / überschüssig",
+    "type": "adjective",
+    "sentence_es": "Guarda la comida sobrante en la nevera.",
+    "sentence_de": "Stell das übrige Essen in den Kühlschrank.",
+    "audio": "",
+    "word_translations": {
+      "guarda": "stell",
+      "la comida sobrante": "das übrige Essen",
+      "en la nevera": "in den Kühlschrank"
+    }
+  },
+  {
+    "id": "4063",
+    "spanish": "el almidón",
+    "german": "die Stärke",
+    "type": "noun",
+    "sentence_es": "El agua de la pasta tiene mucho almidón.",
+    "sentence_de": "Das Nudelwasser enthält viel Stärke.",
+    "audio": "",
+    "word_translations": {
+      "el agua de la pasta": "das Nudelwasser",
+      "tiene mucho almidón": "enthält viel Stärke"
+    }
+  },
+  {
+    "id": "4064",
+    "spanish": "equilibrar",
+    "german": "ausgleichen / ins Gleichgewicht bringen",
+    "type": "verb",
+    "sentence_es": "Un poco de azúcar equilibra la acidez del tomate.",
+    "sentence_de": "Etwas Zucker gleicht die Säure der Tomate aus.",
+    "audio": "",
+    "word_translations": {
+      "un poco de azúcar": "etwas Zucker",
+      "equilibra": "gleicht aus",
+      "la acidez del tomate": "die Säure der Tomate"
+    }
+  },
+  {
+    "id": "4065",
+    "spanish": "el matiz",
+    "german": "die Nuance / die Schattierung",
+    "type": "noun",
+    "sentence_es": "Hay un matiz importante entre las dos palabras.",
+    "sentence_de": "Es gibt eine wichtige Nuance zwischen den beiden Wörtern.",
+    "audio": "",
+    "word_translations": {
+      "hay un matiz importante": "es gibt eine wichtige Nuance",
+      "entre las dos palabras": "zwischen den beiden Wörtern"
+    },
+    "note": "Plural: los matices"
+  },
+  {
+    "id": "4066",
+    "spanish": "la tumba",
+    "german": "das Grab",
+    "type": "noun",
+    "sentence_es": "Visitamos la tumba de mi abuela.",
+    "sentence_de": "Wir besuchten das Grab meiner Oma.",
+    "audio": "",
+    "word_translations": {
+      "visitamos": "wir besuchten",
+      "la tumba de mi abuela": "das Grab meiner Oma"
+    }
+  },
+  {
+    "id": "4067",
+    "spanish": "lastimar",
+    "german": "verletzen / wehtun",
+    "type": "verb",
+    "sentence_es": "Dos jugadores salieron lastimados.",
+    "sentence_de": "Zwei Spieler wurden verletzt.",
+    "audio": "",
+    "word_translations": {
+      "dos jugadores": "zwei Spieler",
+      "salieron lastimados": "wurden verletzt"
+    },
+    "note": "lastimado = verletzt"
+  },
+  {
+    "id": "4068",
+    "spanish": "retocar",
+    "german": "nachbessern / retuschieren",
+    "type": "verb",
+    "sentence_es": "Voy a retocar un poco la foto.",
+    "sentence_de": "Ich werde das Foto ein bisschen retuschieren.",
+    "audio": "",
+    "word_translations": {
+      "voy a retocar": "ich werde retuschieren",
+      "un poco": "ein bisschen",
+      "la foto": "das Foto"
+    }
+  },
+  {
+    "id": "4069",
+    "spanish": "ligeramente",
+    "german": "leicht / etwas",
+    "type": "adverb",
+    "sentence_es": "La sopa está ligeramente salada.",
+    "sentence_de": "Die Suppe ist leicht salzig.",
+    "audio": "",
+    "word_translations": {
+      "la sopa": "die Suppe",
+      "está ligeramente salada": "ist leicht salzig"
+    }
+  },
+  {
+    "id": "4070",
+    "spanish": "el azar",
+    "german": "der Zufall",
+    "type": "noun",
+    "sentence_es": "Elegimos el restaurante al azar.",
+    "sentence_de": "Wir haben das Restaurant zufällig ausgewählt.",
+    "audio": "",
+    "word_translations": {
+      "elegimos el restaurante": "wir haben das Restaurant ausgewählt",
+      "al azar": "zufällig"
+    },
+    "note": "al azar = zufällig / aufs Geratewohl; juegos de azar = Glücksspiele"
+  },
+  {
+    "id": "4071",
+    "spanish": "diminuto",
+    "german": "winzig",
+    "type": "adjective",
+    "sentence_es": "Vivían en un piso diminuto.",
+    "sentence_de": "Sie wohnten in einer winzigen Wohnung.",
+    "audio": "",
+    "word_translations": {
+      "vivían": "sie wohnten",
+      "en un piso diminuto": "in einer winzigen Wohnung"
+    }
+  },
+  {
+    "id": "4072",
+    "spanish": "la depuración",
+    "german": "die Bereinigung / die Säuberung / die Fehlerbehebung (IT)",
+    "type": "noun",
+    "sentence_es": "La depuración del código llevó semanas.",
+    "sentence_de": "Die Fehlerbehebung im Code dauerte Wochen.",
+    "audio": "",
+    "word_translations": {
+      "la depuración del código": "die Fehlerbehebung im Code",
+      "llevó semanas": "dauerte Wochen"
+    },
+    "note": "auch: depuración del agua = Wasseraufbereitung"
+  },
+  {
+    "id": "4073",
+    "spanish": "el fallo",
+    "german": "der Fehler / die Panne / der Bug",
+    "type": "noun",
+    "sentence_es": "Encontraron un fallo del juego que te hacía invencible.",
+    "sentence_de": "Sie fanden einen Bug im Spiel, der einen unbesiegbar machte.",
+    "audio": "",
+    "word_translations": {
+      "encontraron": "sie fanden",
+      "un fallo del juego": "einen Bug im Spiel",
+      "que te hacía invencible": "der einen unbesiegbar machte"
+    },
+    "note": "un fallo del juego = ein Spielfehler / Bug"
+  },
+  {
+    "id": "4074",
+    "spanish": "la pólvora",
+    "german": "das Schießpulver",
+    "type": "noun",
+    "sentence_es": "La noticia corrió como la pólvora.",
+    "sentence_de": "Die Nachricht verbreitete sich wie ein Lauffeuer.",
+    "audio": "",
+    "word_translations": {
+      "la noticia": "die Nachricht",
+      "corrió como la pólvora": "verbreitete sich wie ein Lauffeuer"
+    },
+    "note": "correr como la pólvora = sich wie ein Lauffeuer verbreiten"
+  },
+  {
+    "id": "4075",
+    "spanish": "el patio del colegio",
+    "german": "der Schulhof",
+    "type": "noun",
+    "sentence_es": "Los rumores corrían por los patios de los colegios.",
+    "sentence_de": "Die Gerüchte machten auf den Schulhöfen die Runde.",
+    "audio": "",
+    "word_translations": {
+      "los rumores": "die Gerüchte",
+      "corrían": "machten die Runde",
+      "por los patios de los colegios": "auf den Schulhöfen"
+    }
+  },
+  {
+    "id": "4076",
+    "spanish": "extender",
+    "german": "ausbreiten / verbreiten / ausstrecken",
+    "type": "verb",
+    "sentence_es": "Los rumores se extendieron por todo el pueblo.",
+    "sentence_de": "Die Gerüchte verbreiteten sich im ganzen Dorf.",
+    "audio": "",
+    "word_translations": {
+      "los rumores": "die Gerüchte",
+      "se extendieron": "verbreiteten sich",
+      "por todo el pueblo": "im ganzen Dorf"
+    },
+    "note": "unregelmäßig: extiende; extenderse = sich verbreiten"
+  },
+  {
+    "id": "4077",
+    "spanish": "el revuelo",
+    "german": "der Aufruhr / das Aufsehen",
+    "type": "noun",
+    "sentence_es": "La noticia causó un gran revuelo.",
+    "sentence_de": "Die Nachricht sorgte für großes Aufsehen.",
+    "audio": "",
+    "word_translations": {
+      "la noticia": "die Nachricht",
+      "causó un gran revuelo": "sorgte für großes Aufsehen"
+    }
+  },
+  {
+    "id": "4078",
+    "spanish": "el mito urbano",
+    "german": "die urbane Legende / die moderne Sage",
+    "type": "noun",
+    "sentence_es": "Esa historia del juego maldito es solo un mito urbano.",
+    "sentence_de": "Diese Geschichte vom verfluchten Spiel ist nur eine urbane Legende.",
+    "audio": "",
+    "word_translations": {
+      "esa historia del juego maldito": "diese Geschichte vom verfluchten Spiel",
+      "es solo un mito urbano": "ist nur eine urbane Legende"
+    },
+    "note": "auch: la leyenda urbana"
+  },
+  {
+    "id": "4079",
+    "spanish": "inquietante",
+    "german": "beunruhigend / unheimlich",
+    "type": "adjective",
+    "sentence_es": "Había un silencio inquietante en la casa.",
+    "sentence_de": "Im Haus herrschte eine unheimliche Stille.",
+    "audio": "",
+    "word_translations": {
+      "había un silencio inquietante": "es herrschte eine unheimliche Stille",
+      "en la casa": "im Haus"
+    }
+  },
+  {
+    "id": "4080",
+    "spanish": "lúgubre",
+    "german": "düster / trostlos / schaurig",
+    "type": "adjective",
+    "sentence_es": "El castillo tenía un aspecto lúgubre.",
+    "sentence_de": "Das Schloss sah düster aus.",
+    "audio": "",
+    "word_translations": {
+      "el castillo": "das Schloss",
+      "tenía un aspecto lúgubre": "sah düster aus"
+    }
+  },
+  {
+    "id": "4081",
+    "spanish": "escalofriante",
+    "german": "schaurig / gruselig / erschreckend",
+    "type": "adjective",
+    "sentence_es": "La película tiene un final escalofriante.",
+    "sentence_de": "Der Film hat ein schauriges Ende.",
+    "audio": "",
+    "word_translations": {
+      "la película": "der Film",
+      "tiene un final escalofriante": "hat ein schauriges Ende"
+    }
+  },
+  {
+    "id": "4082",
+    "spanish": "el insomnio",
+    "german": "die Schlaflosigkeit",
+    "type": "noun",
+    "sentence_es": "Sufro de insomnio desde hace meses.",
+    "sentence_de": "Ich leide seit Monaten an Schlaflosigkeit.",
+    "audio": "",
+    "word_translations": {
+      "sufro de insomnio": "ich leide an Schlaflosigkeit",
+      "desde hace meses": "seit Monaten"
+    }
+  },
+  {
+    "id": "4083",
+    "spanish": "desmentir",
+    "german": "dementieren / widerlegen",
+    "type": "verb",
+    "sentence_es": "La empresa desmintió los rumores.",
+    "sentence_de": "Die Firma dementierte die Gerüchte.",
+    "audio": "",
+    "word_translations": {
+      "la empresa": "die Firma",
+      "desmintió los rumores": "dementierte die Gerüchte"
+    },
+    "note": "unregelmäßig: desmiente, desmintió"
+  },
+  {
+    "id": "4084",
+    "spanish": "almacenar",
+    "german": "speichern / lagern",
+    "type": "verb",
+    "sentence_es": "El móvil puede almacenar miles de fotos.",
+    "sentence_de": "Das Handy kann Tausende Fotos speichern.",
+    "audio": "",
+    "word_translations": {
+      "el móvil": "das Handy",
+      "puede almacenar": "kann speichern",
+      "miles de fotos": "Tausende Fotos"
+    }
+  },
+  {
+    "id": "4085",
+    "spanish": "abrumador",
+    "german": "überwältigend / erdrückend",
+    "type": "adjective",
+    "sentence_es": "Ganó por una mayoría abrumadora.",
+    "sentence_de": "Er gewann mit überwältigender Mehrheit.",
+    "audio": "",
+    "word_translations": {
+      "ganó": "er gewann",
+      "por una mayoría abrumadora": "mit überwältigender Mehrheit"
+    }
   }
 ]
