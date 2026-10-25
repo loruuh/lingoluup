@@ -642,6 +642,32 @@
         "qué pasada de concierto": "was für ein Hammer-Konzert",
         "ha sido increíble": "es war unglaublich"
       }
+    },
+    {
+      "id": "p51",
+      "spanish": "¡Tómenme a mí!",
+      "german": "Nehmt mich!",
+      "literal": "Imperativ ustedes + me",
+      "sentence_es": "¡Tómenme a mí y dejen ir a los niños!",
+      "sentence_de": "Nehmt mich und lasst die Kinder gehen!",
+      "audio": "",
+      "word_translations": {
+        "tómenme a mí": "nehmt mich",
+        "dejen ir a los niños": "lasst die Kinder gehen"
+      }
+    },
+    {
+      "id": "p52",
+      "spanish": "¡Dejen a mi familia!",
+      "german": "Lasst meine Familie in Ruhe!",
+      "literal": "",
+      "sentence_es": "¡Dejen a mi familia! Ellos no tienen la culpa.",
+      "sentence_de": "Lasst meine Familie in Ruhe! Sie sind nicht schuld.",
+      "audio": "",
+      "word_translations": {
+        "dejen a mi familia": "lasst meine Familie in Ruhe",
+        "ellos no tienen la culpa": "sie sind nicht schuld"
+      }
     }
   ]
 }

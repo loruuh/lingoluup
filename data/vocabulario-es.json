@@ -62767,5 +62767,155 @@
       "la primera tanda de galletas": "die erste Ladung Kekse"
     },
     "note": "eine Portion/Menge, die auf einmal gemacht wird; auch: por tandas = in Etappen / schubweise"
+  },
+  {
+    "id": "4087",
+    "spanish": "pálido",
+    "german": "bleich / blass",
+    "type": "adjective",
+    "sentence_es": "Estás muy pálido. ¿Te encuentras bien?",
+    "sentence_de": "Du bist sehr blass. Geht es dir gut?",
+    "audio": "",
+    "word_translations": {
+      "estás muy pálido": "du bist sehr blass",
+      "te encuentras bien": "geht es dir gut"
+    }
+  },
+  {
+    "id": "4088",
+    "spanish": "palidecer",
+    "german": "erblassen / bleich werden",
+    "type": "verb",
+    "sentence_es": "Al ver la carta, ella palideció.",
+    "sentence_de": "Als sie den Brief sah, wurde sie blass.",
+    "audio": "",
+    "word_translations": {
+      "al ver la carta": "als sie den Brief sah",
+      "ella palideció": "sie wurde blass"
+    },
+    "note": "-ecer-Verb: yo palidezco"
+  },
+  {
+    "id": "4089",
+    "spanish": "el escalón",
+    "german": "die Stufe",
+    "type": "noun",
+    "sentence_es": "Cuidado con el último escalón.",
+    "sentence_de": "Vorsicht bei der letzten Stufe.",
+    "audio": "",
+    "word_translations": {
+      "cuidado con": "Vorsicht bei",
+      "el último escalón": "der letzten Stufe"
+    }
+  },
+  {
+    "id": "4090",
+    "spanish": "el pasamanos",
+    "german": "der Handlauf / das Geländer",
+    "type": "noun",
+    "sentence_es": "Agárrate al pasamanos en la escalera.",
+    "sentence_de": "Halt dich auf der Treppe am Handlauf fest.",
+    "audio": "",
+    "word_translations": {
+      "agárrate al pasamanos": "halt dich am Handlauf fest",
+      "en la escalera": "auf der Treppe"
+    }
+  },
+  {
+    "id": "4091",
+    "spanish": "el canalla / la canalla",
+    "german": "der Schuft / der Halunke",
+    "type": "noun",
+    "sentence_es": "Ese hombre es un canalla.",
+    "sentence_de": "Dieser Mann ist ein Schuft.",
+    "audio": "",
+    "word_translations": {
+      "ese hombre": "dieser Mann",
+      "es un canalla": "ist ein Schuft"
+    },
+    "note": "m/f – gleiche Form für Mann und Frau"
+  },
+  {
+    "id": "4092",
+    "spanish": "el imán",
+    "german": "der Magnet",
+    "type": "noun",
+    "sentence_es": "Tengo un imán en la nevera.",
+    "sentence_de": "Ich habe einen Magneten am Kühlschrank.",
+    "audio": "",
+    "word_translations": {
+      "tengo un imán": "ich habe einen Magneten",
+      "en la nevera": "am Kühlschrank"
+    },
+    "note": "auch: Anziehungskraft"
+  },
+  {
+    "id": "4093",
+    "spanish": "listo/a",
+    "german": "klug / schlau; bereit / fertig",
+    "type": "adjective",
+    "sentence_es": "Mi hermana es muy lista. ¿Estás listo?",
+    "sentence_de": "Meine Schwester ist sehr klug. Bist du bereit?",
+    "audio": "",
+    "word_translations": {
+      "mi hermana es muy lista": "meine Schwester ist sehr klug",
+      "estás listo": "bist du bereit"
+    },
+    "note": "ser listo = klug/schlau sein; estar listo = bereit/fertig sein"
+  },
+  {
+    "id": "4094",
+    "spanish": "las pompas",
+    "german": "die Seifenblasen",
+    "type": "noun",
+    "sentence_es": "Los niños hacen pompas de jabón en el parque.",
+    "sentence_de": "Die Kinder machen Seifenblasen im Park.",
+    "audio": "",
+    "word_translations": {
+      "los niños hacen": "die Kinder machen",
+      "pompas de jabón": "Seifenblasen",
+      "en el parque": "im Park"
+    },
+    "note": "pompas de jabón = Seifenblasen; ugs. LatAm/Mexiko: der Hintern; la pompa = der Prunk"
+  },
+  {
+    "id": "4095",
+    "spanish": "salpicar",
+    "german": "bespritzen / spritzen",
+    "type": "verb",
+    "sentence_es": "El coche me salpicó de agua.",
+    "sentence_de": "Das Auto hat mich mit Wasser bespritzt.",
+    "audio": "",
+    "word_translations": {
+      "el coche": "das Auto",
+      "me salpicó de agua": "hat mich mit Wasser bespritzt"
+    },
+    "note": "c → qu: yo salpiqué"
+  },
+  {
+    "id": "4096",
+    "spanish": "el almizcle",
+    "german": "der Moschus",
+    "type": "noun",
+    "sentence_es": "Este perfume huele a almizcle.",
+    "sentence_de": "Dieses Parfüm riecht nach Moschus.",
+    "audio": "",
+    "word_translations": {
+      "este perfume": "dieses Parfüm",
+      "huele a almizcle": "riecht nach Moschus"
+    }
+  },
+  {
+    "id": "4097",
+    "spanish": "la entrepierna",
+    "german": "der Schritt",
+    "type": "noun",
+    "sentence_es": "El pantalón me aprieta en la entrepierna.",
+    "sentence_de": "Die Hose ist mir im Schritt zu eng.",
+    "audio": "",
+    "word_translations": {
+      "el pantalón me aprieta": "die Hose ist mir zu eng",
+      "en la entrepierna": "im Schritt"
+    }
   }
 ]
