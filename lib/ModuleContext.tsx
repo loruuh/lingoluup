@@ -111,6 +111,7 @@ export interface PhraseItem {
   spanish: string;
   german: string;
   literal: string;
+  note?: string;
   sentence_es: string;
   sentence_de: string;
   audio: string;
@@ -266,6 +267,7 @@ export function ModuleProvider({ children }: { children: ReactNode }) {
         sentence_es: p.sentence_es || "",
         sentence_de: p.sentence_de || "",
         audio: p.audio || "",
+        note: p.note || undefined,
         word_translations: p.word_translations || {},
       }));
     }

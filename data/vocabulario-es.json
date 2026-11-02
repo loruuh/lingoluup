@@ -32423,7 +32423,7 @@
   {
     "id": "1981",
     "spanish": "el aprendizaje",
-    "german": "das Lernen",
+    "german": "das Lernen / die Ausbildung / der Lernprozess",
     "type": "noun",
     "sentence_es": "El aprendizaje del español requiere mucha práctica diaria.",
     "sentence_de": "Das Erlernen des Spanischen erfordert viel tägliche Übung.",
@@ -38987,7 +38987,7 @@
   {
     "id": "2353",
     "spanish": "capaz",
-    "german": "fähig",
+    "german": "fähig / in der Lage (zu)",
     "type": "adjective",
     "sentence_es": "Mi hermano es capaz de cocinar muy bien.",
     "sentence_de": "Mein Bruder ist imstande, sehr gut zu kochen.",
@@ -39001,7 +39001,8 @@
       "cocinar": "kochen",
       "muy": "sehr",
       "bien": "gut"
-    }
+    },
+    "note": "capaz de + Infinitiv = in der Lage sein, etwas zu tun"
   },
   {
     "id": "2354",
@@ -58632,7 +58633,7 @@
   {
     "id": "3782",
     "spanish": "el anciano / la anciana",
-    "german": "der alte Mensch / die Seniorin",
+    "german": "der Greis / der alte Mensch / die Seniorin; betagt",
     "type": "noun",
     "note": "auch als Adjektiv verwendet: betagt, alt (un hombre anciano)",
     "sentence_es": "La anciana caminaba despacio apoyada en su bastón.",
@@ -62916,6 +62917,769 @@
     "word_translations": {
       "el pantalón me aprieta": "die Hose ist mir zu eng",
       "en la entrepierna": "im Schritt"
+    }
+  },
+  {
+    "id": "4098",
+    "spanish": "¡aguas!",
+    "german": "Vorsicht! / Pass auf!",
+    "type": "phrase",
+    "sentence_es": "¡Aguas! Viene un coche.",
+    "sentence_de": "Pass auf! Da kommt ein Auto.",
+    "audio": "",
+    "word_translations": {
+      "¡aguas!": "pass auf!",
+      "viene un coche": "da kommt ein Auto"
+    },
+    "note": "Mexiko, umgangssprachlich"
+  },
+  {
+    "id": "4099",
+    "spanish": "dar el gatazo",
+    "german": "jdn. mit einer Mogelpackung täuschen / etwas als besser ausgeben, als es ist",
+    "type": "phrase",
+    "sentence_es": "El celular parecía nuevo, pero nos dio el gatazo.",
+    "sentence_de": "Das Handy sah neu aus, aber es hat uns getäuscht.",
+    "audio": "",
+    "word_translations": {
+      "el celular parecía nuevo": "das Handy sah neu aus",
+      "pero": "aber",
+      "nos dio el gatazo": "es hat uns getäuscht"
+    },
+    "note": "Mexiko, Slang; von dar gato por liebre"
+  },
+  {
+    "id": "4100",
+    "spanish": "echar la mano",
+    "german": "aushelfen / mit anpacken",
+    "type": "phrase",
+    "sentence_es": "¿Me echas la mano con la mudanza?",
+    "sentence_de": "Hilfst du mir beim Umzug?",
+    "audio": "",
+    "word_translations": {
+      "¿me echas la mano": "hilfst du mir",
+      "con la mudanza?": "beim Umzug?"
+    },
+    "note": "Mexiko, umgangssprachlich"
+  },
+  {
+    "id": "4101",
+    "spanish": "estar cañón",
+    "german": "richtig schwierig sein",
+    "type": "phrase",
+    "sentence_es": "Este examen está cañón.",
+    "sentence_de": "Diese Prüfung ist richtig schwer.",
+    "audio": "",
+    "word_translations": {
+      "este examen": "diese Prüfung",
+      "está cañón": "ist richtig schwer"
+    },
+    "note": "Mexiko, umgangssprachlich; für eine Situation oder Aufgabe"
+  },
+  {
+    "id": "4102",
+    "spanish": "el columpio",
+    "german": "die Schaukel",
+    "type": "noun",
+    "sentence_es": "Los niños juegan en el columpio.",
+    "sentence_de": "Die Kinder spielen auf der Schaukel.",
+    "audio": "",
+    "word_translations": {
+      "los niños juegan": "die Kinder spielen",
+      "en el columpio": "auf der Schaukel"
+    }
+  },
+  {
+    "id": "4103",
+    "spanish": "la tapa",
+    "german": "der Deckel",
+    "type": "noun",
+    "sentence_es": "¿Dónde está la tapa de la olla?",
+    "sentence_de": "Wo ist der Deckel vom Topf?",
+    "audio": "",
+    "word_translations": {
+      "¿dónde está": "wo ist",
+      "la tapa": "der Deckel",
+      "de la olla?": "vom Topf?"
+    },
+    "note": "In Spanien auch: kleine Portion zum Getränk (las tapas)"
+  },
+  {
+    "id": "4104",
+    "spanish": "destapar",
+    "german": "aufmachen / den Deckel abnehmen",
+    "type": "verb",
+    "sentence_es": "Destapa la botella, por favor.",
+    "sentence_de": "Mach bitte die Flasche auf.",
+    "audio": "",
+    "word_translations": {
+      "destapa la botella": "mach die Flasche auf",
+      "por favor": "bitte"
+    }
+  },
+  {
+    "id": "4105",
+    "spanish": "el luto",
+    "german": "die Trauer",
+    "type": "noun",
+    "sentence_es": "La familia está de luto.",
+    "sentence_de": "Die Familie ist in Trauer.",
+    "audio": "",
+    "word_translations": {
+      "la familia": "die Familie",
+      "está de luto": "ist in Trauer"
+    },
+    "note": "estar de luto = in Trauer sein"
+  },
+  {
+    "id": "4106",
+    "spanish": "el acto de campaña",
+    "german": "die Wahlkampfveranstaltung",
+    "type": "noun",
+    "sentence_es": "Había mucha gente en el acto de campaña.",
+    "sentence_de": "Bei der Wahlkampfveranstaltung waren viele Leute.",
+    "audio": "",
+    "word_translations": {
+      "había mucha gente": "es waren viele Leute da",
+      "en el acto de campaña": "bei der Wahlkampfveranstaltung"
+    }
+  },
+  {
+    "id": "4107",
+    "spanish": "ferroviario",
+    "german": "Eisenbahn- / die Eisenbahn betreffend",
+    "type": "adjective",
+    "sentence_es": "La red ferroviaria es muy antigua.",
+    "sentence_de": "Das Eisenbahnnetz ist sehr alt.",
+    "audio": "",
+    "word_translations": {
+      "la red ferroviaria": "das Eisenbahnnetz",
+      "es muy antigua": "ist sehr alt"
+    },
+    "note": "weiblich: ferroviaria"
+  },
+  {
+    "id": "4108",
+    "spanish": "descomponer",
+    "german": "zerlegen / zersetzen",
+    "type": "verb",
+    "sentence_es": "Vamos a descomponer el problema en partes.",
+    "sentence_de": "Wir zerlegen das Problem in Teile.",
+    "audio": "",
+    "word_translations": {
+      "vamos a descomponer": "wir zerlegen",
+      "el problema": "das Problem",
+      "en partes": "in Teile"
+    },
+    "note": "auch: zersetzen (las hojas se descomponen = die Blätter zersetzen sich)"
+  },
+  {
+    "id": "4109",
+    "spanish": "redactar",
+    "german": "verfassen",
+    "type": "verb",
+    "sentence_es": "Tengo que redactar un correo.",
+    "sentence_de": "Ich muss eine E-Mail verfassen.",
+    "audio": "",
+    "word_translations": {
+      "tengo que": "ich muss",
+      "redactar": "verfassen",
+      "un correo": "eine E-Mail"
+    }
+  },
+  {
+    "id": "4110",
+    "spanish": "alternar",
+    "german": "abwechseln",
+    "type": "verb",
+    "sentence_es": "Me gusta alternar entre té y café.",
+    "sentence_de": "Ich wechsle gern zwischen Tee und Kaffee ab.",
+    "audio": "",
+    "word_translations": {
+      "me gusta alternar": "ich wechsle gern ab",
+      "entre té y café": "zwischen Tee und Kaffee"
+    }
+  },
+  {
+    "id": "4111",
+    "spanish": "el párrafo",
+    "german": "der Absatz",
+    "type": "noun",
+    "sentence_es": "Lee el primer párrafo.",
+    "sentence_de": "Lies den ersten Absatz.",
+    "audio": "",
+    "word_translations": {
+      "lee": "lies",
+      "el primer párrafo": "den ersten Absatz"
+    }
+  },
+  {
+    "id": "4112",
+    "spanish": "la postura",
+    "german": "die Haltung",
+    "type": "noun",
+    "sentence_es": "Tienes una mala postura en la silla.",
+    "sentence_de": "Du hast eine schlechte Haltung auf dem Stuhl.",
+    "audio": "",
+    "word_translations": {
+      "tienes": "du hast",
+      "una mala postura": "eine schlechte Haltung",
+      "en la silla": "auf dem Stuhl"
+    }
+  },
+  {
+    "id": "4113",
+    "spanish": "el sudor",
+    "german": "der Schweiß",
+    "type": "noun",
+    "sentence_es": "Tenía la frente llena de sudor.",
+    "sentence_de": "Seine Stirn war voller Schweiß.",
+    "audio": "",
+    "word_translations": {
+      "tenía la frente": "seine Stirn war",
+      "llena de sudor": "voller Schweiß"
+    }
+  },
+  {
+    "id": "4114",
+    "spanish": "sujetar",
+    "german": "festhalten",
+    "type": "verb",
+    "sentence_es": "Sujeta la escalera, por favor.",
+    "sentence_de": "Halt bitte die Leiter fest.",
+    "audio": "",
+    "word_translations": {
+      "sujeta": "halt fest",
+      "la escalera": "die Leiter",
+      "por favor": "bitte"
+    }
+  },
+  {
+    "id": "4115",
+    "spanish": "la zona peatonal",
+    "german": "die Fußgängerzone",
+    "type": "noun",
+    "sentence_es": "Las tiendas están en la zona peatonal.",
+    "sentence_de": "Die Geschäfte sind in der Fußgängerzone.",
+    "audio": "",
+    "word_translations": {
+      "las tiendas están": "die Geschäfte sind",
+      "en la zona peatonal": "in der Fußgängerzone"
+    }
+  },
+  {
+    "id": "4116",
+    "spanish": "convulso",
+    "german": "turbulent / aufgewühlt",
+    "type": "adjective",
+    "sentence_es": "Fue un año convulso para el país.",
+    "sentence_de": "Es war ein turbulentes Jahr für das Land.",
+    "audio": "",
+    "word_translations": {
+      "fue un año convulso": "es war ein turbulentes Jahr",
+      "para el país": "für das Land"
+    }
+  },
+  {
+    "id": "4117",
+    "spanish": "sumir",
+    "german": "versenken / stürzen / hineinziehen",
+    "type": "verb",
+    "sentence_es": "La crisis sumió al país en la pobreza.",
+    "sentence_de": "Die Krise stürzte das Land in die Armut.",
+    "audio": "",
+    "word_translations": {
+      "la crisis": "die Krise",
+      "sumió al país": "stürzte das Land",
+      "en la pobreza": "in die Armut"
+    },
+    "note": "meist: sumir en algo = in etwas stürzen; sumirse en = versinken in"
+  },
+  {
+    "id": "4118",
+    "spanish": "multitudinario",
+    "german": "massenhaft / Massen-",
+    "type": "adjective",
+    "sentence_es": "Hubo una manifestación multitudinaria.",
+    "sentence_de": "Es gab eine Massendemonstration.",
+    "audio": "",
+    "word_translations": {
+      "hubo": "es gab",
+      "una manifestación multitudinaria": "eine Massendemonstration"
+    }
+  },
+  {
+    "id": "4119",
+    "spanish": "resonar",
+    "german": "widerhallen / dröhnen",
+    "type": "verb",
+    "sentence_es": "Su voz resonaba en la iglesia.",
+    "sentence_de": "Seine Stimme hallte in der Kirche wider.",
+    "audio": "",
+    "word_translations": {
+      "su voz": "seine Stimme",
+      "resonaba": "hallte wider",
+      "en la iglesia": "in der Kirche"
+    }
+  },
+  {
+    "id": "4120",
+    "spanish": "basarse en",
+    "german": "sich stützen auf / beruhen auf",
+    "type": "verb",
+    "sentence_es": "La película se basa en una historia real.",
+    "sentence_de": "Der Film beruht auf einer wahren Geschichte.",
+    "audio": "",
+    "word_translations": {
+      "la película": "der Film",
+      "se basa en": "beruht auf",
+      "una historia real": "einer wahren Geschichte"
+    }
+  },
+  {
+    "id": "4121",
+    "spanish": "fijamente",
+    "german": "starr / unverwandt",
+    "type": "adverb",
+    "sentence_es": "Me miraba fijamente.",
+    "sentence_de": "Er sah mich starr an.",
+    "audio": "",
+    "word_translations": {
+      "me miraba": "er sah mich an",
+      "fijamente": "starr"
+    }
+  },
+  {
+    "id": "4122",
+    "spanish": "amenazante",
+    "german": "bedrohlich",
+    "type": "adjective",
+    "sentence_es": "El perro tenía una mirada amenazante.",
+    "sentence_de": "Der Hund hatte einen bedrohlichen Blick.",
+    "audio": "",
+    "word_translations": {
+      "el perro tenía": "der Hund hatte",
+      "una mirada amenazante": "einen bedrohlichen Blick"
+    }
+  },
+  {
+    "id": "4123",
+    "spanish": "perturbador",
+    "german": "verstörend / beunruhigend",
+    "type": "adjective",
+    "sentence_es": "La película tiene escenas perturbadoras.",
+    "sentence_de": "Der Film hat verstörende Szenen.",
+    "audio": "",
+    "word_translations": {
+      "la película tiene": "der Film hat",
+      "escenas perturbadoras": "verstörende Szenen"
+    },
+    "note": "weiblich: perturbadora"
+  },
+  {
+    "id": "4124",
+    "spanish": "el villano",
+    "german": "der Bösewicht",
+    "type": "noun",
+    "sentence_es": "El villano quiere destruir la ciudad.",
+    "sentence_de": "Der Bösewicht will die Stadt zerstören.",
+    "audio": "",
+    "word_translations": {
+      "el villano": "der Bösewicht",
+      "quiere destruir": "will zerstören",
+      "la ciudad": "die Stadt"
+    }
+  },
+  {
+    "id": "4125",
+    "spanish": "la garra",
+    "german": "die Kralle",
+    "type": "noun",
+    "sentence_es": "El gato tiene garras afiladas.",
+    "sentence_de": "Die Katze hat scharfe Krallen.",
+    "audio": "",
+    "word_translations": {
+      "el gato tiene": "die Katze hat",
+      "garras afiladas": "scharfe Krallen"
+    },
+    "note": "übertragen auch: Biss / Kampfgeist (tener garra)"
+  },
+  {
+    "id": "4126",
+    "spanish": "el encierro",
+    "german": "die Einsperrung / die Gefangenschaft",
+    "type": "noun",
+    "sentence_es": "Después de un mes de encierro, por fin salió.",
+    "sentence_de": "Nach einem Monat Gefangenschaft kam er endlich raus.",
+    "audio": "",
+    "word_translations": {
+      "después de un mes": "nach einem Monat",
+      "de encierro": "Gefangenschaft",
+      "por fin salió": "kam er endlich raus"
+    }
+  },
+  {
+    "id": "4127",
+    "spanish": "dar a luz",
+    "german": "gebären / zur Welt bringen",
+    "type": "phrase",
+    "sentence_es": "Mi hermana dio a luz a una niña.",
+    "sentence_de": "Meine Schwester hat ein Mädchen zur Welt gebracht.",
+    "audio": "",
+    "word_translations": {
+      "mi hermana": "meine Schwester",
+      "dio a luz": "hat zur Welt gebracht",
+      "a una niña": "ein Mädchen"
+    }
+  },
+  {
+    "id": "4128",
+    "spanish": "marginar",
+    "german": "ausgrenzen / an den Rand drängen",
+    "type": "verb",
+    "sentence_es": "No hay que marginar a nadie.",
+    "sentence_de": "Man darf niemanden ausgrenzen.",
+    "audio": "",
+    "word_translations": {
+      "no hay que": "man darf nicht",
+      "marginar": "ausgrenzen",
+      "a nadie": "niemanden"
+    }
+  },
+  {
+    "id": "4129",
+    "spanish": "canalizar",
+    "german": "kanalisieren / lenken",
+    "type": "verb",
+    "sentence_es": "Intenta canalizar tu energía en el deporte.",
+    "sentence_de": "Versuch, deine Energie in den Sport zu lenken.",
+    "audio": "",
+    "word_translations": {
+      "intenta": "versuch",
+      "canalizar tu energía": "deine Energie lenken",
+      "en el deporte": "in den Sport"
+    }
+  },
+  {
+    "id": "4130",
+    "spanish": "infligir",
+    "german": "zufügen",
+    "type": "verb",
+    "sentence_es": "La tormenta infligió daños a la ciudad.",
+    "sentence_de": "Der Sturm fügte der Stadt Schäden zu.",
+    "audio": "",
+    "word_translations": {
+      "la tormenta": "der Sturm",
+      "infligió daños": "fügte Schäden zu",
+      "a la ciudad": "der Stadt"
+    },
+    "note": "reflexiv: infligirse cortes = sich selbst Schnitte zufügen"
+  },
+  {
+    "id": "4131",
+    "spanish": "desbordarse",
+    "german": "überlaufen / ausufern",
+    "type": "verb",
+    "sentence_es": "El río se desbordó por la lluvia.",
+    "sentence_de": "Der Fluss trat wegen des Regens über die Ufer.",
+    "audio": "",
+    "word_translations": {
+      "el río": "der Fluss",
+      "se desbordó": "trat über die Ufer",
+      "por la lluvia": "wegen des Regens"
+    }
+  },
+  {
+    "id": "4132",
+    "spanish": "la guarida",
+    "german": "das Versteck / die Höhle",
+    "type": "noun",
+    "sentence_es": "Los ladrones volvieron a su guarida.",
+    "sentence_de": "Die Diebe kehrten in ihr Versteck zurück.",
+    "audio": "",
+    "word_translations": {
+      "los ladrones": "die Diebe",
+      "volvieron": "kehrten zurück",
+      "a su guarida": "in ihr Versteck"
+    }
+  },
+  {
+    "id": "4133",
+    "spanish": "arrebatar",
+    "german": "rauben / entreißen",
+    "type": "verb",
+    "sentence_es": "Le arrebató el bolso y salió corriendo.",
+    "sentence_de": "Er entriss ihr die Tasche und rannte davon.",
+    "audio": "",
+    "word_translations": {
+      "le arrebató": "er entriss ihr",
+      "el bolso": "die Tasche",
+      "y salió corriendo": "und rannte davon"
+    },
+    "note": "arrebatar la vida = das Leben rauben, gehobener als matar"
+  },
+  {
+    "id": "4134",
+    "spanish": "la atrocidad",
+    "german": "die Grausamkeit / die Scheußlichkeit",
+    "type": "noun",
+    "sentence_es": "La guerra trae muchas atrocidades.",
+    "sentence_de": "Der Krieg bringt viele Grausamkeiten mit sich.",
+    "audio": "",
+    "word_translations": {
+      "la guerra": "der Krieg",
+      "trae": "bringt mit sich",
+      "muchas atrocidades": "viele Grausamkeiten"
+    }
+  },
+  {
+    "id": "4135",
+    "spanish": "acorralar",
+    "german": "in die Enge treiben / umzingeln",
+    "type": "verb",
+    "sentence_es": "La policía acorraló al ladrón.",
+    "sentence_de": "Die Polizei trieb den Dieb in die Enge.",
+    "audio": "",
+    "word_translations": {
+      "la policía": "die Polizei",
+      "acorraló": "trieb in die Enge",
+      "al ladrón": "den Dieb"
+    }
+  },
+  {
+    "id": "4136",
+    "spanish": "prender fuego a",
+    "german": "in Brand setzen / anstecken",
+    "type": "phrase",
+    "sentence_es": "Alguien prendió fuego a la casa.",
+    "sentence_de": "Jemand hat das Haus in Brand gesetzt.",
+    "audio": "",
+    "word_translations": {
+      "alguien": "jemand",
+      "prendió fuego a": "hat in Brand gesetzt",
+      "la casa": "das Haus"
+    }
+  },
+  {
+    "id": "4137",
+    "spanish": "vengativo",
+    "german": "rachsüchtig",
+    "type": "adjective",
+    "sentence_es": "Es una persona muy vengativa.",
+    "sentence_de": "Das ist ein sehr rachsüchtiger Mensch.",
+    "audio": "",
+    "word_translations": {
+      "es una persona": "das ist ein Mensch",
+      "muy vengativa": "sehr rachsüchtig"
+    },
+    "note": "weiblich: vengativa"
+  },
+  {
+    "id": "4138",
+    "spanish": "la monja",
+    "german": "die Nonne",
+    "type": "noun",
+    "sentence_es": "La monja vive en un convento.",
+    "sentence_de": "Die Nonne lebt in einem Kloster.",
+    "audio": "",
+    "word_translations": {
+      "la monja": "die Nonne",
+      "vive": "lebt",
+      "en un convento": "in einem Kloster"
+    }
+  },
+  {
+    "id": "4139",
+    "spanish": "sin piedad",
+    "german": "gnadenlos / ohne Erbarmen",
+    "type": "phrase",
+    "sentence_es": "El villano atacó sin piedad.",
+    "sentence_de": "Der Bösewicht griff gnadenlos an.",
+    "audio": "",
+    "word_translations": {
+      "el villano": "der Bösewicht",
+      "atacó": "griff an",
+      "sin piedad": "gnadenlos"
+    }
+  },
+  {
+    "id": "4140",
+    "spanish": "la piedad",
+    "german": "das Mitleid / die Gnade",
+    "type": "noun",
+    "sentence_es": "Ten piedad de nosotros.",
+    "sentence_de": "Hab Mitleid mit uns.",
+    "audio": "",
+    "word_translations": {
+      "ten piedad": "hab Mitleid",
+      "de nosotros": "mit uns"
+    }
+  },
+  {
+    "id": "4141",
+    "spanish": "la rabia",
+    "german": "die Wut / der Zorn",
+    "type": "noun",
+    "sentence_es": "Sentí mucha rabia.",
+    "sentence_de": "Ich spürte große Wut.",
+    "audio": "",
+    "word_translations": {
+      "sentí": "ich spürte",
+      "mucha rabia": "große Wut"
+    },
+    "note": "auch: die Tollwut (Krankheit)"
+  },
+  {
+    "id": "4142",
+    "spanish": "disimular",
+    "german": "verbergen / überspielen",
+    "type": "verb",
+    "sentence_es": "Intentó disimular su miedo.",
+    "sentence_de": "Er versuchte, seine Angst zu überspielen.",
+    "audio": "",
+    "word_translations": {
+      "intentó": "er versuchte",
+      "disimular": "überspielen",
+      "su miedo": "seine Angst"
+    }
+  },
+  {
+    "id": "4143",
+    "spanish": "la caldera",
+    "german": "der Heizkessel / der Heizraum",
+    "type": "noun",
+    "sentence_es": "La caldera no funciona y no hay agua caliente.",
+    "sentence_de": "Der Heizkessel funktioniert nicht, und es gibt kein warmes Wasser.",
+    "audio": "",
+    "word_translations": {
+      "la caldera": "der Heizkessel",
+      "no funciona": "funktioniert nicht",
+      "no hay agua caliente": "es gibt kein warmes Wasser"
+    },
+    "note": "Heizraum genauer: la sala de calderas"
+  },
+  {
+    "id": "4144",
+    "spanish": "secuestrar",
+    "german": "entführen",
+    "type": "verb",
+    "sentence_es": "Secuestraron al hijo del empresario.",
+    "sentence_de": "Sie entführten den Sohn des Unternehmers.",
+    "audio": "",
+    "word_translations": {
+      "secuestraron": "sie entführten",
+      "al hijo": "den Sohn",
+      "del empresario": "des Unternehmers"
+    }
+  },
+  {
+    "id": "4145",
+    "spanish": "el vecindario",
+    "german": "die Nachbarschaft",
+    "type": "noun",
+    "sentence_es": "Todo el vecindario vino a la fiesta.",
+    "sentence_de": "Die ganze Nachbarschaft kam zum Fest.",
+    "audio": "",
+    "word_translations": {
+      "todo el vecindario": "die ganze Nachbarschaft",
+      "vino": "kam",
+      "a la fiesta": "zum Fest"
+    }
+  },
+  {
+    "id": "4146",
+    "spanish": "la indignación",
+    "german": "die Empörung / die Entrüstung",
+    "type": "noun",
+    "sentence_es": "La noticia causó indignación.",
+    "sentence_de": "Die Nachricht löste Empörung aus.",
+    "audio": "",
+    "word_translations": {
+      "la noticia": "die Nachricht",
+      "causó": "löste aus",
+      "indignación": "Empörung"
+    }
+  },
+  {
+    "id": "4147",
+    "spanish": "la venganza",
+    "german": "die Rache",
+    "type": "noun",
+    "sentence_es": "Él solo quiere venganza.",
+    "sentence_de": "Er will nur Rache.",
+    "audio": "",
+    "word_translations": {
+      "él solo quiere": "er will nur",
+      "venganza": "Rache"
+    }
+  },
+  {
+    "id": "4148",
+    "spanish": "de inmediato",
+    "german": "sofort",
+    "type": "adverb",
+    "sentence_es": "Llámame de inmediato.",
+    "sentence_de": "Ruf mich sofort an.",
+    "audio": "",
+    "word_translations": {
+      "llámame": "ruf mich an",
+      "de inmediato": "sofort"
+    }
+  },
+  {
+    "id": "4149",
+    "spanish": "liberar",
+    "german": "freilassen / befreien",
+    "type": "verb",
+    "sentence_es": "La policía liberó a los rehenes.",
+    "sentence_de": "Die Polizei befreite die Geiseln.",
+    "audio": "",
+    "word_translations": {
+      "la policía": "die Polizei",
+      "liberó": "befreite",
+      "a los rehenes": "die Geiseln"
+    }
+  },
+  {
+    "id": "4150",
+    "spanish": "la llama",
+    "german": "die Flamme",
+    "type": "noun",
+    "sentence_es": "La llama de la vela se apagó.",
+    "sentence_de": "Die Flamme der Kerze ging aus.",
+    "audio": "",
+    "word_translations": {
+      "la llama": "die Flamme",
+      "de la vela": "der Kerze",
+      "se apagó": "ging aus"
+    },
+    "note": "auch: das Lama (Tier)"
+  },
+  {
+    "id": "4151",
+    "spanish": "invadir",
+    "german": "eindringen / einfallen",
+    "type": "verb",
+    "sentence_es": "Los soldados invadieron el país.",
+    "sentence_de": "Die Soldaten fielen in das Land ein.",
+    "audio": "",
+    "word_translations": {
+      "los soldados": "die Soldaten",
+      "invadieron": "fielen ein",
+      "el país": "in das Land"
+    }
+  },
+  {
+    "id": "4152",
+    "spanish": "dominar",
+    "german": "beherrschen",
+    "type": "verb",
+    "sentence_es": "Ella domina tres idiomas.",
+    "sentence_de": "Sie beherrscht drei Sprachen.",
+    "audio": "",
+    "word_translations": {
+      "ella domina": "sie beherrscht",
+      "tres idiomas": "drei Sprachen"
     }
   }
 ]

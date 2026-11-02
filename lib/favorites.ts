@@ -25,7 +25,7 @@ function getPhraseIndex(): Map<string, FavoriteEntry> {
         sentence_es: p.sentence_es || "",
         sentence_de: p.sentence_de || "",
         audio: p.audio || "",
-        note: p.literal || undefined,
+        note: [p.literal, p.note].filter(Boolean).join(" · ") || undefined,
         word_translations: p.word_translations || {},
         source: "phrase",
       });

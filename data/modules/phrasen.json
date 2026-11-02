@@ -668,6 +668,49 @@
         "dejen a mi familia": "lasst meine Familie in Ruhe",
         "ellos no tienen la culpa": "sie sind nicht schuld"
       }
+    },
+    {
+      "id": "p53",
+      "spanish": "La locura se desbordó.",
+      "german": "Der Wahnsinn uferte aus.",
+      "literal": "",
+      "sentence_es": "Al final de la fiesta, la locura se desbordó.",
+      "sentence_de": "Am Ende der Party uferte der Wahnsinn aus.",
+      "audio": "",
+      "word_translations": {
+        "al final de la fiesta": "am Ende der Party",
+        "la locura": "der Wahnsinn",
+        "se desbordó": "uferte aus"
+      }
+    },
+    {
+      "id": "p54",
+      "spanish": "Lo quemaron vivo.",
+      "german": "Sie verbrannten ihn lebendig.",
+      "literal": "",
+      "note": "vivo bleibt Singular, bezieht sich auf lo",
+      "sentence_es": "En la película, lo quemaron vivo.",
+      "sentence_de": "Im Film haben sie ihn lebendig verbrannt.",
+      "audio": "",
+      "word_translations": {
+        "en la película": "im Film",
+        "lo quemaron": "sie verbrannten ihn",
+        "vivo": "lebendig"
+      }
+    },
+    {
+      "id": "p55",
+      "spanish": "Se infligía cortes.",
+      "german": "Er fügte sich selbst Schnitte zu.",
+      "literal": "",
+      "sentence_es": "Cuando estaba triste, se infligía cortes.",
+      "sentence_de": "Wenn er traurig war, fügte er sich selbst Schnitte zu.",
+      "audio": "",
+      "word_translations": {
+        "cuando estaba triste": "wenn er traurig war",
+        "se infligía": "er fügte sich zu",
+        "cortes": "Schnitte"
+      }
     }
   ]
 }
